@@ -114,14 +114,14 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2021-05-14">level3</change>
+			<change when="2022-01-04">level3</change>
 		</revisionDesc>
 	</teiHeader>
 	<text>
 		<body>
 			<div type="poem">
 				<head>Ma azt akarnám...</head>
-				<lg rhyme="abb" xml:id="lg1">
+				<lg rhyme="abc" xml:id="lg1">
 					<l n="5" real="01011" xml:id="l1">
 						<w lemma="ma" msd="_" pos="ADV" type="ma[/Adv]=ma" xml:id="w1">Ma</w>
 						<w lemma="az" msd="Case=Acc|Number=Sing|Person=3|PronType=Dem" pos="PRON" type="az[/Det|Pro]=az+t[Acc]=t" xml:id="w2">azt</w>
@@ -144,20 +144,18 @@
 				</lg>
 			</div>
 			<spanGrp type="phonStructures">
-				<span subtype="1" target="#w1" type="low">C VB1</span>
-				<span subtype="1" target="#w2" type="low">VB1 C C</span>
-				<span subtype="3" target="#w3" type="low">VB1 C VB1 C C VB2 C</span>
-				<span subtype="1" target="#w4" type="low">C VB1 C</span>
-				<span subtype="1" target="#w5" type="high">C VF2 C</span>
-				<span subtype="3" target="#w6" type="low">C VB2 C VB1 C C VB1 C</span>
-				<span subtype="1" target="#w7" type="low">VB1</span>
-				<span subtype="1" target="#w8" type="high">VF2 C</span>
-				<span subtype="3" target="#w9" type="high">C VF1 C VF1 C C VF1 C</span>
-				<span subtype="5" target="#w10" type="mixed">C VF1 C C VB2 C VB1 C C VB1 C VB1 C</span>
+				<span subtype="1" target="#w1" type="low">cb</span>
+				<span subtype="1" target="#w2" type="low">bcc</span>
+				<span subtype="3" target="#w3" type="low">bcbccBc</span>
+				<span subtype="1" target="#w4" type="low">cbc</span>
+				<span subtype="1" target="#w5" type="high">cFc</span>
+				<span subtype="3" target="#w6" type="low">cBcbccbc</span>
+				<span subtype="1" target="#w7" type="low">b</span>
+				<span subtype="1" target="#w8" type="high">Fc</span>
+				<span subtype="3" target="#w9" type="high">cfcfccfc</span>
+				<span subtype="5" target="#w10" type="mixed">cfccBcbccbcbc</span>
 			</spanGrp>
-			<linkGrp type="rhymePairs">
-				<link target="#w7 #w10"/>
-			</linkGrp>
+			<linkGrp type="rhymePairs"/>
 			<spanGrp type="alliterations">
 				<span target="#w2 #w3" type="aa"/>
 			</spanGrp>
