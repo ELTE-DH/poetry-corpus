@@ -127,7 +127,11 @@ By changing the name and the position of certain elements and attributes in leve
 - [Aslihan Karabulut](https://github.com/arakaslihan) (data checking)
 - [Mária Timári](https://github.com/MariaTimari) (data checking)
 
-# License
+# Citing and License
+
+If you use ELTE Poetry Corpus, please cite the following article:
+
+Horváth Péter – Kundráth Péter – Indig Balázs – Fellegi Zsófia – Szlávich Eszter – Bajzát Tímea Borbála – Sárközi-Lindner Zsófia – Vida Bence – Karabulut Aslihan – Timári Mária – Palkó Gábor 2022. ELTE Verskorpusz – a magyar kanonikus költészet gépileg annotált adatbázisa. In: Berend Gábor – Gosztolya Gábor – Vincze Veronika (szerk.): XVIII. Magyar Számítógépes Nyelvészeti Konferencia. Szeged: Szegedi Tudományegyetem TTIK, Informatikai Intézet. 375–388.
 
 The content of the repository is licensed under the [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.
 
