@@ -2,7 +2,16 @@
 # ELTE Poetry Corpus
 
 
-The ELTE Poetry Corpus is a continuously expanding database developed by the [_Department of Digital Humanities at Eötvös Loránd University_](https://elte-dh.hu/). Currently, the corpus contains the complete poems of 49 Hungarian canonical poets, the sound devices of the poems and the grammatical features of words in XML format (in TEI and non-TEI XML format).
+ELTE Poetry Corpus is a continuously expanding database developed by the [_Department of Digital Humanities at Eötvös Loránd University_](https://elte-dh.hu/). Currently, the corpus contains the complete poems of 49 Hungarian canonical poets, the sound devices of the poems and the grammatical features of words in XML format (in TEI and non-TEI XML format).
+
+## Size
+
+- number of poets: 49
+- number of poems: 13 064
+- number of words: 2 680 386
+- number of tokens: 3 399 303
+
+For more information of the size of subcorpora and the authors' year of birth and death, see the files subcorpus\_sizes.tsv and poets\_birth\_and\_death.tsv 
 
 ## TEI Levels
 
@@ -41,13 +50,13 @@ The source of the corpus was the collection of the [_Hungarian Electronic Librar
 - `<span>` : standoff annotation of the phonological features of a word
 	content of `<span>` : phonological representation of the word
 	- `c`: consonant
-	-  `b`: short back vowel
+	- `b`: short back vowel
 	- `B`: long back vowel
 	- `f`: short front vowel
 	- `F`: long front vowel
 - `@subtype` : syllable number
 - `@type` : type of vowels
-	-  `low`: only back vowels in the word
+	- `low`: only back vowels in the word
 	- `high`: only front vowels in the word
 	- `mixed`: front and back vowels in the word
 - `@target` : the `xml:id` of the annotated word
@@ -58,7 +67,7 @@ The source of the corpus was the collection of the [_Hungarian Electronic Librar
 - `<span>` : standoff annotation of an alliteration
 - `@target` : `xml:id` of the words in the alliteration
 - `@type` : structure of the alliteration
-	-  `a`: alliterating word
+	- `a`: alliterating word
 	- `n`: non-alliterating word (only one non-alliterating word can be between two alliterating words)
 
 ## Level4 -- conversion of the TEI format into non-TEI format 
