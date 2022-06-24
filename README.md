@@ -129,9 +129,11 @@ By changing the name and the position of certain elements and attributes in leve
 
 # Citing and License
 
-If you use ELTE Poetry Corpus, please cite the following article:
+If you use ELTE Poetry Corpus, please cite one of the following articles:
 
 Horváth Péter – Kundráth Péter – Indig Balázs – Fellegi Zsófia – Szlávich Eszter – Bajzát Tímea Borbála – Sárközi-Lindner Zsófia – Vida Bence – Karabulut Aslihan – Timári Mária – Palkó Gábor 2022. ELTE Verskorpusz – a magyar kanonikus költészet gépileg annotált adatbázisa. In: Berend Gábor – Gosztolya Gábor – Vincze Veronika (szerk.): XVIII. Magyar Számítógépes Nyelvészeti Konferencia. Szeged: Szegedi Tudományegyetem TTIK, Informatikai Intézet. 375–388.
+
+Horváth, Péter – Kundráth, Péter – Indig, Balázs – Fellegi, Zsófia – Szlávich, Eszter – Bajzát, Tímea Borbála – Sárközi-Lindner, Zsófia – Vida, Bence – Karabulut, Aslihan – Timári, Mária – Palkó, Gábor 2022. ELTE Poetry Corpus: A Machine Annotated Database of Canonical Hungarian Poetry. In: Calzolari, Nicoletta – Béchet, Frédéric – Blache, Philippe – Choukri, Khalid – Cieri, Christopher – Declerck, Thierry – Goggi, Sara – Isahara, Hitoshi – Maegaard, Bente – Mariani, Joseph – Mazo, Hélène – Odijk, Jan – Piperidis, Stelios (eds.): Proceedings of the 13th Conference on Language Resources and Evaluation (LREC 2022). Paris: European Language Resources Association (ELRA). 3471–3478.
 
 The content of the repository is licensed under the [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.
 
