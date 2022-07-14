@@ -6,10 +6,10 @@ ELTE Poetry Corpus is a continuously expanding database developed by the [_Depar
 
 ## Size
 
-- number of poets: 49
-- number of poems: 13 064
-- number of words: 2 680 386
-- number of tokens: 3 399 303
+- number of poets: 50
+- number of poems: 13 362
+- number of words: 2 716 032
+- number of tokens: 3 441 864
 
 For more information of the size of subcorpora and the authors' year of birth and death, see the files subcorpus\_sizes.tsv and poets\_birth\_and\_death.tsv 
 
