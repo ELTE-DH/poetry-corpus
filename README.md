@@ -2,7 +2,7 @@
 # ELTE Poetry Corpus
 
 
-ELTE Poetry Corpus is a continuously expanding database developed by the [_Department of Digital Humanities at Eötvös Loránd University_](https://elte-dh.hu/). Currently, the corpus contains the complete poems of 49 Hungarian canonical poets, the sound devices of the poems and the grammatical features of words in XML format (in TEI and non-TEI XML format).
+ELTE Poetry Corpus is a continuously expanding database developed by the [_Department of Digital Humanities at Eötvös Loránd University_](https://elte-dh.hu/). Currently, the corpus contains the complete poems of 50 Hungarian canonical poets, the sound devices of the poems and the grammatical features of words in XML format (in TEI and non-TEI XML format).
 
 ## Size
 
