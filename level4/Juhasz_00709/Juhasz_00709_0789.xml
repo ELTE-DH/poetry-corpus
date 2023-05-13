@@ -111,12 +111,12 @@
 		<revisionDesc>
 			<change when="2021-07-05">level1</change>
 			<change when="2021-08-05">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="3" div_numLine="12" div_numWord="56" div_numSyll="120" div_numShortSyll="56" div_numLongSyll="64" div_rhyme="abcb|abab|abcb" div_syllPattern="10-10-10-10|10-10-10-10|10-10-10-10">
+            <div type="poem" div_numStanza="3" div_numLine="12" div_numWord="56" div_numSyll="120" div_numShortSyll="56" div_numLongSyll="64" div_rhyme="abcb|abcb|abcb" div_syllPattern="10-10-10-10|10-10-10-10|10-10-10-10" met_qual="4-6" met_quan="trochaic" met_quanScore="0.76">
                 <head type="title">A tücsökre...</head>
                 <lg xml:id="lg1" lg_numLine="4" lg_numWord="19" lg_numSyll="40" lg_numShortSyll="18" lg_numLongSyll="22" rhyme="abcb" lg_syllPattern="10-10-10-10">
                     <l xml:id="l1" l_numWord="4" l_numSyll="10" l_numShortSyll="6" l_numLongSyll="4" real="0010101010">
@@ -151,7 +151,7 @@
                         <pc xml:id="pc4" pos="PUNCT" join="left">.</pc>
                     </l>
                 </lg>
-                <lg xml:id="lg2" lg_numLine="4" lg_numWord="19" lg_numSyll="40" lg_numShortSyll="21" lg_numLongSyll="19" rhyme="abab" lg_syllPattern="10-10-10-10">
+                <lg xml:id="lg2" lg_numLine="4" lg_numWord="19" lg_numSyll="40" lg_numShortSyll="21" lg_numLongSyll="19" rhyme="abcb" lg_syllPattern="10-10-10-10">
                     <l xml:id="l5" l_numWord="4" l_numSyll="10" l_numShortSyll="5" l_numLongSyll="5" real="0010101011">
                         <w xml:id="w20" lemma="az" pos="DET" msd="Definite=Def|PronType=Art" w_numSyll="1" phonType="low" phonStruct="bc">Az</w>
                         <w xml:id="w21" lemma="ég" pos="NOUN" msd="Case=Sub|Number=Plur" w_numSyll="3" phonType="high" phonStruct="fcfccf">egekre</w>
@@ -218,7 +218,20 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w9 #w19">
+                    <firstRhyme rhyme_lemma="tücsök" rhyme_pos="NOUN" rhyme_msd="Case=Sub|Number=Sing" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfcfccf">tücsökre</firstRhyme>
+                    <secondRhyme rhyme_lemma="örökre" rhyme_pos="ADV" rhyme_msd="_" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="fcfccf">örökre</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w28 #w38">
+                    <firstRhyme rhyme_lemma="ég" rhyme_pos="NOUN" rhyme_msd="Case=Sub|Number=Plur" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="fcfccf">egekre</firstRhyme>
+                    <secondRhyme rhyme_lemma="este" rhyme_pos="ADV" rhyme_msd="_" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="fccf">este</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w46 #w56">
+                    <firstRhyme rhyme_lemma="mosoly" rhyme_pos="NOUN" rhyme_msd="Case=Sub|Number=Sing" rhyme_numSyll="3" rhyme_phonType="low" rhyme_phonStruct="cbcbccb">mosolyra</firstRhyme>
+                    <secondRhyme rhyme_lemma="csillag" rhyme_pos="NOUN" rhyme_msd="Case=Ill|Number=Plur" rhyme_numSyll="4" rhyme_phonType="mixed" rhyme_phonStruct="cfccbcbccb">csillagokba</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w8 #w9 #w10" allStruct="ana" posTags="ADJ NOUN PRON" msdTags="Case=Nom|Degree=Pos|Number=Sing Case=Sub|Number=Sing Case=Nom|Number=Sing|Person=3|PronType=Int" lemmas="kedves tücsök ki">kedves tücsökre Ki</alliteration>
                 <alliteration target="#w15 #w16 #w17" allStruct="ana" posTags="ADP SCONJ VERB" msdTags="_ _ Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" lemmas="fölött ha fekszik">Fölöttem ha fekszem</alliteration>

@@ -111,12 +111,12 @@
 		<revisionDesc>
 			<change when="2021-07-05">level1</change>
 			<change when="2021-08-05">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="3" div_numLine="12" div_numWord="53" div_numSyll="102" div_numShortSyll="50" div_numLongSyll="52" div_rhyme="abcb|abcb|abcb" div_syllPattern="9-8-9-8|9-8-9-8|9-8-9-8">
+            <div type="poem" div_numStanza="3" div_numLine="12" div_numWord="53" div_numSyll="102" div_numShortSyll="50" div_numLongSyll="52" div_rhyme="abcb|abcb|abcb" div_syllPattern="9-8-9-8|9-8-9-8|9-8-9-8" met_qual="False" met_quan="iambic" met_quanScore="0.76">
                 <head type="title">Párbeszéd</head>
                 <lg xml:id="lg1" lg_numLine="4" lg_numWord="16" lg_numSyll="34" lg_numShortSyll="18" lg_numLongSyll="16" rhyme="abcb" lg_syllPattern="9-8-9-8">
                     <l xml:id="l1" l_numWord="3" l_numSyll="9" l_numShortSyll="5" l_numLongSyll="4" real="010101010">
@@ -226,7 +226,20 @@
                 </lg>
                 <p>1909</p>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w8 #w16">
+                    <firstRhyme rhyme_lemma="vad" rhyme_pos="ADJ" rhyme_msd="Case=Sup|Degree=Pos|Number=Sing" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbcbc">vadon</firstRhyme>
+                    <secondRhyme rhyme_lemma="majom" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbcbc">majom</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w24 #w34">
+                    <firstRhyme rhyme_lemma="van" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="1" rhyme_phonType="low" rhyme_phonStruct="cbc">van</firstRhyme>
+                    <secondRhyme rhyme_lemma="maga" rhyme_pos="PRON" rhyme_msd="Case=Nom|Number=Sing|Person=1|Reflex=Yes" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbcbc">magam</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w43 #w53">
+                    <firstRhyme rhyme_lemma="mond" rhyme_pos="VERB" rhyme_msd="Definite=Def|Mood=Pot|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="3" rhyme_phonType="low" rhyme_phonStruct="cbcccbcbc">mondhatom</firstRhyme>
+                    <secondRhyme rhyme_lemma="majom" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbcbc">majom</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w6 #w7 #w8" allStruct="ana" posTags="VERB CONJ ADJ" msdTags="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act _ Case=Sup|Degree=Pos|Number=Sing" lemmas="van és vad">van és vadon</alliteration>
                 <alliteration target="#w17 #w18" allStruct="aa" posTags="NOUN ADV" msdTags="Case=Nom|Number=Sing _" lemmas="mester ma">Mester ma</alliteration>

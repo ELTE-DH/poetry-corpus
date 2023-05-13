@@ -120,12 +120,12 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="4" div_numLine="12" div_numWord="39" div_numSyll="84" div_numShortSyll="39" div_numLongSyll="45" div_rhyme="abb|aaa|abb|abb" div_syllPattern="5-7-9|5-7-9|5-7-9|5-7-9">
+            <div type="poem" div_numStanza="4" div_numLine="12" div_numWord="39" div_numSyll="84" div_numShortSyll="39" div_numLongSyll="45" div_rhyme="abb|abb|abb|abb" div_syllPattern="5-7-9|5-7-9|5-7-9|5-7-9" met_qual="False" met_quan="iambic" met_quanScore="0.69">
                 <head type="title">BE SZÉPRE-NŐTTÉL BENNEM</head>
                 <lg xml:id="lg1" lg_numLine="3" lg_numWord="9" lg_numSyll="21" lg_numShortSyll="10" lg_numLongSyll="11" rhyme="abb" lg_syllPattern="5-7-9">
                     <l xml:id="l1" l_numWord="2" l_numSyll="5" l_numShortSyll="2" l_numLongSyll="3" real="01011">
@@ -148,7 +148,7 @@
                         <pc xml:id="pc4" pos="PUNCT" join="left">.</pc>
                     </l>
                 </lg>
-                <lg xml:id="lg2" lg_numLine="3" lg_numWord="10" lg_numSyll="21" lg_numShortSyll="10" lg_numLongSyll="11" rhyme="aaa" lg_syllPattern="5-7-9">
+                <lg xml:id="lg2" lg_numLine="3" lg_numWord="10" lg_numSyll="21" lg_numShortSyll="10" lg_numLongSyll="11" rhyme="abb" lg_syllPattern="5-7-9">
                     <l xml:id="l4" l_numWord="1" l_numSyll="5" l_numShortSyll="2" l_numLongSyll="3" real="11010">
                         <w xml:id="w10" lemma="elfojt" pos="VERB" msd="Definite=2|Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" w_numSyll="5" phonType="mixed" phonStruct="fccbccbcBcbc">Elfojtanálak</w>
                         <pc xml:id="pc5" pos="PUNCT" join="left">,</pc>
@@ -211,7 +211,24 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w5 #w9">
+                    <firstRhyme rhyme_lemma="én" rhyme_pos="PRON" rhyme_msd="Case=Ine|Number=Sing|Person=1|PronType=Prs" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfccfc">bennem</firstRhyme>
+                    <secondRhyme rhyme_lemma="szerelem" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfcfccfc">szerelmem</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w14 #w19">
+                    <firstRhyme rhyme_lemma="mul" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbccbc">multam</firstRhyme>
+                    <secondRhyme rhyme_lemma="tanul" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act" rhyme_numSyll="3" rhyme_phonType="low" rhyme_phonStruct="cbcbccbc">tanultam</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w23 #w27">
+                    <firstRhyme rhyme_lemma="íbisz-pehely" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Plur" rhyme_numSyll="4" rhyme_phonType="high" rhyme_phonStruct="Fcfccfccfc">íbisz-pelyhek</firstRhyme>
+                    <secondRhyme rhyme_lemma="cipel" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfcfccfc">cipelnek</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w35 #w39">
+                    <firstRhyme rhyme_lemma="bánat" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cBcbc">bánat</firstRhyme>
+                    <secondRhyme rhyme_lemma="után" rhyme_pos="ADP" rhyme_msd="_" rhyme_numSyll="3" rhyme_phonType="low" rhyme_phonStruct="bcBcbc">utánad</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w1 #w2 #w3 #w4 #w5" allStruct="anana" posTags="ADV VERB ADV NOUN PRON" msdTags="_ Definite=Ind|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act _ Case=Nom|Number=Sing Case=Ine|Number=Sing|Person=1|PronType=Prs" lemmas="be nagyra-nőt be szépre-nőttél én">Be nagyra-nőttél Be szépre-nőttél bennem</alliteration>
                 <alliteration target="#w10 #w11 #w12" allStruct="ana" posTags="VERB SCONJ ADJ" msdTags="Definite=2|Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act _ Case=Nom|Degree=Pos|Number=Sing" lemmas="elfojt ha enyhe">Elfojtanálak Ha enyhe</alliteration>

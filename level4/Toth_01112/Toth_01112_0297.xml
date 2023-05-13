@@ -103,12 +103,12 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="1" div_numLine="4" div_numWord="18" div_numSyll="40" div_numShortSyll="18" div_numLongSyll="22" div_rhyme="abba" div_syllPattern="10-10-10-10">
+            <div type="poem" div_numStanza="1" div_numLine="4" div_numWord="18" div_numSyll="40" div_numShortSyll="18" div_numLongSyll="22" div_rhyme="abba" div_syllPattern="10-10-10-10" met_qual="3-2-5" met_quan="iambic" met_quanScore="0.74">
                 <head type="title">Ó, RÉGI KÖLTŐ...</head>
                 <lg xml:id="lg1" lg_numLine="4" lg_numWord="18" lg_numSyll="40" lg_numShortSyll="18" lg_numLongSyll="22" rhyme="abba" lg_syllPattern="10-10-10-10">
                     <l xml:id="l1" l_numWord="5" l_numSyll="10" l_numShortSyll="3" l_numLongSyll="7" real="1101101101">
@@ -145,7 +145,16 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w5 #w18">
+                    <firstRhyme rhyme_lemma="napfényes" rhyme_pos="ADJ" rhyme_msd="Case=Nom|Degree=Cmp|Number=Sing" rhyme_numSyll="4" rhyme_phonType="mixed" rhyme_phonStruct="cbccFcfcfcc">napfényesebb</firstRhyme>
+                    <secondRhyme rhyme_lemma="emel" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="fcfc">emel</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w9 #w13">
+                    <firstRhyme rhyme_lemma="halott" rhyme_pos="ADJ" rhyme_msd="Case=Nom|Degree=Pos|Number=Sing" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbcbcc">halott</firstRhyme>
+                    <secondRhyme rhyme_lemma="ravatal" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=2" rhyme_numSyll="4" rhyme_phonType="low" rhyme_phonStruct="cbcbcbcbc">ravatalod</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w3 #w4" allStruct="aa" posTags="NOUN ADV" msdTags="Case=Nom|Number=Sing _" lemmas="költő ki">költő ki</alliteration>
                 <alliteration target="#w12 #w13 #w14 #w15 #w16" allStruct="anana" posTags="NOUN NOUN VERB DET NOUN" msdTags="Case=Nom|Number=Sing Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=2 Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act Definite=Def|PronType=Art Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=2" lemmas="vertarany ravatal van a vers">vertarany ravatalod Volna a versed</alliteration>

@@ -103,12 +103,12 @@
 		<revisionDesc>
 			<change when="2021-06-10">level1</change>
 			<change when="2021-06-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="1" div_numLine="8" div_numWord="43" div_numSyll="80" div_numShortSyll="33" div_numLongSyll="47" div_rhyme="abbcdbab" div_syllPattern="10-10-10-10-10-10-10-10">
+            <div type="poem" div_numStanza="1" div_numLine="8" div_numWord="43" div_numSyll="80" div_numShortSyll="33" div_numLongSyll="47" div_rhyme="abbcdbab" div_syllPattern="10-10-10-10-10-10-10-10" met_qual="5-5" met_quan="iambic" met_quanScore="0.62">
                 <head type="title">Atlas</head>
                 <lg xml:id="lg1" lg_numLine="8" lg_numWord="43" lg_numSyll="80" lg_numShortSyll="33" lg_numLongSyll="47" rhyme="abbcdbab" lg_syllPattern="10-10-10-10-10-10-10-10">
                     <l xml:id="l1" l_numWord="6" l_numSyll="10" l_numShortSyll="3" l_numLongSyll="7" real="0111111100">
@@ -187,7 +187,20 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w12 #w16">
+                    <firstRhyme rhyme_lemma="szeret" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfcfcc">szeretsz</firstRhyme>
+                    <secondRhyme rhyme_lemma="én" rhyme_pos="PRON" rhyme_msd="Case=Acc|Number=Sing|Person=3|PronType=Prs" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="fccfcfc">engemet</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w16 #w31">
+                    <firstRhyme rhyme_lemma="én" rhyme_pos="PRON" rhyme_msd="Case=Acc|Number=Sing|Person=3|PronType=Prs" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="fccfcfc">engemet</firstRhyme>
+                    <secondRhyme rhyme_lemma="nem" rhyme_pos="ADV" rhyme_msd="PronType=Neg" rhyme_numSyll="1" rhyme_phonType="high" rhyme_phonStruct="cfc">nem</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w31 #w43">
+                    <firstRhyme rhyme_lemma="nem" rhyme_pos="ADV" rhyme_msd="PronType=Neg" rhyme_numSyll="1" rhyme_phonType="high" rhyme_phonStruct="cfc">nem</firstRhyme>
+                    <secondRhyme rhyme_lemma="visz" rhyme_pos="VERB" rhyme_msd="Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfcfc">viszem</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w7 #w8 #w9" allStruct="ana" posTags="PRON VERB PART" msdTags="Case=Nom|Number=Sing|Person=3|PronType=Int Definite=Def|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act _" lemmas="mért vall meg">Mért vallottad meg</alliteration>
                 <alliteration target="#w14 #w15 #w16" allStruct="ana" posTags="ADJ VERB PRON" msdTags="Case=Dat|Degree=Pos|Number=Sing Definite=Ind|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act Case=Acc|Number=Sing|Person=3|PronType=Prs" lemmas="erős tart én">erősnek tartasz engemet</alliteration>

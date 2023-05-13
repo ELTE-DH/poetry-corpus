@@ -107,12 +107,12 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="2" div_numLine="8" div_numWord="34" div_numSyll="68" div_numShortSyll="28" div_numLongSyll="40" div_rhyme="abcb|abcb" div_syllPattern="9-8-9-8|9-8-9-8">
+            <div type="poem" div_numStanza="2" div_numLine="8" div_numWord="34" div_numSyll="68" div_numShortSyll="28" div_numLongSyll="40" div_rhyme="abcb|abcb" div_syllPattern="9-8-9-8|9-8-9-8" met_qual="2-3-4_3-1-4" met_quan="iambic" met_quanScore="0.79">
                 <head type="title">CYNTHIÁHOZ.</head>
                 <lg xml:id="lg1" lg_numLine="4" lg_numWord="14" lg_numSyll="34" lg_numShortSyll="13" lg_numLongSyll="21" rhyme="abcb" lg_syllPattern="9-8-9-8">
                     <l xml:id="l1" l_numWord="4" l_numSyll="9" l_numShortSyll="3" l_numLongSyll="6" real="110111010">
@@ -178,7 +178,16 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w7 #w14">
+                    <firstRhyme rhyme_lemma="pásztorifjú" rhyme_pos="NOUN" rhyme_msd="Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=2" rhyme_numSyll="5" rhyme_phonType="mixed" rhyme_phonStruct="cBccbcfccbcbc">pásztorifjadat</firstRhyme>
+                    <secondRhyme rhyme_lemma="halott" rhyme_pos="NOUN" rhyme_msd="Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=1" rhyme_numSyll="4" rhyme_phonType="low" rhyme_phonStruct="cbcbccbcbc">halottamat</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w22 #w34">
+                    <firstRhyme rhyme_lemma="szerette" rhyme_pos="NOUN" rhyme_msd="Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=2" rhyme_numSyll="4" rhyme_phonType="high" rhyme_phonStruct="cfcfccfcfc">szerettedet</firstRhyme>
+                    <secondRhyme rhyme_lemma="elfed" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="fccfcfcc">elfedett</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w23 #w24" allStruct="aa" posTags="PRON ADV" msdTags="Case=Dat|Number=Sing|Person=1|PronType=Prs PronType=Neg" lemmas="én nem">Nekem nem</alliteration>
                 <alliteration target="#w27 #w28 #w29" allStruct="ana" posTags="ADV NOUN CONJ" msdTags="PronType=Neg Case=Nom|Number=Sing _" lemmas="sem föld sem">sem föld Sem</alliteration>

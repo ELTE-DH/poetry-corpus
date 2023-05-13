@@ -107,12 +107,12 @@
 		<revisionDesc>
 			<change when="2021-05-12">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="4" div_numLine="16" div_numWord="77" div_numSyll="125" div_numShortSyll="58" div_numLongSyll="67" div_rhyme="abca|abca|abaa|abca" div_syllPattern="6-8-8-7|8-8-8-8|8-8-8-9|8-9-9-5">
+            <div type="poem" div_numStanza="4" div_numLine="16" div_numWord="77" div_numSyll="125" div_numShortSyll="58" div_numLongSyll="67" div_rhyme="abca|abca|abca|abca" div_syllPattern="6-8-8-7|8-8-8-8|8-8-8-9|8-9-9-5" met_qual="False" met_quan="trochaic" met_quanScore="0.36">
                 <head type="title">PRIMAVÉRA</head>
                 <lg xml:id="lg1" lg_numLine="4" lg_numWord="15" lg_numSyll="29" lg_numShortSyll="11" lg_numLongSyll="18" rhyme="abca" lg_syllPattern="6-8-8-7">
                     <l xml:id="l1" l_numWord="4" l_numSyll="6" l_numShortSyll="1" l_numLongSyll="5" real="111110">
@@ -182,7 +182,7 @@
                         <pc xml:id="pc14" pos="PUNCT" join="left">?</pc>
                     </l>
                 </lg>
-                <lg xml:id="lg3" lg_numLine="4" lg_numWord="22" lg_numSyll="33" lg_numShortSyll="12" lg_numLongSyll="21" rhyme="abaa" lg_syllPattern="8-8-8-9">
+                <lg xml:id="lg3" lg_numLine="4" lg_numWord="22" lg_numSyll="33" lg_numShortSyll="12" lg_numLongSyll="21" rhyme="abca" lg_syllPattern="8-8-8-9">
                     <l xml:id="l9" l_numWord="5" l_numSyll="8" l_numShortSyll="2" l_numLongSyll="6" real="11010111">
                         <w xml:id="w35" lemma="én" pos="PRON" msd="Case=Nom|Number=Sing|Person=1|PronType=Prs" w_numSyll="1" phonType="high" phonStruct="Fc">Én</w>
                         <w xml:id="w36" lemma="nem" pos="ADV" msd="PronType=Neg" w_numSyll="1" phonType="high" phonStruct="cfc">nem</w>
@@ -260,7 +260,24 @@
                 </lg>
                 <p>1905</p>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w4 #w15">
+                    <firstRhyme rhyme_lemma="halk" rhyme_pos="ADJ" rhyme_msd="Case=Ess|Degree=Pos|Number=Sing" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbccbc">halkan</firstRhyme>
+                    <secondRhyme rhyme_lemma="halk" rhyme_pos="ADJ" rhyme_msd="Case=Ess|Degree=Pos|Number=Sing" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbccbc">halkan</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w20 #w34">
+                    <firstRhyme rhyme_lemma="fa" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Plur" rhyme_numSyll="1" rhyme_phonType="low" rhyme_phonStruct="cBc">fák</firstRhyme>
+                    <secondRhyme rhyme_lemma="fa" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Plur" rhyme_numSyll="1" rhyme_phonType="low" rhyme_phonStruct="cBc">fák</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w39 #w56">
+                    <firstRhyme rhyme_lemma="innét" rhyme_pos="PRON" rhyme_msd="Case=Nom|Number=Sing|Person=3|PronType=Prs" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="fccFc">innét</firstRhyme>
+                    <secondRhyme rhyme_lemma="innét" rhyme_pos="PRON" rhyme_msd="Case=Nom|Number=Sing|Person=3|PronType=Prs" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="fccFc">innét</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w62 #w77">
+                    <firstRhyme rhyme_lemma="part" rhyme_pos="NOUN" rhyme_msd="Case=Sup|Number=Sing" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbccbc">parton</firstRhyme>
+                    <secondRhyme rhyme_lemma="part" rhyme_pos="NOUN" rhyme_msd="Case=Sup|Number=Sing" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbccbc">parton</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w2 #w3 #w4" allStruct="ana" posTags="ADJ VERB ADJ" msdTags="Case=Ess|Degree=Pos|Number=Sing Definite=Ind|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act Case=Ess|Degree=Pos|Number=Sing" lemmas="halk jár halk">halkan járj halkan</alliteration>
                 <alliteration target="#w19 #w20" allStruct="aa" posTags="ADJ NOUN" msdTags="Case=Nom|Degree=Pos|Number=Sing Case=Nom|Number=Plur" lemmas="fiatal fa">fiatal fák</alliteration>

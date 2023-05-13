@@ -111,12 +111,12 @@
 		<revisionDesc>
 			<change when="2021-07-05">level1</change>
 			<change when="2021-08-05">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="3" div_numLine="12" div_numWord="62" div_numSyll="132" div_numShortSyll="57" div_numLongSyll="75" div_rhyme="abcb|abcb|abcb" div_syllPattern="11-11-11-11|11-11-11-11|11-11-11-11">
+            <div type="poem" div_numStanza="3" div_numLine="12" div_numWord="62" div_numSyll="132" div_numShortSyll="57" div_numLongSyll="75" div_rhyme="abcb|abcb|abcb" div_syllPattern="11-11-11-11|11-11-11-11|11-11-11-11" met_qual="5-6" met_quan="iambic" met_quanScore="0.61">
                 <head type="title">Szent szegénység</head>
                 <lg xml:id="lg1" lg_numLine="4" lg_numWord="20" lg_numSyll="44" lg_numShortSyll="21" lg_numLongSyll="23" rhyme="abcb" lg_syllPattern="11-11-11-11">
                     <l xml:id="l1" l_numWord="5" l_numSyll="11" l_numShortSyll="5" l_numLongSyll="6" real="11000011011">
@@ -220,7 +220,20 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w10 #w20">
+                    <firstRhyme rhyme_lemma="palást" rhyme_pos="NOUN" rhyme_msd="Case=Acc|Number=Sing" rhyme_numSyll="3" rhyme_phonType="low" rhyme_phonStruct="cbcBccbc">palástot</firstRhyme>
+                    <secondRhyme rhyme_lemma="áldott" rhyme_pos="ADJ" rhyme_msd="Case=Nom|Degree=Pos|Number=Sing" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="Bccbcc">áldott</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w30 #w39">
+                    <firstRhyme rhyme_lemma="malaszt" rhyme_pos="NOUN" rhyme_msd="Case=Ins|Number=Sing" rhyme_numSyll="3" rhyme_phonType="low" rhyme_phonStruct="cbcbcccbc">malaszttal</firstRhyme>
+                    <secondRhyme rhyme_lemma="asztal" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="bccbc">asztal</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w48 #w62">
+                    <firstRhyme rhyme_lemma="nyakrafő" rhyme_pos="NOUN" rhyme_msd="Case=Sub|Number=Sing" rhyme_numSyll="4" rhyme_phonType="mixed" rhyme_phonStruct="cbccbcFcf">nyakrafőre</firstRhyme>
+                    <secondRhyme rhyme_lemma="lőre" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cFcf">lőre</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w30 #w31 #w32" allStruct="ana" posTags="NOUN CONJ ADJ" msdTags="Case=Ins|Number=Sing _ Case=Nom|Degree=Pos|Number=Sing" lemmas="malaszt és mámoros">malaszttal És mámoros</alliteration>
                 <alliteration target="#w41 #w42 #w43" allStruct="ana" posTags="NOUN ADJ NOUN" msdTags="Case=Dat|Number=Plur Case=Nom|Degree=Pos|Number=Sing Case=Ins|Number=Sing" lemmas="koldus pazar kéz">koldusoknak pazar kézzel</alliteration>

@@ -104,12 +104,12 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="3" div_numLine="10" div_numWord="41" div_numSyll="84" div_numShortSyll="38" div_numLongSyll="46" div_rhyme="ab|aabc|abca" div_syllPattern="8-9|8-9-8-6|11-8-6-11">
+            <div type="poem" div_numStanza="3" div_numLine="10" div_numWord="41" div_numSyll="84" div_numShortSyll="38" div_numLongSyll="46" div_rhyme="ab|aabc|abca" div_syllPattern="8-9|8-9-8-6|11-8-6-11" met_qual="False" met_quan="iambic" met_quanScore="0.3">
                 <head type="title">TI JÓK VAGYTOK MINDANNYIAN</head>
                 <lg xml:id="lg1" lg_numLine="2" lg_numWord="8" lg_numSyll="17" lg_numShortSyll="6" lg_numLongSyll="11" rhyme="ab" lg_syllPattern="8-9">
                     <l xml:id="l1" l_numWord="4" l_numSyll="8" l_numShortSyll="3" l_numLongSyll="5" real="01111100">
@@ -191,7 +191,16 @@
                 </lg>
                 <p>1924 első fele</p>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w13 #w18">
+                    <firstRhyme rhyme_lemma="rossz" rhyme_pos="NOUN" rhyme_msd="Case=Ins|Number=Sing" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbccbc">rosszal</firstRhyme>
+                    <secondRhyme rhyme_lemma="csavargás" rhyme_pos="NOUN" rhyme_msd="Case=Ins|Number=Sing" rhyme_numSyll="4" rhyme_phonType="low" rhyme_phonStruct="cbcbccBccbc">csavargással</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w28 #w41">
+                    <firstRhyme rhyme_lemma="jó" rhyme_pos="ADJ" rhyme_msd="Case=Dat|Degree=Pos|Number=Sing" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cBcbc">jónak</firstRhyme>
+                    <secondRhyme rhyme_lemma="csúszkáló" rhyme_pos="ADJ" rhyme_msd="Case=Ins|Degree=Pos|Number=Plur" rhyme_numSyll="4" rhyme_phonType="low" rhyme_phonStruct="cBccBcBccbc">csúszkálókkal</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w4 #w5" allStruct="aa" posTags="NUM PRON" msdTags="Case=Nom|Number=Sing|NumType=Card Case=Nom|Number=Sing|Person=3|PronType=Int" lemmas="mindannyi miért">mindannyian Miért</alliteration>
                 <alliteration target="#w31 #w32 #w33" allStruct="aaa" posTags="PART PRON VERB" msdTags="_ Case=Acc|Number=Sing|Person=3|PronType=Prs Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" lemmas="meg mi mond">meg mit mondok</alliteration>

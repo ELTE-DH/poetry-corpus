@@ -111,12 +111,12 @@
 		<revisionDesc>
 			<change when="2021-07-05">level1</change>
 			<change when="2021-08-05">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="1" div_numLine="4" div_numWord="19" div_numSyll="34" div_numShortSyll="16" div_numLongSyll="18" div_rhyme="abcb" div_syllPattern="9-8-9-8">
+            <div type="poem" div_numStanza="1" div_numLine="4" div_numWord="19" div_numSyll="34" div_numShortSyll="16" div_numLongSyll="18" div_rhyme="abcb" div_syllPattern="9-8-9-8" met_qual="2-2-5_3-2-3" met_quan="iambic" met_quanScore="0.8">
                 <head type="title">(Magyar vagyok!)</head>
                 <lg xml:id="lg1" lg_numLine="4" lg_numWord="19" lg_numSyll="34" lg_numShortSyll="16" lg_numLongSyll="18" rhyme="abcb" lg_syllPattern="9-8-9-8">
                     <l xml:id="l1" l_numWord="4" l_numSyll="9" l_numShortSyll="4" l_numLongSyll="5" real="010101011">
@@ -154,7 +154,12 @@
                 </lg>
                 <p>1925</p>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w10 #w19">
+                    <firstRhyme rhyme_lemma="harap" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbcbc">harap</firstRhyme>
+                    <secondRhyme rhyme_lemma="magyar" rhyme_pos="ADJ" rhyme_msd="Case=Nom|Degree=Cmp|Number=Sing" rhyme_numSyll="3" rhyme_phonType="low" rhyme_phonStruct="cbcbcbcc">magyarabb</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w10 #w11" allStruct="aa" posTags="VERB ADJ" msdTags="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act Case=Nom|Degree=Pos|Number=Sing" lemmas="harap helyes">harap Helyes</alliteration>
                 <alliteration target="#w18 #w19" allStruct="aa" posTags="ADV ADJ" msdTags="_ Case=Nom|Degree=Cmp|Number=Sing" lemmas="mégse magyar">mégse magyarabb</alliteration>

@@ -103,12 +103,12 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="2" div_numLine="8" div_numWord="35" div_numSyll="58" div_numShortSyll="30" div_numLongSyll="28" div_rhyme="aabb|abac" div_syllPattern="8-8-8-5|8-5-8-8">
+            <div type="poem" div_numStanza="2" div_numLine="8" div_numWord="35" div_numSyll="58" div_numShortSyll="30" div_numLongSyll="28" div_rhyme="aabb|abac" div_syllPattern="8-8-8-5|8-5-8-8" met_qual="False" met_quan="iambic" met_quanScore="0.55">
                 <head type="title">MIT INTEGETTEK...</head>
                 <lg xml:id="lg1" lg_numLine="4" lg_numWord="18" lg_numSyll="29" lg_numShortSyll="15" lg_numLongSyll="14" rhyme="aabb" lg_syllPattern="8-8-8-5">
                     <l xml:id="l1" l_numWord="4" l_numSyll="8" l_numShortSyll="4" l_numLongSyll="4" real="01011100">
@@ -184,7 +184,20 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w4 #w9">
+                    <firstRhyme rhyme_lemma="hegy" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Plur" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfcfc">hegyek</firstRhyme>
+                    <secondRhyme rhyme_lemma="megy" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfcfc">megyek</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w13 #w18">
+                    <firstRhyme rhyme_lemma="tó" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Plur" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbcbc">tavak</firstRhyme>
+                    <secondRhyme rhyme_lemma="vak" rhyme_pos="ADJ" rhyme_msd="Case=Nom|Degree=Pos|Number=Sing" rhyme_numSyll="1" rhyme_phonType="low" rhyme_phonStruct="cbc">vak</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w25 #w30">
+                    <firstRhyme rhyme_lemma="út" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="bcbc">utam</firstRhyme>
+                    <secondRhyme rhyme_lemma="rut" rhyme_pos="ADJ" rhyme_msd="Case=Ess|Degree=Pos|Number=Sing" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbcbc">rutan</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w9 #w10" allStruct="aa" posTags="VERB PRON" msdTags="Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act Case=Acc|Number=Sing|Person=3|PronType=Prs" lemmas="megy mi">megyek Mit</alliteration>
                 <alliteration target="#w13 #w14 #w15" allStruct="ana" posTags="NOUN ADV VERB" msdTags="Case=Nom|Number=Plur PronType=Neg Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" lemmas="tó nem tart">tavak Nem tart</alliteration>

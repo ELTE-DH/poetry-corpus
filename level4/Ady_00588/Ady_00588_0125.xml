@@ -120,12 +120,12 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="4" div_numLine="12" div_numWord="53" div_numSyll="91" div_numShortSyll="41" div_numLongSyll="50" div_rhyme="abc|abc|aab|abc" div_syllPattern="8-8-7|8-8-7|8-8-7|8-7-7">
+            <div type="poem" div_numStanza="4" div_numLine="12" div_numWord="53" div_numSyll="91" div_numShortSyll="41" div_numLongSyll="50" div_rhyme="abc|abc|aab|abc" div_syllPattern="8-8-7|8-8-7|8-8-7|8-7-7" met_qual="False" met_quan="trochaic" met_quanScore="0.39">
                 <head type="title">CSENG AZ ÉLET</head>
                 <lg xml:id="lg1" lg_numLine="3" lg_numWord="12" lg_numSyll="23" lg_numShortSyll="11" lg_numLongSyll="12" rhyme="abc" lg_syllPattern="8-8-7">
                     <l xml:id="l1" l_numWord="4" l_numSyll="8" l_numShortSyll="3" l_numLongSyll="5" real="10110110">
@@ -230,7 +230,12 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w31 #w36">
+                    <firstRhyme rhyme_lemma="mindegy" rhyme_pos="ADJ" rhyme_msd="Case=Nom|Degree=Pos|Number=Sing" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfccfc">mindegy</firstRhyme>
+                    <secondRhyme rhyme_lemma="élet" rhyme_pos="NOUN" rhyme_msd="Case=Dat|Number=Sing" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="Fcfccfc">életnek</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w17 #w18" allStruct="aa" posTags="VERB VERB" msdTags="Definite=Ind|Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" lemmas="cseng cseng">csengjen Cseng</alliteration>
                 <alliteration target="#w25 #w26" allStruct="aa" posTags="ADJ PRON" msdTags="Case=Nom|Degree=Pos|Number=Sing Case=Nom|Number=Sing|Person=3|PronType=Ind" lemmas="víg valaki">víg valaki</alliteration>

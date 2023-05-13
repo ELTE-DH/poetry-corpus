@@ -103,14 +103,14 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="2" div_numLine="8" div_numWord="43" div_numSyll="76" div_numShortSyll="30" div_numLongSyll="46" div_rhyme="abba|abbc" div_syllPattern="10-10-10-10|10-10-8-8">
+            <div type="poem" div_numStanza="2" div_numLine="8" div_numWord="43" div_numSyll="76" div_numShortSyll="30" div_numLongSyll="46" div_rhyme="abbc|abbc" div_syllPattern="10-10-10-10|10-10-8-8" met_qual="False" met_quan="iambic" met_quanScore="0.58">
                 <head type="title">TAPOSOM MÉG...</head>
-                <lg xml:id="lg1" lg_numLine="4" lg_numWord="24" lg_numSyll="40" lg_numShortSyll="14" lg_numLongSyll="26" rhyme="abba" lg_syllPattern="10-10-10-10">
+                <lg xml:id="lg1" lg_numLine="4" lg_numWord="24" lg_numSyll="40" lg_numShortSyll="14" lg_numLongSyll="26" rhyme="abbc" lg_syllPattern="10-10-10-10">
                     <l xml:id="l1" l_numWord="6" l_numSyll="10" l_numShortSyll="4" l_numLongSyll="6" real="0011111001">
                         <w xml:id="w1" lemma="tapos" pos="VERB" msd="Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" w_numSyll="3" phonType="low" phonStruct="cbcbcbc">Taposom</w>
                         <w xml:id="w2" lemma="még" pos="ADV" msd="_" w_numSyll="1" phonType="high" phonStruct="cFc">még</w>
@@ -188,7 +188,16 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w10 #w17">
+                    <firstRhyme rhyme_lemma="taposó" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="3" rhyme_phonType="low" rhyme_phonStruct="cbcbcB">taposó</firstRhyme>
+                    <secondRhyme rhyme_lemma="mohó" rhyme_pos="ADJ" rhyme_msd="Case=Nom|Degree=Pos|Number=Sing" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbcB">Mohó</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w34 #w39">
+                    <firstRhyme rhyme_lemma="saját" rhyme_pos="ADJ" rhyme_msd="Case=Nom|Degree=Pos|Number=Sing" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbcBc">saját</firstRhyme>
+                    <secondRhyme rhyme_lemma="kád" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="1" rhyme_phonType="low" rhyme_phonStruct="cBc">kád</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w15 #w16" allStruct="aa" posTags="CONJ NOUN" msdTags="_ Case=Nom|Number=Sing" lemmas="vagy vér">vagy vér</alliteration>
                 <alliteration target="#w26 #w27" allStruct="aa" posTags="NOUN PRON" msdTags="Case=Nom|Number=Sing Case=Nom|Number=Sing|Person=1|Reflex=Yes" lemmas="mutatvány maga">mutatvány Magam</alliteration>

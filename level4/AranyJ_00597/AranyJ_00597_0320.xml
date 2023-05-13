@@ -132,14 +132,14 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="2" div_numLine="8" div_numWord="29" div_numSyll="60" div_numShortSyll="25" div_numLongSyll="35" div_rhyme="aaba|abcb" div_syllPattern="8-7-8-7|8-7-8-7">
+            <div type="poem" div_numStanza="2" div_numLine="8" div_numWord="29" div_numSyll="60" div_numShortSyll="25" div_numLongSyll="35" div_rhyme="abcb|abcb" div_syllPattern="8-7-8-7|8-7-8-7" met_qual="2-2-2-2_2-2-3" met_quan="trochaic" met_quanScore="0.47">
                 <head type="title">NŐMHÖZ</head>
-                <lg xml:id="lg1" lg_numLine="4" lg_numWord="12" lg_numSyll="30" lg_numShortSyll="14" lg_numLongSyll="16" rhyme="aaba" lg_syllPattern="8-7-8-7">
+                <lg xml:id="lg1" lg_numLine="4" lg_numWord="12" lg_numSyll="30" lg_numShortSyll="14" lg_numLongSyll="16" rhyme="abcb" lg_syllPattern="8-7-8-7">
                     <l xml:id="l1" l_numWord="1" l_numSyll="8" l_numShortSyll="2" l_numLongSyll="6" real="01111101">
                         <w xml:id="w1" lemma="ezernyolcszázharminckilenc" pos="NUM" msd="Case=Nom|Number=Sing|NumType=Card" w_numSyll="8" phonType="mixed" phonStruct="fcfccbcccBccbccfcccfcfcc">Ezernyolcszázharminckilenc</w>
                         <pc xml:id="pc1" pos="PUNCT" join="">-</pc>
@@ -201,7 +201,16 @@
                 <p>..............................</p>
                 <p>(Karlsbad, 1869. júl. 12.)</p>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w5 #w12">
+                    <firstRhyme rhyme_lemma="levél" rhyme_pos="NOUN" rhyme_msd="Case=Acc|Number=Sing" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfcfcfc">levelet</firstRhyme>
+                    <secondRhyme rhyme_lemma="te" rhyme_pos="PRON" rhyme_msd="Case=Ins|Number=Sing|Person=2|PronType=Prs" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfcfcfc">teveled</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w20 #w29">
+                    <firstRhyme rhyme_lemma="szegény" rhyme_pos="ADJ" rhyme_msd="Case=Nom|Degree=Pos|Number=Sing" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfcFc">szegény</firstRhyme>
+                    <secondRhyme rhyme_lemma="föld-teke" rhyme_pos="NOUN" rhyme_msd="Case=Sup|Number=Sing" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfcccfcFc">föld-tekén</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w7 #w8 #w9" allStruct="ana" posTags="ADJ PROPN ADJ" msdTags="Case=Nom|Degree=Pos|Number=Sing Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1 Case=Nom|Degree=Pos|Number=Sing" lemmas="éves Juli édes">éves Julim édes</alliteration>
                 <alliteration target="#w13 #w14 #w15" allStruct="ana" posTags="PROPN VERB NOUN" msdTags="Case=Nom|Number=Sing Definite=Ind|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act Case=Nom|Number=Sing" lemmas="Ifju van ifju">Ifju voltál ifju</alliteration>

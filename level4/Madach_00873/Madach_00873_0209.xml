@@ -103,12 +103,12 @@
 		<revisionDesc>
 			<change when="2021-06-10">level1</change>
 			<change when="2021-06-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="1" div_numLine="8" div_numWord="47" div_numSyll="80" div_numShortSyll="35" div_numLongSyll="45" div_rhyme="abcbdcae" div_syllPattern="10-10-10-10-10-10-10-10">
+            <div type="poem" div_numStanza="1" div_numLine="8" div_numWord="47" div_numSyll="80" div_numShortSyll="35" div_numLongSyll="45" div_rhyme="abcbdcae" div_syllPattern="10-10-10-10-10-10-10-10" met_qual="4-6" met_quan="iambic" met_quanScore="0.55">
                 <head type="title">9. A történeti jog</head>
                 <lg xml:id="lg1" lg_numLine="8" lg_numWord="47" lg_numSyll="80" lg_numShortSyll="35" lg_numLongSyll="45" rhyme="abcbdcae" lg_syllPattern="10-10-10-10-10-10-10-10">
                     <l xml:id="l1" l_numWord="6" l_numSyll="10" l_numShortSyll="5" l_numLongSyll="5" real="0101101100">
@@ -192,7 +192,16 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w11 #w23">
+                    <firstRhyme rhyme_lemma="egér" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="fcFc">egér</firstRhyme>
+                    <secondRhyme rhyme_lemma="él" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="1" rhyme_phonType="high" rhyme_phonStruct="Fc">él.</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w16 #w35">
+                    <firstRhyme rhyme_lemma="ez" rhyme_pos="PRON" rhyme_msd="Case=Acc|Number=Sing|Person=3|PronType=Dem" rhyme_numSyll="1" rhyme_phonType="high" rhyme_phonStruct="fcc">ezt</firstRhyme>
+                    <secondRhyme rhyme_lemma="ez" rhyme_pos="PRON" rhyme_msd="Case=Nom|Number=Sing|Person=3|PronType=Dem" rhyme_numSyll="1" rhyme_phonType="high" rhyme_phonStruct="fc">ez</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w1 #w2" allStruct="aa" posTags="NOUN NOUN" msdTags="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1 Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1" lemmas="apa apa">Apám apám</alliteration>
                 <alliteration target="#w3 #w4 #w5" allStruct="ana" posTags="VERB DET NOUN" msdTags="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act Definite=Def|PronType=Art Case=Nom|Number=Sing" lemmas="mond a mágus">mond a mágus</alliteration>

@@ -112,12 +112,12 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="3" div_numLine="10" div_numWord="34" div_numSyll="85" div_numShortSyll="38" div_numLongSyll="47" div_rhyme="aabc|ab|abcb" div_syllPattern="6-6-10-11|8-11|6-10-11-6">
+            <div type="poem" div_numStanza="3" div_numLine="10" div_numWord="34" div_numSyll="85" div_numShortSyll="38" div_numLongSyll="47" div_rhyme="aabc|ab|abcb" div_syllPattern="6-6-10-11|8-11|6-10-11-6" met_qual="False" met_quan="iambic" met_quanScore="0.52">
                 <head type="title">Éjjel a rendházban</head>
                 <lg xml:id="lg1" lg_numLine="4" lg_numWord="15" lg_numSyll="33" lg_numShortSyll="17" lg_numLongSyll="16" rhyme="aabc" lg_syllPattern="6-6-10-11">
                     <l xml:id="l1" l_numWord="3" l_numSyll="6" l_numShortSyll="3" l_numLongSyll="3" real="101100">
@@ -190,7 +190,16 @@
                 </lg>
                 <p>Nagyvárad, 1924 november</p>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w3 #w6">
+                    <firstRhyme rhyme_lemma="permetez" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfccfcfc">permetez</firstRhyme>
+                    <secondRhyme rhyme_lemma="nesz" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="1" rhyme_phonType="high" rhyme_phonStruct="cfc">nesz</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w28 #w34">
+                    <firstRhyme rhyme_lemma="előtt" rhyme_pos="ADP" rhyme_msd="_" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="fcFcc">előtt</firstRhyme>
+                    <secondRhyme rhyme_lemma="idő" rhyme_pos="NOUN" rhyme_msd="Case=Acc|Number=Sing" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="fcFc">időt</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w25 #w26 #w27" allStruct="ana" posTags="VERB VERB NOUN" msdTags="Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1" lemmas="jelenik mul jövendő">Jelenem multam jövendőm</alliteration>
             </alliterations>

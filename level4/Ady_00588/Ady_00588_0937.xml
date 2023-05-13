@@ -120,12 +120,12 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="3" div_numLine="9" div_numWord="28" div_numSyll="53" div_numShortSyll="21" div_numLongSyll="32" div_rhyme="aba|aba|aba" div_syllPattern="7-3-7|7-3-7|7-3-9">
+            <div type="poem" div_numStanza="3" div_numLine="9" div_numWord="28" div_numSyll="53" div_numShortSyll="21" div_numLongSyll="32" div_rhyme="aba|aba|aba" div_syllPattern="7-3-7|7-3-7|7-3-9" met_qual="False" met_quan="equal" met_quanScore="0.33">
                 <head type="title">TÉVEDTEM ÉS TÉVEDVE</head>
                 <lg xml:id="lg1" lg_numLine="3" lg_numWord="7" lg_numSyll="17" lg_numShortSyll="8" lg_numLongSyll="9" rhyme="aba" lg_syllPattern="7-3-7">
                     <l xml:id="l1" l_numWord="3" l_numSyll="7" l_numShortSyll="2" l_numLongSyll="5" real="1101110">
@@ -188,7 +188,20 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w3 #w7">
+                    <firstRhyme rhyme_lemma="téved" rhyme_pos="ADV" rhyme_msd="VerbForm=Trans" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cFcfccf">tévedve</firstRhyme>
+                    <secondRhyme rhyme_lemma="te" rhyme_pos="PRON" rhyme_msd="Case=Nom|Number=Sing|Person=2|PronType=Prs" rhyme_numSyll="1" rhyme_phonType="high" rhyme_phonStruct="cf">Te</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w11 #w16">
+                    <firstRhyme rhyme_lemma="akar" rhyme_pos="ADV" rhyme_msd="VerbForm=Trans" rhyme_numSyll="3" rhyme_phonType="low" rhyme_phonStruct="bcbccb">akarva</firstRhyme>
+                    <secondRhyme rhyme_lemma="kar" rhyme_pos="NOUN" rhyme_msd="Case=Ill|Number=Sing" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbccb">karba</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w19 #w28">
+                    <firstRhyme rhyme_lemma="lát" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cBcbc">látok</firstRhyme>
+                    <secondRhyme rhyme_lemma="átok" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="Bcbc">átok</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w1 #w2 #w3 #w4 #w5 #w6 #w7" allStruct="ananana" posTags="VERB CONJ ADV VERB PRON ADJ PRON" msdTags="Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act _ VerbForm=Trans Definite=2|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act Case=Nom|Number=Sing|Person=2|PronType=Prs Case=Nom|Degree=Cmp|Number=Sing Case=Nom|Number=Sing|Person=2|PronType=Prs" lemmas="téved és téved lát te legkivántató te">Tévedtem és tévedve Láttalak Te legkivántatóbb Te</alliteration>
                 <alliteration target="#w4 #w5 #w6" allStruct="ana" posTags="VERB PRON ADJ" msdTags="Definite=2|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act Case=Nom|Number=Sing|Person=2|PronType=Prs Case=Nom|Degree=Cmp|Number=Sing" lemmas="lát te legkivántató">Láttalak Te legkivántatóbb</alliteration>

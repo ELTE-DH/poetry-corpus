@@ -111,12 +111,12 @@
 		<revisionDesc>
 			<change when="2021-07-05">level1</change>
 			<change when="2021-08-05">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="4" div_numLine="10" div_numWord="45" div_numSyll="90" div_numShortSyll="43" div_numLongSyll="47" div_rhyme="aba|aba|aba|a" div_syllPattern="9-9-9|9-9-9|9-9-9|9">
+            <div type="poem" div_numStanza="4" div_numLine="10" div_numWord="45" div_numSyll="90" div_numShortSyll="43" div_numLongSyll="47" div_rhyme="aba|aba|aba|a" div_syllPattern="9-9-9|9-9-9|9-9-9|9" met_qual="4-5" met_quan="trochaic" met_quanScore="0.65">
                 <head type="title">Szerenád</head>
                 <lg xml:id="lg1" lg_numLine="3" lg_numWord="14" lg_numSyll="27" lg_numShortSyll="15" lg_numLongSyll="12" rhyme="aba" lg_syllPattern="9-9-9">
                     <l xml:id="l1" l_numWord="5" l_numSyll="9" l_numShortSyll="4" l_numLongSyll="5" real="101010101">
@@ -204,7 +204,20 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w5 #w14">
+                    <firstRhyme rhyme_lemma="est" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="1" rhyme_phonType="high" rhyme_phonStruct="fcc">est</firstRhyme>
+                    <secondRhyme rhyme_lemma="szőkeség" rhyme_pos="NOUN" rhyme_msd="Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=2" rhyme_numSyll="5" rhyme_phonType="high" rhyme_phonStruct="cFcfcFcfcfc">szőkeségedet</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w18 #w27">
+                    <firstRhyme rhyme_lemma="vár" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="1" rhyme_phonType="low" rhyme_phonStruct="cBc">vár</firstRhyme>
+                    <secondRhyme rhyme_lemma="szál" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="1" rhyme_phonType="low" rhyme_phonStruct="cBc">szál</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w32 #w40">
+                    <firstRhyme rhyme_lemma="tó" rhyme_pos="NOUN" rhyme_msd="Case=Sup|Number=Sing" rhyme_numSyll="1" rhyme_phonType="low" rhyme_phonStruct="cBc">tón</firstRhyme>
+                    <secondRhyme rhyme_lemma="ringat" rhyme_pos="VERB" rhyme_msd="Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="3" rhyme_phonType="mixed" rhyme_phonStruct="cfccbcbc">ringatom</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w5 #w6" allStruct="aa" posTags="NOUN PRON" msdTags="Case=Nom|Number=Sing Case=Nom|Number=Sing|Person=3|PronType=Dem" lemmas="est ez">est Ez</alliteration>
                 <alliteration target="#w17 #w18 #w19" allStruct="ana" posTags="NOUN VERB NOUN" msdTags="Case=Sub|Number=Plur|Number[psor]=Sing|Person[psor]=2 Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act Case=Ill|Number=Plur|Number[psor]=Sing|Person[psor]=2" lemmas="álom vár álom">álmaidra vár Álmaidba</alliteration>

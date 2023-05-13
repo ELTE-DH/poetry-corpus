@@ -111,12 +111,12 @@
 		<revisionDesc>
 			<change when="2021-07-05">level1</change>
 			<change when="2021-08-05">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="4" div_numLine="14" div_numWord="70" div_numSyll="138" div_numShortSyll="65" div_numLongSyll="73" div_rhyme="abba|abba|aab|abb" div_syllPattern="10-9-9-10|10-10-10-10|10-10-10|10-10-10">
+            <div type="poem" div_numStanza="4" div_numLine="14" div_numWord="70" div_numSyll="138" div_numShortSyll="65" div_numLongSyll="73" div_rhyme="abba|abba|aab|abb" div_syllPattern="10-9-9-10|10-10-10-10|10-10-10|10-10-10" met_qual="False" met_quan="trochaic" met_quanScore="0.65">
                 <head type="title">Anonymus</head>
                 <lg xml:id="lg1" lg_numLine="4" lg_numWord="20" lg_numSyll="38" lg_numShortSyll="19" lg_numLongSyll="19" rhyme="abba" lg_syllPattern="10-9-9-10">
                     <l xml:id="l1" l_numWord="5" l_numSyll="10" l_numShortSyll="6" l_numLongSyll="4" real="1010001010">
@@ -241,7 +241,32 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w5 #w20">
+                    <firstRhyme rhyme_lemma="sötét" rhyme_pos="ADJ" rhyme_msd="Case=Ess|Degree=Pos|Number=Sing" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfcFcfc">sötéten</firstRhyme>
+                    <secondRhyme rhyme_lemma="éjjel" rhyme_pos="NOUN" rhyme_msd="Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3" rhyme_numSyll="4" rhyme_phonType="high" rhyme_phonStruct="FccfcFcfc">éjjelében</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w10 #w15">
+                    <firstRhyme rhyme_lemma="ég" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="1" rhyme_phonType="high" rhyme_phonStruct="Fc">ég</firstRhyme>
+                    <secondRhyme rhyme_lemma="messzeség" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfccfcFc">messzeség</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w25 #w37">
+                    <firstRhyme rhyme_lemma="pergamen" rhyme_pos="NOUN" rhyme_msd="Case=Sub|Number=Sing" rhyme_numSyll="4" rhyme_phonType="mixed" rhyme_phonStruct="cfccbcfccf">pergamenre</firstRhyme>
+                    <secondRhyme rhyme_lemma="jegyez" rhyme_pos="VERB" rhyme_msd="Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfcfccf">jegyezte</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w29 #w33">
+                    <firstRhyme rhyme_lemma="ragad" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="3" rhyme_phonType="low" rhyme_phonStruct="cbcbccb">ragadna</firstRhyme>
+                    <secondRhyme rhyme_lemma="vérvihar" rhyme_pos="NOUN" rhyme_msd="Case=Ill|Number=Sing" rhyme_numSyll="4" rhyme_phonType="mixed" rhyme_phonStruct="cFccfcbccb">vérviharba</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w44 #w49">
+                    <firstRhyme rhyme_lemma="sor" rhyme_pos="NOUN" rhyme_msd="Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3" rhyme_numSyll="3" rhyme_phonType="low" rhyme_phonStruct="cbcBcbc">sorában</firstRhyme>
+                    <secondRhyme rhyme_lemma="van" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="1" rhyme_phonType="low" rhyme_phonStruct="cbc">van</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w65 #w70">
+                    <firstRhyme rhyme_lemma="harsan" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbccbc">harsan</firstRhyme>
+                    <secondRhyme rhyme_lemma="szó" rhyme_pos="NOUN" rhyme_msd="Case=Ine|Number=Plur" rhyme_numSyll="3" rhyme_phonType="low" rhyme_phonStruct="cbcbccbc">szavakban</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w11 #w12 #w13 #w14 #w15" allStruct="anana" posTags="SCONJ NOUN PRON NOUN NOUN" msdTags="_ Case=Nom|Number=Sing Case=Acc|Number=Sing|Person=3|PronType=Rel Case=Nom|Number=Sing Case=Nom|Number=Sing" lemmas="mint láng amely idő messzeség">Mint láng melyet idő messzeség</alliteration>
                 <alliteration target="#w32 #w33" allStruct="aa" posTags="VERB NOUN" msdTags="Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act Case=Ill|Number=Sing" lemmas="vezet vérvihar">vezetne vérviharba</alliteration>

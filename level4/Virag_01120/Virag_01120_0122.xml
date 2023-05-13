@@ -103,12 +103,12 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="1" div_numLine="10" div_numWord="67" div_numSyll="122" div_numShortSyll="46" div_numLongSyll="76" div_rhyme="aabcadedfa" div_syllPattern="12-12-12-12-12-12-12-13-13-12">
+            <div type="poem" div_numStanza="1" div_numLine="10" div_numWord="67" div_numSyll="122" div_numShortSyll="46" div_numLongSyll="76" div_rhyme="aabcadedfa" div_syllPattern="12-12-12-12-12-12-12-13-13-12" met_qual="False" met_quan="iambic" met_quanScore="0.58">
                 <head type="title">XVI MÉH ÉS KÁGYILLÓ</head>
                 <lg xml:id="lg1" lg_numLine="10" lg_numWord="67" lg_numSyll="122" lg_numShortSyll="46" lg_numLongSyll="76" rhyme="aabcadedfa" lg_syllPattern="12-12-12-12-12-12-12-13-13-12">
                     <l xml:id="l1" l_numWord="6" l_numSyll="12" l_numShortSyll="5" l_numLongSyll="7" real="110111001100">
@@ -220,7 +220,24 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w6 #w12">
+                    <firstRhyme rhyme_lemma="szorgalmatos" rhyme_pos="ADJ" rhyme_msd="Case=Nom|Degree=Pos|Number=Sing" rhyme_numSyll="4" rhyme_phonType="low" rhyme_phonStruct="cbccbccbcbc">szorgalmatos</firstRhyme>
+                    <secondRhyme rhyme_lemma="ihol" rhyme_pos="PRON" rhyme_msd="Case=Nom|Number=Sing|Person=3|PronType=Prs" rhyme_numSyll="2" rhyme_phonType="mixed" rhyme_phonStruct="fcbc">ihol</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w12 #w32">
+                    <firstRhyme rhyme_lemma="ihol" rhyme_pos="PRON" rhyme_msd="Case=Nom|Number=Sing|Person=3|PronType=Prs" rhyme_numSyll="2" rhyme_phonType="mixed" rhyme_phonStruct="fcbc">ihol</firstRhyme>
+                    <secondRhyme rhyme_lemma="kotor" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbcbcc">kotorj</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w32 #w67">
+                    <firstRhyme rhyme_lemma="kotor" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbcbcc">kotorj</firstRhyme>
+                    <secondRhyme rhyme_lemma="hallgat" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act" rhyme_numSyll="3" rhyme_phonType="low" rhyme_phonStruct="cbcccbcbcc">hallgatott</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w38 #w55">
+                    <firstRhyme rhyme_lemma="te" rhyme_pos="PRON" rhyme_msd="Case=Dat|Number=Sing|Person=2|PronType=Prs" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfcfc">neked</firstRhyme>
+                    <secondRhyme rhyme_lemma="hely" rhyme_pos="NOUN" rhyme_msd="Case=Acc|Number=Sing" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfcfc">helyet</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w19 #w20" allStruct="aa" posTags="VERB PRON" msdTags="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act Case=Nom|Number=Sing|Person=2|PronType=Prs" lemmas="támad te">Támad Te</alliteration>
                 <alliteration target="#w28 #w29" allStruct="aa" posTags="NOUN NOUN" msdTags="Case=Nom|Number=Plur Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3" lemmas="féreg féreg">férgek férge</alliteration>

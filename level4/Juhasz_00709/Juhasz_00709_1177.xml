@@ -111,14 +111,14 @@
 		<revisionDesc>
 			<change when="2021-07-05">level1</change>
 			<change when="2021-08-05">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="3" div_numLine="12" div_numWord="51" div_numSyll="102" div_numShortSyll="46" div_numLongSyll="56" div_rhyme="abab|abcb|abcb" div_syllPattern="9-8-9-8|9-8-9-8|9-8-9-8">
+            <div type="poem" div_numStanza="3" div_numLine="12" div_numWord="51" div_numSyll="102" div_numShortSyll="46" div_numLongSyll="56" div_rhyme="abcb|abcb|abcb" div_syllPattern="9-8-9-8|9-8-9-8|9-8-9-8" met_qual="3-6_5-3" met_quan="iambic" met_quanScore="0.63">
                 <head type="title">Kútba néztünk</head>
-                <lg xml:id="lg1" lg_numLine="4" lg_numWord="15" lg_numSyll="34" lg_numShortSyll="18" lg_numLongSyll="16" rhyme="abab" lg_syllPattern="9-8-9-8">
+                <lg xml:id="lg1" lg_numLine="4" lg_numWord="15" lg_numSyll="34" lg_numShortSyll="18" lg_numLongSyll="16" rhyme="abcb" lg_syllPattern="9-8-9-8">
                     <l xml:id="l1" l_numWord="5" l_numSyll="9" l_numShortSyll="3" l_numLongSyll="6" real="010111110">
                         <w xml:id="w1" lemma="mi" pos="PRON" msd="Case=Nom|Number=Sing|Person=3|PronType=Prs" w_numSyll="1" phonType="high" phonStruct="cf">Mi</w>
                         <w xml:id="w2" lemma="kút" pos="NOUN" msd="Case=Ill|Number=Sing" w_numSyll="2" phonType="low" phonStruct="cBccb">kútba</w>
@@ -211,7 +211,20 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w10 #w15">
+                    <firstRhyme rhyme_lemma="ég" rhyme_pos="NOUN" rhyme_msd="Case=Acc|Number=Sing" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="fcfc">eget</firstRhyme>
+                    <secondRhyme rhyme_lemma="integet" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="fccfcfc">integet</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w26 #w34">
+                    <firstRhyme rhyme_lemma="ég" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Plur" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="fcfc">egek</firstRhyme>
+                    <secondRhyme rhyme_lemma="van" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Pot|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfcfc">lehet</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w42 #w51">
+                    <firstRhyme rhyme_lemma="beleveszik" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act" rhyme_numSyll="4" rhyme_phonType="high" rhyme_phonStruct="cfcfcfcfcc">beleveszett</firstRhyme>
+                    <secondRhyme rhyme_lemma="ég" rhyme_pos="NOUN" rhyme_msd="Case=Acc|Number=Sing" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="fcfc">eget</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w11 #w12 #w13" allStruct="ana" posTags="VERB NOUN NOUN" msdTags="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act Case=Ine|Number=Sing|Number[psor]=Plur|Person[psor]=1 Case=Nom|Number=Plur" lemmas="kiábrándul tekintet kút">Kiábrándult tekintetünkben Kutak</alliteration>
                 <alliteration target="#w19 #w20" allStruct="aa" posTags="NOUN VERB" msdTags="Case=Nom|Number=Sing Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act" lemmas="vér van">vér volt</alliteration>

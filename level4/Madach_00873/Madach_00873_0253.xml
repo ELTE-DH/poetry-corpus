@@ -103,12 +103,12 @@
 		<revisionDesc>
 			<change when="2021-06-10">level1</change>
 			<change when="2021-06-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="3" div_numLine="12" div_numWord="67" div_numSyll="126" div_numShortSyll="66" div_numLongSyll="60" div_rhyme="abcb|abab|abcb" div_syllPattern="11-10-11-10|11-10-11-10|11-10-11-10">
+            <div type="poem" div_numStanza="3" div_numLine="12" div_numWord="67" div_numSyll="126" div_numShortSyll="66" div_numLongSyll="60" div_rhyme="abcb|abcb|abcb" div_syllPattern="11-10-11-10|11-10-11-10|11-10-11-10" met_qual="False" met_quan="iambic" met_quanScore="0.94">
                 <head type="title">Vágy</head>
                 <lg xml:id="lg1" lg_numLine="4" lg_numWord="23" lg_numSyll="42" lg_numShortSyll="22" lg_numLongSyll="20" rhyme="abcb" lg_syllPattern="11-10-11-10">
                     <l xml:id="l1" l_numWord="7" l_numSyll="11" l_numShortSyll="5" l_numLongSyll="6" real="11010101010">
@@ -150,7 +150,7 @@
                         <pc xml:id="pc7" pos="PUNCT" join="left">.</pc>
                     </l>
                 </lg>
-                <lg xml:id="lg2" lg_numLine="4" lg_numWord="22" lg_numSyll="42" lg_numShortSyll="21" lg_numLongSyll="21" rhyme="abab" lg_syllPattern="11-10-11-10">
+                <lg xml:id="lg2" lg_numLine="4" lg_numWord="22" lg_numSyll="42" lg_numShortSyll="21" lg_numLongSyll="21" rhyme="abcb" lg_syllPattern="11-10-11-10">
                     <l xml:id="l5" l_numWord="7" l_numSyll="11" l_numShortSyll="6" l_numLongSyll="5" real="01010001011">
                         <w xml:id="w24" lemma="s" pos="CONJ" msd="_" w_numSyll="0" phonType="noVowels" phonStruct="c">S</w>
                         <w xml:id="w25" lemma="im" pos="NOUN" msd="Case=Nom|Number=Sing" w_numSyll="1" phonType="high" phonStruct="fc">im</w>
@@ -225,7 +225,20 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w11 #w23">
+                    <firstRhyme rhyme_lemma="képzet" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cFccfcfc">képzetem</firstRhyme>
+                    <secondRhyme rhyme_lemma="én" rhyme_pos="PRON" rhyme_msd="Case=Dat|Number=Sing|Person=1|PronType=Prs" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfcfc">nekem</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w34 #w45">
+                    <firstRhyme rhyme_lemma="érzet" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="Fccfcf">érzete</firstRhyme>
+                    <secondRhyme rhyme_lemma="szellem" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfccfcf">szelleme</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w56 #w67">
+                    <firstRhyme rhyme_lemma="kegy" rhyme_pos="NOUN" rhyme_msd="Case=Acc|Number=Sing" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfcfc">kegyet</firstRhyme>
+                    <secondRhyme rhyme_lemma="szerelem" rhyme_pos="NOUN" rhyme_msd="Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=1" rhyme_numSyll="4" rhyme_phonType="high" rhyme_phonStruct="cfcfccfcfc">szerelmemet</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w1 #w2 #w3" allStruct="ana" posTags="DET ADJ DET" msdTags="Definite=Ind|PronType=Art Case=Nom|Degree=Pos|Number=Sing Definite=Ind|PronType=Art" lemmas="egy szent egy">Egy szent egy</alliteration>
                 <alliteration target="#w16 #w17 #w18" allStruct="ana" posTags="NOUN NOUN PROPN" msdTags="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1 Case=Sub|Number=Sing|Number[psor]=Sing|Person[psor]=3 Case=Acc|Number=Sing" lemmas="sziv tűz Szen">szivem tüzére Szent</alliteration>

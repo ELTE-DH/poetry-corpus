@@ -103,12 +103,12 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="2" div_numLine="8" div_numWord="29" div_numSyll="58" div_numShortSyll="24" div_numLongSyll="34" div_rhyme="abba|abbc" div_syllPattern="10-11-6-10|5-2-5-9">
+            <div type="poem" div_numStanza="2" div_numLine="8" div_numWord="29" div_numSyll="58" div_numShortSyll="24" div_numLongSyll="34" div_rhyme="abba|abbc" div_syllPattern="10-11-6-10|5-2-5-9" met_qual="False" met_quan="iambic" met_quanScore="0.42">
                 <head type="title">ALFÖLDI EMLÉK</head>
                 <lg xml:id="lg1" lg_numLine="4" lg_numWord="20" lg_numSyll="37" lg_numShortSyll="15" lg_numLongSyll="22" rhyme="abba" lg_syllPattern="10-11-6-10">
                     <l xml:id="l1" l_numWord="5" l_numSyll="10" l_numShortSyll="4" l_numLongSyll="6" real="1111010100">
@@ -173,7 +173,20 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w5 #w20">
+                    <firstRhyme rhyme_lemma="homok" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbcbc">homok</firstRhyme>
+                    <secondRhyme rhyme_lemma="otthon" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Plur" rhyme_numSyll="3" rhyme_phonType="low" rhyme_phonStruct="bccbcbc">otthonok</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w11 #w15">
+                    <firstRhyme rhyme_lemma="lég" rhyme_pos="NOUN" rhyme_msd="Case=Sup|Number=Sing" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cFcfc">légen</firstRhyme>
+                    <secondRhyme rhyme_lemma="fehér" rhyme_pos="ADJ" rhyme_msd="Case=Ess|Degree=Pos|Number=Sing" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfcFcfc">fehéren</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w23 #w25">
+                    <firstRhyme rhyme_lemma="...............homok" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="??????????????cbcbc">...............homok</firstRhyme>
+                    <secondRhyme rhyme_lemma="lom" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Plur" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbcbc">lomok</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w3 #w4" allStruct="aa" posTags="ADJ ADJ" msdTags="Case=Nom|Degree=Pos|Number=Sing Case=Nom|Degree=Pos|Number=Sing" lemmas="finom fanyar">finom fanyar</alliteration>
                 <alliteration target="#w10 #w11" allStruct="aa" posTags="ADJ NOUN" msdTags="Case=Nom|Degree=Pos|Number=Sing Case=Sup|Number=Sing" lemmas="langyos lég">langyos légen</alliteration>

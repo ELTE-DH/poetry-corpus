@@ -103,12 +103,12 @@
 		<revisionDesc>
 			<change when="2021-06-10">level1</change>
 			<change when="2021-06-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="2" div_numLine="10" div_numWord="45" div_numSyll="90" div_numShortSyll="38" div_numLongSyll="52" div_rhyme="aabbaa|abcb" div_syllPattern="8-8-8-8-8-8|11-10-11-10">
+            <div type="poem" div_numStanza="2" div_numLine="10" div_numWord="45" div_numSyll="90" div_numShortSyll="38" div_numLongSyll="52" div_rhyme="aabbaa|abcb" div_syllPattern="8-8-8-8-8-8|11-10-11-10" met_qual="False" met_quan="iambic" met_quanScore="0.8">
                 <head type="title">5. Petőfi sírján</head>
                 <lg xml:id="lg1" lg_numLine="6" lg_numWord="31" lg_numSyll="48" lg_numShortSyll="20" lg_numLongSyll="28" rhyme="aabbaa" lg_syllPattern="8-8-8-8-8-8">
                     <l xml:id="l1" l_numWord="5" l_numSyll="8" l_numShortSyll="3" l_numLongSyll="5" real="11011100">
@@ -190,7 +190,28 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w5 #w10">
+                    <firstRhyme rhyme_lemma="jel" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="1" rhyme_phonType="high" rhyme_phonStruct="cfc">jel</firstRhyme>
+                    <secondRhyme rhyme_lemma="el" rhyme_pos="ADV" rhyme_msd="_" rhyme_numSyll="1" rhyme_phonType="high" rhyme_phonStruct="fc">el</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w10 #w26">
+                    <firstRhyme rhyme_lemma="el" rhyme_pos="ADV" rhyme_msd="_" rhyme_numSyll="1" rhyme_phonType="high" rhyme_phonStruct="fc">el</firstRhyme>
+                    <secondRhyme rhyme_lemma="szellem" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=2" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfccfcfc">szellemed</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w18 #w23">
+                    <firstRhyme rhyme_lemma="sír" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="1" rhyme_phonType="high" rhyme_phonStruct="cFc">sír</firstRhyme>
+                    <secondRhyme rhyme_lemma="sír" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="1" rhyme_phonType="high" rhyme_phonStruct="cFc">sír</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w26 #w31">
+                    <firstRhyme rhyme_lemma="szellem" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=2" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfccfcfc">szellemed</firstRhyme>
+                    <secondRhyme rhyme_lemma="lesz" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act" rhyme_numSyll="1" rhyme_phonType="high" rhyme_phonStruct="cfcc">lett</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w40 #w45">
+                    <firstRhyme rhyme_lemma="te" rhyme_pos="PRON" rhyme_msd="Case=Dat|Number=Sing|Person=2|PronType=Prs" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfcfc">neked</firstRhyme>
+                    <secondRhyme rhyme_lemma="sírvers" rhyme_pos="NOUN" rhyme_msd="Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=2" rhyme_numSyll="4" rhyme_phonType="high" rhyme_phonStruct="cFccfccfcfc">sírversedet</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w27 #w28" allStruct="aa" posTags="ADJ ADV" msdTags="Case=Nom|Degree=Pos|Number=Sing PronType=Art" lemmas="egész e">Egész e</alliteration>
                 <alliteration target="#w35 #w36" allStruct="aa" posTags="VERB ADV" msdTags="Definite=Def|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act _" lemmas="megüdvözöl még">megüdvözölted Még</alliteration>

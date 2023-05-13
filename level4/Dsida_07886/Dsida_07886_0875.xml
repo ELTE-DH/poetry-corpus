@@ -103,12 +103,12 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="4" div_numLine="20" div_numWord="108" div_numSyll="218" div_numShortSyll="115" div_numLongSyll="103" div_rhyme="abcba|abcba|aabaa|abcba" div_syllPattern="11-11-10-11-11|11-11-9-11-11|11-11-11-11-11|11-11-12-11-11">
+            <div type="poem" div_numStanza="4" div_numLine="20" div_numWord="108" div_numSyll="218" div_numShortSyll="115" div_numLongSyll="103" div_rhyme="abcba|abcba|abcba|abcba" div_syllPattern="11-11-10-11-11|11-11-9-11-11|11-11-11-11-11|11-11-12-11-11" met_qual="3-3-5" met_quan="iambic" met_quanScore="0.39">
                 <head type="title">Erdélyi bércek</head>
                 <lg xml:id="lg1" lg_numLine="5" lg_numWord="26" lg_numSyll="54" lg_numShortSyll="31" lg_numLongSyll="23" rhyme="abcba" lg_syllPattern="11-11-10-11-11">
                     <l xml:id="l1" l_numWord="5" l_numSyll="11" l_numShortSyll="8" l_numLongSyll="3" real="00010100010">
@@ -195,7 +195,7 @@
                         <pc xml:id="pc6" pos="PUNCT" join="left">.</pc>
                     </l>
                 </lg>
-                <lg xml:id="lg3" lg_numLine="5" lg_numWord="23" lg_numSyll="55" lg_numShortSyll="22" lg_numLongSyll="33" rhyme="aabaa" lg_syllPattern="11-11-11-11-11">
+                <lg xml:id="lg3" lg_numLine="5" lg_numWord="23" lg_numSyll="55" lg_numShortSyll="22" lg_numLongSyll="33" rhyme="abcba" lg_syllPattern="11-11-11-11-11">
                     <l xml:id="l11" l_numWord="4" l_numSyll="11" l_numShortSyll="4" l_numLongSyll="7" real="01010111110">
                         <w xml:id="w56" lemma="szerelem" pos="NOUN" msd="Case=Acc|Number=Sing" w_numSyll="3" phonType="high" phonStruct="cfcfccfc">Szerelmet</w>
                         <w xml:id="w57" lemma="esküszik" pos="VERB" msd="Definite=Ind|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" w_numSyll="3" phonType="high" phonStruct="fccfcfcc">esküszünk</w>
@@ -290,7 +290,40 @@
                 </lg>
                 <p>Nagybánya, 1925. július 20.</p>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w5 #w26">
+                    <firstRhyme rhyme_lemma="gőzös" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cFcfc">gőzös</firstRhyme>
+                    <secondRhyme rhyme_lemma="gőzös" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cFcfc">gőzös</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w9 #w21">
+                    <firstRhyme rhyme_lemma="bérc" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Plur" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cFccfc">bércek</firstRhyme>
+                    <secondRhyme rhyme_lemma="–" rhyme_pos="X" rhyme_msd="_" rhyme_numSyll="" rhyme_phonType="" rhyme_phonStruct="">–</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w31 #w55">
+                    <firstRhyme rhyme_lemma="hegy" rhyme_pos="NOUN" rhyme_msd="Case=Ins|Number=Plur" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfcfccfc">hegyekkel</firstRhyme>
+                    <secondRhyme rhyme_lemma="hegy" rhyme_pos="NOUN" rhyme_msd="Case=Ins|Number=Plur" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfcfccfc">hegyekkel</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w37 #w49">
+                    <firstRhyme rhyme_lemma="is" rhyme_pos="ADV" rhyme_msd="_" rhyme_numSyll="1" rhyme_phonType="high" rhyme_phonStruct="fc">is</firstRhyme>
+                    <secondRhyme rhyme_lemma="–" rhyme_pos="X" rhyme_msd="_" rhyme_numSyll="" rhyme_phonType="" rhyme_phonStruct="">–</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w59 #w78">
+                    <firstRhyme rhyme_lemma="halk" rhyme_pos="ADJ" rhyme_msd="Case=Ess|Degree=Pos|Number=Sing" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbccbc">halkan</firstRhyme>
+                    <secondRhyme rhyme_lemma="halk" rhyme_pos="ADJ" rhyme_msd="Case=Ess|Degree=Pos|Number=Sing" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbccbc">halkan</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w63 #w73">
+                    <firstRhyme rhyme_lemma="ősapa" rhyme_pos="NOUN" rhyme_msd="Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=1" rhyme_numSyll="4" rhyme_phonType="mixed" rhyme_phonStruct="FcbcBccbc">ősapámnak</firstRhyme>
+                    <secondRhyme rhyme_lemma="maga" rhyme_pos="PRON" rhyme_msd="Case=Dat|Number=Sing|Person=3|Reflex=Yes" rhyme_numSyll="3" rhyme_phonType="low" rhyme_phonStruct="cbcBcbc">magának</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w83 #w108">
+                    <firstRhyme rhyme_lemma="gőzös" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cFcfc">gőzös</firstRhyme>
+                    <secondRhyme rhyme_lemma="gőzös" rhyme_pos="ADJ" rhyme_msd="Case=Nom|Degree=Pos|Number=Sing" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cFcfc">gőzös</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w89 #w103">
+                    <firstRhyme rhyme_lemma="–" rhyme_pos="X" rhyme_msd="_" rhyme_numSyll="" rhyme_phonType="" rhyme_phonStruct="">–</firstRhyme>
+                    <secondRhyme rhyme_lemma="csúcs" rhyme_pos="NOUN" rhyme_msd="Case=Ins|Number=Sing" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cBccbc">csúccsal</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w7 #w8 #w9" allStruct="ana" posTags="VERB ADJ NOUN" msdTags="Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act Case=Nom|Degree=Pos|Number=Sing Case=Nom|Number=Plur" lemmas="bókol távoli bérc">bókolnak távoli bércek</alliteration>
                 <alliteration target="#w11 #w12 #w13" allStruct="ana" posTags="VERB DET NUM" msdTags="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act Definite=Def|PronType=Art Case=Nom|Number=Sing|NumType=Card" lemmas="sír a sok">sír a sok</alliteration>

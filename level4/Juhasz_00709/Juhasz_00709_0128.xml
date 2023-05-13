@@ -111,12 +111,12 @@
 		<revisionDesc>
 			<change when="2021-07-05">level1</change>
 			<change when="2021-08-05">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="1" div_numLine="4" div_numWord="22" div_numSyll="42" div_numShortSyll="18" div_numLongSyll="24" div_rhyme="abab" div_syllPattern="11-10-11-10">
+            <div type="poem" div_numStanza="1" div_numLine="4" div_numWord="22" div_numSyll="42" div_numShortSyll="18" div_numLongSyll="24" div_rhyme="abab" div_syllPattern="11-10-11-10" met_qual="5-6_2-3-2-3" met_quan="iambic" met_quanScore="0.79">
                 <head type="title">Japánosan,</head>
                 <p>köszöntő Marianna születésnapjára</p>
                 <lg xml:id="lg1" lg_numLine="4" lg_numWord="22" lg_numSyll="42" lg_numShortSyll="18" lg_numLongSyll="24" rhyme="abab" lg_syllPattern="11-10-11-10">
@@ -157,7 +157,16 @@
                 </lg>
                 <p>1926</p>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w5 #w17">
+                    <firstRhyme rhyme_lemma="maga" rhyme_pos="PRON" rhyme_msd="Case=Dat|Number=Sing|Person=2|Reflex=Yes" rhyme_numSyll="3" rhyme_phonType="low" rhyme_phonStruct="cbcbccbc">magadnak</firstRhyme>
+                    <secondRhyme rhyme_lemma="hal" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbccbc">halnak</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w11 #w22">
+                    <firstRhyme rhyme_lemma="ének" rhyme_pos="NOUN" rhyme_msd="Case=Acc|Number=Sing" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="Fcfcfc">éneket</firstRhyme>
+                    <secondRhyme rhyme_lemma="te" rhyme_pos="PRON" rhyme_msd="Case=Dat|Number=Sing|Person=2|PronType=Prs" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfcfc">neked</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w4 #w5" allStruct="aa" posTags="PART PRON" msdTags="_ Case=Dat|Number=Sing|Person=2|Reflex=Yes" lemmas="meg maga">meg magadnak</alliteration>
                 <alliteration target="#w11 #w12 #w13" allStruct="ana" posTags="NOUN DET NOUN" msdTags="Case=Acc|Number=Sing Definite=Def|PronType=Art Case=Nom|Number=Plur" lemmas="ének az év">éneket Az évek</alliteration>

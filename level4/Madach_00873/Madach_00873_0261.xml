@@ -103,12 +103,12 @@
 		<revisionDesc>
 			<change when="2021-06-10">level1</change>
 			<change when="2021-06-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="2" div_numLine="8" div_numWord="28" div_numSyll="56" div_numShortSyll="33" div_numLongSyll="23" div_rhyme="abcb|abab" div_syllPattern="8-6-8-6|8-6-8-6">
+            <div type="poem" div_numStanza="2" div_numLine="8" div_numWord="28" div_numSyll="56" div_numShortSyll="33" div_numLongSyll="23" div_rhyme="abcb|abab" div_syllPattern="8-6-8-6|8-6-8-6" met_qual="2-3-3_6" met_quan="iambic" met_quanScore="0.97">
                 <head type="title">Kínkacaj</head>
                 <lg xml:id="lg1" lg_numLine="4" lg_numWord="13" lg_numSyll="28" lg_numShortSyll="17" lg_numLongSyll="11" rhyme="abcb" lg_syllPattern="8-6-8-6">
                     <l xml:id="l1" l_numWord="3" l_numSyll="8" l_numShortSyll="5" l_numLongSyll="3" real="01010100">
@@ -166,7 +166,20 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w5 #w13">
+                    <firstRhyme rhyme_lemma="arc" rhyme_pos="NOUN" rhyme_msd="Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=1" rhyme_numSyll="3" rhyme_phonType="low" rhyme_phonStruct="bccbcbc">arcomat</firstRhyme>
+                    <secondRhyme rhyme_lemma="ború" rhyme_pos="NOUN" rhyme_msd="Case=Acc|Number=Plur|Number[psor]=Sing|Person[psor]=1" rhyme_numSyll="4" rhyme_phonType="mixed" rhyme_phonStruct="cbcBfcbc">borúimat</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w18 #w26">
+                    <firstRhyme rhyme_lemma="ural" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="bcbc">ural</firstRhyme>
+                    <secondRhyme rhyme_lemma="az" rhyme_pos="DET" rhyme_msd="Definite=Def|PronType=Art" rhyme_numSyll="1" rhyme_phonType="low" rhyme_phonStruct="bc">az</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w21 #w28">
+                    <firstRhyme rhyme_lemma="sírtere" rhyme_pos="NOUN" rhyme_msd="Case=Sup|Number=Sing" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cFccfcfc">sírteren</firstRhyme>
+                    <secondRhyme rhyme_lemma="terem" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfcfc">terem</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w7 #w8" allStruct="aa" posTags="VERB SCONJ" msdTags="Definite=Def|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act _" lemmas="hisz hogy">hidd hogy</alliteration>
             </alliterations>

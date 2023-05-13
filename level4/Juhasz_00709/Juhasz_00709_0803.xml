@@ -111,12 +111,12 @@
 		<revisionDesc>
 			<change when="2021-07-05">level1</change>
 			<change when="2021-08-05">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="3" div_numLine="12" div_numWord="60" div_numSyll="126" div_numShortSyll="49" div_numLongSyll="77" div_rhyme="abab|abab|abab" div_syllPattern="10-11-10-11|10-11-10-11|10-11-10-11">
+            <div type="poem" div_numStanza="3" div_numLine="12" div_numWord="60" div_numSyll="126" div_numShortSyll="49" div_numLongSyll="77" div_rhyme="abab|abab|abab" div_syllPattern="10-11-10-11|10-11-10-11|10-11-10-11" met_qual="False" met_quan="iambic" met_quanScore="0.74">
                 <head type="title">Szőke fény</head>
                 <lg xml:id="lg1" lg_numLine="4" lg_numWord="21" lg_numSyll="42" lg_numShortSyll="16" lg_numLongSyll="26" rhyme="abab" lg_syllPattern="10-11-10-11">
                     <l xml:id="l1" l_numWord="4" l_numSyll="10" l_numShortSyll="5" l_numLongSyll="5" real="1100110001">
@@ -224,7 +224,32 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w4 #w16">
+                    <firstRhyme rhyme_lemma="koszorú" rhyme_pos="NOUN" rhyme_msd="Case=Sup|Number=Sing" rhyme_numSyll="3" rhyme_phonType="low" rhyme_phonStruct="cbcbcBc">koszorún</firstRhyme>
+                    <secondRhyme rhyme_lemma="ború" rhyme_pos="NOUN" rhyme_msd="Case=Sup|Number=Sing" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbcBc">borún</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w10 #w21">
+                    <firstRhyme rhyme_lemma="szeret" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfcfccfc">szerettem</firstRhyme>
+                    <secondRhyme rhyme_lemma="feleszik" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfcfccfc">felettem</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w27 #w38">
+                    <firstRhyme rhyme_lemma="szeret" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfcfcfcc">szeretett</firstRhyme>
+                    <secondRhyme rhyme_lemma="felett" rhyme_pos="ADP" rhyme_msd="_" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfcfcc">felett</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w33 #w44">
+                    <firstRhyme rhyme_lemma="este" rhyme_pos="NOUN" rhyme_msd="Case=Acc|Number=Sing" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="fccFc">estét</firstRhyme>
+                    <secondRhyme rhyme_lemma="emlék" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="fccFc">emlék</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w48 #w57">
+                    <firstRhyme rhyme_lemma="koszorú" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Plur" rhyme_numSyll="3" rhyme_phonType="low" rhyme_phonStruct="cbcbcBc">koszorúk</firstRhyme>
+                    <secondRhyme rhyme_lemma="elborul" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="3" rhyme_phonType="mixed" rhyme_phonStruct="fccbcbc">elborul</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w54 #w60">
+                    <firstRhyme rhyme_lemma="dereng" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfcfccfcc">derengett</firstRhyme>
+                    <secondRhyme rhyme_lemma="mellett" rhyme_pos="ADP" rhyme_msd="_" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfccfcc">mellett</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w5 #w6 #w7" allStruct="ana" posTags="SCONJ ADJ PRON" msdTags="_ Case=Nom|Degree=Pos|Number=Sing Case=Nom|Number=Sing|Person=3|PronType=Tot" lemmas="mert szőke mind">Mert szőke mind</alliteration>
                 <alliteration target="#w10 #w11 #w12" allStruct="ana" posTags="VERB DET NOUN" msdTags="Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act Definite=Def|PronType=Art Case=Nom|Number=Sing|Number[psor]=Plur|Person[psor]=3" lemmas="szeret a szőkeség">szerettem A szőkeségük</alliteration>

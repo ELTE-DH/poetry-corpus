@@ -120,12 +120,12 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="2" div_numLine="8" div_numWord="33" div_numSyll="69" div_numShortSyll="30" div_numLongSyll="39" div_rhyme="abcb|abcb" div_syllPattern="8-9-8-10|8-9-8-9">
+            <div type="poem" div_numStanza="2" div_numLine="8" div_numWord="33" div_numSyll="69" div_numShortSyll="30" div_numLongSyll="39" div_rhyme="abcb|abcb" div_syllPattern="8-9-8-10|8-9-8-9" met_qual="False" met_quan="iambic" met_quanScore="0.35">
                 <head type="title">LELKEK A PÁNYVÁN</head>
                 <lg xml:id="lg1" lg_numLine="4" lg_numWord="14" lg_numSyll="35" lg_numShortSyll="16" lg_numLongSyll="19" rhyme="abcb" lg_syllPattern="8-9-8-10">
                     <l xml:id="l1" l_numWord="3" l_numSyll="8" l_numShortSyll="4" l_numLongSyll="4" real="01110100">
@@ -192,7 +192,16 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w7 #w14">
+                    <firstRhyme rhyme_lemma="tűz" rhyme_pos="NOUN" rhyme_msd="Case=Ine|Number=Sing" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cFccfc">tűzben</firstRhyme>
+                    <secondRhyme rhyme_lemma="űz" rhyme_pos="VERB" rhyme_msd="Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="Fccfc">űztem</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w23 #w33">
+                    <firstRhyme rhyme_lemma="mén" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cFcfc">ménet</firstRhyme>
+                    <secondRhyme rhyme_lemma="lélek" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cFcfc">lélek</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w9 #w10 #w11 #w12 #w13" allStruct="anana" posTags="ADV VERB ADV VERB ADV" msdTags="_ Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act _ Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act _" lemmas="hiába korbácsol hiába űz hiába">hiába korbácsoltam Hiába űztem hiába</alliteration>
                 <alliteration target="#w12 #w13 #w14" allStruct="ana" posTags="VERB ADV VERB" msdTags="Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act _ Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act" lemmas="űz hiába űz">űztem hiába űztem</alliteration>

@@ -111,12 +111,12 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="2" div_numLine="8" div_numWord="34" div_numSyll="75" div_numShortSyll="37" div_numLongSyll="38" div_rhyme="a|abacada" div_syllPattern="8|10-9-8-11-10-11-8">
+            <div type="poem" div_numStanza="2" div_numLine="8" div_numWord="34" div_numSyll="75" div_numShortSyll="37" div_numLongSyll="38" div_rhyme="a|abacada" div_syllPattern="8|10-9-8-11-10-11-8" met_qual="False" met_quan="iambic" met_quanScore="0.68">
                 <head type="title">Jaj, az estét úgy szeretem.</head>
                 <lg xml:id="lg1" lg_numLine="1" lg_numWord="5" lg_numSyll="8" lg_numShortSyll="5" lg_numLongSyll="3" rhyme="a" lg_syllPattern="8">
                     <l xml:id="l1" l_numWord="5" l_numSyll="8" l_numShortSyll="5" l_numLongSyll="3" real="00111000">
@@ -182,7 +182,20 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w10 #w18">
+                    <firstRhyme rhyme_lemma="szerecsengyerek" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="5" rhyme_phonType="high" rhyme_phonStruct="cfcfcfccfcfc">szerecsengyerek</firstRhyme>
+                    <secondRhyme rhyme_lemma="téveteg" rhyme_pos="ADJ" rhyme_msd="Case=Nom|Degree=Pos|Number=Sing" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cFcfcfc">téveteg</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w18 #w27">
+                    <firstRhyme rhyme_lemma="téveteg" rhyme_pos="ADJ" rhyme_msd="Case=Nom|Degree=Pos|Number=Sing" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cFcfcfc">téveteg</firstRhyme>
+                    <secondRhyme rhyme_lemma="tűz" rhyme_pos="NOUN" rhyme_msd="Case=Acc|Number=Plur" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfcfcfc">tüzeket</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w27 #w34">
+                    <firstRhyme rhyme_lemma="tűz" rhyme_pos="NOUN" rhyme_msd="Case=Acc|Number=Plur" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfcfcfc">tüzeket</firstRhyme>
+                    <secondRhyme rhyme_lemma="ereget" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="fcfcfc">ereget</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w7 #w8" allStruct="aa" posTags="NOUN DET" msdTags="Case=Nom|Number=Sing Definite=Ind|PronType=Art" lemmas="este egy">este egy</alliteration>
                 <alliteration target="#w9 #w10 #w11" allStruct="ana" posTags="ADJ NOUN PRON" msdTags="Case=Nom|Degree=Pos|Number=Sing Case=Nom|Number=Sing Case=Nom|Number=Sing|Person=3|PronType=Int" lemmas="kis szerecsengyerek ki">kis szerecsengyerek ki</alliteration>

@@ -112,12 +112,12 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="3" div_numLine="12" div_numWord="53" div_numSyll="121" div_numShortSyll="58" div_numLongSyll="63" div_rhyme="abcb|abcb|abcb" div_syllPattern="10-10-10-10|10-10-11-10|10-10-10-10">
+            <div type="poem" div_numStanza="3" div_numLine="12" div_numWord="53" div_numSyll="121" div_numShortSyll="58" div_numLongSyll="63" div_rhyme="abcb|abcb|abcb" div_syllPattern="10-10-10-10|10-10-11-10|10-10-10-10" met_qual="False" met_quan="iambic" met_quanScore="0.73">
                 <head type="title">A karácsonyfa megérkezik</head>
                 <lg xml:id="lg1" lg_numLine="4" lg_numWord="19" lg_numSyll="40" lg_numShortSyll="24" lg_numLongSyll="16" rhyme="abcb" lg_syllPattern="10-10-10-10">
                     <l xml:id="l1" l_numWord="4" l_numSyll="10" l_numShortSyll="6" l_numLongSyll="4" real="0101010100">
@@ -217,7 +217,20 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w8 #w19">
+                    <firstRhyme rhyme_lemma="rengeteg" rhyme_pos="NUM" rhyme_msd="Case=Nom|Number=Sing|NumType=Card" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfccfcfc">rengeteg</firstRhyme>
+                    <secondRhyme rhyme_lemma="szekér" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Plur" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfcfcfc">szekerek</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w27 #w37">
+                    <firstRhyme rhyme_lemma="jár" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="1" rhyme_phonType="low" rhyme_phonStruct="cBc">jár</firstRhyme>
+                    <secondRhyme rhyme_lemma="már" rhyme_pos="ADV" rhyme_msd="_" rhyme_numSyll="1" rhyme_phonType="low" rhyme_phonStruct="cBc">már</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w45 #w53">
+                    <firstRhyme rhyme_lemma="illat" rhyme_pos="NOUN" rhyme_msd="Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3" rhyme_numSyll="3" rhyme_phonType="mixed" rhyme_phonStruct="fccbcBc">illatát</firstRhyme>
+                    <secondRhyme rhyme_lemma="maga" rhyme_pos="PRON" rhyme_msd="Case=Acc|Number=Sing|Person=3|Reflex=Yes" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbcBc">magát</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w11 #w12" allStruct="aa" posTags="ADV VERB" msdTags="_ Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" lemmas="most megáll">most megállnak</alliteration>
                 <alliteration target="#w25 #w26" allStruct="aa" posTags="ADP NOUN" msdTags="_ Case=Sub|Number=Sing" lemmas="közt kézről-kéz">közt kézről-kézre</alliteration>

@@ -120,12 +120,12 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="2" div_numLine="16" div_numWord="67" div_numSyll="136" div_numShortSyll="53" div_numLongSyll="83" div_rhyme="abcbdefe|ababcded" div_syllPattern="9-8-9-8-9-8-9-8|9-8-9-8-9-8-9-8">
+            <div type="poem" div_numStanza="2" div_numLine="16" div_numWord="67" div_numSyll="136" div_numShortSyll="53" div_numLongSyll="83" div_rhyme="abcbdefe|abcbdefe" div_syllPattern="9-8-9-8-9-8-9-8|9-8-9-8-9-8-9-8" met_qual="4-3-2_4-1-3" met_quan="iambic" met_quanScore="0.52">
                 <head type="title">HALOTTAK NAPJÁN</head>
                 <lg xml:id="lg1" lg_numLine="8" lg_numWord="30" lg_numSyll="68" lg_numShortSyll="26" lg_numLongSyll="42" rhyme="abcbdefe" lg_syllPattern="9-8-9-8-9-8-9-8">
                     <l xml:id="l1" l_numWord="3" l_numSyll="9" l_numShortSyll="4" l_numLongSyll="5" real="010111010">
@@ -186,7 +186,7 @@
                         <pc xml:id="pc11" pos="PUNCT" join="left">!</pc>
                     </l>
                 </lg>
-                <lg xml:id="lg2" lg_numLine="8" lg_numWord="37" lg_numSyll="68" lg_numShortSyll="27" lg_numLongSyll="41" rhyme="ababcded" lg_syllPattern="9-8-9-8-9-8-9-8">
+                <lg xml:id="lg2" lg_numLine="8" lg_numWord="37" lg_numSyll="68" lg_numShortSyll="27" lg_numLongSyll="41" rhyme="abcbdefe" lg_syllPattern="9-8-9-8-9-8-9-8">
                     <l xml:id="l9" l_numWord="5" l_numSyll="9" l_numShortSyll="5" l_numLongSyll="4" real="100010110">
                         <w xml:id="w31" lemma="annyi" pos="PRON" msd="Case=Nom|Number=Sing|Person=3|PronType=Dem" w_numSyll="2" phonType="mixed" phonStruct="bccf">Annyi</w>
                         <w xml:id="w32" lemma="nyomor" pos="NOUN" msd="Case=Nom|Number=Sing" w_numSyll="2" phonType="low" phonStruct="cbcbc">nyomor</w>
@@ -255,7 +255,24 @@
                 </lg>
                 <p>1899. november 1.</p>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w6 #w14">
+                    <firstRhyme rhyme_lemma="temet" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfcfcfcc">temetünk</firstRhyme>
+                    <secondRhyme rhyme_lemma="élet" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing|Number[psor]=Plur|Person[psor]=1" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="Fcfcfcc">életünk</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w20 #w30">
+                    <firstRhyme rhyme_lemma="van" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbcbcc">vagyunk</firstRhyme>
+                    <secondRhyme rhyme_lemma="sír" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Pot|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="3" rhyme_phonType="mixed" rhyme_phonStruct="cFccbcbcc">sírhatunk</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w39 #w48">
+                    <firstRhyme rhyme_lemma="sárgolyó" rhyme_pos="NOUN" rhyme_msd="Case=Sup|Number=Sing" rhyme_numSyll="3" rhyme_phonType="low" rhyme_phonStruct="cBccbcBc">sárgolyón</firstRhyme>
+                    <secondRhyme rhyme_lemma="ón" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="1" rhyme_phonType="low" rhyme_phonStruct="Bc">ón</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w57 #w67">
+                    <firstRhyme rhyme_lemma="önmaga" rhyme_pos="PRON" rhyme_msd="Case=Nom|Number=Plur|Person=1|Reflex=Yes" rhyme_numSyll="3" rhyme_phonType="mixed" rhyme_phonStruct="fccbcbcc">önmagunk</firstRhyme>
+                    <secondRhyme rhyme_lemma="sír" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Pot|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="3" rhyme_phonType="mixed" rhyme_phonStruct="cFccbcbcc">sírhatunk</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w31 #w32 #w33" allStruct="ana" posTags="PRON NOUN PRON" msdTags="Case=Nom|Number=Sing|Person=3|PronType=Dem Case=Nom|Number=Sing Case=Nom|Number=Sing|Person=3|PronType=Dem" lemmas="annyi nyomor annyi">Annyi nyomor annyi</alliteration>
                 <alliteration target="#w40 #w41 #w42" allStruct="ana" posTags="ADJ VERB PRON" msdTags="Case=Nom|Degree=Pos|Number=Sing Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act Case=Nom|Number=Sing|Person=3|PronType=Int" lemmas="hulló levél hány">Hulló levélt hányszor</alliteration>

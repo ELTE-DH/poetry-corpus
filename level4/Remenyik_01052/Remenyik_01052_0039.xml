@@ -112,12 +112,12 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="4" div_numLine="8" div_numWord="48" div_numSyll="78" div_numShortSyll="34" div_numLongSyll="44" div_rhyme="aa|aa|aa|aa" div_syllPattern="10-10|10-10|9-9|10-10">
+            <div type="poem" div_numStanza="4" div_numLine="8" div_numWord="48" div_numSyll="78" div_numShortSyll="34" div_numLongSyll="44" div_rhyme="aa|aa|aa|aa" div_syllPattern="10-10|10-10|9-9|10-10" met_qual="5-5" met_quan="iambic" met_quanScore="0.61">
                 <head type="title">Örök béke</head>
                 <lg xml:id="lg1" lg_numLine="2" lg_numWord="12" lg_numSyll="20" lg_numShortSyll="9" lg_numLongSyll="11" rhyme="aa" lg_syllPattern="10-10">
                     <l xml:id="l1" l_numWord="5" l_numSyll="10" l_numShortSyll="4" l_numLongSyll="6" real="1100111100">
@@ -207,7 +207,24 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w5 #w12">
+                    <firstRhyme rhyme_lemma="kongresszus" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Plur" rhyme_numSyll="4" rhyme_phonType="mixed" rhyme_phonStruct="cbcccfccbcbc">kongresszusok</firstRhyme>
+                    <secondRhyme rhyme_lemma="jog" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="1" rhyme_phonType="low" rhyme_phonStruct="cbc">jog</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w17 #w23">
+                    <firstRhyme rhyme_lemma="felett" rhyme_pos="ADP" rhyme_msd="_" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfcfcc">felett</firstRhyme>
+                    <secondRhyme rhyme_lemma="kötet" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Plur" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfcfcfc">kötetek</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w31 #w36">
+                    <firstRhyme rhyme_lemma="Hága" rhyme_pos="PROPN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cBcb">Hága</firstRhyme>
+                    <secondRhyme rhyme_lemma="világ" rhyme_pos="NOUN" rhyme_msd="Case=Sub|Number=Sing" rhyme_numSyll="3" rhyme_phonType="mixed" rhyme_phonStruct="cfcBccb">világra</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w42 #w48">
+                    <firstRhyme rhyme_lemma="fakereszt" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="3" rhyme_phonType="mixed" rhyme_phonStruct="cbcfcfcc">fakereszt</firstRhyme>
+                    <secondRhyme rhyme_lemma="ez" rhyme_pos="PRON" rhyme_msd="Case=Acc|Number=Sing|Person=3|PronType=Dem" rhyme_numSyll="1" rhyme_phonType="high" rhyme_phonStruct="fcc">ezt</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w4 #w5 #w6" allStruct="ana" posTags="ADV NOUN ADV" msdTags="PronType=Neg Case=Nom|Number=Plur PronType=Neg" lemmas="nem kongresszus nem">nem kongresszusok Nem</alliteration>
                 <alliteration target="#w16 #w17 #w18" allStruct="ana" posTags="NOUN ADP ADV" msdTags="Case=Nom|Number=Plur _ PronType=Neg" lemmas="nemzet felett nem">nemzetek felett Nem</alliteration>

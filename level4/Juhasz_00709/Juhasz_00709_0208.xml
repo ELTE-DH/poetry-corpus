@@ -111,12 +111,12 @@
 		<revisionDesc>
 			<change when="2021-07-05">level1</change>
 			<change when="2021-08-05">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="2" div_numLine="8" div_numWord="40" div_numSyll="80" div_numShortSyll="35" div_numLongSyll="45" div_rhyme="abcb|abcb" div_syllPattern="11-10-11-8|11-10-11-8">
+            <div type="poem" div_numStanza="2" div_numLine="8" div_numWord="40" div_numSyll="80" div_numShortSyll="35" div_numLongSyll="45" div_rhyme="abcb|abcb" div_syllPattern="11-10-11-8|11-10-11-8" met_qual="False" met_quan="iambic" met_quanScore="0.67">
                 <head type="title">Ofélia</head>
                 <lg xml:id="lg1" lg_numLine="4" lg_numWord="19" lg_numSyll="40" lg_numShortSyll="18" lg_numLongSyll="22" rhyme="abcb" lg_syllPattern="11-10-11-8">
                     <l xml:id="l1" l_numWord="6" l_numSyll="11" l_numShortSyll="3" l_numLongSyll="8" real="11010111110">
@@ -187,7 +187,16 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w11 #w19">
+                    <firstRhyme rhyme_lemma="tragédia" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="4" rhyme_phonType="mixed" rhyme_phonStruct="ccbcFcfb">tragédia</firstRhyme>
+                    <secondRhyme rhyme_lemma="Ofélia" rhyme_pos="PROPN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="4" rhyme_phonType="mixed" rhyme_phonStruct="bcFcfb">Ofélia</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w30 #w40">
+                    <firstRhyme rhyme_lemma="világ" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="2" rhyme_phonType="mixed" rhyme_phonStruct="cfcBc">világ</firstRhyme>
+                    <secondRhyme rhyme_lemma="Ofélia" rhyme_pos="PROPN" rhyme_msd="Case=Acc|Number=Sing" rhyme_numSyll="4" rhyme_phonType="mixed" rhyme_phonStruct="bcFcfBc">Oféliát</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w12 #w13" allStruct="aa" posTags="NOUN VERB" msdTags="Case=Ill|Number=Sing|Number[psor]=Sing|Person[psor]=3 Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" lemmas="sír süllyed">Sírjába süllyed</alliteration>
                 <alliteration target="#w23 #w24" allStruct="aa" posTags="ADJ NOUN" msdTags="Case=Nom|Degree=Pos|Number=Sing Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3" lemmas="titkos tragédia">titkos tragédiája</alliteration>

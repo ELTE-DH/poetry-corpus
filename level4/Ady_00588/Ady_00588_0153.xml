@@ -120,12 +120,12 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="2" div_numLine="6" div_numWord="26" div_numSyll="44" div_numShortSyll="21" div_numLongSyll="23" div_rhyme="aab|aab" div_syllPattern="7-9-6|7-9-6">
+            <div type="poem" div_numStanza="2" div_numLine="6" div_numWord="26" div_numSyll="44" div_numShortSyll="21" div_numLongSyll="23" div_rhyme="aab|aab" div_syllPattern="7-9-6|7-9-6" met_qual="False" met_quan="iambic" met_quanScore="0.57">
                 <head type="title">KERESZTTEL HAGYLAK ITT</head>
                 <lg xml:id="lg1" lg_numLine="3" lg_numWord="12" lg_numSyll="22" lg_numShortSyll="10" lg_numLongSyll="12" rhyme="aab" lg_syllPattern="7-9-6">
                     <l xml:id="l1" l_numWord="4" l_numSyll="7" l_numShortSyll="4" l_numLongSyll="3" real="1100010">
@@ -177,7 +177,16 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w4 #w9">
+                    <firstRhyme rhyme_lemma="el" rhyme_pos="ADV" rhyme_msd="_" rhyme_numSyll="1" rhyme_phonType="high" rhyme_phonStruct="fc">el</firstRhyme>
+                    <secondRhyme rhyme_lemma="kereszt" rhyme_pos="NOUN" rhyme_msd="Case=Ins|Number=Sing" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfcfcccfc">kereszttel</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w15 #w21">
+                    <firstRhyme rhyme_lemma="áll" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=2" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="Bccbc">állad</firstRhyme>
+                    <secondRhyme rhyme_lemma="váll" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=2" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cBccbc">vállad</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w3 #w4" allStruct="aa" posTags="VERB ADV" msdTags="Definite=Ind|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act _" lemmas="ereszt el">eressz el</alliteration>
                 <alliteration target="#w8 #w9 #w10 #w11" allStruct="aana" posTags="ADJ NOUN SCONJ PROPN" msdTags="Case=Nom|Degree=Pos|Number=Sing Case=Ins|Number=Sing _ Case=Nom|Number=Sing" lemmas="kigyult kereszt mint Krisztus">kigyult kereszttel Mint Krisztus</alliteration>

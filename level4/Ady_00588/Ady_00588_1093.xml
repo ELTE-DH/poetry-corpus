@@ -120,12 +120,12 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="2" div_numLine="8" div_numWord="34" div_numSyll="65" div_numShortSyll="31" div_numLongSyll="34" div_rhyme="abcb|abcb" div_syllPattern="9-9-9-6|9-8-9-6">
+            <div type="poem" div_numStanza="2" div_numLine="8" div_numWord="34" div_numSyll="65" div_numShortSyll="31" div_numLongSyll="34" div_rhyme="abcb|abcb" div_syllPattern="9-9-9-6|9-8-9-6" met_qual="False" met_quan="iambic" met_quanScore="0.37">
                 <head type="title">[RÉVÉSZ BÉLÁNAK]</head>
                 <lg xml:id="lg1" lg_numLine="4" lg_numWord="17" lg_numSyll="33" lg_numShortSyll="18" lg_numLongSyll="15" rhyme="abcb" lg_syllPattern="9-9-9-6">
                     <l xml:id="l1" l_numWord="4" l_numSyll="9" l_numShortSyll="4" l_numLongSyll="5" real="010111010">
@@ -193,7 +193,16 @@
                 </lg>
                 <p>1906-1907 évekből</p>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w9 #w17">
+                    <firstRhyme rhyme_lemma="húr" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="1" rhyme_phonType="low" rhyme_phonStruct="cBc">húr</firstRhyme>
+                    <secondRhyme rhyme_lemma="úr" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="1" rhyme_phonType="low" rhyme_phonStruct="Bc">úr</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w26 #w34">
+                    <firstRhyme rhyme_lemma="hangulat" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="3" rhyme_phonType="low" rhyme_phonStruct="cbccbcbc">hangulat</firstRhyme>
+                    <secondRhyme rhyme_lemma="úr" rhyme_pos="NOUN" rhyme_msd="Case=Acc|Number=Sing" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="bcbc">urat</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w29 #w30 #w31" allStruct="ana" posTags="PRON VERB ADV" msdTags="Case=Nom|Number=Sing|Person=3|PronType=Int Definite=Def|Mood=Imp|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act _" lemmas="meddig vár még">meddig várjuk még</alliteration>
             </alliterations>

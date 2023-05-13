@@ -112,12 +112,12 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="5" div_numLine="20" div_numWord="108" div_numSyll="210" div_numShortSyll="98" div_numLongSyll="112" div_rhyme="abcb|abcb|abcb|abcd|abcb" div_syllPattern="10-11-11-11|11-10-10-10|10-11-10-11|10-11-10-11|10-11-10-11">
+            <div type="poem" div_numStanza="5" div_numLine="20" div_numWord="108" div_numSyll="210" div_numShortSyll="98" div_numLongSyll="112" div_rhyme="abcb|abcb|abcb|abcd|abcb" div_syllPattern="10-11-11-11|11-10-10-10|10-11-10-11|10-11-10-11|10-11-10-11" met_qual="False" met_quan="iambic" met_quanScore="0.43">
                 <head type="title">Tőlem...</head>
                 <lg xml:id="lg1" lg_numLine="4" lg_numWord="21" lg_numSyll="43" lg_numShortSyll="18" lg_numLongSyll="25" rhyme="abcb" lg_syllPattern="10-11-11-11">
                     <l xml:id="l1" l_numWord="5" l_numSyll="10" l_numShortSyll="4" l_numLongSyll="6" real="1101110100">
@@ -299,7 +299,24 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w11 #w21">
+                    <firstRhyme rhyme_lemma="átok" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="Bcbc">átok</firstRhyme>
+                    <secondRhyme rhyme_lemma="szerenád" rhyme_pos="NOUN" rhyme_msd="Case=Acc|Number=Sing" rhyme_numSyll="4" rhyme_phonType="mixed" rhyme_phonStruct="cfcfcBcbc">szerenádot</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w31 #w41">
+                    <firstRhyme rhyme_lemma="senki" rhyme_pos="PRON" rhyme_msd="Case=Dat|Number=Sing|Person=3|PronType=Tot" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfccfcfc">senkinek</firstRhyme>
+                    <secondRhyme rhyme_lemma="rózsaliget" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Plur" rhyme_numSyll="5" rhyme_phonType="mixed" rhyme_phonStruct="cBcbcfcfcfc">rózsaligetek</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w53 #w64">
+                    <firstRhyme rhyme_lemma="egymás" rhyme_pos="PRON" rhyme_msd="Case=Dat|Number=Sing|Person=3|PronType=Rcp" rhyme_numSyll="3" rhyme_phonType="mixed" rhyme_phonStruct="fccBccbc">egymásnak</firstRhyme>
+                    <secondRhyme rhyme_lemma="áll" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Imp|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="Bcccbc">álljak</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w97 #w108">
+                    <firstRhyme rhyme_lemma="szél" rhyme_pos="NOUN" rhyme_msd="Case=Ins|Number=Sing" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cFccfc">széllel</firstRhyme>
+                    <secondRhyme rhyme_lemma="széjjel" rhyme_pos="ADV" rhyme_msd="_" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cFccfc">széjjel</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w11 #w12" allStruct="aa" posTags="NOUN NOUN" msdTags="Case=Nom|Number=Sing Case=Nom|Number=Sing" lemmas="átok ábrándos">átok Ábrándos</alliteration>
                 <alliteration target="#w18 #w19" allStruct="aa" posTags="PRON ADV" msdTags="Case=Dat|Number=Sing|Person=3|PronType=Tot PronType=Neg" lemmas="senki sem">senkinek sem</alliteration>

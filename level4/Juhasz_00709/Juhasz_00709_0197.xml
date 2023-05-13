@@ -111,14 +111,14 @@
 		<revisionDesc>
 			<change when="2021-07-05">level1</change>
 			<change when="2021-08-05">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="2" div_numLine="8" div_numWord="42" div_numSyll="88" div_numShortSyll="38" div_numLongSyll="50" div_rhyme="abbb|aaba" div_syllPattern="11-11-11-11|11-11-11-11">
+            <div type="poem" div_numStanza="2" div_numLine="8" div_numWord="42" div_numSyll="88" div_numShortSyll="38" div_numLongSyll="50" div_rhyme="abcb|abcb" div_syllPattern="11-11-11-11|11-11-11-11" met_qual="5-2-4" met_quan="iambic" met_quanScore="0.69">
                 <head type="title">Költők [1]</head>
-                <lg xml:id="lg1" lg_numLine="4" lg_numWord="20" lg_numSyll="44" lg_numShortSyll="19" lg_numLongSyll="25" rhyme="abbb" lg_syllPattern="11-11-11-11">
+                <lg xml:id="lg1" lg_numLine="4" lg_numWord="20" lg_numSyll="44" lg_numShortSyll="19" lg_numLongSyll="25" rhyme="abcb" lg_syllPattern="11-11-11-11">
                     <l xml:id="l1" l_numWord="5" l_numSyll="11" l_numShortSyll="4" l_numLongSyll="7" real="11011011010">
                         <w xml:id="w1" lemma="van" pos="VERB" msd="Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" w_numSyll="2" phonType="low" phonStruct="cbccbc">Vannak</w>
                         <w xml:id="w2" lemma="poéta" pos="NOUN" msd="Case=Nom|Number=Plur" w_numSyll="3" phonType="mixed" phonStruct="cbFcBc">poéták</w>
@@ -153,7 +153,7 @@
                         <pc xml:id="pc5" pos="PUNCT" join="left">.</pc>
                     </l>
                 </lg>
-                <lg xml:id="lg2" lg_numLine="4" lg_numWord="22" lg_numSyll="44" lg_numShortSyll="19" lg_numLongSyll="25" rhyme="aaba" lg_syllPattern="11-11-11-11">
+                <lg xml:id="lg2" lg_numLine="4" lg_numWord="22" lg_numSyll="44" lg_numShortSyll="19" lg_numLongSyll="25" rhyme="abcb" lg_syllPattern="11-11-11-11">
                     <l xml:id="l5" l_numWord="6" l_numSyll="11" l_numShortSyll="4" l_numLongSyll="7" real="11010111010">
                         <w xml:id="w21" lemma="egy" pos="DET" msd="Definite=Ind|PronType=Art" w_numSyll="1" phonType="high" phonStruct="fc">Egy</w>
                         <w xml:id="w22" lemma="szép" pos="ADJ" msd="Case=Nom|Degree=Cmp|Number=Sing" w_numSyll="1" phonType="high" phonStruct="cfcc">szebb</w>
@@ -193,7 +193,16 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w10 #w20">
+                    <firstRhyme rhyme_lemma="költemény" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Plur" rhyme_numSyll="4" rhyme_phonType="high" rhyme_phonStruct="cfccfcFcfc">költemények</firstRhyme>
+                    <secondRhyme rhyme_lemma="szegény" rhyme_pos="ADJ" rhyme_msd="Case=Nom|Degree=Pos|Number=Plur" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfcFcfc">szegények</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w31 #w42">
+                    <firstRhyme rhyme_lemma="hevít" rhyme_pos="VERB" rhyme_msd="Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfcFcf">hevíti</firstRhyme>
+                    <secondRhyme rhyme_lemma="ír" rhyme_pos="VERB" rhyme_msd="VerbForm=Inf|Voice=Act" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="Fccf">írni</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w38 #w39" allStruct="aa" posTags="PRON PRON" msdTags="Case=Nom|Number=Plur|Person=3|PronType=Dem Case=Nom|Number=Plur|Person=3|PronType=Rel" lemmas="az aki">azok akik</alliteration>
             </alliterations>

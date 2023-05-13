@@ -111,12 +111,12 @@
 		<revisionDesc>
 			<change when="2021-07-05">level1</change>
 			<change when="2021-08-05">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="3" div_numLine="12" div_numWord="59" div_numSyll="125" div_numShortSyll="59" div_numLongSyll="66" div_rhyme="abcb|abcb|abab" div_syllPattern="10-10-11-10|11-10-11-10|11-10-11-10">
+            <div type="poem" div_numStanza="3" div_numLine="12" div_numWord="59" div_numSyll="125" div_numShortSyll="59" div_numLongSyll="66" div_rhyme="abcb|abcb|abab" div_syllPattern="10-10-11-10|11-10-11-10|11-10-11-10" met_qual="False" met_quan="iambic" met_quanScore="0.79">
                 <head type="title">Magyar palánta</head>
                 <lg xml:id="lg1" lg_numLine="4" lg_numWord="19" lg_numSyll="41" lg_numShortSyll="20" lg_numLongSyll="21" rhyme="abcb" lg_syllPattern="10-10-11-10">
                     <l xml:id="l1" l_numWord="4" l_numSyll="10" l_numShortSyll="4" l_numLongSyll="6" real="0111010101">
@@ -222,7 +222,24 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w11 #w19">
+                    <firstRhyme rhyme_lemma="alatt" rhyme_pos="ADP" rhyme_msd="_" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="bcbcc">alatt</firstRhyme>
+                    <secondRhyme rhyme_lemma="gondolat" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="3" rhyme_phonType="low" rhyme_phonStruct="cbccbcbc">gondolat</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w27 #w37">
+                    <firstRhyme rhyme_lemma="dúsgazdag" rhyme_pos="ADJ" rhyme_msd="Case=Ess|Degree=Pos|Number=Sing" rhyme_numSyll="4" rhyme_phonType="low" rhyme_phonStruct="cBccbccbcbc">dúsgazdagon</firstRhyme>
+                    <secondRhyme rhyme_lemma="parlag" rhyme_pos="NOUN" rhyme_msd="Case=Sup|Number=Sing" rhyme_numSyll="3" rhyme_phonType="low" rhyme_phonStruct="cbccbcbc">parlagon</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w42 #w54">
+                    <firstRhyme rhyme_lemma="fölött" rhyme_pos="ADP" rhyme_msd="_" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfcfccfc">fölöttem</firstRhyme>
+                    <secondRhyme rhyme_lemma="én" rhyme_pos="PRON" rhyme_msd="Case=Ine|Number=Sing|Person=1|PronType=Prs" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfccfc">bennem</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w48 #w59">
+                    <firstRhyme rhyme_lemma="ég" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="1" rhyme_phonType="high" rhyme_phonStruct="Fc">ég</firstRhyme>
+                    <secondRhyme rhyme_lemma="még" rhyme_pos="ADV" rhyme_msd="_" rhyme_numSyll="1" rhyme_phonType="high" rhyme_phonStruct="cFc">még</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w4 #w5 #w6" allStruct="aaa" posTags="ADV ADV ADV" msdTags="_ _ _" lemmas="talán talán tovább">talán Talán tovább</alliteration>
                 <alliteration target="#w13 #w14 #w15 #w16 #w17" allStruct="anana" posTags="NOUN ADJ NOUN ADJ NOUN" msdTags="Case=Ine|Number=Plur Case=Nom|Degree=Pos|Number=Sing Case=Ine|Number=Plur Case=Nom|Degree=Pos|Number=Sing Case=Ine|Number=Plur" lemmas="rög fekete rög véres rög">rögökben fekete rögökben Véres rögökben</alliteration>

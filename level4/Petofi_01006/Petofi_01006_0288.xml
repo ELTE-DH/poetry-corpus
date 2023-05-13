@@ -111,12 +111,12 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="2" div_numLine="8" div_numWord="38" div_numSyll="64" div_numShortSyll="32" div_numLongSyll="32" div_rhyme="abcb|abcb" div_syllPattern="8-8-8-8|8-8-8-8">
+            <div type="poem" div_numStanza="2" div_numLine="8" div_numWord="38" div_numSyll="64" div_numShortSyll="32" div_numLongSyll="32" div_rhyme="abcb|abcb" div_syllPattern="8-8-8-8|8-8-8-8" met_qual="3-5" met_quan="iambic" met_quanScore="0.65">
                 <head type="title">A NAP</head>
                 <lg xml:id="lg1" lg_numLine="4" lg_numWord="23" lg_numSyll="32" lg_numShortSyll="15" lg_numLongSyll="17" rhyme="abcb" lg_syllPattern="8-8-8-8">
                     <l xml:id="l1" l_numWord="8" l_numSyll="8" l_numShortSyll="7" l_numLongSyll="1" real="00010000">
@@ -188,7 +188,16 @@
                 </lg>
                 <p>Pest, 1845. február-március</p>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w13 #w23">
+                    <firstRhyme rhyme_lemma="tulajdonkép" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="4" rhyme_phonType="mixed" rhyme_phonStruct="cbcbccbccFc">tulajdonkép</firstRhyme>
+                    <secondRhyme rhyme_lemma="szappanbuborék" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="5" rhyme_phonType="mixed" rhyme_phonStruct="cbccbccbcbcFc">szappanbuborék</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w28 #w38">
+                    <firstRhyme rhyme_lemma="kelet" rhyme_pos="NOUN" rhyme_msd="Case=Sup|Number=Sing" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfcfcfc">keleten</firstRhyme>
+                    <secondRhyme rhyme_lemma="mesz" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfcfc">megyen</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w8 #w9 #w10 #w11" allStruct="aana" posTags="NOUN ADV ADV ADV" msdTags="Case=Nom|Number=Sing PronType=Neg _ _" lemmas="nap nem is nap">nap Nem is nap</alliteration>
                 <alliteration target="#w16 #w17" allStruct="aa" posTags="ADV CONJ" msdTags="_ _" lemmas="hát hát">hát hát</alliteration>

@@ -120,14 +120,14 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="3" div_numLine="12" div_numWord="45" div_numSyll="99" div_numShortSyll="46" div_numLongSyll="53" div_rhyme="abaa|abca|abca" div_syllPattern="9-9-7-8|9-9-7-8|9-9-7-8">
+            <div type="poem" div_numStanza="3" div_numLine="12" div_numWord="45" div_numSyll="99" div_numShortSyll="46" div_numLongSyll="53" div_rhyme="abca|abca|abca" div_syllPattern="9-9-7-8|9-9-7-8|9-9-7-8" met_qual="False" met_quan="anapestic" met_quanScore="0.25">
                 <head type="title">KACAGÁS ÉS SÍRÁS</head>
-                <lg xml:id="lg1" lg_numLine="4" lg_numWord="14" lg_numSyll="33" lg_numShortSyll="18" lg_numLongSyll="15" rhyme="abaa" lg_syllPattern="9-9-7-8">
+                <lg xml:id="lg1" lg_numLine="4" lg_numWord="14" lg_numSyll="33" lg_numShortSyll="18" lg_numLongSyll="15" rhyme="abca" lg_syllPattern="9-9-7-8">
                     <l xml:id="l1" l_numWord="4" l_numSyll="9" l_numShortSyll="4" l_numLongSyll="5" real="010011011">
                         <w xml:id="w1" lemma="kacag" pos="VERB" msd="VerbForm=Inf|Voice=Act" w_numSyll="3" phonType="mixed" phonStruct="cbcbccf">Kacagni</w>
                         <w xml:id="w2" lemma="nehéz" pos="ADJ" msd="Case=Nom|Degree=Pos|Number=Sing" w_numSyll="2" phonType="high" phonStruct="cfcFc">nehéz</w>
@@ -218,7 +218,20 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w4 #w14">
+                    <firstRhyme rhyme_lemma="könnyű" rhyme_pos="ADJ" rhyme_msd="Case=Nom|Degree=Cmp|Number=Sing" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfccfcc">könnyebb</firstRhyme>
+                    <secondRhyme rhyme_lemma="könny" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Plur" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfccfc">könnyek</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w17 #w29">
+                    <firstRhyme rhyme_lemma="más" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Plur" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cBcbc">mások</firstRhyme>
+                    <secondRhyme rhyme_lemma="kacagás" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Plur" rhyme_numSyll="4" rhyme_phonType="low" rhyme_phonStruct="cbcbcBcbc">kacagások</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w35 #w45">
+                    <firstRhyme rhyme_lemma="emlék" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="fccFc">emlék</firstRhyme>
+                    <secondRhyme rhyme_lemma="felelget" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="4" rhyme_phonType="high" rhyme_phonStruct="cfcfccfccFc">felelgetnék</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w33 #w34 #w35 #w36 #w37" allStruct="anana" posTags="DET ADJ NOUN ADJ PRON" msdTags="Definite=Ind|PronType=Art Case=Nom|Degree=Pos|Number=Sing Case=Nom|Number=Sing Case=Ess|Degree=Pos|Number=Sing Case=Nom|Number=Sing|Person=3|PronType=Dem" lemmas="egy babonás emlék riadozó ez">egy babonás emlék Riadozón ez</alliteration>
             </alliterations>

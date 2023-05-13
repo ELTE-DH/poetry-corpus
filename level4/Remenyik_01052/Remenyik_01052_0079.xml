@@ -112,12 +112,12 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="2" div_numLine="15" div_numWord="70" div_numSyll="126" div_numShortSyll="66" div_numLongSyll="60" div_rhyme="aababc|abcbcdefe" div_syllPattern="10-10-7-10-7-10|6-10-10-10-4-6-11-4-11">
+            <div type="poem" div_numStanza="2" div_numLine="15" div_numWord="70" div_numSyll="126" div_numShortSyll="66" div_numLongSyll="60" div_rhyme="aababc|abcbcdefe" div_syllPattern="10-10-7-10-7-10|6-10-10-10-4-6-11-4-11" met_qual="False" met_quan="iambic" met_quanScore="0.6">
                 <head type="title">Ave Halott!</head>
                 <lg xml:id="lg1" lg_numLine="6" lg_numWord="30" lg_numSyll="54" lg_numShortSyll="27" lg_numLongSyll="27" rhyme="aababc" lg_syllPattern="10-10-7-10-7-10">
                     <l xml:id="l1" l_numWord="6" l_numSyll="10" l_numShortSyll="5" l_numLongSyll="5" real="0001011101">
@@ -248,7 +248,32 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w6 #w12">
+                    <firstRhyme rhyme_lemma="tovább" rhyme_pos="ADV" rhyme_msd="_" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbcBcc">tovább</firstRhyme>
+                    <secondRhyme rhyme_lemma="láb" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="1" rhyme_phonType="low" rhyme_phonStruct="cBc">láb</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w12 #w21">
+                    <firstRhyme rhyme_lemma="láb" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="1" rhyme_phonType="low" rhyme_phonStruct="cBc">láb</firstRhyme>
+                    <secondRhyme rhyme_lemma="önmaga" rhyme_pos="PRON" rhyme_msd="Case=Acc|Number=Sing|Person=3|Reflex=Yes" rhyme_numSyll="3" rhyme_phonType="mixed" rhyme_phonStruct="fccbcBc">önmagát</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w15 #w24">
+                    <firstRhyme rhyme_lemma="ereszt" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Pot|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="fcfcccfc">ereszthet</firstRhyme>
+                    <secondRhyme rhyme_lemma="kereszt" rhyme_pos="NOUN" rhyme_msd="Case=Acc|Number=Sing" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfcfccfc">keresztet</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w37 #w50">
+                    <firstRhyme rhyme_lemma="mozdulatlan" rhyme_pos="ADJ" rhyme_msd="Case=Ess|Degree=Pos|Number=Sing" rhyme_numSyll="5" rhyme_phonType="low" rhyme_phonStruct="cbccbcbccbcbc">mozdulatlanul</firstRhyme>
+                    <secondRhyme rhyme_lemma="alkonyul" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="3" rhyme_phonType="low" rhyme_phonStruct="bccbcbc">alkonyul</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w43 #w53">
+                    <firstRhyme rhyme_lemma="név" rhyme_pos="NOUN" rhyme_msd="Case=Acc|Number=Sing" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfcfc">nevet</firstRhyme>
+                    <secondRhyme rhyme_lemma="van" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Pot|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfcfc">lehet</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w64 #w70">
+                    <firstRhyme rhyme_lemma="vég" rhyme_pos="NOUN" rhyme_msd="Case=Acc|Number=Sing" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cFcfc">véget</firstRhyme>
+                    <secondRhyme rhyme_lemma="te" rhyme_pos="PRON" rhyme_msd="Case=Acc|Number=Sing|Person=2|PronType=Prs" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cFcfc">Téged</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w37 #w38 #w39 #w40 #w41" allStruct="anana" posTags="ADJ VERB SCONJ DET NOUN" msdTags="Case=Ess|Degree=Pos|Number=Sing VerbForm=Inf|Voice=Act _ Definite=Def|PronType=Art Case=Nom|Number=Sing" lemmas="mozdulatlan hordoz mint a márvány">mozdulatlanul Hordozni mint a márvány</alliteration>
                 <alliteration target="#w43 #w44 #w45" allStruct="ana" posTags="NOUN CONJ ADV" msdTags="Case=Acc|Number=Sing _ PronType=Neg" lemmas="név s nem">nevet S nem</alliteration>

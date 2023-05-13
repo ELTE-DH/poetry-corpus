@@ -120,12 +120,12 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="3" div_numLine="15" div_numWord="75" div_numSyll="150" div_numShortSyll="60" div_numLongSyll="90" div_rhyme="aabbc|aabbc|aabbc" div_syllPattern="11-11-11-11-6|11-11-11-11-6|11-11-11-11-6">
+            <div type="poem" div_numStanza="3" div_numLine="15" div_numWord="75" div_numSyll="150" div_numShortSyll="60" div_numLongSyll="90" div_rhyme="aabbc|aabbc|aabbc" div_syllPattern="11-11-11-11-6|11-11-11-11-6|11-11-11-11-6" met_qual="5-6" met_quan="iambic" met_quanScore="0.49">
                 <head type="title">LÁZBAN</head>
                 <lg xml:id="lg1" lg_numLine="5" lg_numWord="24" lg_numSyll="50" lg_numShortSyll="22" lg_numLongSyll="28" rhyme="aabbc" lg_syllPattern="11-11-11-11-6">
                     <l xml:id="l1" l_numWord="6" l_numSyll="11" l_numShortSyll="6" l_numLongSyll="5" real="11010001010">
@@ -264,7 +264,32 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w6 #w10">
+                    <firstRhyme rhyme_lemma="álom" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Plur" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="Bccbc">álmok</firstRhyme>
+                    <secondRhyme rhyme_lemma="jár" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cBcbc">járok</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w16 #w20">
+                    <firstRhyme rhyme_lemma="lélek" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfccfc">lelkem</firstRhyme>
+                    <secondRhyme rhyme_lemma="lel" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfccfc">leltem</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w30 #w35">
+                    <firstRhyme rhyme_lemma="vár" rhyme_pos="ADV" rhyme_msd="VerbForm=Trans" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cBccb">Várva</firstRhyme>
+                    <secondRhyme rhyme_lemma="ruha" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3" rhyme_numSyll="3" rhyme_phonType="low" rhyme_phonStruct="cbcBcb">ruhája</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w41 #w45">
+                    <firstRhyme rhyme_lemma="kedv" rhyme_pos="NOUN" rhyme_msd="Case=Ins|Number=Sing" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfcccfc">kedvvel</firstRhyme>
+                    <secondRhyme rhyme_lemma="diákszerelem" rhyme_pos="NOUN" rhyme_msd="Case=Ins|Number=Sing" rhyme_numSyll="6" rhyme_phonType="mixed" rhyme_phonStruct="cfBccfcfcfccfc">diákszerelemmel</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w55 #w59">
+                    <firstRhyme rhyme_lemma="igézet" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="fcFcfc">igézet</firstRhyme>
+                    <secondRhyme rhyme_lemma="élet" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="Fcfc">élet</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w66 #w71">
+                    <firstRhyme rhyme_lemma="semmi" rhyme_pos="PRON" rhyme_msd="Case=Nom|Number=Sing|Person=3|PronType=Tot" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfccf">semmi</firstRhyme>
+                    <secondRhyme rhyme_lemma="lesz" rhyme_pos="VERB" rhyme_msd="VerbForm=Inf|Voice=Act" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfccf">lenni</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w1 #w2 #w3" allStruct="ana" posTags="PRON ADV VERB" msdTags="Case=Acc|Number=Sing|Person=3|PronType=Int _ Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" lemmas="ki rég kerül">Kit rég kerülnek</alliteration>
                 <alliteration target="#w5 #w6 #w7 #w8" allStruct="anaa" posTags="ADJ NOUN ADJ NOUN" msdTags="Case=Nom|Degree=Pos|Number=Sing Case=Nom|Number=Plur Case=Nom|Degree=Pos|Number=Sing Case=Ins|Number=Sing" lemmas="szerelmes álom szerelmes szív">szerelmes álmok Szerelmes szívvel</alliteration>

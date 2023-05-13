@@ -132,12 +132,12 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="2" div_numLine="8" div_numWord="32" div_numSyll="64" div_numShortSyll="32" div_numLongSyll="32" div_rhyme="abcb|abcb" div_syllPattern="8-8-8-8|8-8-8-8">
+            <div type="poem" div_numStanza="2" div_numLine="8" div_numWord="32" div_numSyll="64" div_numShortSyll="32" div_numLongSyll="32" div_rhyme="abcb|abcb" div_syllPattern="8-8-8-8|8-8-8-8" met_qual="4-4" met_quan="trochaic" met_quanScore="0.7">
                 <head type="title">CIVILIZÁCIÓ</head>
                 <lg xml:id="lg1" lg_numLine="4" lg_numWord="14" lg_numSyll="32" lg_numShortSyll="15" lg_numLongSyll="17" rhyme="abcb" lg_syllPattern="8-8-8-8">
                     <l xml:id="l1" l_numWord="3" l_numSyll="8" l_numShortSyll="5" l_numLongSyll="3" real="00101010">
@@ -201,7 +201,16 @@
                 </lg>
                 <p>(1877 után)</p>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w7 #w14">
+                    <firstRhyme rhyme_lemma="elv" rhyme_pos="NOUN" rhyme_msd="Case=Acc|Number=Sing" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="fccfc">elvet</firstRhyme>
+                    <secondRhyme rhyme_lemma="elvett" rhyme_pos="ADJ" rhyme_msd="Case=Nom|Degree=Pos|Number=Sing" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="fccfcc">elvett</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w22 #w32">
+                    <firstRhyme rhyme_lemma="igazgat" rhyme_pos="VERB" rhyme_msd="Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="4" rhyme_phonType="mixed" rhyme_phonStruct="fcbccbccb">igazgatja</firstRhyme>
+                    <secondRhyme rhyme_lemma="helybehagy" rhyme_pos="VERB" rhyme_msd="Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="4" rhyme_phonType="mixed" rhyme_phonStruct="cfccfcbccb">helybehagyja</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w7 #w8 #w9" allStruct="ana" posTags="NOUN DET ADJ" msdTags="Case=Acc|Number=Sing Definite=Def|PronType=Art Case=Nom|Degree=Cmp|Number=Sing" lemmas="elv az erős">elvet Az erősebb</alliteration>
                 <alliteration target="#w13 #w14" allStruct="aa" posTags="VERB ADJ" msdTags="Definite=Ind|Mood=Pot|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act Case=Nom|Degree=Pos|Number=Sing" lemmas="elvesz elvett">elvehetett elvett</alliteration>

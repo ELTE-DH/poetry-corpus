@@ -111,14 +111,14 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="4" div_numLine="16" div_numWord="78" div_numSyll="136" div_numShortSyll="57" div_numLongSyll="79" div_rhyme="abab|abcb|abcb|abcb" div_syllPattern="9-8-9-8|9-8-9-8|9-8-9-8|9-8-9-8">
+            <div type="poem" div_numStanza="4" div_numLine="16" div_numWord="78" div_numSyll="136" div_numShortSyll="57" div_numLongSyll="79" div_rhyme="abcb|abcb|abcb|abcb" div_syllPattern="9-8-9-8|9-8-9-8|9-8-9-8|9-8-9-8" met_qual="5-4_4-1-3" met_quan="iambic" met_quanScore="0.64">
                 <head type="title">Az ellenség</head>
-                <lg xml:id="lg1" lg_numLine="4" lg_numWord="21" lg_numSyll="34" lg_numShortSyll="13" lg_numLongSyll="21" rhyme="abab" lg_syllPattern="9-8-9-8">
+                <lg xml:id="lg1" lg_numLine="4" lg_numWord="21" lg_numSyll="34" lg_numShortSyll="13" lg_numLongSyll="21" rhyme="abcb" lg_syllPattern="9-8-9-8">
                     <l xml:id="l1" l_numWord="6" l_numSyll="9" l_numShortSyll="3" l_numLongSyll="6" real="110111010">
                         <w xml:id="w1" lemma="én" pos="PRON" msd="Case=Nom|Number=Sing|Person=1|PronType=Prs" w_numSyll="1" phonType="high" phonStruct="Fc">Én</w>
                         <w xml:id="w2" lemma="tesz" pos="VERB" msd="Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act" w_numSyll="2" phonType="high" phonStruct="cfccfc">tettem</w>
@@ -260,7 +260,24 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w11 #w21">
+                    <firstRhyme rhyme_lemma="kereszt" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfcfcc">kereszt</firstRhyme>
+                    <secondRhyme rhyme_lemma="ez" rhyme_pos="PRON" rhyme_msd="Case=Acc|Number=Sing|Person=3|PronType=Dem" rhyme_numSyll="1" rhyme_phonType="high" rhyme_phonStruct="fcc">ezt</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w30 #w38">
+                    <firstRhyme rhyme_lemma="vétkezik" rhyme_pos="VERB" rhyme_msd="Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cFccfcfc">vétkezem</firstRhyme>
+                    <secondRhyme rhyme_lemma="kéz" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfcfc">kezem</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w49 #w58">
+                    <firstRhyme rhyme_lemma="nyíl" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3" rhyme_numSyll="2" rhyme_phonType="mixed" rhyme_phonStruct="cfcb">nyila</firstRhyme>
+                    <secondRhyme rhyme_lemma="haramia" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="4" rhyme_phonType="mixed" rhyme_phonStruct="cbcbcfb">haramia</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w68 #w78">
+                    <firstRhyme rhyme_lemma="keres" rhyme_pos="VERB" rhyme_msd="Definite=Def|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfcfcc">keresd</firstRhyme>
+                    <secondRhyme rhyme_lemma="ez" rhyme_pos="PRON" rhyme_msd="Case=Acc|Number=Sing|Person=3|PronType=Dem" rhyme_numSyll="1" rhyme_phonType="high" rhyme_phonStruct="fcc">ezt</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w13 #w14 #w15 #w16 #w17" allStruct="anana" posTags="VERB PRON ADV NOUN PRON" msdTags="Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act Case=Nom|Number=Sing|Person=3|PronType=Prs _ Case=Nom|Number=Sing Case=Nom|Number=Sing|Person=1|Reflex=Yes" lemmas="mond innen mégis ámen maga">mondom innen mégis ámen Magam</alliteration>
                 <alliteration target="#w23 #w24" allStruct="aa" posTags="NOUN VERB" msdTags="Case=Ins|Number=Sing Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act" lemmas="verés ver">veréssel vert</alliteration>

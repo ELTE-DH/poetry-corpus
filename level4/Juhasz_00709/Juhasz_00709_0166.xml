@@ -111,12 +111,12 @@
 		<revisionDesc>
 			<change when="2021-07-05">level1</change>
 			<change when="2021-08-05">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="1" div_numLine="4" div_numWord="14" div_numSyll="34" div_numShortSyll="17" div_numLongSyll="17" div_rhyme="abab" div_syllPattern="9-8-9-8">
+            <div type="poem" div_numStanza="1" div_numLine="4" div_numWord="14" div_numSyll="34" div_numShortSyll="17" div_numLongSyll="17" div_rhyme="abab" div_syllPattern="9-8-9-8" met_qual="False" met_quan="iambic" met_quanScore="0.7">
                 <head type="title">(Erdélyből jönnek...)</head>
                 <lg xml:id="lg1" lg_numLine="4" lg_numWord="14" lg_numSyll="34" lg_numShortSyll="17" lg_numLongSyll="17" rhyme="abab" lg_syllPattern="9-8-9-8">
                     <l xml:id="l1" l_numWord="4" l_numSyll="9" l_numShortSyll="3" l_numLongSyll="6" real="111101010">
@@ -149,7 +149,16 @@
                 </lg>
                 <p>1933</p>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w4 #w10">
+                    <firstRhyme rhyme_lemma="jön" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfccfc">jönnek</firstRhyme>
+                    <secondRhyme rhyme_lemma="könyv" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Plur" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfccfc">könyvek</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w6 #w14">
+                    <firstRhyme rhyme_lemma="hadsereg" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="3" rhyme_phonType="mixed" rhyme_phonStruct="cbccfcfc">hadsereg</firstRhyme>
+                    <secondRhyme rhyme_lemma="meg" rhyme_pos="PART" rhyme_msd="_" rhyme_numSyll="1" rhyme_phonType="high" rhyme_phonStruct="cfc">meg</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w1 #w2 #w3" allStruct="ana" posTags="PROPN VERB ADV" msdTags="Case=Ela|Number=Sing Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act _" lemmas="Erdély jön egyre">Erdélyből jönnek egyre</alliteration>
                 <alliteration target="#w2 #w3 #w4" allStruct="ana" posTags="VERB ADV VERB" msdTags="Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act _ Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" lemmas="jön egyre jön">jönnek egyre jönnek</alliteration>

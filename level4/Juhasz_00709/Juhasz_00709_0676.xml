@@ -111,12 +111,12 @@
 		<revisionDesc>
 			<change when="2021-07-05">level1</change>
 			<change when="2021-08-05">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="3" div_numLine="12" div_numWord="43" div_numSyll="96" div_numShortSyll="40" div_numLongSyll="56" div_rhyme="abcb|abcb|aaaa" div_syllPattern="8-8-8-8|8-8-8-8|8-8-8-8">
+            <div type="poem" div_numStanza="3" div_numLine="12" div_numWord="43" div_numSyll="96" div_numShortSyll="40" div_numLongSyll="56" div_rhyme="abcb|abcb|abcb" div_syllPattern="8-8-8-8|8-8-8-8|8-8-8-8" met_qual="4-4" met_quan="trochaic" met_quanScore="0.76">
                 <head type="title">Nagyboldogasszony</head>
                 <lg xml:id="lg1" lg_numLine="4" lg_numWord="14" lg_numSyll="32" lg_numShortSyll="14" lg_numLongSyll="18" rhyme="abcb" lg_syllPattern="8-8-8-8">
                     <l xml:id="l1" l_numWord="3" l_numSyll="8" l_numShortSyll="3" l_numLongSyll="5" real="11101010">
@@ -175,7 +175,7 @@
                         <pc xml:id="pc7" pos="PUNCT" join="left">.</pc>
                     </l>
                 </lg>
-                <lg xml:id="lg3" lg_numLine="4" lg_numWord="13" lg_numSyll="32" lg_numShortSyll="14" lg_numLongSyll="18" rhyme="aaaa" lg_syllPattern="8-8-8-8">
+                <lg xml:id="lg3" lg_numLine="4" lg_numWord="13" lg_numSyll="32" lg_numShortSyll="14" lg_numLongSyll="18" rhyme="abcb" lg_syllPattern="8-8-8-8">
                     <l xml:id="l9" l_numWord="4" l_numSyll="8" l_numShortSyll="3" l_numLongSyll="5" real="10111010">
                         <w xml:id="w31" lemma="s" pos="CONJ" msd="_" w_numSyll="0" phonType="noVowels" phonStruct="c">S</w>
                         <w xml:id="w32" lemma="mintha" pos="CONJ" msd="_" w_numSyll="2" phonType="mixed" phonStruct="cfccb">mintha</w>
@@ -202,7 +202,20 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w7 #w14">
+                    <firstRhyme rhyme_lemma="fekve" rhyme_pos="ADV" rhyme_msd="_" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfccf">fekve</firstRhyme>
+                    <secondRhyme rhyme_lemma="regiment" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3" rhyme_numSyll="4" rhyme_phonType="high" rhyme_phonStruct="cfcfcfcccf">regimentje</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w22 #w30">
+                    <firstRhyme rhyme_lemma="róna" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Plur" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cBcBc">rónák</firstRhyme>
+                    <secondRhyme rhyme_lemma="mennyország" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="3" rhyme_phonType="mixed" rhyme_phonStruct="cfccbccBc">mennyország</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w38 #w43">
+                    <firstRhyme rhyme_lemma="száll" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cBcccb">szállna</firstRhyme>
+                    <secondRhyme rhyme_lemma="patróna" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3" rhyme_numSyll="4" rhyme_phonType="low" rhyme_phonStruct="cbccBcBcb">Patrónája</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w19 #w20 #w21" allStruct="ana" posTags="ADJ NOUN ADJ" msdTags="Case=Nom|Degree=Pos|Number=Sing Case=Nom|Number=Plur Case=Nom|Degree=Pos|Number=Sing" lemmas="szép leány szabad">Szép leányok szabad</alliteration>
                 <alliteration target="#w24 #w25 #w26" allStruct="ana" posTags="ADP ADJ NOUN" msdTags="_ Case=Nom|Degree=Pos|Number=Sing Case=Ine|Number=Sing" lemmas="fölött tiszta fény">fölöttünk tiszta fényben</alliteration>

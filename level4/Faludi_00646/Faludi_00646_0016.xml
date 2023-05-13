@@ -104,12 +104,12 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="2" div_numLine="10" div_numWord="25" div_numSyll="46" div_numShortSyll="18" div_numLongSyll="28" div_rhyme="aabccb|aaaa" div_syllPattern="6-6-3-6-5-3|4-3-5-5">
+            <div type="poem" div_numStanza="2" div_numLine="10" div_numWord="25" div_numSyll="46" div_numShortSyll="18" div_numLongSyll="28" div_rhyme="aabccb|aaaa" div_syllPattern="6-6-3-6-5-3|4-3-5-5" met_qual="False" met_quan="trochaic" met_quanScore="0.25">
                 <head type="title">DUETTO</head>
                 <p>1.</p>
                 <lg xml:id="lg1" lg_numLine="6" lg_numWord="13" lg_numSyll="29" lg_numShortSyll="14" lg_numLongSyll="15" rhyme="aabccb" lg_syllPattern="6-6-3-6-5-3">
@@ -169,7 +169,32 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w3 #w6">
+                    <firstRhyme rhyme_lemma="barát" rhyme_pos="NOUN" rhyme_msd="Case=Acc|Number=Sing" rhyme_numSyll="3" rhyme_phonType="low" rhyme_phonStruct="cbcBcbc">barátat</firstRhyme>
+                    <secondRhyme rhyme_lemma="társ" rhyme_pos="NOUN" rhyme_msd="Case=Acc|Number=Sing" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cBccbc">társat</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w7 #w13">
+                    <firstRhyme rhyme_lemma="talál" rhyme_pos="VERB" rhyme_msd="VerbForm=Inf|Voice=Act" rhyme_numSyll="3" rhyme_phonType="mixed" rhyme_phonStruct="cbcBccf">Találni</firstRhyme>
+                    <secondRhyme rhyme_lemma="elválik" rhyme_pos="VERB" rhyme_msd="VerbForm=Inf|Voice=Act" rhyme_numSyll="3" rhyme_phonType="mixed" rhyme_phonStruct="fccBccf">Elválni</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w10 #w12">
+                    <firstRhyme rhyme_lemma="nehezzép" rhyme_pos="ADJ" rhyme_msd="Case=Nom|Degree=Cmp|Number=Sing" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfcfccfcc">nehezzebb</firstRhyme>
+                    <secondRhyme rhyme_lemma="keservescsi" rhyme_pos="ADJ" rhyme_msd="Case=Nom|Degree=Cmp|Number=Sing" rhyme_numSyll="4" rhyme_phonType="high" rhyme_phonStruct="cfcfccfccfcc">keservessebb</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w17 #w19">
+                    <firstRhyme rhyme_lemma="sziv" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="1" rhyme_phonType="high" rhyme_phonStruct="cfc">sziv</firstRhyme>
+                    <secondRhyme rhyme_lemma="kincs" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="1" rhyme_phonType="high" rhyme_phonStruct="cfcc">kincs</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w19 #w22">
+                    <firstRhyme rhyme_lemma="kincs" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="1" rhyme_phonType="high" rhyme_phonStruct="cfcc">kincs</firstRhyme>
+                    <secondRhyme rhyme_lemma="hiv" rhyme_pos="ADJ" rhyme_msd="Case=Nom|Degree=Pos|Number=Sing" rhyme_numSyll="1" rhyme_phonType="high" rhyme_phonStruct="cfc">hiv</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w22 #w25">
+                    <firstRhyme rhyme_lemma="hiv" rhyme_pos="ADJ" rhyme_msd="Case=Nom|Degree=Pos|Number=Sing" rhyme_numSyll="1" rhyme_phonType="high" rhyme_phonStruct="cfc">hiv</firstRhyme>
+                    <secondRhyme rhyme_lemma="nincs" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="1" rhyme_phonType="high" rhyme_phonStruct="cfcc">nincs</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w6 #w7 #w8 #w9" allStruct="aana" posTags="NOUN VERB CONJ PRON" msdTags="Case=Acc|Number=Sing VerbForm=Inf|Voice=Act _ Case=Abl|Number=Sing|Person=3|PronType=Prs" lemmas="társ talál de ő">társat Találni De tőle</alliteration>
                 <alliteration target="#w20 #w21 #w22" allStruct="ana" posTags="SCONJ PRON ADJ" msdTags="_ Case=All|Number=Sing|Person=3|PronType=Rcp Case=Nom|Degree=Pos|Number=Sing" lemmas="ha egymás hiv">Ha egymáshoz hiv</alliteration>

@@ -103,12 +103,12 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="2" div_numLine="8" div_numWord="37" div_numSyll="62" div_numShortSyll="28" div_numLongSyll="34" div_rhyme="abcb|abcb" div_syllPattern="8-7-8-7|8-8-8-8">
+            <div type="poem" div_numStanza="2" div_numLine="8" div_numWord="37" div_numSyll="62" div_numShortSyll="28" div_numLongSyll="34" div_rhyme="abcb|abcb" div_syllPattern="8-7-8-7|8-8-8-8" met_qual="False" met_quan="trochaic" met_quanScore="0.58">
                 <head type="title">Gyermekleányok emlékkönyvébe</head>
                 <p>I</p>
                 <lg xml:id="lg1" lg_numLine="4" lg_numWord="19" lg_numSyll="30" lg_numShortSyll="14" lg_numLongSyll="16" rhyme="abcb" lg_syllPattern="8-7-8-7">
@@ -180,7 +180,16 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w8 #w19">
+                    <firstRhyme rhyme_lemma="maga" rhyme_pos="PRON" rhyme_msd="Case=Acc|Number=Sing|Person=3|Reflex=Yes" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbcBc">magát</firstRhyme>
+                    <secondRhyme rhyme_lemma="világ" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="2" rhyme_phonType="mixed" rhyme_phonStruct="cfcBc">világ</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w29 #w37">
+                    <firstRhyme rhyme_lemma="ver" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="1" rhyme_phonType="high" rhyme_phonStruct="cfc">ver</firstRhyme>
+                    <secondRhyme rhyme_lemma="ember" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="fccfc">ember</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w6 #w7 #w8" allStruct="ana" posTags="PRON VERB PRON" msdTags="Case=Nom|Number=Sing|Person=3|PronType=Rel Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act Case=Acc|Number=Sing|Person=3|Reflex=Yes" lemmas="mire becsül maga">Mire becsüli magát</alliteration>
             </alliterations>

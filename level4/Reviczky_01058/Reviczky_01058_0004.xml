@@ -108,12 +108,12 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="3" div_numLine="12" div_numWord="59" div_numSyll="102" div_numShortSyll="41" div_numLongSyll="61" div_rhyme="abcb|abcb|abcb" div_syllPattern="9-8-9-8|9-8-9-8|9-8-9-8">
+            <div type="poem" div_numStanza="3" div_numLine="12" div_numWord="59" div_numSyll="102" div_numShortSyll="41" div_numLongSyll="61" div_rhyme="abcb|abcb|abcb" div_syllPattern="9-8-9-8|9-8-9-8|9-8-9-8" met_qual="5-4_3-5" met_quan="iambic" met_quanScore="0.73">
                 <head type="title">IV. Szép volt és ifju, mint a hajnal</head>
                 <lg xml:id="lg1" lg_numLine="4" lg_numWord="20" lg_numSyll="34" lg_numShortSyll="15" lg_numLongSyll="19" rhyme="abcb" lg_syllPattern="9-8-9-8">
                     <l xml:id="l1" l_numWord="7" l_numSyll="9" l_numShortSyll="3" l_numLongSyll="6" real="111101010">
@@ -223,7 +223,20 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w12 #w20">
+                    <firstRhyme rhyme_lemma="alkonyat" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="3" rhyme_phonType="low" rhyme_phonStruct="bccbcbc">alkonyat</firstRhyme>
+                    <secondRhyme rhyme_lemma="sok" rhyme_pos="NUM" rhyme_msd="Case=Acc|Number=Sing|NumType=Card" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbcbc">sokat</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w28 #w39">
+                    <firstRhyme rhyme_lemma="visel" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfcfcc">viselt</firstRhyme>
+                    <secondRhyme rhyme_lemma="kel" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act" rhyme_numSyll="1" rhyme_phonType="high" rhyme_phonStruct="cfcc">kelt</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w48 #w59">
+                    <firstRhyme rhyme_lemma="szokás" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbcBc">szokás</firstRhyme>
+                    <secondRhyme rhyme_lemma="kékruhás" rhyme_pos="ADJ" rhyme_msd="Case=Nom|Degree=Pos|Number=Sing" rhyme_numSyll="3" rhyme_phonType="mixed" rhyme_phonStruct="cFccbcBc">kékruhás</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w11 #w12 #w13 #w14 #w15" allStruct="aanaa" posTags="DET NOUN DET NOUN DET" msdTags="Definite=Def|PronType=Art Case=Nom|Number=Sing Definite=Ind|PronType=Art Case=Abl|Number=Sing Definite=Def|PronType=Art" lemmas="az alkonyat egy angyal a">az alkonyat Egy angyaltól a</alliteration>
                 <alliteration target="#w33 #w34" allStruct="aa" posTags="SCONJ SCONJ" msdTags="_ _" lemmas="hogy ha">hogy ha</alliteration>

@@ -123,12 +123,12 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
 	<text>
 		<body>
-			<div type="poem">
+			<div met="Qual=False|Quan=anapestic|QuanScore=0.25" type="poem">
 				<head>ALSZIK A MAGYAR</head>
 				<lg rhyme="abca" xml:id="lg1">
 					<l n="10" real="1100000010" xml:id="l1">
@@ -163,7 +163,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc5">.</pc>
 					</l>
 				</lg>
-				<lg rhyme="abaa" xml:id="lg2">
+				<lg rhyme="abca" xml:id="lg2">
 					<l n="11" real="10011111010" xml:id="l5">
 						<w lemma="élet" msd="Case=Nom|Number=Sing" pos="NOUN" type="élet[/N]=élet+[Nom]=" xml:id="w19">Élet</w>
 						<w lemma="-e" msd="PronType=Int" pos="ADV" type="-e[/QPtcl]=-e" xml:id="w20">-e</w>
@@ -337,6 +337,12 @@
 				<span subtype="1" target="#w70" type="high">Fc</span>
 				<span subtype="2" target="#w71" type="low">cBcbc</span>
 			</spanGrp>
+			<linkGrp type="rhymePairs">
+				<link target="#w6 #w18"/>
+				<link target="#w25 #w34"/>
+				<link target="#w39 #w51"/>
+				<link target="#w57 #w71"/>
+			</linkGrp>
 			<spanGrp type="alliterations">
 				<span target="#w4 #w5 #w6 #w7" type="anaa"/>
 				<span target="#w12 #w13 #w14" type="ana"/>

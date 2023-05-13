@@ -103,12 +103,12 @@
 		<revisionDesc>
 			<change when="2021-06-10">level1</change>
 			<change when="2021-06-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="1" div_numLine="6" div_numWord="37" div_numSyll="55" div_numShortSyll="23" div_numLongSyll="32" div_rhyme="aabbcd" div_syllPattern="9-9-9-9-10-9">
+            <div type="poem" div_numStanza="1" div_numLine="6" div_numWord="37" div_numSyll="55" div_numShortSyll="23" div_numLongSyll="32" div_rhyme="aabbcd" div_syllPattern="9-9-9-9-10-9" met_qual="False" met_quan="dactylic" met_quanScore="0.31">
                 <head type="title">18. Metamorfózis</head>
                 <lg xml:id="lg1" lg_numLine="6" lg_numWord="37" lg_numSyll="55" lg_numShortSyll="23" lg_numLongSyll="32" rhyme="aabbcd" lg_syllPattern="9-9-9-9-10-9">
                     <l xml:id="l1" l_numWord="5" l_numSyll="9" l_numShortSyll="5" l_numLongSyll="4" real="010101010">
@@ -167,7 +167,16 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w5 #w11">
+                    <firstRhyme rhyme_lemma="menyasszony" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="3" rhyme_phonType="mixed" rhyme_phonStruct="cfcbccbc">menyasszony</firstRhyme>
+                    <secondRhyme rhyme_lemma="asszony" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="bccbc">asszony</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w15 #w22">
+                    <firstRhyme rhyme_lemma="menyecske" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfcfccf">menyecske</firstRhyme>
+                    <secondRhyme rhyme_lemma="mennyecske" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfccfccf">mennyecske</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w5 #w6 #w7 #w8" allStruct="aana" posTags="NOUN ADV ADV NOUN" msdTags="Case=Nom|Number=Sing _ _ Case=Nom|Number=Sing" lemmas="menyasszony még csupa menny">menyasszony Még csupa menny</alliteration>
                 <alliteration target="#w11 #w12 #w13" allStruct="ana" posTags="NOUN ADV PRON" msdTags="Case=Nom|Number=Sing _ Case=Nom|Number=Sing|Person=3|PronType=Rel" lemmas="asszony későbben amint">asszony Későbben amint</alliteration>

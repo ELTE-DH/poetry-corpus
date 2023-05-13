@@ -132,12 +132,12 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="1" div_numLine="4" div_numWord="22" div_numSyll="40" div_numShortSyll="13" div_numLongSyll="27" div_rhyme="aabb" div_syllPattern="10-10-10-10">
+            <div type="poem" div_numStanza="1" div_numLine="4" div_numWord="22" div_numSyll="40" div_numShortSyll="13" div_numLongSyll="27" div_rhyme="aabb" div_syllPattern="10-10-10-10" met_qual="2-2-1-3-2" met_quan="iambic" met_quanScore="0.72">
                 <head type="title">EMLÉKRE [1]</head>
                 <lg xml:id="lg1" lg_numLine="4" lg_numWord="22" lg_numSyll="40" lg_numShortSyll="13" lg_numLongSyll="27" rhyme="aabb" lg_syllPattern="10-10-10-10">
                     <l xml:id="l1" l_numWord="6" l_numSyll="10" l_numShortSyll="4" l_numLongSyll="6" real="1101111000">
@@ -182,7 +182,16 @@
                 </lg>
                 <p>(1869)</p>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w6 #w10">
+                    <firstRhyme rhyme_lemma="kő" rhyme_pos="NOUN" rhyme_msd="Case=Acc|Number=Sing" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfcfc">követ</firstRhyme>
+                    <secondRhyme rhyme_lemma="hírnév" rhyme_pos="NOUN" rhyme_msd="Case=Acc|Number=Sing" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cFccfcfc">hírnevet</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w15 #w22">
+                    <firstRhyme rhyme_lemma="dagály" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbcBc">dagály</firstRhyme>
+                    <secondRhyme rhyme_lemma="megáll" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="mixed" rhyme_phonStruct="cfcBccc">megállj</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w7 #w8" allStruct="aa" posTags="PRON PRON" msdTags="Case=Ins|Number=Sing|Person=3|PronType=Rel Case=Dat|Number=Plur|Person=1|Reflex=Yes" lemmas="amely maga">Mellyel magunknak</alliteration>
                 <alliteration target="#w14 #w15 #w16" allStruct="ana" posTags="ADJ NOUN CONJ" msdTags="Case=Nom|Degree=Pos|Number=Sing Case=Nom|Number=Sing _" lemmas="megkövült dagály mind">megkövült dagály Mind</alliteration>

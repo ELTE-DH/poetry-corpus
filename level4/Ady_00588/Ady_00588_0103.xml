@@ -120,12 +120,12 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="2" div_numLine="8" div_numWord="30" div_numSyll="56" div_numShortSyll="26" div_numLongSyll="30" div_rhyme="abbb|abbb" div_syllPattern="7-7-7-7|7-7-7-7">
+            <div type="poem" div_numStanza="2" div_numLine="8" div_numWord="30" div_numSyll="56" div_numShortSyll="26" div_numLongSyll="30" div_rhyme="abbb|abbb" div_syllPattern="7-7-7-7|7-7-7-7" met_qual="3-1-3" met_quan="iambic" met_quanScore="0.45">
                 <head type="title">A MAGYAR MESSIÁSOK</head>
                 <lg xml:id="lg1" lg_numLine="4" lg_numWord="14" lg_numSyll="28" lg_numShortSyll="13" lg_numLongSyll="15" rhyme="abbb" lg_syllPattern="7-7-7-7">
                     <l xml:id="l1" l_numWord="4" l_numSyll="7" l_numShortSyll="3" l_numLongSyll="4" real="1101010">
@@ -185,7 +185,24 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w9 #w11">
+                    <firstRhyme rhyme_lemma="más" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Plur" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cBcbc">mások</firstRhyme>
+                    <secondRhyme rhyme_lemma="messiás" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Plur" rhyme_numSyll="4" rhyme_phonType="mixed" rhyme_phonStruct="cfccfBcbc">Messiások</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w11 #w14">
+                    <firstRhyme rhyme_lemma="messiás" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Plur" rhyme_numSyll="4" rhyme_phonType="mixed" rhyme_phonStruct="cfccfBcbc">Messiások</firstRhyme>
+                    <secondRhyme rhyme_lemma="messiás" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Plur" rhyme_numSyll="4" rhyme_phonType="mixed" rhyme_phonStruct="cfccfBcbc">Messiások</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w22 #w26">
+                    <firstRhyme rhyme_lemma="kereszt" rhyme_pos="NOUN" rhyme_msd="Case=Dat|Number=Sing" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfcfcccfc">keresztnek</firstRhyme>
+                    <secondRhyme rhyme_lemma="tesz" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Pot|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfcfccfc">tehettek</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w26 #w30">
+                    <firstRhyme rhyme_lemma="tesz" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Pot|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfcfccfc">tehettek</firstRhyme>
+                    <secondRhyme rhyme_lemma="tesz" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Pot|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfcfccfc">tehettek</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w9 #w10 #w11 #w12 #w13 #w14" allStruct="ananaa" posTags="NOUN NUM NOUN DET ADJ NOUN" msdTags="Case=Nom|Number=Plur Case=Nom|Number=Sing|NumType=Card Case=Nom|Number=Plur Definite=Def|PronType=Art Case=Nom|Degree=Pos|Number=Sing Case=Nom|Number=Plur" lemmas="más ezer messiás a magyar messiás">mások Ezerszer Messiások A magyar Messiások</alliteration>
                 <alliteration target="#w24 #w25" allStruct="aa" posTags="PRON ADV" msdTags="Case=Acc|Number=Sing|Person=3|PronType=Tot PronType=Neg" lemmas="semmi se">semmit se</alliteration>

@@ -111,12 +111,12 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="6" div_numLine="12" div_numWord="45" div_numSyll="84" div_numShortSyll="32" div_numLongSyll="52" div_rhyme="ab|aa|ab|ab|ab|ab" div_syllPattern="9-5|9-5|9-5|9-5|9-5|9-5">
+            <div type="poem" div_numStanza="6" div_numLine="12" div_numWord="45" div_numSyll="84" div_numShortSyll="32" div_numLongSyll="52" div_rhyme="ab|aa|ab|ab|ab|ab" div_syllPattern="9-5|9-5|9-5|9-5|9-5|9-5" met_qual="3-6_5" met_quan="iambic" met_quanScore="0.78">
                 <head type="title">Írás régi könyvben</head>
                 <p>Csáth Géza</p>
                 <lg xml:id="lg1" lg_numLine="2" lg_numWord="6" lg_numSyll="14" lg_numShortSyll="5" lg_numLongSyll="9" rhyme="ab" lg_syllPattern="9-5">
@@ -215,7 +215,12 @@
                 </lg>
                 <p>1921</p>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w12 #w14">
+                    <firstRhyme rhyme_lemma="sirod" rhyme_pos="NOUN" rhyme_msd="Case=Ela|Number=Sing" rhyme_numSyll="3" rhyme_phonType="mixed" rhyme_phonStruct="cfcbccBc">sirodból</firstRhyme>
+                    <secondRhyme rhyme_lemma="sirás" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=2" rhyme_numSyll="3" rhyme_phonType="mixed" rhyme_phonStruct="cfcBcbc">sirásod</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w12 #w13 #w14" allStruct="ana" posTags="NOUN ADJ NOUN" msdTags="Case=Ela|Number=Sing Case=Nom|Degree=Pos|Number=Sing Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=2" lemmas="sirod fojtott sirás">sirodból fojtott sirásod</alliteration>
                 <alliteration target="#w19 #w20 #w21" allStruct="ana" posTags="NUM NOUN DET" msdTags="Case=Nom|Number=Sing|NumType=Card Case=Nom|Number=Sing Definite=Ind|PronType=Art" lemmas="egynehány szó egy">egynehány szó egy</alliteration>

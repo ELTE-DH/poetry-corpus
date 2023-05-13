@@ -111,12 +111,12 @@
 		<revisionDesc>
 			<change when="2021-07-05">level1</change>
 			<change when="2021-08-05">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="3" div_numLine="9" div_numWord="39" div_numSyll="81" div_numShortSyll="39" div_numLongSyll="42" div_rhyme="aaa|aaa|aaa" div_syllPattern="9-9-9|9-9-9|9-9-9">
+            <div type="poem" div_numStanza="3" div_numLine="9" div_numWord="39" div_numSyll="81" div_numShortSyll="39" div_numLongSyll="42" div_rhyme="aaa|aaa|aaa" div_syllPattern="9-9-9|9-9-9|9-9-9" met_qual="False" met_quan="iambic" met_quanScore="0.6">
                 <head type="title">Nyugasztaló</head>
                 <lg xml:id="lg1" lg_numLine="3" lg_numWord="14" lg_numSyll="27" lg_numShortSyll="14" lg_numLongSyll="13" rhyme="aaa" lg_syllPattern="9-9-9">
                     <l xml:id="l1" l_numWord="5" l_numSyll="9" l_numShortSyll="3" l_numLongSyll="6" real="111101010">
@@ -190,7 +190,32 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w5 #w9">
+                    <firstRhyme rhyme_lemma="felől" rhyme_pos="ADP" rhyme_msd="_" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfcFcfc">felőled</firstRhyme>
+                    <secondRhyme rhyme_lemma="temetőkert" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="4" rhyme_phonType="high" rhyme_phonStruct="cfcfcFcfcc">temetőkert</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w9 #w14">
+                    <firstRhyme rhyme_lemma="temetőkert" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="4" rhyme_phonType="high" rhyme_phonStruct="cfcfcFcfcc">temetőkert</firstRhyme>
+                    <secondRhyme rhyme_lemma="temető" rhyme_pos="NOUN" rhyme_msd="Case=Acc|Number=Plur" rhyme_numSyll="4" rhyme_phonType="high" rhyme_phonStruct="cfcfcFcfc">temetőket</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w19 #w23">
+                    <firstRhyme rhyme_lemma="te" rhyme_pos="PRON" rhyme_msd="Case=Dat|Number=Sing|Person=2|PronType=Prs" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cFcfc">néked</firstRhyme>
+                    <secondRhyme rhyme_lemma="messzeség" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Plur" rhyme_numSyll="4" rhyme_phonType="high" rhyme_phonStruct="cfccfcFcfc">messzeségek</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w23 #w28">
+                    <firstRhyme rhyme_lemma="messzeség" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Plur" rhyme_numSyll="4" rhyme_phonType="high" rhyme_phonStruct="cfccfcFcfc">messzeségek</firstRhyme>
+                    <secondRhyme rhyme_lemma="messzeség" rhyme_pos="NOUN" rhyme_msd="Case=Acc|Number=Sing" rhyme_numSyll="4" rhyme_phonType="high" rhyme_phonStruct="cfccfcFcfc">messzeséget</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w32 #w34">
+                    <firstRhyme rhyme_lemma="por" rhyme_pos="NOUN" rhyme_msd="Case=Ine|Number=Sing" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbccbc">porban</firstRhyme>
+                    <secondRhyme rhyme_lemma="alkonybibor" rhyme_pos="NOUN" rhyme_msd="Case=Ine|Number=Sing" rhyme_numSyll="5" rhyme_phonType="mixed" rhyme_phonStruct="bccbccfcbccbc">alkonybiborban</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w34 #w39">
+                    <firstRhyme rhyme_lemma="alkonybibor" rhyme_pos="NOUN" rhyme_msd="Case=Ine|Number=Sing" rhyme_numSyll="5" rhyme_phonType="mixed" rhyme_phonStruct="bccbccfcbccbc">alkonybiborban</firstRhyme>
+                    <secondRhyme rhyme_lemma="bor" rhyme_pos="NOUN" rhyme_msd="Case=Ine|Number=Sing" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbccbc">borban</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w8 #w9 #w10" allStruct="ana" posTags="ADV NOUN ADV" msdTags="_ Case=Nom|Number=Sing _" lemmas="ma temetőkert már">ma temetőkert Már</alliteration>
                 <alliteration target="#w17 #w18 #w19" allStruct="ana" posTags="ADV VERB PRON" msdTags="PronType=Neg Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act Case=Dat|Number=Sing|Person=2|PronType=Prs" lemmas="nem énekel te">nem énekelek néked</alliteration>

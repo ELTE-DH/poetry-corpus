@@ -120,12 +120,12 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="3" div_numLine="9" div_numWord="50" div_numSyll="96" div_numShortSyll="45" div_numLongSyll="51" div_rhyme="aba|aba|aba" div_syllPattern="11-10-11|11-10-11|11-10-11">
+            <div type="poem" div_numStanza="3" div_numLine="9" div_numWord="50" div_numSyll="96" div_numShortSyll="45" div_numLongSyll="51" div_rhyme="aba|aba|aba" div_syllPattern="11-10-11|11-10-11|11-10-11" met_qual="False" met_quan="iambic" met_quanScore="0.49">
                 <head type="title">A SZEMEIM SORSA</head>
                 <lg xml:id="lg1" lg_numLine="3" lg_numWord="14" lg_numSyll="32" lg_numShortSyll="19" lg_numLongSyll="13" rhyme="aba" lg_syllPattern="11-10-11">
                     <l xml:id="l1" l_numWord="4" l_numSyll="11" l_numShortSyll="5" l_numLongSyll="6" real="00111101010">
@@ -214,7 +214,20 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w4 #w14">
+                    <firstRhyme rhyme_lemma="vágyik" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cBccbc">vágytak</firstRhyme>
+                    <secondRhyme rhyme_lemma="kiván" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act" rhyme_numSyll="3" rhyme_phonType="mixed" rhyme_phonStruct="cfcBccbc">kivántak</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w20 #w34">
+                    <firstRhyme rhyme_lemma="biztos" rhyme_pos="NOUN" rhyme_msd="Case=Acc|Number=Sing" rhyme_numSyll="2" rhyme_phonType="mixed" rhyme_phonStruct="cfccbcc">biztost</firstRhyme>
+                    <secondRhyme rhyme_lemma="most" rhyme_pos="ADV" rhyme_msd="_" rhyme_numSyll="1" rhyme_phonType="low" rhyme_phonStruct="cbcc">most</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w41 #w50">
+                    <firstRhyme rhyme_lemma="néz" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cFccfc">néznek</firstRhyme>
+                    <secondRhyme rhyme_lemma="vitéz" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Plur" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfcFcfc">vitézek</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w5 #w6" allStruct="aa" posTags="PROPN ADJ" msdTags="Case=Nom|Number=Sing Case=Nom|Degree=Pos|Number=Plur" lemmas="Keserü könnyes">Keserü könnyesek</alliteration>
                 <alliteration target="#w16 #w17" allStruct="aa" posTags="ADV ADV" msdTags="_ _" lemmas="most már">most már</alliteration>

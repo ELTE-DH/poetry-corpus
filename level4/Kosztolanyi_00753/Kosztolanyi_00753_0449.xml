@@ -111,12 +111,12 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="4" div_numLine="12" div_numWord="60" div_numSyll="126" div_numShortSyll="51" div_numLongSyll="75" div_rhyme="abb|abb|abc|abc" div_syllPattern="11-10-10|11-10-10|11-11-10|11-11-10">
+            <div type="poem" div_numStanza="4" div_numLine="12" div_numWord="60" div_numSyll="126" div_numShortSyll="51" div_numLongSyll="75" div_rhyme="abb|abb|abc|abc" div_syllPattern="11-10-10|11-10-10|11-11-10|11-11-10" met_qual="False" met_quan="iambic" met_quanScore="0.76">
                 <head type="title">Bús távolok</head>
                 <lg xml:id="lg1" lg_numLine="3" lg_numWord="16" lg_numSyll="31" lg_numShortSyll="17" lg_numLongSyll="14" rhyme="abb" lg_syllPattern="11-10-10">
                     <l xml:id="l1" l_numWord="6" l_numSyll="11" l_numShortSyll="5" l_numLongSyll="6" real="11010001011">
@@ -228,7 +228,16 @@
                 </lg>
                 <p>1907</p>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w11 #w16">
+                    <firstRhyme rhyme_lemma="leng" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfccfcfc">lengenek</firstRhyme>
+                    <secondRhyme rhyme_lemma="fény-tenger" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Plur" rhyme_numSyll="4" rhyme_phonType="high" rhyme_phonStruct="cFccfccfcfc">fény-tengerek</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w28 #w33">
+                    <firstRhyme rhyme_lemma="vagy" rhyme_pos="CONJ" rhyme_msd="_" rhyme_numSyll="1" rhyme_phonType="low" rhyme_phonStruct="cbc">vagy</firstRhyme>
+                    <secondRhyme rhyme_lemma="fagy" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="1" rhyme_phonType="low" rhyme_phonStruct="cbc">fagy</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w1 #w2" allStruct="aa" posTags="ADJ ADV" msdTags="Case=Nom|Degree=Pos|Number=Sing _" lemmas="mily messze">Mily messze</alliteration>
                 <alliteration target="#w9 #w10 #w11 #w12 #w13" allStruct="aanaa" posTags="PRON ADV VERB PRON ADV" msdTags="Case=Nom|Number=Plur|Person=1|PronType=Prs _ Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act Case=Nom|Number=Plur|Person=1|PronType=Prs _" lemmas="mi messze leng mi messze">mi messze lengenek mi messze</alliteration>

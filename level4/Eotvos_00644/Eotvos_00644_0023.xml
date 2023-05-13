@@ -103,12 +103,12 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="2" div_numLine="8" div_numWord="32" div_numSyll="52" div_numShortSyll="19" div_numLongSyll="33" div_rhyme="abcb|abcb" div_syllPattern="7-6-7-6|7-6-7-6">
+            <div type="poem" div_numStanza="2" div_numLine="8" div_numWord="32" div_numSyll="52" div_numShortSyll="19" div_numLongSyll="33" div_rhyme="abcb|abcb" div_syllPattern="7-6-7-6|7-6-7-6" met_qual="3-1-1-2_6" met_quan="iambic" met_quanScore="0.67">
                 <head type="title">A MULT.</head>
                 <lg xml:id="lg1" lg_numLine="4" lg_numWord="14" lg_numSyll="26" lg_numShortSyll="7" lg_numLongSyll="19" rhyme="abcb" lg_syllPattern="7-6-7-6">
                     <l xml:id="l1" l_numWord="5" l_numSyll="7" l_numShortSyll="3" l_numLongSyll="4" real="0111010">
@@ -173,7 +173,16 @@
                 </lg>
                 <p>1842.</p>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w8 #w14">
+                    <firstRhyme rhyme_lemma="teve" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=2" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfcFc">tevéd</firstRhyme>
+                    <secondRhyme rhyme_lemma="ének" rhyme_pos="NOUN" rhyme_msd="Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="FcfcFc">énekét</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w22 #w32">
+                    <firstRhyme rhyme_lemma="soha" rhyme_pos="ADV" rhyme_msd="_" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbcb">soha</firstRhyme>
+                    <secondRhyme rhyme_lemma="meghagy" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="3" rhyme_phonType="mixed" rhyme_phonStruct="cfccbcb">meghagya</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w6 #w7 #w8 #w9" allStruct="aana" posTags="SCONJ ADJ NOUN ADJ" msdTags="_ Case=Tra|Degree=Pos|Number=Sing Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=2 Case=Nom|Degree=Pos|Number=Sing" lemmas="bár boldog teve bús">Bár boldoggá tevéd Bús</alliteration>
                 <alliteration target="#w31 #w32" allStruct="aa" posTags="PRON NOUN" msdTags="Case=Acc|Number=Sing|Person=3|PronType=Prs Case=Nom|Number=Sing" lemmas="mi meghagy">mit meghagya</alliteration>

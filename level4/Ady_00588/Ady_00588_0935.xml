@@ -120,12 +120,12 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="3" div_numLine="15" div_numWord="45" div_numSyll="90" div_numShortSyll="41" div_numLongSyll="49" div_rhyme="abccd|aaabc|abacd" div_syllPattern="4-4-4-11-7|4-4-4-11-7|4-4-4-11-7">
+            <div type="poem" div_numStanza="3" div_numLine="15" div_numWord="45" div_numSyll="90" div_numShortSyll="41" div_numLongSyll="49" div_rhyme="abccd|aaabc|abacd" div_syllPattern="4-4-4-11-7|4-4-4-11-7|4-4-4-11-7" met_qual="False" met_quan="trochaic" met_quanScore="0.55">
                 <head type="title">VAGY MEGÖLNI VALAKIT</head>
                 <lg xml:id="lg1" lg_numLine="5" lg_numWord="15" lg_numSyll="30" lg_numShortSyll="12" lg_numLongSyll="18" rhyme="abccd" lg_syllPattern="4-4-4-11-7">
                     <l xml:id="l1" l_numWord="2" l_numSyll="4" l_numShortSyll="2" l_numLongSyll="2" real="1010">
@@ -223,7 +223,24 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w7 #w12">
+                    <firstRhyme rhyme_lemma="meghal" rhyme_pos="VERB" rhyme_msd="VerbForm=Inf|Voice=Act" rhyme_numSyll="3" rhyme_phonType="mixed" rhyme_phonStruct="cfccbccf">meghalni</firstRhyme>
+                    <secondRhyme rhyme_lemma="szeret" rhyme_pos="VERB" rhyme_msd="VerbForm=Inf|Voice=Act" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfcfccf">szeretni</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w17 #w21">
+                    <firstRhyme rhyme_lemma="ilyenkor" rhyme_pos="PRON" rhyme_msd="Case=Nom|Number=Sing|Person=3|PronType=Prs" rhyme_numSyll="3" rhyme_phonType="mixed" rhyme_phonStruct="fcfccbc">ilyenkor</firstRhyme>
+                    <secondRhyme rhyme_lemma="mond" rhyme_pos="VERB" rhyme_msd="Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbccbc">mondom</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w21 #w23">
+                    <firstRhyme rhyme_lemma="mond" rhyme_pos="VERB" rhyme_msd="Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbccbc">mondom</firstRhyme>
+                    <secondRhyme rhyme_lemma="ilyenkor" rhyme_pos="PRON" rhyme_msd="Case=Nom|Number=Sing|Person=3|PronType=Prs" rhyme_numSyll="3" rhyme_phonType="mixed" rhyme_phonStruct="fcfccbc">ilyenkor</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w32 #w37">
+                    <firstRhyme rhyme_lemma="ilyenkor" rhyme_pos="PRON" rhyme_msd="Case=Nom|Number=Sing|Person=3|PronType=Prs" rhyme_numSyll="3" rhyme_phonType="mixed" rhyme_phonStruct="fcfccbc">ilyenkor</firstRhyme>
+                    <secondRhyme rhyme_lemma="sok" rhyme_pos="NUM" rhyme_msd="Case=Nom|Number=Sing|NumType=Card" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbccbc">sokszor</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w5 #w6 #w7" allStruct="ana" posTags="VERB CONJ VERB" msdTags="Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act _ VerbForm=Inf|Voice=Act" lemmas="mond vagy meghal">mondták Vagy meghalni</alliteration>
                 <alliteration target="#w6 #w7 #w8 #w9" allStruct="anaa" posTags="CONJ VERB CONJ PRON" msdTags="_ VerbForm=Inf|Voice=Act _ Case=Acc|Number=Sing|Person=3|PronType=Ind" lemmas="vagy meghal vagy valaki">Vagy meghalni Vagy valakit</alliteration>

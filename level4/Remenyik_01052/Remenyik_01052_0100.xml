@@ -112,12 +112,12 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="4" div_numLine="13" div_numWord="55" div_numSyll="99" div_numShortSyll="40" div_numLongSyll="59" div_rhyme="abcdeff|a|abac|a" div_syllPattern="5-5-10-10-6-8-6|10|4-11-10-4|10">
+            <div type="poem" div_numStanza="4" div_numLine="13" div_numWord="55" div_numSyll="99" div_numShortSyll="40" div_numLongSyll="59" div_rhyme="abcdeff|a|abac|a" div_syllPattern="5-5-10-10-6-8-6|10|4-11-10-4|10" met_qual="False" met_quan="iambic" met_quanScore="0.58">
                 <head type="title">Hangverseny</head>
                 <lg xml:id="lg1" lg_numLine="7" lg_numWord="28" lg_numSyll="50" lg_numShortSyll="22" lg_numLongSyll="28" rhyme="abcdeff" lg_syllPattern="5-5-10-10-6-8-6">
                     <l xml:id="l1" l_numWord="4" l_numSyll="5" l_numShortSyll="2" l_numLongSyll="3" real="10011">
@@ -222,7 +222,16 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w25 #w28">
+                    <firstRhyme rhyme_lemma="méltóságos" rhyme_pos="ADJ" rhyme_msd="Case=Ess|Degree=Pos|Number=Sing" rhyme_numSyll="5" rhyme_phonType="mixed" rhyme_phonStruct="cFccBcBcbcbc">méltóságosan</firstRhyme>
+                    <secondRhyme rhyme_lemma="hang" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="1" rhyme_phonType="low" rhyme_phonStruct="cbcc">hang</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w35 #w46">
+                    <firstRhyme rhyme_lemma="szélroham" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="3" rhyme_phonType="mixed" rhyme_phonStruct="cFccbcbc">szélroham</firstRhyme>
+                    <secondRhyme rhyme_lemma="alatt" rhyme_pos="ADP" rhyme_msd="_" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="bcbcc">alatt</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w14 #w15" allStruct="aa" posTags="PRON NOUN" msdTags="Case=Nom|Number=Sing|Person=3|PronType=Prs Case=Nom|Number=Sing" lemmas="idefenn ifjú">idefenn Ifjú</alliteration>
                 <alliteration target="#w38 #w39" allStruct="aa" posTags="NOUN VERB" msdTags="Case=Nom|Number=Plur Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" lemmas="fa folytat">fák folytatják</alliteration>

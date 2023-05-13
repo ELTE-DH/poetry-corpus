@@ -111,12 +111,12 @@
 		<revisionDesc>
 			<change when="2021-07-05">level1</change>
 			<change when="2021-08-05">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="4" div_numLine="14" div_numWord="75" div_numSyll="148" div_numShortSyll="68" div_numLongSyll="80" div_rhyme="abab|abcb|aab|aab" div_syllPattern="11-10-11-10|11-10-11-10|11-11-10|11-11-10">
+            <div type="poem" div_numStanza="4" div_numLine="14" div_numWord="75" div_numSyll="148" div_numShortSyll="68" div_numLongSyll="80" div_rhyme="abab|abcb|aab|aab" div_syllPattern="11-10-11-10|11-10-11-10|11-11-10|11-11-10" met_qual="False" met_quan="iambic" met_quanScore="0.71">
                 <head type="title">Budapest [2]</head>
                 <lg xml:id="lg1" lg_numLine="4" lg_numWord="20" lg_numSyll="42" lg_numShortSyll="24" lg_numLongSyll="18" rhyme="abab" lg_syllPattern="11-10-11-10">
                     <l xml:id="l1" l_numWord="5" l_numSyll="11" l_numShortSyll="7" l_numLongSyll="4" real="00010101010">
@@ -248,7 +248,28 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w5 #w14">
+                    <firstRhyme rhyme_lemma="fölött" rhyme_pos="ADP" rhyme_msd="_" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfcfccfc">fölötted</firstRhyme>
+                    <secondRhyme rhyme_lemma="tető" rhyme_pos="NOUN" rhyme_msd="Case=Acc|Number=Plur" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfcFcfc">tetőket</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w10 #w20">
+                    <firstRhyme rhyme_lemma="lecsap" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="mixed" rhyme_phonStruct="cfcbc">lecsap</firstRhyme>
+                    <secondRhyme rhyme_lemma="rab" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="1" rhyme_phonType="low" rhyme_phonStruct="cbc">rab</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w31 #w43">
+                    <firstRhyme rhyme_lemma="zsivány" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="2" rhyme_phonType="mixed" rhyme_phonStruct="cfcBc">zsivány</firstRhyme>
+                    <secondRhyme rhyme_lemma="silány" rhyme_pos="ADJ" rhyme_msd="Case=Nom|Degree=Pos|Number=Sing" rhyme_numSyll="2" rhyme_phonType="mixed" rhyme_phonStruct="cfcBc">silány</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w48 #w53">
+                    <firstRhyme rhyme_lemma="szeret" rhyme_pos="VERB" rhyme_msd="Definite=2|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfcfccfc">szeretlek</firstRhyme>
+                    <secondRhyme rhyme_lemma="te" rhyme_pos="PRON" rhyme_msd="Case=Ine|Number=Sing|Person=2|PronType=Prs" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfccfc">benned</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w63 #w69">
+                    <firstRhyme rhyme_lemma="körút" rhyme_pos="NOUN" rhyme_msd="Case=Sup|Number=Sing" rhyme_numSyll="3" rhyme_phonType="mixed" rhyme_phonStruct="cfcBcbc">körúton</firstRhyme>
+                    <secondRhyme rhyme_lemma="zsúr" rhyme_pos="NOUN" rhyme_msd="Case=Sup|Number=Sing" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cBcbc">zsúron</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w2 #w3 #w4 #w5" allStruct="aana" posTags="ADJ NOUN VERB ADP" msdTags="Case=Nom|Degree=Pos|Number=Sing Case=Nom|Number=Sing Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act _" lemmas="furcsa füst lebeg fölött">furcsa füst lebeg fölötted</alliteration>
                 <alliteration target="#w42 #w43" allStruct="aa" posTags="NUM ADJ" msdTags="Case=Nom|Number=Sing|NumType=Card Case=Nom|Degree=Pos|Number=Sing" lemmas="sok silány">sok silány</alliteration>

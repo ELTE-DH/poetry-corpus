@@ -108,12 +108,12 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="2" div_numLine="8" div_numWord="32" div_numSyll="68" div_numShortSyll="31" div_numLongSyll="37" div_rhyme="abcb|abcb" div_syllPattern="9-8-9-8|9-8-9-8">
+            <div type="poem" div_numStanza="2" div_numLine="8" div_numWord="32" div_numSyll="68" div_numShortSyll="31" div_numLongSyll="37" div_rhyme="abcb|abcb" div_syllPattern="9-8-9-8|9-8-9-8" met_qual="False" met_quan="iambic" met_quanScore="0.73">
                 <head type="title">XII. Gyakran jelensz meg álmaimban</head>
                 <lg xml:id="lg1" lg_numLine="4" lg_numWord="17" lg_numSyll="34" lg_numShortSyll="15" lg_numLongSyll="19" rhyme="abcb" lg_syllPattern="9-8-9-8">
                     <l xml:id="l1" l_numWord="4" l_numSyll="9" l_numShortSyll="4" l_numLongSyll="5" real="110101010">
@@ -181,7 +181,16 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w7 #w17">
+                    <firstRhyme rhyme_lemma="gúnyos" rhyme_pos="ADJ" rhyme_msd="Case=Ess|Degree=Pos|Number=Sing" rhyme_numSyll="3" rhyme_phonType="low" rhyme_phonStruct="cBcbcbc">gúnyosan</firstRhyme>
+                    <secondRhyme rhyme_lemma="hasztalan" rhyme_pos="ADJ" rhyme_msd="Case=Nom|Degree=Pos|Number=Sing" rhyme_numSyll="3" rhyme_phonType="low" rhyme_phonStruct="cbccbcbc">hasztalan</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w24 #w32">
+                    <firstRhyme rhyme_lemma="hideg" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfcfc">hideg</firstRhyme>
+                    <secondRhyme rhyme_lemma="jelent" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="4" rhyme_phonType="high" rhyme_phonStruct="cfcfccfcfc">jelentenek</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w8 #w9 #w10" allStruct="ana" posTags="NUM NOUN DET" msdTags="Case=Nom|Number=Sing|NumType=Card Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=2 Definite=Ind|PronType=Art" lemmas="egy mosoly egy">Egy mosolyod egy</alliteration>
                 <alliteration target="#w15 #w16 #w17" allStruct="ana" posTags="PRON CONJ ADJ" msdTags="Case=All|Number=Sing|Person=2|PronType=Prs _ Case=Nom|Degree=Pos|Number=Sing" lemmas="te s hasztalan">hozzád s hasztalan</alliteration>

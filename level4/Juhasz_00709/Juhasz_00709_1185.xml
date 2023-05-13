@@ -111,12 +111,12 @@
 		<revisionDesc>
 			<change when="2021-07-05">level1</change>
 			<change when="2021-08-05">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="3" div_numLine="12" div_numWord="53" div_numSyll="96" div_numShortSyll="34" div_numLongSyll="62" div_rhyme="abcb|abbb|abcb" div_syllPattern="8-8-8-8|8-8-8-8|8-8-8-8">
+            <div type="poem" div_numStanza="3" div_numLine="12" div_numWord="53" div_numSyll="96" div_numShortSyll="34" div_numLongSyll="62" div_rhyme="abcb|abcb|abcb" div_syllPattern="8-8-8-8|8-8-8-8|8-8-8-8" met_qual="False" met_quan="iambic" met_quanScore="0.74">
                 <head type="title">Vidéki napraforgó</head>
                 <lg xml:id="lg1" lg_numLine="4" lg_numWord="20" lg_numSyll="32" lg_numShortSyll="8" lg_numLongSyll="24" rhyme="abcb" lg_syllPattern="8-8-8-8">
                     <l xml:id="l1" l_numWord="5" l_numSyll="8" l_numShortSyll="2" l_numLongSyll="6" real="01111101">
@@ -150,7 +150,7 @@
                         <pc xml:id="pc2" pos="PUNCT" join="left">.</pc>
                     </l>
                 </lg>
-                <lg xml:id="lg2" lg_numLine="4" lg_numWord="16" lg_numSyll="32" lg_numShortSyll="15" lg_numLongSyll="17" rhyme="abbb" lg_syllPattern="8-8-8-8">
+                <lg xml:id="lg2" lg_numLine="4" lg_numWord="16" lg_numSyll="32" lg_numShortSyll="15" lg_numLongSyll="17" rhyme="abcb" lg_syllPattern="8-8-8-8">
                     <l xml:id="l5" l_numWord="5" l_numSyll="8" l_numShortSyll="5" l_numLongSyll="3" real="10011000">
                         <w xml:id="w21" lemma="vár" pos="VERB" msd="Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act" w_numSyll="2" phonType="low" phonStruct="cBccb">Várta</w>
                         <w xml:id="w22" lemma="az" pos="DET" msd="Definite=Def|PronType=Art" w_numSyll="1" phonType="low" phonStruct="bc">az</w>
@@ -213,7 +213,20 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w9 #w20">
+                    <firstRhyme rhyme_lemma="dél" rhyme_pos="NOUN" rhyme_msd="Case=Sup|Number=Sing|Number[psor]=Sing|Person[psor]=3" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfcFc">delén</firstRhyme>
+                    <secondRhyme rhyme_lemma="szegény" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfcFc">szegény</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w29 #w36">
+                    <firstRhyme rhyme_lemma="akar" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="bcbcc">akart</firstRhyme>
+                    <secondRhyme rhyme_lemma="marad" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbcbcc">maradt</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w45 #w53">
+                    <firstRhyme rhyme_lemma="előtt" rhyme_pos="ADP" rhyme_msd="_" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="fcFcc">előtt</firstRhyme>
+                    <secondRhyme rhyme_lemma="ő" rhyme_pos="PRON" rhyme_msd="Case=Acc|Number=Sing|Person=3|PronType=Prs" rhyme_numSyll="1" rhyme_phonType="high" rhyme_phonStruct="Fc">őt</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w17 #w18" allStruct="aa" posTags="ADJ ADV" msdTags="Case=Ess|Degree=Pos|Number=Sing _" lemmas="csöndes csak">csöndesen csak</alliteration>
                 <alliteration target="#w26 #w27" allStruct="aa" posTags="ADP VERB" msdTags="_ VerbForm=Inf|Voice=Act" lemmas="felé fordul">Felé fordulni</alliteration>

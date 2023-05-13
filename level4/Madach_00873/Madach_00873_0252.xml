@@ -103,12 +103,12 @@
 		<revisionDesc>
 			<change when="2021-06-10">level1</change>
 			<change when="2021-06-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="2" div_numLine="8" div_numWord="32" div_numSyll="60" div_numShortSyll="30" div_numLongSyll="30" div_rhyme="abcb|abcb" div_syllPattern="8-7-8-7|8-7-8-7">
+            <div type="poem" div_numStanza="2" div_numLine="8" div_numWord="32" div_numSyll="60" div_numShortSyll="30" div_numLongSyll="30" div_rhyme="abcb|abcb" div_syllPattern="8-7-8-7|8-7-8-7" met_qual="4-1-3_2-2-3" met_quan="trochaic" met_quanScore="0.96">
                 <head type="title">Édes kín</head>
                 <lg xml:id="lg1" lg_numLine="4" lg_numWord="17" lg_numSyll="30" lg_numShortSyll="14" lg_numLongSyll="16" rhyme="abcb" lg_syllPattern="8-7-8-7">
                     <l xml:id="l1" l_numWord="4" l_numSyll="8" l_numShortSyll="4" l_numLongSyll="4" real="10101010">
@@ -173,7 +173,16 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w7 #w17">
+                    <firstRhyme rhyme_lemma="élte" rhyme_pos="NOUN" rhyme_msd="Case=Sup|Number=Sing|Number[psor]=Sing|Person[psor]=1" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="Fccfcfc">éltemen</firstRhyme>
+                    <secondRhyme rhyme_lemma="szenved" rhyme_pos="VERB" rhyme_msd="Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfccfcfc">szenvedem</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w25 #w32">
+                    <firstRhyme rhyme_lemma="én" rhyme_pos="PRON" rhyme_msd="Case=Dat|Number=Sing|Person=1|PronType=Prs" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfcfc">nekem</firstRhyme>
+                    <secondRhyme rhyme_lemma="érzet" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="Fccfcfc">érzetem</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w27 #w28 #w29" allStruct="ana" posTags="ADV NOUN VERB" msdTags="PronType=Art Case=Ins|Number=Sing Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" lemmas="e kín elborúlik">e kínnal elborúlna</alliteration>
                 <alliteration target="#w31 #w32" allStruct="aa" posTags="ADJ NOUN" msdTags="Case=Nom|Degree=Pos|Number=Sing Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1" lemmas="édes érzet">édes érzetem</alliteration>

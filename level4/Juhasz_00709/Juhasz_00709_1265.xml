@@ -111,14 +111,14 @@
 		<revisionDesc>
 			<change when="2021-07-05">level1</change>
 			<change when="2021-08-05">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="2" div_numLine="8" div_numWord="28" div_numSyll="52" div_numShortSyll="17" div_numLongSyll="35" div_rhyme="abab|abab" div_syllPattern="7-6-7-6|7-6-7-6">
+            <div type="poem" div_numStanza="2" div_numLine="8" div_numWord="28" div_numSyll="52" div_numShortSyll="17" div_numLongSyll="35" div_rhyme="abcb|abcb" div_syllPattern="7-6-7-6|7-6-7-6" met_qual="5-2_6" met_quan="iambic" met_quanScore="0.73">
                 <head type="title">Nietzsche [3]</head>
-                <lg xml:id="lg1" lg_numLine="4" lg_numWord="14" lg_numSyll="26" lg_numShortSyll="6" lg_numLongSyll="20" rhyme="abab" lg_syllPattern="7-6-7-6">
+                <lg xml:id="lg1" lg_numLine="4" lg_numWord="14" lg_numSyll="26" lg_numShortSyll="6" lg_numLongSyll="20" rhyme="abcb" lg_syllPattern="7-6-7-6">
                     <l xml:id="l1" l_numWord="3" l_numSyll="7" l_numShortSyll="2" l_numLongSyll="5" real="1101011">
                         <w xml:id="w1" lemma="mindig" pos="ADV" msd="_" w_numSyll="2" phonType="high" phonStruct="cfccfc">Mindig</w>
                         <w xml:id="w2" lemma="magányos" pos="ADJ" msd="Case=Nom|Degree=Cmp|Number=Sing" w_numSyll="4" phonType="low" phonStruct="cbcBcbcbcc">magányosabb</w>
@@ -144,7 +144,7 @@
                         <pc xml:id="pc2" pos="PUNCT" join="left">.</pc>
                     </l>
                 </lg>
-                <lg xml:id="lg2" lg_numLine="4" lg_numWord="14" lg_numSyll="26" lg_numShortSyll="11" lg_numLongSyll="15" rhyme="abab" lg_syllPattern="7-6-7-6">
+                <lg xml:id="lg2" lg_numLine="4" lg_numWord="14" lg_numSyll="26" lg_numShortSyll="11" lg_numLongSyll="15" rhyme="abcb" lg_syllPattern="7-6-7-6">
                     <l xml:id="l5" l_numWord="4" l_numSyll="7" l_numShortSyll="3" l_numLongSyll="4" real="1101010">
                         <w xml:id="w15" lemma="és" pos="CONJ" msd="_" w_numSyll="1" phonType="high" phonStruct="Fc">És</w>
                         <w xml:id="w16" lemma="hallgat" pos="VERB" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act" w_numSyll="3" phonType="low" phonStruct="cbcccbcbcc">hallgatott</w>
@@ -172,7 +172,16 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w6 #w14">
+                    <firstRhyme rhyme_lemma="vakmerő" rhyme_pos="ADJ" rhyme_msd="Case=Nom|Degree=Cmp|Number=Sing" rhyme_numSyll="3" rhyme_phonType="mixed" rhyme_phonStruct="cbccfcFcc">vakmerőbb</firstRhyme>
+                    <secondRhyme rhyme_lemma="előtt" rhyme_pos="ADP" rhyme_msd="_" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="fcFcc">előtt</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w21 #w28">
+                    <firstRhyme rhyme_lemma="ő" rhyme_pos="PRON" rhyme_msd="Case=Acc|Number=Sing|Person=3|PronType=Prs" rhyme_numSyll="1" rhyme_phonType="high" rhyme_phonStruct="Fc">őt</firstRhyme>
+                    <secondRhyme rhyme_lemma="előtt" rhyme_pos="ADP" rhyme_msd="_" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="fcFcc">előtt</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w1 #w2" allStruct="aa" posTags="ADV ADJ" msdTags="_ Case=Nom|Degree=Cmp|Number=Sing" lemmas="mindig magányos">Mindig magányosabb</alliteration>
                 <alliteration target="#w5 #w6 #w7" allStruct="ana" posTags="ADV ADJ PRON" msdTags="_ Case=Nom|Degree=Cmp|Number=Sing Case=Nom|Number=Sing|Person=3|PronType=Rel" lemmas="mindig vakmerő míg">mindig vakmerőbb Míg</alliteration>

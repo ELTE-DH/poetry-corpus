@@ -111,12 +111,12 @@
 		<revisionDesc>
 			<change when="2021-07-05">level1</change>
 			<change when="2021-08-05">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="3" div_numLine="12" div_numWord="84" div_numSyll="158" div_numShortSyll="76" div_numLongSyll="82" div_rhyme="abab|aaaa|aaaa" div_syllPattern="14-14-13-13|13-13-13-13|13-13-13-13">
+            <div type="poem" div_numStanza="3" div_numLine="12" div_numWord="84" div_numSyll="158" div_numShortSyll="76" div_numLongSyll="82" div_rhyme="abab|abab|abab" div_syllPattern="14-14-13-13|13-13-13-13|13-13-13-13" met_qual="False" met_quan="iambic" met_quanScore="0.55">
                 <head type="title">Isteni líra</head>
                 <lg xml:id="lg1" lg_numLine="4" lg_numWord="29" lg_numSyll="54" lg_numShortSyll="24" lg_numLongSyll="30" rhyme="abab" lg_syllPattern="14-14-13-13">
                     <l xml:id="l1" l_numWord="8" l_numSyll="14" l_numShortSyll="7" l_numLongSyll="7" real="11100100101010">
@@ -163,7 +163,7 @@
                         <pc xml:id="pc6" pos="PUNCT" join="left">!</pc>
                     </l>
                 </lg>
-                <lg xml:id="lg2" lg_numLine="4" lg_numWord="26" lg_numSyll="52" lg_numShortSyll="25" lg_numLongSyll="27" rhyme="aaaa" lg_syllPattern="13-13-13-13">
+                <lg xml:id="lg2" lg_numLine="4" lg_numWord="26" lg_numSyll="52" lg_numShortSyll="25" lg_numLongSyll="27" rhyme="abab" lg_syllPattern="13-13-13-13">
                     <l xml:id="l5" l_numWord="7" l_numSyll="13" l_numShortSyll="7" l_numLongSyll="6" real="0101010110010">
                         <w xml:id="w30" lemma="szegény" pos="ADJ" msd="Case=Nom|Degree=Pos|Number=Sing" w_numSyll="2" phonType="high" phonStruct="cfcFc">Szegény</w>
                         <pc xml:id="pc7" pos="PUNCT" join="left">,</pc>
@@ -204,7 +204,7 @@
                         <pc xml:id="pc11" pos="PUNCT" join="left">!</pc>
                     </l>
                 </lg>
-                <lg xml:id="lg3" lg_numLine="4" lg_numWord="29" lg_numSyll="52" lg_numShortSyll="27" lg_numLongSyll="25" rhyme="aaaa" lg_syllPattern="13-13-13-13">
+                <lg xml:id="lg3" lg_numLine="4" lg_numWord="29" lg_numSyll="52" lg_numShortSyll="27" lg_numLongSyll="25" rhyme="abab" lg_syllPattern="13-13-13-13">
                     <l xml:id="l9" l_numWord="7" l_numSyll="13" l_numShortSyll="6" l_numLongSyll="7" real="0101010111010">
                         <w xml:id="w56" lemma="e" pos="ADV" msd="PronType=Art" w_numSyll="1" phonType="high" phonStruct="f">E</w>
                         <w xml:id="w57" lemma="dal" pos="NOUN" msd="Case=Acc|Number=Sing" w_numSyll="1" phonType="low" phonStruct="cbcc">dalt</w>
@@ -251,7 +251,32 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w8 #w21">
+                    <firstRhyme rhyme_lemma="köd" rhyme_pos="NOUN" rhyme_msd="Case=Dat|Number=Sing" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfccfc">ködnek</firstRhyme>
+                    <secondRhyme rhyme_lemma="nő" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cFcfc">nőnek</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w16 #w29">
+                    <firstRhyme rhyme_lemma="csillag" rhyme_pos="NOUN" rhyme_msd="Case=Sub|Number=Plur" rhyme_numSyll="4" rhyme_phonType="mixed" rhyme_phonStruct="cfccbcbccb">csillagokra</firstRhyme>
+                    <secondRhyme rhyme_lemma="csipkebokor" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3" rhyme_numSyll="4" rhyme_phonType="mixed" rhyme_phonStruct="cfccfcbccb">csipkebokra</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w36 #w48">
+                    <firstRhyme rhyme_lemma="líra" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="2" rhyme_phonType="mixed" rhyme_phonStruct="cFcb">líra</firstRhyme>
+                    <secondRhyme rhyme_lemma="nap" rhyme_pos="NOUN" rhyme_msd="Case=Sub|Number=Plur|Number[psor]=Sing|Person[psor]=1" rhyme_numSyll="4" rhyme_phonType="mixed" rhyme_phonStruct="cbccbfccb">napjaimra</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w42 #w55">
+                    <firstRhyme rhyme_lemma="homlok" rhyme_pos="NOUN" rhyme_msd="Case=Sub|Number=Sing|Number[psor]=Sing|Person[psor]=1" rhyme_numSyll="4" rhyme_phonType="low" rhyme_phonStruct="cbccbcbccb">homlokomra</firstRhyme>
+                    <secondRhyme rhyme_lemma="kohó" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3" rhyme_numSyll="3" rhyme_phonType="low" rhyme_phonStruct="cbcBcb">kohója</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w62 #w77">
+                    <firstRhyme rhyme_lemma="dalol" rhyme_pos="VERB" rhyme_msd="Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="3" rhyme_phonType="low" rhyme_phonStruct="cbcbccb">dalolja</firstRhyme>
+                    <secondRhyme rhyme_lemma="bolt" rhyme_pos="NOUN" rhyme_msd="Case=Sub|Number=Sing" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbcccb">boltra</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w69 #w84">
+                    <firstRhyme rhyme_lemma="sír" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3" rhyme_numSyll="2" rhyme_phonType="mixed" rhyme_phonStruct="cFccb">sírja</firstRhyme>
+                    <secondRhyme rhyme_lemma="líra" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="2" rhyme_phonType="mixed" rhyme_phonStruct="cFcb">líra</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w10 #w11" allStruct="aa" posTags="ADV PRON" msdTags="_ Case=Nom|Number=Sing|Person=2|PronType=Prs" lemmas="túl te">túl te</alliteration>
                 <alliteration target="#w30 #w31" allStruct="aa" posTags="ADJ ADJ" msdTags="Case=Nom|Degree=Pos|Number=Sing Case=Nom|Degree=Pos|Number=Sing" lemmas="szegény szegény">Szegény szegény</alliteration>

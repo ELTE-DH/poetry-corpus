@@ -108,12 +108,12 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="6" div_numLine="12" div_numWord="65" div_numSyll="120" div_numShortSyll="50" div_numLongSyll="70" div_rhyme="aa|ab|aa|ab|aa|ab" div_syllPattern="10-10|10-10|10-10|10-10|10-10|10-10">
+            <div type="poem" div_numStanza="6" div_numLine="12" div_numWord="65" div_numSyll="120" div_numShortSyll="50" div_numLongSyll="70" div_rhyme="aa|ab|aa|ab|aa|ab" div_syllPattern="10-10|10-10|10-10|10-10|10-10|10-10" met_qual="5-5" met_quan="iambic" met_quanScore="0.64">
                 <head type="title">NINCS SARKANTYÚM...</head>
                 <lg xml:id="lg1" lg_numLine="2" lg_numWord="10" lg_numSyll="20" lg_numShortSyll="5" lg_numLongSyll="15" rhyme="aa" lg_syllPattern="10-10">
                     <l xml:id="l1" l_numWord="5" l_numSyll="10" l_numShortSyll="2" l_numLongSyll="8" real="1111111100">
@@ -233,7 +233,20 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w5 #w10">
+                    <firstRhyme rhyme_lemma="szügy" rhyme_pos="NOUN" rhyme_msd="Case=Sup|Number=Sing" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfcfc">szügyön</firstRhyme>
+                    <secondRhyme rhyme_lemma="idő" rhyme_pos="NOUN" rhyme_msd="Case=Acc|Number=Sing" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="fcFc">időt</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w27 #w32">
+                    <firstRhyme rhyme_lemma="szivem" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfcfc">szivem</firstRhyme>
+                    <secondRhyme rhyme_lemma="lesz" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfcfc">leszek</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w51 #w56">
+                    <firstRhyme rhyme_lemma="van" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Pot|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfcfc">lehet</firstRhyme>
+                    <secondRhyme rhyme_lemma="sziv" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfcfc">szivem</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w27 #w28 #w29" allStruct="ana" posTags="NOUN NOUN VERB" msdTags="Case=Nom|Number=Sing Case=Ill|Number=Sing|Number[psor]=Sing|Person[psor]=3 Definite=Def|Mood=Imp|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" lemmas="szivem mélye szúr">szivem mélyébe szúrjam</alliteration>
                 <alliteration target="#w51 #w52" allStruct="aa" posTags="VERB NOUN" msdTags="Definite=Ind|Mood=Pot|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act Case=Sup|Number=Sing" lemmas="van légy">lehet Légyen</alliteration>

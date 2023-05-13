@@ -111,15 +111,15 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="2" div_numLine="8" div_numWord="51" div_numSyll="80" div_numShortSyll="38" div_numLongSyll="42" div_rhyme="abbb|abcb" div_syllPattern="11-9-11-9|11-9-11-9">
+            <div type="poem" div_numStanza="2" div_numLine="8" div_numWord="51" div_numSyll="80" div_numShortSyll="38" div_numLongSyll="42" div_rhyme="abcb|abcb" div_syllPattern="11-9-11-9|11-9-11-9" met_qual="4-1-3-3_2-1-2-2-2" met_quan="iambic" met_quanScore="0.75">
                 <head type="title">A költő tentásüvege</head>
                 <p>Elutazás előtt Josénak</p>
-                <lg xml:id="lg1" lg_numLine="4" lg_numWord="23" lg_numSyll="40" lg_numShortSyll="21" lg_numLongSyll="19" rhyme="abbb" lg_syllPattern="11-9-11-9">
+                <lg xml:id="lg1" lg_numLine="4" lg_numWord="23" lg_numSyll="40" lg_numShortSyll="21" lg_numLongSyll="19" rhyme="abcb" lg_syllPattern="11-9-11-9">
                     <l xml:id="l1" l_numWord="5" l_numSyll="11" l_numShortSyll="7" l_numLongSyll="4" real="11010000010">
                         <w xml:id="w1" lemma="tisztel" pos="ADV" msd="VerbForm=Trans" w_numSyll="3" phonType="high" phonStruct="cfccfccf">Tisztelve</w>
                         <w xml:id="w2" lemma="nyúl" pos="VERB" msd="Definite=Ind|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act" w_numSyll="1" phonType="low" phonStruct="cBcc">nyúlj</w>
@@ -202,7 +202,16 @@
                 </lg>
                 <p>1909</p>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w10 #w23">
+                    <firstRhyme rhyme_lemma="álom" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Plur" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="Bccbc">álmok</firstRhyme>
+                    <secondRhyme rhyme_lemma="áldott" rhyme_pos="ADJ" rhyme_msd="Case=Nom|Degree=Pos|Number=Sing" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="Bccbcc">áldott</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w38 #w51">
+                    <firstRhyme rhyme_lemma="lélek" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfccfc">lelkem</firstRhyme>
+                    <secondRhyme rhyme_lemma="én" rhyme_pos="PRON" rhyme_msd="Case=Acc|Number=Sing|Person=1|PronType=Prs" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="fccfc">engem</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w8 #w9 #w10" allStruct="ana" posTags="NOUN VERB NOUN" msdTags="Case=Nom|Number=Plur Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act Case=Nom|Number=Plur" lemmas="álom van álom">álmok vannak álmok</alliteration>
                 <alliteration target="#w18 #w19" allStruct="aa" posTags="ADV SCONJ" msdTags="_ _" lemmas="most mint">most Mint</alliteration>

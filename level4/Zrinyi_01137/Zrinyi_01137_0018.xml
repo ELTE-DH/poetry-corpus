@@ -103,12 +103,12 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="1" div_numLine="5" div_numWord="14" div_numSyll="31" div_numShortSyll="17" div_numLongSyll="14" div_rhyme="aabbb" div_syllPattern="6-6-6-6-7">
+            <div type="poem" div_numStanza="1" div_numLine="5" div_numWord="14" div_numSyll="31" div_numShortSyll="17" div_numLongSyll="14" div_rhyme="aabbb" div_syllPattern="6-6-6-6-7" met_qual="3-3" met_quan="iambic" met_quanScore="0.3">
                 <head type="title">NEM IROM PENNÁVAL...</head>
                 <lg xml:id="lg1" lg_numLine="5" lg_numWord="14" lg_numSyll="31" lg_numShortSyll="17" lg_numLongSyll="14" rhyme="aabbb" lg_syllPattern="6-6-6-6-7">
                     <l xml:id="l1" l_numWord="3" l_numSyll="6" l_numShortSyll="3" l_numLongSyll="3" real="001110">
@@ -142,7 +142,20 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w3 #w5">
+                    <firstRhyme rhyme_lemma="penna" rhyme_pos="NOUN" rhyme_msd="Case=Ins|Number=Sing" rhyme_numSyll="3" rhyme_phonType="mixed" rhyme_phonStruct="cfccBcbc">pennával</firstRhyme>
+                    <secondRhyme rhyme_lemma="ténta" rhyme_pos="NOUN" rhyme_msd="Case=Ins|Number=Sing|Number[psor]=Sing|Person[psor]=3" rhyme_numSyll="3" rhyme_phonType="mixed" rhyme_phonStruct="cFccBcbc">téntával</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w8 #w10">
+                    <firstRhyme rhyme_lemma="éli" rhyme_pos="ADJ" rhyme_msd="Case=Ins|Degree=Pos|Number=Sing" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="Fcfcfc">élivel</firstRhyme>
+                    <secondRhyme rhyme_lemma="véri" rhyme_pos="ADJ" rhyme_msd="Case=Ins|Degree=Pos|Number=Sing" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cFcfcfc">vérivel</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w10 #w14">
+                    <firstRhyme rhyme_lemma="véri" rhyme_pos="ADJ" rhyme_msd="Case=Ins|Degree=Pos|Number=Sing" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cFcfcfc">vérivel</firstRhyme>
+                    <secondRhyme rhyme_lemma="hire" rhyme_pos="NOUN" rhyme_msd="Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=1" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfcfcfc">hiremet</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations/>
         </body>
     </text>

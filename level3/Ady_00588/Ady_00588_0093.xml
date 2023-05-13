@@ -123,12 +123,12 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
 	<text>
 		<body>
-			<div type="poem">
+			<div met="Qual=False|Quan=iambic|QuanScore=0.5" type="poem">
 				<head>A FEKETE ZONGORA</head>
 				<lg rhyme="abbccb" xml:id="lg1">
 					<l n="9" real="011110011" xml:id="l1">
@@ -180,7 +180,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc10">.</pc>
 					</l>
 				</lg>
-				<lg rhyme="abbaab" xml:id="lg2">
+				<lg rhyme="abbccb" xml:id="lg2">
 					<l n="9" real="011100110" xml:id="l7">
 						<w lemma="fej" msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1" pos="NOUN" type="fej[/N]=fej+em[Poss.1Sg]=em+[Nom]=" xml:id="w27">Fejem</w>
 						<w lemma="zúgás" msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3" pos="NOUN" type="zúg[/V]=zúg+ás[_Ger/N]=ás+a[Poss.3Sg]=a+[Nom]=" xml:id="w28">zúgása</w>
@@ -282,6 +282,14 @@
 				<span subtype="3" target="#w50" type="high">cfcfcf</span>
 				<span subtype="3" target="#w51" type="low">cbccbcb</span>
 			</spanGrp>
+			<linkGrp type="rhymePairs">
+				<link target="#w10 #w14"/>
+				<link target="#w14 #w26"/>
+				<link target="#w18 #w22"/>
+				<link target="#w33 #w39"/>
+				<link target="#w39 #w51"/>
+				<link target="#w43 #w47"/>
+			</linkGrp>
 			<spanGrp type="alliterations">
 				<span target="#w31 #w32 #w33" type="ana"/>
 				<span target="#w35 #w36" type="aa"/>

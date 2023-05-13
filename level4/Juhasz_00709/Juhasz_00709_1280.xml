@@ -111,12 +111,12 @@
 		<revisionDesc>
 			<change when="2021-07-05">level1</change>
 			<change when="2021-08-05">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="3" div_numLine="12" div_numWord="51" div_numSyll="96" div_numShortSyll="46" div_numLongSyll="50" div_rhyme="abab|abcb|abbb" div_syllPattern="8-8-8-8|8-8-8-8|8-8-8-8">
+            <div type="poem" div_numStanza="3" div_numLine="12" div_numWord="51" div_numSyll="96" div_numShortSyll="46" div_numLongSyll="50" div_rhyme="abab|abcb|abbb" div_syllPattern="8-8-8-8|8-8-8-8|8-8-8-8" met_qual="3-5" met_quan="iambic" met_quanScore="0.71">
                 <head type="title">Régi nyári éj</head>
                 <lg xml:id="lg1" lg_numLine="4" lg_numWord="16" lg_numSyll="32" lg_numShortSyll="17" lg_numLongSyll="15" rhyme="abab" lg_syllPattern="8-8-8-8">
                     <l xml:id="l1" l_numWord="3" l_numSyll="8" l_numShortSyll="6" l_numLongSyll="2" real="00000101">
@@ -209,7 +209,28 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w3 #w12">
+                    <firstRhyme rhyme_lemma="között" rhyme_pos="ADP" rhyme_msd="_" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfcfcc">között</firstRhyme>
+                    <secondRhyme rhyme_lemma="öltözött" rhyme_pos="ADJ" rhyme_msd="Case=Nom|Degree=Pos|Number=Sing" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="fccfcfcc">öltözött</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w8 #w16">
+                    <firstRhyme rhyme_lemma="hold" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="1" rhyme_phonType="low" rhyme_phonStruct="cbcc">hold</firstRhyme>
+                    <secondRhyme rhyme_lemma="szundit" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act" rhyme_numSyll="3" rhyme_phonType="mixed" rhyme_phonStruct="cbccfcbcc">szunditott</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w26 #w34">
+                    <firstRhyme rhyme_lemma="sor" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbcb">sora</firstRhyme>
+                    <secondRhyme rhyme_lemma="mámor" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3" rhyme_numSyll="3" rhyme_phonType="low" rhyme_phonStruct="cBcbcb">mámora</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w43 #w48">
+                    <firstRhyme rhyme_lemma="pásztortűz" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Plur" rhyme_numSyll="4" rhyme_phonType="mixed" rhyme_phonStruct="cBccbccfcfc">pásztortüzek</firstRhyme>
+                    <secondRhyme rhyme_lemma="szerelmes" rhyme_pos="ADJ" rhyme_msd="Case=Ess|Degree=Pos|Number=Sing" rhyme_numSyll="4" rhyme_phonType="high" rhyme_phonStruct="cfcfccfcfc">szerelmesen</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w48 #w51">
+                    <firstRhyme rhyme_lemma="szerelmes" rhyme_pos="ADJ" rhyme_msd="Case=Ess|Degree=Pos|Number=Sing" rhyme_numSyll="4" rhyme_phonType="high" rhyme_phonStruct="cfcfccfcfc">szerelmesen</firstRhyme>
+                    <secondRhyme rhyme_lemma="üzen" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="fcfcc">üzent</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w3 #w4 #w5" allStruct="ana" posTags="ADP ADJ VERB" msdTags="_ Case=Ess|Degree=Pos|Number=Sing Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act" lemmas="között piros kel">között Pirosan kelt</alliteration>
                 <alliteration target="#w17 #w18" allStruct="aa" posTags="ADV SCONJ" msdTags="_ _" lemmas="majd mint">Majd mint</alliteration>

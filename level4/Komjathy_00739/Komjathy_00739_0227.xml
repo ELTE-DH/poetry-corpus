@@ -107,12 +107,12 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="1" div_numLine="4" div_numWord="21" div_numSyll="40" div_numShortSyll="15" div_numLongSyll="25" div_rhyme="abba" div_syllPattern="10-10-10-10">
+            <div type="poem" div_numStanza="1" div_numLine="4" div_numWord="21" div_numSyll="40" div_numShortSyll="15" div_numLongSyll="25" div_rhyme="abba" div_syllPattern="10-10-10-10" met_qual="5-2-3" met_quan="iambic" met_quanScore="0.7">
                 <head type="title">ÉLOA SZÜLETÉSE</head>
                 <lg xml:id="lg1" lg_numLine="4" lg_numWord="21" lg_numSyll="40" lg_numShortSyll="15" lg_numLongSyll="25" rhyme="abba" lg_syllPattern="10-10-10-10">
                     <l xml:id="l1" l_numWord="5" l_numSyll="10" l_numShortSyll="3" l_numLongSyll="7" real="1111100101">
@@ -155,7 +155,16 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w5 #w21">
+                    <firstRhyme rhyme_lemma="úr" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="1" rhyme_phonType="low" rhyme_phonStruct="Bc">Úr</firstRhyme>
+                    <secondRhyme rhyme_lemma="azúr" rhyme_pos="ADJ" rhyme_msd="Case=Nom|Degree=Pos|Number=Sing" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="bcBc">azúr</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w11 #w16">
+                    <firstRhyme rhyme_lemma="megjelenik" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfccfcfcc">megjelent</firstRhyme>
+                    <secondRhyme rhyme_lemma="odafen" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act" rhyme_numSyll="3" rhyme_phonType="mixed" rhyme_phonStruct="bcbcfcc">odafent</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations/>
         </body>
     </text>

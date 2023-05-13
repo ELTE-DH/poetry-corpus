@@ -103,12 +103,12 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="1" div_numLine="10" div_numWord="38" div_numSyll="84" div_numShortSyll="30" div_numLongSyll="54" div_rhyme="abcdeafagg" div_syllPattern="9-8-9-8-9-8-9-8-8-8">
+            <div type="poem" div_numStanza="1" div_numLine="10" div_numWord="38" div_numSyll="84" div_numShortSyll="30" div_numLongSyll="54" div_rhyme="abcdeafagg" div_syllPattern="9-8-9-8-9-8-9-8-8-8" met_qual="False" met_quan="iambic" met_quanScore="0.48">
                 <head type="title">A’ Gyéniusok.</head>
                 <lg xml:id="lg1" lg_numLine="10" lg_numWord="38" lg_numSyll="84" lg_numShortSyll="30" lg_numLongSyll="54" rhyme="abcdeafagg" lg_syllPattern="9-8-9-8-9-8-9-8-8-8">
                     <l xml:id="l1" l_numWord="3" l_numSyll="9" l_numShortSyll="2" l_numLongSyll="7" real="110111110">
@@ -187,7 +187,20 @@
                 </lg>
                 <p>(A 90-es évek első feléből.)</p>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w3 #w22">
+                    <firstRhyme rhyme_lemma="vendég" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Plur" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfccFcfc">Vendégek</firstRhyme>
+                    <secondRhyme rhyme_lemma="étek" rhyme_pos="NOUN" rhyme_msd="Case=Dat|Number=Plur" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="Fccfccfc">étkeknek</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w22 #w30">
+                    <firstRhyme rhyme_lemma="étek" rhyme_pos="NOUN" rhyme_msd="Case=Dat|Number=Plur" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="Fccfccfc">étkeknek</firstRhyme>
+                    <secondRhyme rhyme_lemma="műtök" rhyme_pos="NOUN" rhyme_msd="Case=Dat|Number=Sing" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cFcfccfc">műtöknek</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w34 #w38">
+                    <firstRhyme rhyme_lemma="megy" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="1" rhyme_phonType="high" rhyme_phonStruct="cFc">mégy</firstRhyme>
+                    <secondRhyme rhyme_lemma="lesz" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="1" rhyme_phonType="high" rhyme_phonStruct="cFc">légy</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w14 #w15" allStruct="aa" posTags="VERB VERB" msdTags="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act Definite=Def|Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act" lemmas="van vesz">van Vegyétek</alliteration>
                 <alliteration target="#w16 #w17" allStruct="aa" posTags="NOUN CONJ" msdTags="Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3 _" lemmas="haszon hogyha">hasznát hogyha</alliteration>

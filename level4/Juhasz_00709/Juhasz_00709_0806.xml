@@ -111,12 +111,12 @@
 		<revisionDesc>
 			<change when="2021-07-05">level1</change>
 			<change when="2021-08-05">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="3" div_numLine="12" div_numWord="68" div_numSyll="132" div_numShortSyll="52" div_numLongSyll="80" div_rhyme="aabb|aaaa|aaaa" div_syllPattern="11-11-11-11|11-11-11-11|11-11-11-11">
+            <div type="poem" div_numStanza="3" div_numLine="12" div_numWord="68" div_numSyll="132" div_numShortSyll="52" div_numLongSyll="80" div_rhyme="aabb|aabb|aabb" div_syllPattern="11-11-11-11|11-11-11-11|11-11-11-11" met_qual="5-6" met_quan="iambic" met_quanScore="0.83">
                 <head type="title">Consolatio</head>
                 <lg xml:id="lg1" lg_numLine="4" lg_numWord="23" lg_numSyll="44" lg_numShortSyll="16" lg_numLongSyll="28" rhyme="aabb" lg_syllPattern="11-11-11-11">
                     <l xml:id="l1" l_numWord="7" l_numSyll="11" l_numShortSyll="3" l_numLongSyll="8" real="11011111010">
@@ -158,7 +158,7 @@
                         <pc xml:id="pc7" pos="PUNCT" join="left">.</pc>
                     </l>
                 </lg>
-                <lg xml:id="lg2" lg_numLine="4" lg_numWord="22" lg_numSyll="44" lg_numShortSyll="21" lg_numLongSyll="23" rhyme="aaaa" lg_syllPattern="11-11-11-11">
+                <lg xml:id="lg2" lg_numLine="4" lg_numWord="22" lg_numSyll="44" lg_numShortSyll="21" lg_numLongSyll="23" rhyme="aabb" lg_syllPattern="11-11-11-11">
                     <l xml:id="l5" l_numWord="6" l_numSyll="11" l_numShortSyll="4" l_numLongSyll="7" real="11110101010">
                         <w xml:id="w24" lemma="emlék" pos="NOUN" msd="Case=Nom|Number=Sing|Number[psor]=Plur|Person[psor]=3" w_numSyll="3" phonType="high" phonStruct="fccFcfc">Emlékük</w>
                         <pc xml:id="pc8" pos="PUNCT" join="left">,</pc>
@@ -195,7 +195,7 @@
                         <pc xml:id="pc12" pos="PUNCT" join="left">.</pc>
                     </l>
                 </lg>
-                <lg xml:id="lg3" lg_numLine="4" lg_numWord="23" lg_numSyll="44" lg_numShortSyll="15" lg_numLongSyll="29" rhyme="aaaa" lg_syllPattern="11-11-11-11">
+                <lg xml:id="lg3" lg_numLine="4" lg_numWord="23" lg_numSyll="44" lg_numShortSyll="15" lg_numLongSyll="29" rhyme="aabb" lg_syllPattern="11-11-11-11">
                     <l xml:id="l9" l_numWord="4" l_numSyll="11" l_numShortSyll="4" l_numLongSyll="7" real="01110101011">
                         <w xml:id="w46" lemma="szem" pos="NOUN" msd="Case=Ine|Number=Sing|Number[psor]=Plur|Person[psor]=1" w_numSyll="3" phonType="high" phonStruct="cfcfcccfc">Szemünkben</w>
                         <w xml:id="w47" lemma="tükröz" pos="VERB" msd="Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" w_numSyll="3" phonType="high" phonStruct="cfccfcfc">tükrözik</w>
@@ -233,7 +233,32 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w7 #w12">
+                    <firstRhyme rhyme_lemma="él" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="Fccfc">élnek</firstRhyme>
+                    <secondRhyme rhyme_lemma="év" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Plur" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="Fcfc">évek</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w18 #w23">
+                    <firstRhyme rhyme_lemma="még" rhyme_pos="ADV" rhyme_msd="_" rhyme_numSyll="1" rhyme_phonType="high" rhyme_phonStruct="cFc">még</firstRhyme>
+                    <secondRhyme rhyme_lemma="végtelenség" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="4" rhyme_phonType="high" rhyme_phonStruct="cFccfcfccFc">végtelenség</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w29 #w34">
+                    <firstRhyme rhyme_lemma="est" rhyme_pos="NOUN" rhyme_msd="Case=Ine|Number=Sing" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="fcccfc">estben</firstRhyme>
+                    <secondRhyme rhyme_lemma="szép" rhyme_pos="ADJ" rhyme_msd="Case=Ess|Degree=Cmp|Number=Sing" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfccfc">szebben</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w40 #w45">
+                    <firstRhyme rhyme_lemma="tél" rhyme_pos="NOUN" rhyme_msd="Case=Ine|Number=Sing" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cFccfc">télben</firstRhyme>
+                    <secondRhyme rhyme_lemma="fehér" rhyme_pos="ADJ" rhyme_msd="Case=Ess|Degree=Pos|Number=Sing" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfcFcfc">fehéren</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w49 #w56">
+                    <firstRhyme rhyme_lemma="még" rhyme_pos="ADV" rhyme_msd="_" rhyme_numSyll="1" rhyme_phonType="high" rhyme_phonStruct="cFc">még</firstRhyme>
+                    <secondRhyme rhyme_lemma="üdv" rhyme_pos="NOUN" rhyme_msd="Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="fccFc">üdvét</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w62 #w68">
+                    <firstRhyme rhyme_lemma="napfény" rhyme_pos="NOUN" rhyme_msd="Case=Acc|Number=Sing" rhyme_numSyll="2" rhyme_phonType="mixed" rhyme_phonStruct="cbccFcc">napfényt</firstRhyme>
+                    <secondRhyme rhyme_lemma="gondolat" rhyme_pos="NOUN" rhyme_msd="Case=Ess|Number=Sing" rhyme_numSyll="4" rhyme_phonType="mixed" rhyme_phonStruct="cbccbcbccFcc">gondolatként</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w10 #w11" allStruct="aa" posTags="NOUN NOUN" msdTags="Case=Nom|Number=Plur Case=Nom|Number=Plur" lemmas="árny álom">árnyak álmok</alliteration>
                 <alliteration target="#w19 #w20" allStruct="aa" posTags="CONJ NOUN" msdTags="_ Case=Nom|Number=Sing|Number[psor]=Plur|Person[psor]=1" lemmas="hiszen haza">Hiszen hazánk</alliteration>

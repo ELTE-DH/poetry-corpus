@@ -111,12 +111,12 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="1" div_numLine="4" div_numWord="19" div_numSyll="40" div_numShortSyll="20" div_numLongSyll="20" div_rhyme="abbb" div_syllPattern="10-10-10-10">
+            <div type="poem" div_numStanza="1" div_numLine="4" div_numWord="19" div_numSyll="40" div_numShortSyll="20" div_numLongSyll="20" div_rhyme="abbb" div_syllPattern="10-10-10-10" met_qual="5-2-3" met_quan="iambic" met_quanScore="0.81">
                 <head type="title">REMÉNY</head>
                 <lg xml:id="lg1" lg_numLine="4" lg_numWord="19" lg_numSyll="40" lg_numShortSyll="20" lg_numLongSyll="20" rhyme="abbb" lg_syllPattern="10-10-10-10">
                     <l xml:id="l1" l_numWord="5" l_numSyll="10" l_numShortSyll="4" l_numLongSyll="6" real="0001111101">
@@ -156,7 +156,16 @@
                 </lg>
                 <p>Pest, 1845. október 16. - november 25. között</p>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w10 #w14">
+                    <firstRhyme rhyme_lemma="ölel" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="fcfc">ölel</firstRhyme>
+                    <secondRhyme rhyme_lemma="kincs" rhyme_pos="NOUN" rhyme_msd="Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=2" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfccfcfc">kincsedet</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w14 #w19">
+                    <firstRhyme rhyme_lemma="kincs" rhyme_pos="NOUN" rhyme_msd="Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=2" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfccfcfc">kincsedet</firstRhyme>
+                    <secondRhyme rhyme_lemma="el" rhyme_pos="ADV" rhyme_msd="_" rhyme_numSyll="1" rhyme_phonType="high" rhyme_phonStruct="fc">el</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w5 #w6" allStruct="aa" posTags="NOUN PRON" msdTags="Case=Nom|Number=Sing Case=Nom|Number=Sing|Person=3|PronType=Int" lemmas="kéjleány ki">kéjleány Ki</alliteration>
                 <alliteration target="#w8 #w9" allStruct="aa" posTags="NOUN ADV" msdTags="Case=Acc|Number=Sing _" lemmas="ember egyaránt">embert egyaránt</alliteration>

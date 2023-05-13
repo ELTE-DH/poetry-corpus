@@ -111,14 +111,14 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="2" div_numLine="8" div_numWord="31" div_numSyll="56" div_numShortSyll="29" div_numLongSyll="27" div_rhyme="aaba|aaba" div_syllPattern="7-7-7-7|7-7-7-7">
+            <div type="poem" div_numStanza="2" div_numLine="8" div_numWord="31" div_numSyll="56" div_numShortSyll="29" div_numLongSyll="27" div_rhyme="abcb|abcb" div_syllPattern="7-7-7-7|7-7-7-7" met_qual="2-3-2_3-4" met_quan="trochaic" met_quanScore="0.77">
                 <head type="title">SÍROM</head>
-                <lg xml:id="lg1" lg_numLine="4" lg_numWord="17" lg_numSyll="28" lg_numShortSyll="14" lg_numLongSyll="14" rhyme="aaba" lg_syllPattern="7-7-7-7">
+                <lg xml:id="lg1" lg_numLine="4" lg_numWord="17" lg_numSyll="28" lg_numShortSyll="14" lg_numLongSyll="14" rhyme="abcb" lg_syllPattern="7-7-7-7">
                     <l xml:id="l1" l_numWord="4" l_numSyll="7" l_numShortSyll="3" l_numLongSyll="4" real="1011100">
                         <w xml:id="w1" lemma="hogyha" pos="CONJ" msd="_" w_numSyll="2" phonType="low" phonStruct="cbccb">Hogyha</w>
                         <w xml:id="w2" lemma="én" pos="PRON" msd="Case=Nom|Number=Sing|Person=1|PronType=Prs" w_numSyll="1" phonType="high" phonStruct="Fc">én</w>
@@ -149,7 +149,7 @@
                         <pc xml:id="pc4" pos="PUNCT" join="left">.</pc>
                     </l>
                 </lg>
-                <lg xml:id="lg2" lg_numLine="4" lg_numWord="14" lg_numSyll="28" lg_numShortSyll="15" lg_numLongSyll="13" rhyme="aaba" lg_syllPattern="7-7-7-7">
+                <lg xml:id="lg2" lg_numLine="4" lg_numWord="14" lg_numSyll="28" lg_numShortSyll="15" lg_numLongSyll="13" rhyme="abcb" lg_syllPattern="7-7-7-7">
                     <l xml:id="l5" l_numWord="5" l_numSyll="7" l_numShortSyll="4" l_numLongSyll="3" real="0010101">
                         <w xml:id="w18" lemma="de" pos="CONJ" msd="_" w_numSyll="1" phonType="high" phonStruct="cf">De</w>
                         <w xml:id="w19" lemma="ha" pos="SCONJ" msd="_" w_numSyll="1" phonType="low" phonStruct="cb">ha</w>
@@ -178,7 +178,16 @@
                 </lg>
                 <p>Dunavecse, 1844. április-május</p>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w8 #w17">
+                    <firstRhyme rhyme_lemma="sírom" rhyme_pos="NOUN" rhyme_msd="Case=Sup|Number=Sing" rhyme_numSyll="3" rhyme_phonType="mixed" rhyme_phonStruct="cFcbcbc">síromon</firstRhyme>
+                    <secondRhyme rhyme_lemma="por" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbcbc">porom</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w26 #w31">
+                    <firstRhyme rhyme_lemma="lélek" rhyme_pos="NOUN" rhyme_msd="Case=Ter|Number=Sing|Number[psor]=Sing|Person[psor]=1" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfccfcfc">lelkemig</firstRhyme>
+                    <secondRhyme rhyme_lemma="emelkedik" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="4" rhyme_phonType="high" rhyme_phonStruct="fcfccfcfc">emelkedik</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w3 #w4" allStruct="aa" posTags="ADV VERB" msdTags="_ Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" lemmas="majd meghal">majd meghalok</alliteration>
                 <alliteration target="#w23 #w24" allStruct="aa" posTags="PRON ADV" msdTags="Case=Nom|Number=Sing|Person=3|PronType=Int _" lemmas="mely most">Mely most</alliteration>

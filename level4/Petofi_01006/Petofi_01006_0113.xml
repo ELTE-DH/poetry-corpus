@@ -111,12 +111,12 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="3" div_numLine="12" div_numWord="30" div_numSyll="60" div_numShortSyll="30" div_numLongSyll="30" div_rhyme="abcb|aaba|aaba" div_syllPattern="6-4-6-4|6-4-6-4|6-4-6-4">
+            <div type="poem" div_numStanza="3" div_numLine="12" div_numWord="30" div_numSyll="60" div_numShortSyll="30" div_numLongSyll="30" div_rhyme="abcb|aaba|aaba" div_syllPattern="6-4-6-4|6-4-6-4|6-4-6-4" met_qual="6_4" met_quan="trochaic" met_quanScore="0.46">
                 <head type="title">KERESZTÚTON ÁLLOK...</head>
                 <lg xml:id="lg1" lg_numLine="4" lg_numWord="10" lg_numSyll="20" lg_numShortSyll="10" lg_numLongSyll="10" rhyme="abcb" lg_syllPattern="6-4-6-4">
                     <l xml:id="l1" l_numWord="2" l_numSyll="6" l_numShortSyll="3" l_numLongSyll="3" real="011010">
@@ -190,7 +190,28 @@
                 </lg>
                 <p>Miskolc, 1844. február</p>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w4 #w10">
+                    <firstRhyme rhyme_lemma="tart" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Imp|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbcccbc">tartsak</firstRhyme>
+                    <secondRhyme rhyme_lemma="nyugat" rhyme_pos="NOUN" rhyme_msd="Case=Dat|Number=Sing" rhyme_numSyll="3" rhyme_phonType="low" rhyme_phonStruct="cbcbccbc">nyugatnak</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w12 #w14">
+                    <firstRhyme rhyme_lemma="megy" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfcfc">megyek</firstRhyme>
+                    <secondRhyme rhyme_lemma="én" rhyme_pos="PRON" rhyme_msd="Case=Dat|Number=Sing|Person=1|PronType=Prs" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfcfc">nekem</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w14 #w18">
+                    <firstRhyme rhyme_lemma="én" rhyme_pos="PRON" rhyme_msd="Case=Dat|Number=Sing|Person=1|PronType=Prs" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfcfc">nekem</firstRhyme>
+                    <secondRhyme rhyme_lemma="élet" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="Fcfcfc">életem</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w23 #w26">
+                    <firstRhyme rhyme_lemma="vár" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="1" rhyme_phonType="low" rhyme_phonStruct="cBc">vár</firstRhyme>
+                    <secondRhyme rhyme_lemma="én" rhyme_pos="PRON" rhyme_msd="Case=Sub|Number=Sing|Person=1|PronType=Prs" rhyme_numSyll="1" rhyme_phonType="low" rhyme_phonStruct="cBc">rám</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w26 #w30">
+                    <firstRhyme rhyme_lemma="én" rhyme_pos="PRON" rhyme_msd="Case=Sub|Number=Sing|Person=1|PronType=Prs" rhyme_numSyll="1" rhyme_phonType="low" rhyme_phonStruct="cBc">rám</firstRhyme>
+                    <secondRhyme rhyme_lemma="választ" rhyme_pos="VERB" rhyme_msd="Definite=Def|Mood=Cnd,Pot|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="4" rhyme_phonType="low" rhyme_phonStruct="cBcbcccbccBc">Választhatnám</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w12 #w13 #w14 #w15" allStruct="aana" posTags="VERB ADJ PRON ADV" msdTags="Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act Case=Nom|Degree=Pos|Number=Sing Case=Dat|Number=Sing|Person=1|PronType=Prs _" lemmas="megy mindegy én mindenütt">megyek Mindegy nekem Mindenütt</alliteration>
                 <alliteration target="#w25 #w26 #w27" allStruct="ana" posTags="NOUN PRON SCONJ" msdTags="Case=Nom|Number=Sing Case=Sub|Number=Sing|Person=1|PronType=Prs _" lemmas="halál én hogy">halál rám Hogy</alliteration>

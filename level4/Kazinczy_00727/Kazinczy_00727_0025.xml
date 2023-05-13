@@ -103,12 +103,12 @@
 		<revisionDesc>
 			<change when="2021-06-02">level1</change>
 			<change when="2021-06-02">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="1" div_numLine="6" div_numWord="44" div_numSyll="83" div_numShortSyll="45" div_numLongSyll="38" div_rhyme="abbcdd" div_syllPattern="15-13-16-12-15-12">
+            <div type="poem" div_numStanza="1" div_numLine="6" div_numWord="44" div_numSyll="83" div_numShortSyll="45" div_numLongSyll="38" div_rhyme="abbcdd" div_syllPattern="15-13-16-12-15-12" met_qual="False" met_quan="iambic" met_quanScore="0.34">
                 <head type="title">A KÉT TERMÉSZET</head>
                 <lg xml:id="lg1" lg_numLine="6" lg_numWord="44" lg_numSyll="83" lg_numShortSyll="45" lg_numLongSyll="38" rhyme="abbcdd" lg_syllPattern="15-13-16-12-15-12">
                     <l xml:id="l1" l_numWord="9" l_numSyll="15" l_numShortSyll="9" l_numLongSyll="6" real="000100011010011">
@@ -178,7 +178,16 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w16 #w26">
+                    <firstRhyme rhyme_lemma="vezérl" rhyme_pos="NOUN" rhyme_msd="Case=Ins|Number=Sing|Number[psor]=Sing|Person[psor]=3" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfcFcc">vezérl</firstRhyme>
+                    <secondRhyme rhyme_lemma="és" rhyme_pos="CONJ" rhyme_msd="_" rhyme_numSyll="1" rhyme_phonType="high" rhyme_phonStruct="Fc">és</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w38 #w44">
+                    <firstRhyme rhyme_lemma="az" rhyme_pos="PRON" rhyme_msd="Case=Nom|Number=Sing|Person=3|PronType=Dem" rhyme_numSyll="1" rhyme_phonType="low" rhyme_phonStruct="bc">az</firstRhyme>
+                    <secondRhyme rhyme_lemma="az" rhyme_pos="DET" rhyme_msd="Definite=Def|PronType=Art" rhyme_numSyll="1" rhyme_phonType="low" rhyme_phonStruct="bc">az</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w15 #w16" allStruct="aa" posTags="NOUN NOUN" msdTags="Case=Ill|Number=Sing Case=Ins|Number=Sing|Number[psor]=Sing|Person[psor]=3" lemmas="való vezérl">valóba vezérl</alliteration>
                 <alliteration target="#w23 #w24 #w25" allStruct="ana" posTags="ADJ DET NUM" msdTags="Case=Acc|Degree=Pos|Number=Sing Definite=Def|PronType=Art Case=Nom|Number=Sing|NumType=Card" lemmas="eltévedt az egy">eltévedtet az egy</alliteration>

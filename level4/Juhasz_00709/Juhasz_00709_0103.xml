@@ -111,12 +111,12 @@
 		<revisionDesc>
 			<change when="2021-07-05">level1</change>
 			<change when="2021-08-05">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="1" div_numLine="3" div_numWord="16" div_numSyll="33" div_numShortSyll="21" div_numLongSyll="12" div_rhyme="aba" div_syllPattern="11-11-11">
+            <div type="poem" div_numStanza="1" div_numLine="3" div_numWord="16" div_numSyll="33" div_numShortSyll="21" div_numLongSyll="12" div_rhyme="aba" div_syllPattern="11-11-11" met_qual="False" met_quan="iambic" met_quanScore="0.15">
                 <head type="title">(Az ember ötlete...)</head>
                 <lg xml:id="lg1" lg_numLine="3" lg_numWord="16" lg_numSyll="33" lg_numShortSyll="21" lg_numLongSyll="12" rhyme="aba" lg_syllPattern="11-11-11">
                     <l xml:id="l1" l_numWord="5" l_numSyll="11" l_numShortSyll="8" l_numLongSyll="3" real="01010010000">
@@ -147,7 +147,12 @@
                 </lg>
                 <p>1921</p>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w5 #w16">
+                    <firstRhyme rhyme_lemma="pokoli" rhyme_pos="ADJ" rhyme_msd="Case=Nom|Degree=Pos|Number=Sing" rhyme_numSyll="3" rhyme_phonType="mixed" rhyme_phonStruct="cbcbcf">pokoli</firstRhyme>
+                    <secondRhyme rhyme_lemma="Moholi" rhyme_pos="PROPN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="3" rhyme_phonType="mixed" rhyme_phonStruct="cbcbcf">Moholi</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w4 #w5 #w6" allStruct="ana" posTags="ADV ADJ ADV" msdTags="_ Case=Nom|Degree=Pos|Number=Sing PronType=Neg" lemmas="néha pokoli nem">néha pokoli Nem</alliteration>
                 <alliteration target="#w7 #w8 #w9" allStruct="ana" posTags="ADV VERB ADV" msdTags="_ Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act _" lemmas="is tud igazán">is tudja igazán</alliteration>

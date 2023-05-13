@@ -111,12 +111,12 @@
 		<revisionDesc>
 			<change when="2021-07-05">level1</change>
 			<change when="2021-08-05">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="4" div_numLine="14" div_numWord="74" div_numSyll="146" div_numShortSyll="57" div_numLongSyll="89" div_rhyme="abba|abba|aab|abb" div_syllPattern="10-11-11-10|10-11-11-10|10-10-10|10-11-11">
+            <div type="poem" div_numStanza="4" div_numLine="14" div_numWord="74" div_numSyll="146" div_numShortSyll="57" div_numLongSyll="89" div_rhyme="abba|abba|aab|abb" div_syllPattern="10-11-11-10|10-11-11-10|10-10-10|10-11-11" met_qual="False" met_quan="iambic" met_quanScore="0.64">
                 <head type="title">Gellért püspök</head>
                 <lg xml:id="lg1" lg_numLine="4" lg_numWord="21" lg_numSyll="42" lg_numShortSyll="14" lg_numLongSyll="28" rhyme="abba" lg_syllPattern="10-11-11-10">
                     <l xml:id="l1" l_numWord="5" l_numSyll="10" l_numShortSyll="3" l_numLongSyll="7" real="0111111100">
@@ -245,7 +245,32 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w5 #w21">
+                    <firstRhyme rhyme_lemma="nap" rhyme_pos="NOUN" rhyme_msd="Case=Acc|Number=Sing" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbcbc">napot</firstRhyme>
+                    <secondRhyme rhyme_lemma="most" rhyme_pos="ADV" rhyme_msd="_" rhyme_numSyll="1" rhyme_phonType="low" rhyme_phonStruct="cbcc">most</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w12 #w16">
+                    <firstRhyme rhyme_lemma="pásztor" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cBccbc">pásztor</firstRhyme>
+                    <secondRhyme rhyme_lemma="virrasztás" rhyme_pos="NOUN" rhyme_msd="Case=Abl|Number=Sing" rhyme_numSyll="4" rhyme_phonType="mixed" rhyme_phonStruct="cfccbccBccBc">virrasztástól</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w25 #w40">
+                    <firstRhyme rhyme_lemma="elborong" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="3" rhyme_phonType="mixed" rhyme_phonStruct="fccbcbcc">elborong</firstRhyme>
+                    <secondRhyme rhyme_lemma="komondor" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Plur" rhyme_numSyll="4" rhyme_phonType="low" rhyme_phonStruct="cbcbccbcbc">komondorok</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w30 #w36">
+                    <firstRhyme rhyme_lemma="mormol" rhyme_pos="VERB" rhyme_msd="Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="3" rhyme_phonType="low" rhyme_phonStruct="cbccbccb">mormolja</firstRhyme>
+                    <secondRhyme rhyme_lemma="dóm" rhyme_pos="NOUN" rhyme_msd="Case=Sub|Number=Sing" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cBccb">dómra</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w47 #w53">
+                    <firstRhyme rhyme_lemma="szól" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="1" rhyme_phonType="low" rhyme_phonStruct="cBc">szól</firstRhyme>
+                    <secondRhyme rhyme_lemma="dalol" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbcbc">dalol</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w68 #w74">
+                    <firstRhyme rhyme_lemma="áradat" rhyme_pos="NOUN" rhyme_msd="Case=Ins|Number=Sing" rhyme_numSyll="4" rhyme_phonType="low" rhyme_phonStruct="Bcbcbccbc">áradattal</firstRhyme>
+                    <secondRhyme rhyme_lemma="dal" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="1" rhyme_phonType="low" rhyme_phonStruct="cbc">dal</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w18 #w19" allStruct="aa" posTags="VERB ADJ" msdTags="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act Case=Nom|Degree=Pos|Number=Sing" lemmas="tér tornyos">tért tornyos</alliteration>
                 <alliteration target="#w47 #w48 #w49" allStruct="ana" posTags="VERB DET NOUN" msdTags="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act Definite=Ind|PronType=Art Case=Nom|Number=Sing" lemmas="szól egy szolgálólány">szól Egy szolgálólány</alliteration>

@@ -111,12 +111,12 @@
 		<revisionDesc>
 			<change when="2021-07-05">level1</change>
 			<change when="2021-08-05">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="4" div_numLine="14" div_numWord="72" div_numSyll="146" div_numShortSyll="65" div_numLongSyll="81" div_rhyme="abba|abba|aab|abb" div_syllPattern="10-11-11-10|11-10-10-11|10-10-11|11-10-10">
+            <div type="poem" div_numStanza="4" div_numLine="14" div_numWord="72" div_numSyll="146" div_numShortSyll="65" div_numLongSyll="81" div_rhyme="abba|abba|aab|abb" div_syllPattern="10-11-11-10|11-10-10-11|10-10-11|11-10-10" met_qual="False" met_quan="iambic" met_quanScore="0.71">
                 <head type="title">A hegyi beszéd</head>
                 <lg xml:id="lg1" lg_numLine="4" lg_numWord="21" lg_numSyll="42" lg_numShortSyll="13" lg_numLongSyll="29" rhyme="abba" lg_syllPattern="10-11-11-10">
                     <l xml:id="l1" l_numWord="4" l_numSyll="10" l_numShortSyll="4" l_numLongSyll="6" real="0001111101">
@@ -241,7 +241,32 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w4 #w21">
+                    <firstRhyme rhyme_lemma="víz" rhyme_pos="NOUN" rhyme_msd="Case=Sup|Number=Sing|Number[psor]=Sing|Person[psor]=3" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfcFc">vizén</firstRhyme>
+                    <secondRhyme rhyme_lemma="fény" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="1" rhyme_phonType="high" rhyme_phonStruct="cFc">fény</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w11 #w15">
+                    <firstRhyme rhyme_lemma="csónak" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cBcbc">csónak</firstRhyme>
+                    <secondRhyme rhyme_lemma="dúdol" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="3" rhyme_phonType="low" rhyme_phonStruct="cBcbccbc">dúdolnak</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w26 #w41">
+                    <firstRhyme rhyme_lemma="glória" rhyme_pos="NOUN" rhyme_msd="Case=Ine|Number=Sing" rhyme_numSyll="4" rhyme_phonType="mixed" rhyme_phonStruct="ccBcfBcbc">glóriában</firstRhyme>
+                    <secondRhyme rhyme_lemma="van" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="1" rhyme_phonType="low" rhyme_phonStruct="cbc">van</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w31 #w37">
+                    <firstRhyme rhyme_lemma="lehel" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfcfc">lehel</firstRhyme>
+                    <secondRhyme rhyme_lemma="vesztegel" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfccfcfc">vesztegel</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w45 #w51">
+                    <firstRhyme rhyme_lemma="lankás" rhyme_pos="NOUN" rhyme_msd="Case=Sup|Number=Plur" rhyme_numSyll="4" rhyme_phonType="low" rhyme_phonStruct="cbccBcbcbc">lankásokon</firstRhyme>
+                    <secondRhyme rhyme_lemma="orom" rhyme_pos="NOUN" rhyme_msd="Case=Sup|Number=Plur" rhyme_numSyll="3" rhyme_phonType="low" rhyme_phonStruct="bccbcbc">ormokon</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w67 #w72">
+                    <firstRhyme rhyme_lemma="szem" rhyme_pos="NOUN" rhyme_msd="Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfcFc">szemét</firstRhyme>
+                    <secondRhyme rhyme_lemma="beszéd" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfcFc">beszéd</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w7 #w8" allStruct="aa" posTags="NOUN ADJ" msdTags="Case=Nom|Number=Sing Case=Ess|Degree=Pos|Number=Sing" lemmas="hattyú halk">hattyú halkan</alliteration>
                 <alliteration target="#w12 #w13 #w14" allStruct="ana" posTags="ADJ NOUN NOUN" msdTags="Case=Nom|Degree=Pos|Number=Sing Case=Nom|Number=Plur Case=Sup|Number=Sing" lemmas="fáradt halász félhang">Fáradt halászok félhangon</alliteration>

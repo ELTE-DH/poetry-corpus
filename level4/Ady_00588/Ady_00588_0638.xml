@@ -120,12 +120,12 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="5" div_numLine="20" div_numWord="97" div_numSyll="180" div_numShortSyll="70" div_numLongSyll="110" div_rhyme="abcb|abbb|abcb|abab|abcb" div_syllPattern="9-9-9-9|9-9-9-9|9-9-9-9|9-9-9-9|9-9-9-9">
+            <div type="poem" div_numStanza="5" div_numLine="20" div_numWord="97" div_numSyll="180" div_numShortSyll="70" div_numLongSyll="110" div_rhyme="abcb|abcb|abcb|abcb|abcb" div_syllPattern="9-9-9-9|9-9-9-9|9-9-9-9|9-9-9-9|9-9-9-9" met_qual="False" met_quan="iambic" met_quanScore="0.32">
                 <head type="title">A TŰZ CSIHOLÓJA</head>
                 <lg xml:id="lg1" lg_numLine="4" lg_numWord="20" lg_numSyll="36" lg_numShortSyll="12" lg_numLongSyll="24" rhyme="abcb" lg_syllPattern="9-9-9-9">
                     <l xml:id="l1" l_numWord="5" l_numSyll="9" l_numShortSyll="3" l_numLongSyll="6" real="011011110">
@@ -161,7 +161,7 @@
                         <pc xml:id="pc4" pos="PUNCT" join="left">.</pc>
                     </l>
                 </lg>
-                <lg xml:id="lg2" lg_numLine="4" lg_numWord="17" lg_numSyll="36" lg_numShortSyll="16" lg_numLongSyll="20" rhyme="abbb" lg_syllPattern="9-9-9-9">
+                <lg xml:id="lg2" lg_numLine="4" lg_numWord="17" lg_numSyll="36" lg_numShortSyll="16" lg_numLongSyll="20" rhyme="abcb" lg_syllPattern="9-9-9-9">
                     <l xml:id="l5" l_numWord="4" l_numSyll="9" l_numShortSyll="3" l_numLongSyll="6" real="011100111">
                         <w xml:id="w21" lemma="az" pos="DET" msd="Definite=Def|PronType=Art" w_numSyll="1" phonType="low" phonStruct="bc">Az</w>
                         <w xml:id="w22" lemma="egy" pos="ADJ" msd="Case=Nom|Number=Sing|NumType=Ord" w_numSyll="2" phonType="high" phonStruct="fccF">első</w>
@@ -224,7 +224,7 @@
                         <pc xml:id="pc11" pos="PUNCT" join="left">.</pc>
                     </l>
                 </lg>
-                <lg xml:id="lg4" lg_numLine="4" lg_numWord="20" lg_numSyll="36" lg_numShortSyll="15" lg_numLongSyll="21" rhyme="abab" lg_syllPattern="9-9-9-9">
+                <lg xml:id="lg4" lg_numLine="4" lg_numWord="20" lg_numSyll="36" lg_numShortSyll="15" lg_numLongSyll="21" rhyme="abcb" lg_syllPattern="9-9-9-9">
                     <l xml:id="l13" l_numWord="5" l_numSyll="9" l_numShortSyll="3" l_numLongSyll="6" real="000111111">
                         <w xml:id="w57" lemma="ez" pos="PRON" msd="Case=Nom|Number=Sing|Person=3|PronType=Dem" w_numSyll="1" phonType="high" phonStruct="fc">Ez</w>
                         <w xml:id="w58" lemma="a" pos="DET" msd="Definite=Def|PronType=Art" w_numSyll="1" phonType="low" phonStruct="b">a</w>
@@ -297,7 +297,28 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w10 #w20">
+                    <firstRhyme rhyme_lemma="mer" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfccfc">mertek</firstRhyme>
+                    <secondRhyme rhyme_lemma="viharvert" rhyme_pos="ADJ" rhyme_msd="Case=Nom|Degree=Pos|Number=Plur" rhyme_numSyll="4" rhyme_phonType="mixed" rhyme_phonStruct="cfcbccfccfc">viharvertek</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w28 #w37">
+                    <firstRhyme rhyme_lemma="csiholó" rhyme_pos="ADJ" rhyme_msd="Case=Nom|Degree=Pos|Number=Sing|Number[psor]=Sing|Person[psor]=3" rhyme_numSyll="4" rhyme_phonType="mixed" rhyme_phonStruct="cfcbcBcb">csiholója</firstRhyme>
+                    <secondRhyme rhyme_lemma="adó" rhyme_pos="NOUN" rhyme_msd="Case=Sub|Number=Sing" rhyme_numSyll="3" rhyme_phonType="low" rhyme_phonStruct="bcBcb">adóra</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w46 #w56">
+                    <firstRhyme rhyme_lemma="bér" rhyme_pos="NOUN" rhyme_msd="Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cFcFc">bérét</firstRhyme>
+                    <secondRhyme rhyme_lemma="vér" rhyme_pos="NOUN" rhyme_msd="Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cFcFc">vérét</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w65 #w76">
+                    <firstRhyme rhyme_lemma="pulya" rhyme_pos="NOUN" rhyme_msd="Case=Dat|Number=Plur" rhyme_numSyll="3" rhyme_phonType="low" rhyme_phonStruct="cbcBccbc">pulyáknak</firstRhyme>
+                    <secondRhyme rhyme_lemma="bátor" rhyme_pos="ADJ" rhyme_msd="Case=Nom|Degree=Cmp|Number=Sing" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cBccbcc">bátrabb</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w89 #w97">
+                    <firstRhyme rhyme_lemma="óv" rhyme_pos="VERB" rhyme_msd="Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="Bccb">óvja</firstRhyme>
+                    <secondRhyme rhyme_lemma="csiholó" rhyme_pos="ADJ" rhyme_msd="Case=Nom|Degree=Pos|Number=Sing|Number[psor]=Sing|Person[psor]=3" rhyme_numSyll="4" rhyme_phonType="mixed" rhyme_phonStruct="cfcbcBcb">csiholója</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w22 #w23" allStruct="aa" posTags="ADJ ADJ" msdTags="Case=Nom|Number=Sing|NumType=Ord Case=Nom|Degree=Pos|Number=Sing" lemmas="egy emberi">első emberi</alliteration>
                 <alliteration target="#w45 #w46 #w47 #w48 #w49 #w50" allStruct="anaana" posTags="NOUN NOUN ADV ADV ADV PRON" msdTags="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3 Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3 _ _ _ Case=Nom|Number=Sing|Person=3|PronType=Tot" lemmas="munka bér még ma is minden">munkája bérét Még ma is minden</alliteration>

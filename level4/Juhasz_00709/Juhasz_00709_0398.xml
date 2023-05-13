@@ -111,12 +111,12 @@
 		<revisionDesc>
 			<change when="2021-07-05">level1</change>
 			<change when="2021-08-05">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="4" div_numLine="16" div_numWord="62" div_numSyll="121" div_numShortSyll="59" div_numLongSyll="62" div_rhyme="abcb|abcb|abcb|abcb" div_syllPattern="8-5-11-5|8-5-11-5|8-6-11-4|8-6-11-9">
+            <div type="poem" div_numStanza="4" div_numLine="16" div_numWord="62" div_numSyll="121" div_numShortSyll="59" div_numLongSyll="62" div_rhyme="abcb|abcb|abcb|abcb" div_syllPattern="8-5-11-5|8-5-11-5|8-6-11-4|8-6-11-9" met_qual="False" met_quan="iambic" met_quanScore="0.5">
                 <head type="title">Halotti beszéd</head>
                 <lg xml:id="lg1" lg_numLine="4" lg_numWord="14" lg_numSyll="29" lg_numShortSyll="15" lg_numLongSyll="14" rhyme="abcb" lg_syllPattern="8-5-11-5">
                     <l xml:id="l1" l_numWord="4" l_numSyll="8" l_numShortSyll="4" l_numLongSyll="4" real="10001101">
@@ -239,7 +239,24 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w6 #w14">
+                    <firstRhyme rhyme_lemma="pipacs" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Plur" rhyme_numSyll="3" rhyme_phonType="mixed" rhyme_phonStruct="cfcbcbc">pipacsok</firstRhyme>
+                    <secondRhyme rhyme_lemma="halott" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbcbcc">halott</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w21 #w31">
+                    <firstRhyme rhyme_lemma="ősz" rhyme_pos="ADJ" rhyme_msd="Case=Nom|Degree=Pos|Number=Sing" rhyme_numSyll="1" rhyme_phonType="high" rhyme_phonStruct="Fc">ősz</firstRhyme>
+                    <secondRhyme rhyme_lemma="ösmerős" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="fccfcFc">ösmerős</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w38 #w46">
+                    <firstRhyme rhyme_lemma="csöndes" rhyme_pos="ADJ" rhyme_msd="Case=Ess|Degree=Pos|Number=Sing" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfccfcfc">csöndesen</firstRhyme>
+                    <secondRhyme rhyme_lemma="tetem" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfcfc">tetem</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w54 #w62">
+                    <firstRhyme rhyme_lemma="mereng" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfcfcc">mereng</firstRhyme>
+                    <secondRhyme rhyme_lemma="virágének" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Plur" rhyme_numSyll="5" rhyme_phonType="mixed" rhyme_phonStruct="cfcBcFcfcfc">virágénekek</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w5 #w6" allStruct="aa" posTags="ADJ NOUN" msdTags="Case=Nom|Degree=Pos|Number=Sing Case=Nom|Number=Plur" lemmas="piros pipacs">Piros pipacsok</alliteration>
                 <alliteration target="#w21 #w22" allStruct="aa" posTags="ADJ PRON" msdTags="Case=Nom|Degree=Pos|Number=Sing Case=Nom|Number=Sing|Person=3|PronType=Prs" lemmas="ősz ő">ősz Ő</alliteration>

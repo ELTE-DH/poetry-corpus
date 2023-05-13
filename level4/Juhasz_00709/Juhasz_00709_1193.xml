@@ -111,12 +111,12 @@
 		<revisionDesc>
 			<change when="2021-07-05">level1</change>
 			<change when="2021-08-05">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="4" div_numLine="16" div_numWord="87" div_numSyll="168" div_numShortSyll="83" div_numLongSyll="85" div_rhyme="abcb|aaba|abcb|abcb" div_syllPattern="11-10-11-10|11-10-11-10|11-10-11-10|11-10-11-10">
+            <div type="poem" div_numStanza="4" div_numLine="16" div_numWord="87" div_numSyll="168" div_numShortSyll="83" div_numLongSyll="85" div_rhyme="abcb|abcb|abcb|abcb" div_syllPattern="11-10-11-10|11-10-11-10|11-10-11-10|11-10-11-10" met_qual="5-6_5-2-3" met_quan="iambic" met_quanScore="0.64">
                 <head type="title">K. L.</head>
                 <p>(Károlyi Lajos)</p>
                 <lg xml:id="lg1" lg_numLine="4" lg_numWord="19" lg_numSyll="42" lg_numShortSyll="19" lg_numLongSyll="23" rhyme="abcb" lg_syllPattern="11-10-11-10">
@@ -150,7 +150,7 @@
                         <pc xml:id="pc2" pos="PUNCT" join="left">.</pc>
                     </l>
                 </lg>
-                <lg xml:id="lg2" lg_numLine="4" lg_numWord="23" lg_numSyll="42" lg_numShortSyll="21" lg_numLongSyll="21" rhyme="aaba" lg_syllPattern="11-10-11-10">
+                <lg xml:id="lg2" lg_numLine="4" lg_numWord="23" lg_numSyll="42" lg_numShortSyll="21" lg_numLongSyll="21" rhyme="abcb" lg_syllPattern="11-10-11-10">
                     <l xml:id="l5" l_numWord="6" l_numSyll="11" l_numShortSyll="7" l_numLongSyll="4" real="10010001010">
                         <w xml:id="w20" lemma="ő" pos="PRON" msd="Case=Nom|Number=Sing|Person=3|PronType=Prs" w_numSyll="1" phonType="high" phonStruct="F">Ő</w>
                         <w xml:id="w21" lemma="mosolyog" pos="VERB" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" w_numSyll="3" phonType="low" phonStruct="cbcbcbc">mosolyog</w>
@@ -266,7 +266,24 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w10 #w19">
+                    <firstRhyme rhyme_lemma="én" rhyme_pos="PRON" rhyme_msd="Case=Ins|Number=Sing|Person=1|PronType=Prs" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfcfc">velem</firstRhyme>
+                    <secondRhyme rhyme_lemma="tekintet" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1" rhyme_numSyll="4" rhyme_phonType="high" rhyme_phonStruct="cfcfccfcfc">tekintetem</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w31 #w42">
+                    <firstRhyme rhyme_lemma="szív" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cFcfc">szívem</firstRhyme>
+                    <secondRhyme rhyme_lemma="szelíd" rhyme_pos="ADJ" rhyme_msd="Case=Ess|Degree=Pos|Number=Sing" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfcFcfc">szelíden</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w53 #w64">
+                    <firstRhyme rhyme_lemma="nap" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Plur" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbcbc">napok</firstRhyme>
+                    <secondRhyme rhyme_lemma="ragyog" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbcbc">ragyog</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w76 #w87">
+                    <firstRhyme rhyme_lemma="van" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="1" rhyme_phonType="low" rhyme_phonStruct="cbc">van</firstRhyme>
+                    <secondRhyme rhyme_lemma="maga" rhyme_pos="PRON" rhyme_msd="Case=Nom|Number=Sing|Person=1|Reflex=Yes" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbcbc">magam</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w2 #w3" allStruct="aa" posTags="ADJ NOUN" msdTags="Case=Nom|Degree=Pos|Number=Sing Case=Nom|Number=Sing" lemmas="megdicsőült művész">megdicsőült művész</alliteration>
                 <alliteration target="#w6 #w7 #w8" allStruct="ana" posTags="NOUN NOUN ADV" msdTags="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1 Case=Del|Number=Sing|Number[psor]=Sing|Person[psor]=3 _" lemmas="szoba fal szembe">Szobám faláról szembe</alliteration>

@@ -111,14 +111,14 @@
 		<revisionDesc>
 			<change when="2021-07-05">level1</change>
 			<change when="2021-08-05">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="5" div_numLine="20" div_numWord="80" div_numSyll="160" div_numShortSyll="82" div_numLongSyll="78" div_rhyme="aaba|abcb|abcb|abcb|abcb" div_syllPattern="8-8-8-8|8-8-8-8|8-8-8-8|8-8-8-8|8-8-8-8">
+            <div type="poem" div_numStanza="5" div_numLine="20" div_numWord="80" div_numSyll="160" div_numShortSyll="82" div_numLongSyll="78" div_rhyme="abcb|abcb|abcb|abcb|abcb" div_syllPattern="8-8-8-8|8-8-8-8|8-8-8-8|8-8-8-8|8-8-8-8" met_qual="4-4" met_quan="trochaic" met_quanScore="0.66">
                 <head type="title">Dózsa után</head>
-                <lg xml:id="lg1" lg_numLine="4" lg_numWord="13" lg_numSyll="32" lg_numShortSyll="22" lg_numLongSyll="10" rhyme="aaba" lg_syllPattern="8-8-8-8">
+                <lg xml:id="lg1" lg_numLine="4" lg_numWord="13" lg_numSyll="32" lg_numShortSyll="22" lg_numLongSyll="10" rhyme="abcb" lg_syllPattern="8-8-8-8">
                     <l xml:id="l1" l_numWord="3" l_numSyll="8" l_numShortSyll="6" l_numLongSyll="2" real="00010010">
                         <w xml:id="w1" lemma="fekete" pos="ADJ" msd="Case=Nom|Degree=Pos|Number=Sing" w_numSyll="3" phonType="high" phonStruct="cfcfcf">Fekete</w>
                         <w xml:id="w2" lemma="éj" pos="NOUN" msd="Case=Nom|Number=Sing" w_numSyll="1" phonType="high" phonStruct="Fc">éj</w>
@@ -268,7 +268,28 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w6 #w13">
+                    <firstRhyme rhyme_lemma="rónaság" rhyme_pos="NOUN" rhyme_msd="Case=Sub|Number=Sing" rhyme_numSyll="4" rhyme_phonType="low" rhyme_phonStruct="cBcbcBccb">rónaságra</firstRhyme>
+                    <secondRhyme rhyme_lemma="katona" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3" rhyme_numSyll="4" rhyme_phonType="low" rhyme_phonStruct="cbcbcBcb">katonája</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w21 #w30">
+                    <firstRhyme rhyme_lemma="ég" rhyme_pos="NOUN" rhyme_msd="Case=Sub|Number=Sing" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="Fccf">égre</firstRhyme>
+                    <secondRhyme rhyme_lemma="vég" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cFcf">vége</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w38 #w47">
+                    <firstRhyme rhyme_lemma="hangos" rhyme_pos="ADJ" rhyme_msd="Case=Nom|Degree=Pos|Number=Sing" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbccbc">hangos</firstRhyme>
+                    <secondRhyme rhyme_lemma="most" rhyme_pos="ADV" rhyme_msd="_" rhyme_numSyll="1" rhyme_phonType="low" rhyme_phonStruct="cbcc">most</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w55 #w64">
+                    <firstRhyme rhyme_lemma="szól" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cBccbc">szólnak</firstRhyme>
+                    <secondRhyme rhyme_lemma="holnap" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbccbc">holnap</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w72 #w80">
+                    <firstRhyme rhyme_lemma="ács" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Plur" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="Bcbc">ácsok</firstRhyme>
+                    <secondRhyme rhyme_lemma="palást" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=2" rhyme_numSyll="3" rhyme_phonType="low" rhyme_phonStruct="cbcBccbc">palástod</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w4 #w5 #w6" allStruct="ana" posTags="VERB DET NOUN" msdTags="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act Definite=Def|PronType=Art Case=Sub|Number=Sing" lemmas="ráborul a rónaság">Ráborul a rónaságra</alliteration>
                 <alliteration target="#w39 #w40" allStruct="aa" posTags="ADJ NOUN" msdTags="Case=Nom|Degree=Pos|Number=Sing Case=Nom|Number=Plur" lemmas="kicsi kunyhó">Kicsi kunyhók</alliteration>

@@ -103,12 +103,12 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="3" div_numLine="12" div_numWord="54" div_numSyll="93" div_numShortSyll="37" div_numLongSyll="56" div_rhyme="abcb|abcb|abcb" div_syllPattern="8-9-9-5|7-10-10-4|8-9-9-5">
+            <div type="poem" div_numStanza="3" div_numLine="12" div_numWord="54" div_numSyll="93" div_numShortSyll="37" div_numLongSyll="56" div_rhyme="abcb|abcb|abcb" div_syllPattern="8-9-9-5|7-10-10-4|8-9-9-5" met_qual="False" met_quan="iambic" met_quanScore="0.59">
                 <head type="title">Derengés</head>
                 <lg xml:id="lg1" lg_numLine="4" lg_numWord="17" lg_numSyll="31" lg_numShortSyll="13" lg_numLongSyll="18" rhyme="abcb" lg_syllPattern="8-9-9-5">
                     <l xml:id="l1" l_numWord="5" l_numSyll="8" l_numShortSyll="4" l_numLongSyll="4" real="11110000">
@@ -219,7 +219,20 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w10 #w17">
+                    <firstRhyme rhyme_lemma="hang" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=2" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbccbc">hangod</firstRhyme>
+                    <secondRhyme rhyme_lemma="hall" rhyme_pos="VERB" rhyme_msd="Definite=Def|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbccbc">hallod</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w24 #w35">
+                    <firstRhyme rhyme_lemma="panasz" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbcbc">panasz</firstRhyme>
+                    <secondRhyme rhyme_lemma="az" rhyme_pos="PRON" rhyme_msd="Case=Nom|Number=Sing|Person=3|PronType=Dem" rhyme_numSyll="1" rhyme_phonType="low" rhyme_phonStruct="bc">az</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w43 #w54">
+                    <firstRhyme rhyme_lemma="gyermek" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfccfc">gyermek</firstRhyme>
+                    <secondRhyme rhyme_lemma="meg" rhyme_pos="PART" rhyme_msd="_" rhyme_numSyll="1" rhyme_phonType="high" rhyme_phonStruct="cfc">meg</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w1 #w2" allStruct="aa" posTags="ADJ VERB" msdTags="Case=Nom|Degree=Pos|Number=Sing Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act" lemmas="vak van">Vak voltam</alliteration>
                 <alliteration target="#w8 #w9 #w10" allStruct="ana" posTags="VERB DET NOUN" msdTags="Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act Definite=Def|PronType=Art Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=2" lemmas="hall a hang">hallom a hangod</alliteration>

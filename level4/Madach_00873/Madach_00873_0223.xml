@@ -103,12 +103,12 @@
 		<revisionDesc>
 			<change when="2021-06-10">level1</change>
 			<change when="2021-06-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="1" div_numLine="8" div_numWord="44" div_numSyll="83" div_numShortSyll="37" div_numLongSyll="46" div_rhyme="abacdefe" div_syllPattern="11-10-11-10-10-10-11-10">
+            <div type="poem" div_numStanza="1" div_numLine="8" div_numWord="44" div_numSyll="83" div_numShortSyll="37" div_numLongSyll="46" div_rhyme="abacdefe" div_syllPattern="11-10-11-10-10-10-11-10" met_qual="False" met_quan="iambic" met_quanScore="0.59">
                 <head type="title">23. Honfibú</head>
                 <lg xml:id="lg1" lg_numLine="8" lg_numWord="44" lg_numSyll="83" lg_numShortSyll="37" lg_numLongSyll="46" rhyme="abacdefe" lg_syllPattern="11-10-11-10-10-10-11-10">
                     <l xml:id="l1" l_numWord="5" l_numSyll="11" l_numShortSyll="3" l_numLongSyll="8" real="11010111011">
@@ -182,7 +182,16 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w5 #w15">
+                    <firstRhyme rhyme_lemma="perc" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="1" rhyme_phonType="high" rhyme_phonStruct="cfcc">perc</firstRhyme>
+                    <secondRhyme rhyme_lemma="kép" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=2" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cFcfc">képed</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w32 #w44">
+                    <firstRhyme rhyme_lemma="öröm" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="fcfcfc">örömem</firstRhyme>
+                    <secondRhyme rhyme_lemma="én" rhyme_pos="PRON" rhyme_msd="Case=Dat|Number=Sing|Person=1|PronType=Prs" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfcfc">nekem</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w13 #w14 #w15" allStruct="ana" posTags="VERB ADJ NOUN" msdTags="Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act Case=Nom|Degree=Pos|Number=Sing Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=2" lemmas="kihal drága kép">kihalna drága képed</alliteration>
                 <alliteration target="#w42 #w43 #w44" allStruct="ana" posTags="ADV VERB PRON" msdTags="PronType=Neg Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act Case=Dat|Number=Sing|Person=1|PronType=Prs" lemmas="nem marad én">nem maradt nekem</alliteration>

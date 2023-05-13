@@ -103,12 +103,12 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="2" div_numLine="8" div_numWord="35" div_numSyll="74" div_numShortSyll="26" div_numLongSyll="48" div_rhyme="abcdec|aa" div_syllPattern="9-9-8-9-9-8|11-11">
+            <div type="poem" div_numStanza="2" div_numLine="8" div_numWord="35" div_numSyll="74" div_numShortSyll="26" div_numLongSyll="48" div_rhyme="abcdec|aa" div_syllPattern="9-9-8-9-9-8|11-11" met_qual="False" met_quan="iambic" met_quanScore="0.6">
                 <head type="title">Az álomban vett Tsók.</head>
                 <lg xml:id="lg1" lg_numLine="6" lg_numWord="25" lg_numSyll="52" lg_numShortSyll="16" lg_numLongSyll="36" rhyme="abcdec" lg_syllPattern="9-9-8-9-9-8">
                     <l xml:id="l1" l_numWord="4" l_numSyll="9" l_numShortSyll="3" l_numLongSyll="6" real="011101011">
@@ -182,7 +182,16 @@
                 </lg>
                 <p>(1793.)</p>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w12 #w25">
+                    <firstRhyme rhyme_lemma="álom" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=1" rhyme_numSyll="3" rhyme_phonType="mixed" rhyme_phonStruct="Bccbfc">álmaim</firstRhyme>
+                    <secondRhyme rhyme_lemma="kar" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=1" rhyme_numSyll="3" rhyme_phonType="mixed" rhyme_phonStruct="cbccbfc">karjaim</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w29 #w35">
+                    <firstRhyme rhyme_lemma="felserken" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act" rhyme_numSyll="4" rhyme_phonType="high" rhyme_phonStruct="cfccfccfccfc">felserkentem</firstRhyme>
+                    <secondRhyme rhyme_lemma="kép" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cFcfc">képem</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w5 #w6 #w7" allStruct="ana" posTags="ADV NOUN ADV" msdTags="_ Case=Ins|Number=Sing _" lemmas="már prósaszó már">már prósaszóval már</alliteration>
                 <alliteration target="#w33 #w34 #w35" allStruct="ana" posTags="ADV VERB NOUN" msdTags="_ Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1" lemmas="ki nyaldogál kép">ki nyaldogálta képem</alliteration>

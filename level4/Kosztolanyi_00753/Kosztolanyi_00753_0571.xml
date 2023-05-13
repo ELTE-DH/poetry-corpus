@@ -111,14 +111,14 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="3" div_numLine="12" div_numWord="66" div_numSyll="108" div_numShortSyll="50" div_numLongSyll="58" div_rhyme="abbb|abcb|abab" div_syllPattern="9-9-9-9|9-9-9-9|9-9-9-9">
+            <div type="poem" div_numStanza="3" div_numLine="12" div_numWord="66" div_numSyll="108" div_numShortSyll="50" div_numLongSyll="58" div_rhyme="abcb|abcb|abcb" div_syllPattern="9-9-9-9|9-9-9-9|9-9-9-9" met_qual="False" met_quan="iambic" met_quanScore="0.66">
                 <head type="title">Lidia</head>
-                <lg xml:id="lg1" lg_numLine="4" lg_numWord="23" lg_numSyll="36" lg_numShortSyll="16" lg_numLongSyll="20" rhyme="abbb" lg_syllPattern="9-9-9-9">
+                <lg xml:id="lg1" lg_numLine="4" lg_numWord="23" lg_numSyll="36" lg_numShortSyll="16" lg_numLongSyll="20" rhyme="abcb" lg_syllPattern="9-9-9-9">
                     <l xml:id="l1" l_numWord="6" l_numSyll="9" l_numShortSyll="3" l_numLongSyll="6" real="110111010">
                         <w xml:id="w1" lemma="ó" pos="INTJ" msd="_" w_numSyll="1" phonType="low" phonStruct="B">Ó</w>
                         <pc xml:id="pc1" pos="PUNCT" join="left">,</pc>
@@ -194,7 +194,7 @@
                         <pc xml:id="pc12" pos="PUNCT" join="left">?</pc>
                     </l>
                 </lg>
-                <lg xml:id="lg3" lg_numLine="4" lg_numWord="22" lg_numSyll="36" lg_numShortSyll="17" lg_numLongSyll="19" rhyme="abab" lg_syllPattern="9-9-9-9">
+                <lg xml:id="lg3" lg_numLine="4" lg_numWord="22" lg_numSyll="36" lg_numShortSyll="17" lg_numLongSyll="19" rhyme="abcb" lg_syllPattern="9-9-9-9">
                     <l xml:id="l9" l_numWord="6" l_numSyll="9" l_numShortSyll="4" l_numLongSyll="5" real="110101010">
                         <w xml:id="w45" lemma="megy" pos="VERB" msd="Definite=Ind|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act" w_numSyll="1" phonType="high" phonStruct="cfcc">Menj</w>
                         <w xml:id="w46" lemma="el" pos="ADV" msd="_" w_numSyll="1" phonType="high" phonStruct="fc">el</w>
@@ -236,7 +236,20 @@
                 </lg>
                 <p>1905</p>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w12 #w23">
+                    <firstRhyme rhyme_lemma="éget" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="Fcfc">éget</firstRhyme>
+                    <secondRhyme rhyme_lemma="te" rhyme_pos="PRON" rhyme_msd="Case=Acc|Number=Sing|Person=2|PronType=Prs" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cFcfc">téged</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w34 #w44">
+                    <firstRhyme rhyme_lemma="óra" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="Bcb">óra</firstRhyme>
+                    <secondRhyme rhyme_lemma="hajó" rhyme_pos="NOUN" rhyme_msd="Case=Sub|Number=Sing" rhyme_numSyll="3" rhyme_phonType="low" rhyme_phonStruct="cbcBcb">hajóra</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w56 #w66">
+                    <firstRhyme rhyme_lemma="ad" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="1" rhyme_phonType="low" rhyme_phonStruct="Bc">ád</firstRhyme>
+                    <secondRhyme rhyme_lemma="elátkozott" rhyme_pos="NOUN" rhyme_msd="Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3" rhyme_numSyll="5" rhyme_phonType="mixed" rhyme_phonStruct="fcBccbcbcccBc">elátkozottját</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w3 #w4" allStruct="aa" posTags="ADV PRON" msdTags="_ Case=Acc|Number=Sing|Person=1|PronType=Prs" lemmas="el én">el engem</alliteration>
                 <alliteration target="#w12 #w13" allStruct="aa" posTags="VERB PRON" msdTags="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act Case=Nom|Number=Sing|Person=1|PronType=Prs" lemmas="éget én">éget én</alliteration>

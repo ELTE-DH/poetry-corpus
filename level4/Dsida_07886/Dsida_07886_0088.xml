@@ -103,12 +103,12 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="3" div_numLine="12" div_numWord="47" div_numSyll="114" div_numShortSyll="51" div_numLongSyll="63" div_rhyme="abcd|abac|abcd" div_syllPattern="4-10-10-7|12-12-11-7|9-9-13-10">
+            <div type="poem" div_numStanza="3" div_numLine="12" div_numWord="47" div_numSyll="114" div_numShortSyll="51" div_numLongSyll="63" div_rhyme="abcd|abac|abcd" div_syllPattern="4-10-10-7|12-12-11-7|9-9-13-10" met_qual="False" met_quan="iambic" met_quanScore="0.48">
                 <head type="title">Szomorú pásztor</head>
                 <lg xml:id="lg1" lg_numLine="4" lg_numWord="14" lg_numSyll="31" lg_numShortSyll="10" lg_numLongSyll="21" rhyme="abcd" lg_syllPattern="4-10-10-7">
                     <l xml:id="l1" l_numWord="4" l_numSyll="4" l_numShortSyll="1" l_numLongSyll="3" real="1101">
@@ -197,7 +197,12 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w19 #w27">
+                    <firstRhyme rhyme_lemma="előre" rhyme_pos="ADV" rhyme_msd="_" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="fcFcf">előre</firstRhyme>
+                    <secondRhyme rhyme_lemma="ő" rhyme_pos="PRON" rhyme_msd="Case=Ine|Number=Sing|Person=3|PronType=Prs" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfccf">benne</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w8 #w9 #w10 #w11 #w12 #w13" allStruct="ananaa" posTags="NOUN ADJ NOUN ADJ NOUN ADJ" msdTags="Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3 Case=Nom|Degree=Pos|Number=Sing Case=Nom|Number=Plur Case=Nom|Degree=Pos|Number=Sing Case=Acc|Number=Plur|Number[psor]=Sing|Person[psor]=3 Case=Nom|Degree=Pos|Number=Sing" lemmas="hömpölygés gyapjas hát fehér hullám homéroszi">hömpölygését gyapjas hátak fehér hullámait homéroszi</alliteration>
                 <alliteration target="#w23 #w24" allStruct="aa" posTags="NOUN VERB" msdTags="Case=Ess|Number=Sing|Number[psor]=Sing|Person[psor]=3 Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" lemmas="gondolat gomolyog">gondolataként gomolyog</alliteration>

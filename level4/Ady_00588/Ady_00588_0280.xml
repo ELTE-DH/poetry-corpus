@@ -120,12 +120,12 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="3" div_numLine="9" div_numWord="42" div_numSyll="81" div_numShortSyll="28" div_numLongSyll="53" div_rhyme="abb|abb|abb" div_syllPattern="9-9-9|9-9-9|9-9-9">
+            <div type="poem" div_numStanza="3" div_numLine="9" div_numWord="42" div_numSyll="81" div_numShortSyll="28" div_numLongSyll="53" div_rhyme="abb|abb|abb" div_syllPattern="9-9-9|9-9-9|9-9-9" met_qual="4-5" met_quan="iambic" met_quanScore="0.44">
                 <head type="title">A JÉGCSAP-SZÍVŰ EMBER</head>
                 <lg xml:id="lg1" lg_numLine="3" lg_numWord="14" lg_numSyll="27" lg_numShortSyll="12" lg_numLongSyll="15" rhyme="abb" lg_syllPattern="9-9-9">
                     <l xml:id="l1" l_numWord="5" l_numSyll="9" l_numShortSyll="5" l_numLongSyll="4" real="110001010">
@@ -209,7 +209,20 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w11 #w14">
+                    <firstRhyme rhyme_lemma="miatt" rhyme_pos="ADP" rhyme_msd="_" rhyme_numSyll="3" rhyme_phonType="mixed" rhyme_phonStruct="cfbccb">miatta</firstRhyme>
+                    <secondRhyme rhyme_lemma="fagy" rhyme_pos="NOUN" rhyme_msd="Case=Ill|Number=Sing" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbccb">fagyba</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w24 #w28">
+                    <firstRhyme rhyme_lemma="értök" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="Fccfc">értök</firstRhyme>
+                    <secondRhyme rhyme_lemma="vér-csöpp" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cFccfcc">vér-csöpp</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w38 #w42">
+                    <firstRhyme rhyme_lemma="szív-eresz" rhyme_pos="NOUN" rhyme_msd="Case=Dat|Number=Sing" rhyme_numSyll="4" rhyme_phonType="high" rhyme_phonStruct="cFcfcfccfc">szív-eresznek</firstRhyme>
+                    <secondRhyme rhyme_lemma="szeret" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfcfccfc">szeretnek</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w9 #w10 #w11" allStruct="ana" posTags="PRON VERB ADP" msdTags="Case=Nom|Number=Sing|Person=3|PronType=Rel Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act _" lemmas="amely hull miatt">mely hull miatta</alliteration>
                 <alliteration target="#w25 #w26 #w27" allStruct="ana" posTags="PRON NOUN VERB" msdTags="Case=Nom|Number=Sing|Person=3|PronType=Int Case=Nom|Number=Sing Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act" lemmas="mennyi vér-csöpp megfagy">Mennyi vér-csöpp megfagyott</alliteration>

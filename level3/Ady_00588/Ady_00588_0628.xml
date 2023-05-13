@@ -123,14 +123,14 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
 	<text>
 		<body>
-			<div type="poem">
+			<div met="Qual=False|Quan=iambic|QuanScore=0.18" type="poem">
 				<head>FEKETE VIRÁGOT LÁTTÁL</head>
-				<lg rhyme="abbb" xml:id="lg1">
+				<lg rhyme="abcb" xml:id="lg1">
 					<l n="8" real="00001111" xml:id="l1">
 						<w lemma="fekete" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" type="fekete[/Adj|col]=fekete+[Nom]=" xml:id="w1">Fekete</w>
 						<w lemma="virág" msd="Case=Acc|Number=Sing" pos="NOUN" type="virág[/N]=virág+ot[Acc]=ot" xml:id="w2">virágot</w>
@@ -161,7 +161,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc5">.</pc>
 					</l>
 				</lg>
-				<lg rhyme="abab" xml:id="lg2">
+				<lg rhyme="abcb" xml:id="lg2">
 					<l n="8" real="01111110" xml:id="l5">
 						<w lemma="Sziv" msd="Case=Acc|Number=Sing" pos="PROPN" type="no" xml:id="w17">Szivet</w>
 						<w lemma="lát" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act" pos="VERB" type="lát[/V]=lát+tál[Pst.NDef.2Sg]=tál" xml:id="w18">láttál</w>
@@ -284,6 +284,11 @@
 				<span subtype="1" target="#w51" type="low">bc</span>
 				<span subtype="4" target="#w52" type="mixed">fccbcBcbc</span>
 			</spanGrp>
+			<linkGrp type="rhymePairs">
+				<link target="#w7 #w16"/>
+				<link target="#w23 #w34"/>
+				<link target="#w44 #w52"/>
+			</linkGrp>
 			<spanGrp type="alliterations">
 				<span target="#w26 #w27 #w28" type="ana"/>
 				<span target="#w44 #w45 #w46" type="ana"/>

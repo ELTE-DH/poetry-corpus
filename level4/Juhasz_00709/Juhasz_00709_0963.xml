@@ -111,12 +111,12 @@
 		<revisionDesc>
 			<change when="2021-07-05">level1</change>
 			<change when="2021-08-05">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="3" div_numLine="9" div_numWord="31" div_numSyll="66" div_numShortSyll="25" div_numLongSyll="41" div_rhyme="aab|aab|aab" div_syllPattern="10-10-2|10-10-2|10-10-2">
+            <div type="poem" div_numStanza="3" div_numLine="9" div_numWord="31" div_numSyll="66" div_numShortSyll="25" div_numLongSyll="41" div_rhyme="aab|aab|aab" div_syllPattern="10-10-2|10-10-2|10-10-2" met_qual="False" met_quan="iambic" met_quanScore="0.63">
                 <head type="title">Imádság</head>
                 <lg xml:id="lg1" lg_numLine="3" lg_numWord="11" lg_numSyll="22" lg_numShortSyll="8" lg_numLongSyll="14" rhyme="aab" lg_syllPattern="10-10-2">
                     <l xml:id="l1" l_numWord="5" l_numSyll="10" l_numShortSyll="3" l_numLongSyll="7" real="0111111100">
@@ -185,7 +185,20 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w5 #w10">
+                    <firstRhyme rhyme_lemma="soha" rhyme_pos="ADV" rhyme_msd="_" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbcb">soha</firstRhyme>
+                    <secondRhyme rhyme_lemma="mostoha" rhyme_pos="ADJ" rhyme_msd="Case=Nom|Degree=Pos|Number=Sing" rhyme_numSyll="3" rhyme_phonType="low" rhyme_phonStruct="cbccbcb">mostoha</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w17 #w21">
+                    <firstRhyme rhyme_lemma="seb" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="1" rhyme_phonType="high" rhyme_phonStruct="cfc">seb</firstRhyme>
+                    <secondRhyme rhyme_lemma="édes" rhyme_pos="ADJ" rhyme_msd="Case=Nom|Degree=Cmp|Number=Sing" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="Fcfcfcc">édesebb</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w26 #w30">
+                    <firstRhyme rhyme_lemma="reménytelen" rhyme_pos="ADJ" rhyme_msd="Case=Nom|Degree=Pos|Number=Sing" rhyme_numSyll="4" rhyme_phonType="high" rhyme_phonStruct="cfcFccfcfc">reménytelen</firstRhyme>
+                    <secondRhyme rhyme_lemma="egyetlen" rhyme_pos="NUM" rhyme_msd="Case=Nom|Number=Sing|Number[psor]=Sing|NumType=Card|Person[psor]=1" rhyme_numSyll="4" rhyme_phonType="high" rhyme_phonStruct="fcfccfcfc">egyetlenem</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w7 #w8 #w9 #w10" allStruct="anaa" posTags="ADV ADJ ADV ADJ" msdTags="_ Case=Nom|Degree=Pos|Number=Sing _ Case=Nom|Degree=Pos|Number=Sing" lemmas="mindig áldott mindig mostoha">mindig áldott mindig mostoha</alliteration>
                 <alliteration target="#w18 #w19 #w20" allStruct="ana" posTags="PRON NOUN ADJ" msdTags="Case=Nom|Number=Sing|Person=3|PronType=Tot Case=Ade|Number=Sing Case=Nom|Degree=Cmp|Number=Sing" lemmas="minden gyönyör mély">Minden gyönyörnél mélyebb</alliteration>

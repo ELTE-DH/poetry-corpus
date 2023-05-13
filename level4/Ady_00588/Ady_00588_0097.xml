@@ -120,14 +120,14 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="2" div_numLine="12" div_numWord="45" div_numSyll="96" div_numShortSyll="47" div_numLongSyll="49" div_rhyme="aabbba|aabcba" div_syllPattern="8-8-8-8-8-8|8-8-8-8-8-8">
+            <div type="poem" div_numStanza="2" div_numLine="12" div_numWord="45" div_numSyll="96" div_numShortSyll="47" div_numLongSyll="49" div_rhyme="aabcba|aabcba" div_syllPattern="8-8-8-8-8-8|8-8-8-8-8-8" met_qual="4-4" met_quan="trochaic" met_quanScore="0.63">
                 <head type="title">HEPEHUPÁS, VÉN SZILÁGYBAN</head>
-                <lg xml:id="lg1" lg_numLine="6" lg_numWord="21" lg_numSyll="48" lg_numShortSyll="23" lg_numLongSyll="25" rhyme="aabbba" lg_syllPattern="8-8-8-8-8-8">
+                <lg xml:id="lg1" lg_numLine="6" lg_numWord="21" lg_numSyll="48" lg_numShortSyll="23" lg_numLongSyll="25" rhyme="aabcba" lg_syllPattern="8-8-8-8-8-8">
                     <l xml:id="l1" l_numWord="3" l_numSyll="8" l_numShortSyll="5" l_numLongSyll="3" real="00011010">
                         <w xml:id="w1" lemma="hepehupás" pos="ADJ" msd="Case=Nom|Degree=Pos|Number=Sing" w_numSyll="4" phonType="mixed" phonStruct="cfcfcbcBc">Hepehupás</w>
                         <pc xml:id="pc1" pos="PUNCT" join="left">,</pc>
@@ -214,7 +214,32 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w3 #w6">
+                    <firstRhyme rhyme_lemma="Szilágy" rhyme_pos="PROPN" rhyme_msd="Case=Ine|Number=Sing" rhyme_numSyll="3" rhyme_phonType="mixed" rhyme_phonStruct="cfcBccbc">Szilágyban</firstRhyme>
+                    <secondRhyme rhyme_lemma="árnyék" rhyme_pos="NOUN" rhyme_msd="Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3" rhyme_numSyll="4" rhyme_phonType="mixed" rhyme_phonStruct="BccFcBcbc">árnyékában</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w6 #w21">
+                    <firstRhyme rhyme_lemma="árnyék" rhyme_pos="NOUN" rhyme_msd="Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3" rhyme_numSyll="4" rhyme_phonType="mixed" rhyme_phonStruct="BccFcBcbc">árnyékában</firstRhyme>
+                    <secondRhyme rhyme_lemma="Szilágy" rhyme_pos="PROPN" rhyme_msd="Case=Ine|Number=Sing" rhyme_numSyll="3" rhyme_phonType="mixed" rhyme_phonStruct="cfcBccbc">Szilágyban</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w10 #w18">
+                    <firstRhyme rhyme_lemma="év" rhyme_pos="NOUN" rhyme_msd="Case=Acc|Number=Sing" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="Fcfc">évet</firstRhyme>
+                    <secondRhyme rhyme_lemma="ébred" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="Fccfcc">ébredt</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w24 #w27">
+                    <firstRhyme rhyme_lemma="Szilágy" rhyme_pos="PROPN" rhyme_msd="Case=Ine|Number=Sing" rhyme_numSyll="3" rhyme_phonType="mixed" rhyme_phonStruct="cfcBccbc">Szilágyban</firstRhyme>
+                    <secondRhyme rhyme_lemma="árnyék" rhyme_pos="NOUN" rhyme_msd="Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3" rhyme_numSyll="4" rhyme_phonType="mixed" rhyme_phonStruct="BccFcBcbc">árnyékában</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w27 #w45">
+                    <firstRhyme rhyme_lemma="árnyék" rhyme_pos="NOUN" rhyme_msd="Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3" rhyme_numSyll="4" rhyme_phonType="mixed" rhyme_phonStruct="BccFcBcbc">árnyékában</firstRhyme>
+                    <secondRhyme rhyme_lemma="Szilágy" rhyme_pos="PROPN" rhyme_msd="Case=Ine|Number=Sing" rhyme_numSyll="3" rhyme_phonType="mixed" rhyme_phonStruct="cfcBccbc">Szilágyban</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w32 #w42">
+                    <firstRhyme rhyme_lemma="év" rhyme_pos="NOUN" rhyme_msd="Case=Acc|Number=Sing" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="Fcfc">évet</firstRhyme>
+                    <secondRhyme rhyme_lemma="fölébred" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfcFccfcc">fölébredt</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w3 #w4 #w5 #w6 #w7" allStruct="anana" posTags="PROPN NUM NOUN NOUN VERB" msdTags="Case=Ine|Number=Sing Case=Nom|Number=Sing|NumType=Card Case=Nom|Number=Sing Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3 Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act" lemmas="Szilágy hét szilvafa árnyék szunnyad">Szilágyban Hét szilvafa árnyékában Szunnyadt</alliteration>
                 <alliteration target="#w24 #w25 #w26" allStruct="ana" posTags="PROPN NUM NOUN" msdTags="Case=Ine|Number=Sing Case=Nom|Number=Sing|NumType=Card Case=Nom|Number=Sing" lemmas="Szilágy hét szilvafa">Szilágyban Hét szilvafa</alliteration>

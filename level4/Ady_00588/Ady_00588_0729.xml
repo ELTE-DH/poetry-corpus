@@ -120,12 +120,12 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="2" div_numLine="8" div_numWord="37" div_numSyll="67" div_numShortSyll="35" div_numLongSyll="32" div_rhyme="aaba|abcb" div_syllPattern="10-9-12-2|10-11-11-2">
+            <div type="poem" div_numStanza="2" div_numLine="8" div_numWord="37" div_numSyll="67" div_numShortSyll="35" div_numLongSyll="32" div_rhyme="aaba|abcb" div_syllPattern="10-9-12-2|10-11-11-2" met_qual="False" met_quan="trochaic" met_quanScore="0.49">
                 <head type="title">MEGKÖSZÖNÖM, HOGY VAGY</head>
                 <lg xml:id="lg1" lg_numLine="4" lg_numWord="19" lg_numSyll="33" lg_numShortSyll="17" lg_numLongSyll="16" rhyme="aaba" lg_syllPattern="10-9-12-2">
                     <l xml:id="l1" l_numWord="5" l_numSyll="10" l_numShortSyll="5" l_numLongSyll="5" real="1010010110">
@@ -194,7 +194,20 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w5 #w9">
+                    <firstRhyme rhyme_lemma="van" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="1" rhyme_phonType="low" rhyme_phonStruct="cbc">vagy</firstRhyme>
+                    <secondRhyme rhyme_lemma="én" rhyme_pos="PRON" rhyme_msd="Case=Del|Number=Sing|Person=1|PronType=Prs" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cBcbc">rólam</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w9 #w19">
+                    <firstRhyme rhyme_lemma="én" rhyme_pos="PRON" rhyme_msd="Case=Del|Number=Sing|Person=1|PronType=Prs" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cBcbc">rólam</firstRhyme>
+                    <secondRhyme rhyme_lemma="van" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="1" rhyme_phonType="low" rhyme_phonStruct="cbc">van</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w29 #w37">
+                    <firstRhyme rhyme_lemma="hajó" rhyme_pos="NOUN" rhyme_msd="Case=Ine|Number=Sing" rhyme_numSyll="3" rhyme_phonType="low" rhyme_phonStruct="cbcBcbc">hajóban</firstRhyme>
+                    <secondRhyme rhyme_lemma="van" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="1" rhyme_phonType="low" rhyme_phonStruct="cbc">van</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w4 #w5 #w6 #w7" allStruct="anaa" posTags="SCONJ VERB PRON VERB" msdTags="_ Definite=Ind|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act Case=Nom|Number=Sing|Person=3|PronType=Int Definite=Ind|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act" lemmas="hogy van hogy hall">hogy vagy Hogy hallottál</alliteration>
                 <alliteration target="#w29 #w30 #w31" allStruct="ana" posTags="NOUN CONJ SCONJ" msdTags="Case=Ine|Number=Sing _ _" lemmas="hajó és ha">hajóban És ha</alliteration>

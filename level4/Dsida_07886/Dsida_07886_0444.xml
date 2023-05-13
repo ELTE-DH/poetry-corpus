@@ -103,12 +103,12 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="3" div_numLine="12" div_numWord="46" div_numSyll="95" div_numShortSyll="51" div_numLongSyll="44" div_rhyme="abbc|aabc|abcd" div_syllPattern="7-6-12-8|10-4-6-9|8-8-8-9">
+            <div type="poem" div_numStanza="3" div_numLine="12" div_numWord="46" div_numSyll="95" div_numShortSyll="51" div_numLongSyll="44" div_rhyme="abbc|aabc|abcd" div_syllPattern="7-6-12-8|10-4-6-9|8-8-8-9" met_qual="False" met_quan="trochaic" met_quanScore="0.27">
                 <head type="title">Ferdén esik az eső...</head>
                 <lg xml:id="lg1" lg_numLine="4" lg_numWord="17" lg_numSyll="33" lg_numShortSyll="19" lg_numLongSyll="14" rhyme="abbc" lg_syllPattern="7-6-12-8">
                     <l xml:id="l1" l_numWord="4" l_numSyll="7" l_numShortSyll="4" l_numLongSyll="3" real="1100001">
@@ -199,7 +199,16 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w8 #w13">
+                    <firstRhyme rhyme_lemma="isten" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="fccfc">Isten</firstRhyme>
+                    <secondRhyme rhyme_lemma="fatörzs" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Plur" rhyme_numSyll="3" rhyme_phonType="mixed" rhyme_phonStruct="cbcfccfc">fatörzsek</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w21 #w25">
+                    <firstRhyme rhyme_lemma="én" rhyme_pos="PRON" rhyme_msd="Case=Ins|Number=Sing|Person=1|PronType=Prs" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfcfc">velem</firstRhyme>
+                    <secondRhyme rhyme_lemma="el" rhyme_pos="ADV" rhyme_msd="_" rhyme_numSyll="1" rhyme_phonType="high" rhyme_phonStruct="fc">el</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w2 #w3 #w4" allStruct="ana" posTags="VERB DET NOUN" msdTags="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act Definite=Def|PronType=Art Case=Nom|Number=Sing" lemmas="esik az eső">esik az eső</alliteration>
                 <alliteration target="#w41 #w42 #w43" allStruct="ana" posTags="ADV ADV ADV" msdTags="_ _ _" lemmas="messziről nagyon messziről">messziről nagyon messziről</alliteration>

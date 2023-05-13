@@ -111,14 +111,14 @@
 		<revisionDesc>
 			<change when="2021-07-05">level1</change>
 			<change when="2021-08-05">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="3" div_numLine="15" div_numWord="80" div_numSyll="155" div_numShortSyll="68" div_numLongSyll="87" div_rhyme="abacb|abcdb|abcdb" div_syllPattern="11-10-11-11-8|11-10-11-11-10|11-10-11-11-8">
+            <div type="poem" div_numStanza="3" div_numLine="15" div_numWord="80" div_numSyll="155" div_numShortSyll="68" div_numLongSyll="87" div_rhyme="abcdb|abcdb|abcdb" div_syllPattern="11-10-11-11-8|11-10-11-11-10|11-10-11-11-8" met_qual="False" met_quan="iambic" met_quanScore="0.76">
                 <head type="title">Kísértetek [2]</head>
-                <lg xml:id="lg1" lg_numLine="5" lg_numWord="25" lg_numSyll="51" lg_numShortSyll="21" lg_numLongSyll="30" rhyme="abacb" lg_syllPattern="11-10-11-11-8">
+                <lg xml:id="lg1" lg_numLine="5" lg_numWord="25" lg_numSyll="51" lg_numShortSyll="21" lg_numLongSyll="30" rhyme="abcdb" lg_syllPattern="11-10-11-11-8">
                     <l xml:id="l1" l_numWord="6" l_numSyll="11" l_numShortSyll="4" l_numLongSyll="7" real="11011101010">
                         <w xml:id="w1" lemma="én" pos="PRON" msd="Case=Nom|Number=Sing|Person=1|PronType=Prs" w_numSyll="1" phonType="high" phonStruct="Fc">Én</w>
                         <w xml:id="w2" lemma="sok" pos="NUM" msd="Case=Nom|Number=Sing|NumType=Card" w_numSyll="2" phonType="low" phonStruct="cbccbc">sokszor</w>
@@ -255,7 +255,20 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w11 #w25">
+                    <firstRhyme rhyme_lemma="szellem" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Plur" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfccfcfc">szellemek</firstRhyme>
+                    <secondRhyme rhyme_lemma="felett" rhyme_pos="ADP" rhyme_msd="_" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfcfcc">felett</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w37 #w53">
+                    <firstRhyme rhyme_lemma="minden" rhyme_pos="PRON" rhyme_msd="Case=Sup|Number=Sing|Person=3|PronType=Tot" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfccfcfc">mindenen</firstRhyme>
+                    <secondRhyme rhyme_lemma="szerelem" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfcfcfc">szerelem</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w64 #w80">
+                    <firstRhyme rhyme_lemma="meleg" rhyme_pos="ADJ" rhyme_msd="Case=Nom|Degree=Pos|Number=Sing" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfcfc">meleg</firstRhyme>
+                    <secondRhyme rhyme_lemma="kísértet" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Plur" rhyme_numSyll="4" rhyme_phonType="high" rhyme_phonStruct="cFcFccfcfc">kísértetek</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w1 #w2 #w3" allStruct="ana" posTags="PRON NUM VERB" msdTags="Case=Nom|Number=Sing|Person=1|PronType=Prs Case=Nom|Number=Sing|NumType=Card Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" lemmas="én sok érez">Én sokszor érzem</alliteration>
                 <alliteration target="#w15 #w16" allStruct="aa" posTags="ADJ ADJ" msdTags="Case=Sup|Degree=Pos|Number=Sing Case=Ess|Degree=Pos|Number=Sing" lemmas="bosszuló borús">bosszulón borúsan</alliteration>

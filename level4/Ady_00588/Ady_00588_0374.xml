@@ -120,12 +120,12 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="3" div_numLine="12" div_numWord="54" div_numSyll="92" div_numShortSyll="48" div_numLongSyll="44" div_rhyme="abcb|abcb|abcb" div_syllPattern="9-9-7-6|9-9-7-6|9-9-7-5">
+            <div type="poem" div_numStanza="3" div_numLine="12" div_numWord="54" div_numSyll="92" div_numShortSyll="48" div_numLongSyll="44" div_rhyme="abcb|abcb|abcb" div_syllPattern="9-9-7-6|9-9-7-6|9-9-7-5" met_qual="False" met_quan="dactylic" met_quanScore="0.33">
                 <head type="title">APÁMTÓL, ANYÁMTÓL JŐVÉN</head>
                 <lg xml:id="lg1" lg_numLine="4" lg_numWord="16" lg_numSyll="31" lg_numShortSyll="16" lg_numLongSyll="15" rhyme="abcb" lg_syllPattern="9-9-7-6">
                     <l xml:id="l1" l_numWord="3" l_numSyll="9" l_numShortSyll="4" l_numLongSyll="5" real="011110001">
@@ -228,7 +228,20 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w7 #w16">
+                    <firstRhyme rhyme_lemma="feledés" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfcfcFc">feledés</firstRhyme>
+                    <secondRhyme rhyme_lemma="kevés" rhyme_pos="NUM" rhyme_msd="Case=Nom|Number=Sing|NumType=Card" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfcFc">kevés</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w26 #w34">
+                    <firstRhyme rhyme_lemma="akar" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="3" rhyme_phonType="low" rhyme_phonStruct="bcbcbc">akarok</firstRhyme>
+                    <secondRhyme rhyme_lemma="van" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbcbc">vagyok</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w47 #w54">
+                    <firstRhyme rhyme_lemma="mer" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfcfc">merek</firstRhyme>
+                    <secondRhyme rhyme_lemma="megy" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfcfc">megyek</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w13 #w14 #w15" allStruct="ana" posTags="ADV NUM ADV" msdTags="_ Case=Nom|Number=Sing|NumType=Card _" lemmas="be kevés be">Be kevés be</alliteration>
                 <alliteration target="#w14 #w15 #w16" allStruct="ana" posTags="NUM ADV NUM" msdTags="Case=Nom|Number=Sing|NumType=Card _ Case=Nom|Number=Sing|NumType=Card" lemmas="kevés be kevés">kevés be kevés</alliteration>

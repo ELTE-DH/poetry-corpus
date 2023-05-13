@@ -108,12 +108,12 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="2" div_numLine="12" div_numWord="49" div_numSyll="96" div_numShortSyll="38" div_numLongSyll="58" div_rhyme="aabccb|aabaab" div_syllPattern="9-9-6-9-9-6|9-9-6-9-9-6">
+            <div type="poem" div_numStanza="2" div_numLine="12" div_numWord="49" div_numSyll="96" div_numShortSyll="38" div_numLongSyll="58" div_rhyme="aabccb|aabccb" div_syllPattern="9-9-6-9-9-6|9-9-6-9-9-6" met_qual="False" met_quan="iambic" met_quanScore="0.77">
                 <head type="title">Hervadt virág...</head>
                 <lg xml:id="lg1" lg_numLine="6" lg_numWord="22" lg_numSyll="48" lg_numShortSyll="17" lg_numLongSyll="31" rhyme="aabccb" lg_syllPattern="9-9-6-9-9-6">
                     <l xml:id="l1" l_numWord="4" l_numSyll="9" l_numShortSyll="2" l_numLongSyll="7" real="110111011">
@@ -158,7 +158,7 @@
                         <pc xml:id="pc7" pos="PUNCT" join="left">.</pc>
                     </l>
                 </lg>
-                <lg xml:id="lg2" lg_numLine="6" lg_numWord="27" lg_numSyll="48" lg_numShortSyll="21" lg_numLongSyll="27" rhyme="aabaab" lg_syllPattern="9-9-6-9-9-6">
+                <lg xml:id="lg2" lg_numLine="6" lg_numWord="27" lg_numSyll="48" lg_numShortSyll="21" lg_numLongSyll="27" rhyme="aabccb" lg_syllPattern="9-9-6-9-9-6">
                     <l xml:id="l7" l_numWord="7" l_numSyll="9" l_numShortSyll="4" l_numLongSyll="5" real="110101010">
                         <w xml:id="w23" lemma="csak" pos="ADV" msd="_" w_numSyll="1" phonType="low" phonStruct="cbc">Csak</w>
                         <w xml:id="w24" lemma="jön" pos="VERB" msd="Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" w_numSyll="2" phonType="high" phonStruct="cfccf">jönne</w>
@@ -209,7 +209,32 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w4 #w8">
+                    <firstRhyme rhyme_lemma="leány" rhyme_pos="NOUN" rhyme_msd="Case=Abl|Number=Sing" rhyme_numSyll="3" rhyme_phonType="mixed" rhyme_phonStruct="cfBccBc">leánytól</firstRhyme>
+                    <secondRhyme rhyme_lemma="nyár" rhyme_pos="NOUN" rhyme_msd="Case=Ela|Number=Sing" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cBccBc">nyárból</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w12 #w22">
+                    <firstRhyme rhyme_lemma="kerül" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfcfc">kerül</firstRhyme>
+                    <secondRhyme rhyme_lemma="nekül" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfcfc">nekül</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w15 #w19">
+                    <firstRhyme rhyme_lemma="ér" rhyme_pos="NOUN" rhyme_msd="Case=Ill|Number=Plur|Number[psor]=Sing|Person[psor]=1" rhyme_numSyll="4" rhyme_phonType="high" rhyme_phonStruct="fcffccf">ereimbe</firstRhyme>
+                    <secondRhyme rhyme_lemma="hint" rhyme_pos="ADV" rhyme_msd="VerbForm=Trans" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfcccf">hintve</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w29 #w33">
+                    <firstRhyme rhyme_lemma="csendes" rhyme_pos="ADJ" rhyme_msd="Case=Nom|Degree=Pos|Number=Sing" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfccfc">csendes</firstRhyme>
+                    <secondRhyme rhyme_lemma="türelmes" rhyme_pos="ADJ" rhyme_msd="Case=Nom|Degree=Pos|Number=Sing" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfcfccfc">türelmes</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w36 #w49">
+                    <firstRhyme rhyme_lemma="vidék" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfcFc">vidék</firstRhyme>
+                    <secondRhyme rhyme_lemma="szine" rhyme_pos="NOUN" rhyme_msd="Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfcFc">szinét</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w41 #w45">
+                    <firstRhyme rhyme_lemma="fény" rhyme_pos="NOUN" rhyme_msd="Case=Ine|Number=Sing" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cFccfc">fényben</firstRhyme>
+                    <secondRhyme rhyme_lemma="észrevétlen" rhyme_pos="ADJ" rhyme_msd="Case=Nom|Degree=Pos|Number=Sing" rhyme_numSyll="4" rhyme_phonType="high" rhyme_phonStruct="FccfcFccfc">észrevétlen</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w1 #w2 #w3" allStruct="ana" posTags="ADJ NOUN ADJ" msdTags="Case=Nom|Degree=Pos|Number=Sing Case=Nom|Number=Sing Case=Nom|Degree=Pos|Number=Sing" lemmas="hervadt virág hervadt">Hervadt virág hervadt</alliteration>
                 <alliteration target="#w9 #w10 #w11" allStruct="ana" posTags="PRON NUM ADV" msdTags="Case=Dat|Number=Sing|Person=1|PronType=Prs Case=Nom|Number=Sing|NumType=Card PronType=Neg" lemmas="én sok nem">Nekem több nem</alliteration>

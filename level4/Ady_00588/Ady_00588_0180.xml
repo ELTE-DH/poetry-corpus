@@ -120,14 +120,14 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="3" div_numLine="15" div_numWord="66" div_numSyll="142" div_numShortSyll="72" div_numLongSyll="70" div_rhyme="abbcb|aabca|abcdb" div_syllPattern="9-10-9-10-9|9-10-9-10-9|9-10-10-10-9">
+            <div type="poem" div_numStanza="3" div_numLine="15" div_numWord="66" div_numSyll="142" div_numShortSyll="72" div_numLongSyll="70" div_rhyme="abcdb|abcdb|abcdb" div_syllPattern="9-10-9-10-9|9-10-9-10-9|9-10-10-10-9" met_qual="False" met_quan="iambic" met_quanScore="0.39">
                 <head type="title">AHOL ÁRGYILUS ALSZIK</head>
-                <lg xml:id="lg1" lg_numLine="5" lg_numWord="20" lg_numSyll="47" lg_numShortSyll="22" lg_numLongSyll="25" rhyme="abbcb" lg_syllPattern="9-10-9-10-9">
+                <lg xml:id="lg1" lg_numLine="5" lg_numWord="20" lg_numSyll="47" lg_numShortSyll="22" lg_numLongSyll="25" rhyme="abcdb" lg_syllPattern="9-10-9-10-9">
                     <l xml:id="l1" l_numWord="5" l_numSyll="9" l_numShortSyll="5" l_numLongSyll="4" real="001100110">
                         <w xml:id="w1" lemma="van" pos="VERB" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" w_numSyll="2" phonType="low" phonStruct="cbcbc">Vagyok</w>
                         <w xml:id="w2" lemma="én" pos="PRON" msd="Case=Nom|Number=Sing|Person=1|PronType=Prs" w_numSyll="1" phonType="high" phonStruct="Fc">én</w>
@@ -164,7 +164,7 @@
                         <pc xml:id="pc5" pos="PUNCT" join="left">.</pc>
                     </l>
                 </lg>
-                <lg xml:id="lg2" lg_numLine="5" lg_numWord="23" lg_numSyll="47" lg_numShortSyll="26" lg_numLongSyll="21" rhyme="aabca" lg_syllPattern="9-10-9-10-9">
+                <lg xml:id="lg2" lg_numLine="5" lg_numWord="23" lg_numSyll="47" lg_numShortSyll="26" lg_numLongSyll="21" rhyme="abcdb" lg_syllPattern="9-10-9-10-9">
                     <l xml:id="l6" l_numWord="5" l_numSyll="9" l_numShortSyll="4" l_numLongSyll="5" real="100111010">
                         <w xml:id="w21" lemma="ők" pos="PRON" msd="Case=Nom|Number=Plur|Person=3|PronType=Prs" w_numSyll="1" phonType="high" phonStruct="Fc">Ők</w>
                         <pc xml:id="pc6" pos="PUNCT" join="left">,</pc>
@@ -252,7 +252,20 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w9 #w20">
+                    <firstRhyme rhyme_lemma="alszik" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="bccbc">alszom</firstRhyme>
+                    <secondRhyme rhyme_lemma="Árgyilus-arc" rhyme_pos="PROPN" rhyme_msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1" rhyme_numSyll="5" rhyme_phonType="mixed" rhyme_phonStruct="Bccfcbcbccbc">Árgyilus-arcom</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w31 #w43">
+                    <firstRhyme rhyme_lemma="nép" rhyme_pos="NOUN" rhyme_msd="Case=Acc|Number=Sing" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cFcfc">népet</firstRhyme>
+                    <secondRhyme rhyme_lemma="él" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="Fcfc">élek</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w51 #w66">
+                    <firstRhyme rhyme_lemma="hátha" rhyme_pos="ADV" rhyme_msd="_" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cBcb">hátha</firstRhyme>
+                    <secondRhyme rhyme_lemma="király" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3" rhyme_numSyll="3" rhyme_phonType="mixed" rhyme_phonStruct="cfcBcb">királya.</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w9 #w10" allStruct="aa" posTags="VERB ADJ" msdTags="Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act Case=Nom|Degree=Pos|Number=Sing" lemmas="alszik apró">alszom Apró</alliteration>
                 <alliteration target="#w13 #w14 #w15" allStruct="ana" posTags="NOUN ADJ NOUN" msdTags="Case=Nom|Number=Plur Case=Nom|Degree=Pos|Number=Sing Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3" lemmas="leány hajnali lélek">leányok Hajnali lelkében</alliteration>

@@ -103,12 +103,12 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="4" div_numLine="16" div_numWord="94" div_numSyll="187" div_numShortSyll="83" div_numLongSyll="104" div_rhyme="abcb|abcb|aaba|abcb" div_syllPattern="12-11-12-12|12-11-12-10|11-12-12-12|12-12-12-12">
+            <div type="poem" div_numStanza="4" div_numLine="16" div_numWord="94" div_numSyll="187" div_numShortSyll="83" div_numLongSyll="104" div_rhyme="abcb|abcb|abcb|abcb" div_syllPattern="12-11-12-12|12-11-12-10|11-12-12-12|12-12-12-12" met_qual="4-3-5" met_quan="trochaic" met_quanScore="0.48">
                 <head type="title">Kálvária</head>
                 <lg xml:id="lg1" lg_numLine="4" lg_numWord="25" lg_numSyll="47" lg_numShortSyll="28" lg_numLongSyll="19" rhyme="abcb" lg_syllPattern="12-11-12-12">
                     <l xml:id="l1" l_numWord="6" l_numSyll="12" l_numShortSyll="6" l_numLongSyll="6" real="110010010110">
@@ -186,7 +186,7 @@
                         <pc xml:id="pc10" pos="PUNCT" join="left">.</pc>
                     </l>
                 </lg>
-                <lg xml:id="lg3" lg_numLine="4" lg_numWord="23" lg_numSyll="47" lg_numShortSyll="19" lg_numLongSyll="28" rhyme="aaba" lg_syllPattern="11-12-12-12">
+                <lg xml:id="lg3" lg_numLine="4" lg_numWord="23" lg_numSyll="47" lg_numShortSyll="19" lg_numLongSyll="28" rhyme="abcb" lg_syllPattern="11-12-12-12">
                     <l xml:id="l9" l_numWord="4" l_numSyll="11" l_numShortSyll="5" l_numLongSyll="6" real="11100100110">
                         <w xml:id="w47" lemma="megy" pos="VERB" msd="Definite=Ind|Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" w_numSyll="3" phonType="high" phonStruct="cfccFcfc">Mennének</w>
                         <w xml:id="w48" lemma="szomorú" pos="ADJ" msd="Case=Nom|Degree=Pos|Number=Sing" w_numSyll="3" phonType="low" phonStruct="cbcbcB">szomorú</w>
@@ -263,7 +263,24 @@
                 </lg>
                 <p>1925.</p>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w12 #w25">
+                    <firstRhyme rhyme_lemma="–" rhyme_pos="X" rhyme_msd="_" rhyme_numSyll="" rhyme_phonType="" rhyme_phonStruct="">–</firstRhyme>
+                    <secondRhyme rhyme_lemma="bátor" rhyme_pos="ADJ" rhyme_msd="Case=Nom|Degree=Pos|Number=Sing" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cBcbc">bátor</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w34 #w46">
+                    <firstRhyme rhyme_lemma="ének" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="Fcfc">ének</firstRhyme>
+                    <secondRhyme rhyme_lemma="megy" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfccFcfc">mennének</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w57 #w69">
+                    <firstRhyme rhyme_lemma="vállal" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cBccbc">vállal</firstRhyme>
+                    <secondRhyme rhyme_lemma="halál" rhyme_pos="NOUN" rhyme_msd="Case=Ins|Number=Sing" rhyme_numSyll="3" rhyme_phonType="low" rhyme_phonStruct="cbcBccbc">halállal</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w82 #w94">
+                    <firstRhyme rhyme_lemma="vár" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cBccb">várna</firstRhyme>
+                    <secondRhyme rhyme_lemma="kálvária" rhyme_pos="NOUN" rhyme_msd="Case=Sub|Number=Sing" rhyme_numSyll="5" rhyme_phonType="mixed" rhyme_phonStruct="cBccBcfBcb">Kálváriára</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w10 #w11" allStruct="aa" posTags="ADJ NOUN" msdTags="Case=Nom|Degree=Pos|Number=Sing Case=Nom|Number=Sing" lemmas="sötétzöld sátor">sötétzöld sátor</alliteration>
                 <alliteration target="#w18 #w19" allStruct="aa" posTags="NOUN NOUN" msdTags="Case=Nom|Number=Plur Case=Nom|Number=Sing" lemmas="hársfa hős">hársfák hős</alliteration>

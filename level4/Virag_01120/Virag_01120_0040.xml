@@ -103,12 +103,12 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="3" div_numLine="12" div_numWord="53" div_numSyll="114" div_numShortSyll="52" div_numLongSyll="62" div_rhyme="abcb|abbc|abcc" div_syllPattern="11-11-11-5|11-11-11-5|11-11-11-5">
+            <div type="poem" div_numStanza="3" div_numLine="12" div_numWord="53" div_numSyll="114" div_numShortSyll="52" div_numLongSyll="62" div_rhyme="abcb|abbc|abcc" div_syllPattern="11-11-11-5|11-11-11-5|11-11-11-5" met_qual="5-6" met_quan="iambic" met_quanScore="0.5">
                 <head type="title">BÜDESKUTI VITÉZ HAZÁNKFIÁNAK EMLÉKEZETE, 1799</head>
                 <lg xml:id="lg1" lg_numLine="4" lg_numWord="18" lg_numSyll="38" lg_numShortSyll="18" lg_numLongSyll="20" rhyme="abcb" lg_syllPattern="11-11-11-5">
                     <l xml:id="l1" l_numWord="6" l_numSyll="11" l_numShortSyll="4" l_numLongSyll="7" real="10111001011">
@@ -207,7 +207,20 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w12 #w18">
+                    <firstRhyme rhyme_lemma="mező" rhyme_pos="NOUN" rhyme_msd="Case=Ine|Number=Sing" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfcFcfc">mezőben</firstRhyme>
+                    <secondRhyme rhyme_lemma="visz" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfccfc">visznek</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w28 #w33">
+                    <firstRhyme rhyme_lemma="üdő" rhyme_pos="NOUN" rhyme_msd="Case=Ine|Number=Plur" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="fcFccfc">üdőkben</firstRhyme>
+                    <secondRhyme rhyme_lemma="csendesb" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfccfcc">csendesb</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w51 #w53">
+                    <firstRhyme rhyme_lemma="nyer" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Pot|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfccfc">nyerhet</firstRhyme>
+                    <secondRhyme rhyme_lemma="örül" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Pot|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="fcfccfcc">örülhetsz</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w6 #w7" allStruct="aa" posTags="NOUN VERB" msdTags="Case=Cau|Number=Sing|Number[psor]=Sing|Person[psor]=2 VerbForm=Inf|Voice=Act" lemmas="haza hal">hazádért Halni</alliteration>
                 <alliteration target="#w43 #w44" allStruct="aa" posTags="VERB SCONJ" msdTags="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act _" lemmas="megtisztel mivel">megtisztel mivel</alliteration>

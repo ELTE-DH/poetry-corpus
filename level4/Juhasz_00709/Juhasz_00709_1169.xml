@@ -111,14 +111,14 @@
 		<revisionDesc>
 			<change when="2021-07-05">level1</change>
 			<change when="2021-08-05">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="2" div_numLine="8" div_numWord="38" div_numSyll="68" div_numShortSyll="28" div_numLongSyll="40" div_rhyme="abab|abab" div_syllPattern="8-9-8-9|8-9-8-9">
+            <div type="poem" div_numStanza="2" div_numLine="8" div_numWord="38" div_numSyll="68" div_numShortSyll="28" div_numLongSyll="40" div_rhyme="abcb|abcb" div_syllPattern="8-9-8-9|8-9-8-9" met_qual="3-1-1-3_3-6" met_quan="iambic" met_quanScore="0.8">
                 <head type="title">Soha...</head>
-                <lg xml:id="lg1" lg_numLine="4" lg_numWord="18" lg_numSyll="34" lg_numShortSyll="12" lg_numLongSyll="22" rhyme="abab" lg_syllPattern="8-9-8-9">
+                <lg xml:id="lg1" lg_numLine="4" lg_numWord="18" lg_numSyll="34" lg_numShortSyll="12" lg_numLongSyll="22" rhyme="abcb" lg_syllPattern="8-9-8-9">
                     <l xml:id="l1" l_numWord="5" l_numSyll="8" l_numShortSyll="2" l_numLongSyll="6" real="11011101">
                         <w xml:id="w1" lemma="költő" pos="NOUN" msd="Case=Nom|Number=Sing" w_numSyll="2" phonType="high" phonStruct="cfccF">Költő</w>
                         <w xml:id="w2" lemma="van" pos="VERB" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" w_numSyll="2" phonType="low" phonStruct="cbcbc">vagyok</w>
@@ -152,7 +152,7 @@
                         <pc xml:id="pc6" pos="PUNCT" join="left">.</pc>
                     </l>
                 </lg>
-                <lg xml:id="lg2" lg_numLine="4" lg_numWord="20" lg_numSyll="34" lg_numShortSyll="16" lg_numLongSyll="18" rhyme="abab" lg_syllPattern="8-9-8-9">
+                <lg xml:id="lg2" lg_numLine="4" lg_numWord="20" lg_numSyll="34" lg_numShortSyll="16" lg_numLongSyll="18" rhyme="abcb" lg_syllPattern="8-9-8-9">
                     <l xml:id="l5" l_numWord="6" l_numSyll="8" l_numShortSyll="4" l_numLongSyll="4" real="11000101">
                         <w xml:id="w19" lemma="és" pos="CONJ" msd="_" w_numSyll="1" phonType="high" phonStruct="Fc">És</w>
                         <w xml:id="w20" lemma="néha" pos="ADV" msd="_" w_numSyll="2" phonType="mixed" phonStruct="cFcb">néha</w>
@@ -185,7 +185,16 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w10 #w18">
+                    <firstRhyme rhyme_lemma="fa" rhyme_pos="NOUN" rhyme_msd="Case=Del|Number=Sing" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cBcBc">fáról</firstRhyme>
+                    <secondRhyme rhyme_lemma="éjszak" rhyme_pos="NOUN" rhyme_msd="Case=Ela|Number=Sing|Number[psor]=Sing|Person[psor]=3" rhyme_numSyll="4" rhyme_phonType="mixed" rhyme_phonStruct="FccbcBcBc">éjszakából</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w29 #w38">
+                    <firstRhyme rhyme_lemma="sár" rhyme_pos="NOUN" rhyme_msd="Case=Ill|Number=Sing" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cBccb">sárba</firstRhyme>
+                    <secondRhyme rhyme_lemma="nyugovás" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3" rhyme_numSyll="4" rhyme_phonType="low" rhyme_phonStruct="cbcbcBcb">nyugovása</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w15 #w16" allStruct="aa" posTags="NOUN VERB" msdTags="Case=Ill|Number=Sing Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" lemmas="hajnal hull">Hajnalba hull</alliteration>
                 <alliteration target="#w36 #w37" allStruct="aa" posTags="ADV VERB" msdTags="_ Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" lemmas="soha sincs">soha sincsen</alliteration>

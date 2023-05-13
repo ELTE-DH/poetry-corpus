@@ -114,12 +114,12 @@
 		<revisionDesc>
 			<change when="2021-07-05">level1</change>
 			<change when="2021-08-05">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
 	<text>
 		<body>
-			<div>
+			<div met="Qual=False|Quan=iambic|QuanScore=0.6">
 				<head>(Helyettem kis lapom...)</head>
 				<lg rhyme="abcdee" xml:id="lg1">
 					<l n="6" real="011100" xml:id="l1">
@@ -157,7 +157,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc5">!</pc>
 					</l>
 				</lg>
-				<lg rhyme="abcccd" xml:id="lg2">
+				<lg rhyme="abcdee" xml:id="lg2">
 					<l n="6" real="011001" xml:id="l7">
 						<w lemma="helyett" msd="_" pos="ADP" type="én[/N|Pro]=+helyett[/Post]=helyett+em[1Sg]=em" xml:id="w18">Helyettem</w>
 						<pc join="left" pos="PUNCT" xml:id="pc6">,</pc>
@@ -231,6 +231,10 @@
 				<span subtype="1" target="#w33" type="low">cbcc</span>
 				<span subtype="4" target="#w34" type="low">cbcBcbcbc</span>
 			</spanGrp>
+			<linkGrp type="rhymePairs">
+				<link target="#w15 #w17"/>
+				<link target="#w33 #w34"/>
+			</linkGrp>
 			<spanGrp type="alliterations">
 				<span target="#w29 #w30 #w31" type="ana"/>
 				<span target="#w30 #w31 #w32" type="ana"/>

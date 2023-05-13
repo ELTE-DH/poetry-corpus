@@ -120,12 +120,12 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="2" div_numLine="12" div_numWord="49" div_numSyll="102" div_numShortSyll="41" div_numLongSyll="61" div_rhyme="abcbbd|ababbc" div_syllPattern="9-8-9-8-8-9|9-8-9-8-8-9">
+            <div type="poem" div_numStanza="2" div_numLine="12" div_numWord="49" div_numSyll="102" div_numShortSyll="41" div_numLongSyll="61" div_rhyme="abcbbd|abcbbd" div_syllPattern="9-8-9-8-8-9|9-8-9-8-8-9" met_qual="False" met_quan="iambic" met_quanScore="0.69">
                 <head type="title">A HALÁL-TÓ FÖLÖTT</head>
                 <lg xml:id="lg1" lg_numLine="6" lg_numWord="27" lg_numSyll="51" lg_numShortSyll="22" lg_numLongSyll="29" rhyme="abcbbd" lg_syllPattern="9-8-9-8-8-9">
                     <l xml:id="l1" l_numWord="4" l_numSyll="9" l_numShortSyll="4" l_numLongSyll="5" real="001101011">
@@ -176,7 +176,7 @@
                         <pc xml:id="pc8" pos="PUNCT" join="left">.</pc>
                     </l>
                 </lg>
-                <lg xml:id="lg2" lg_numLine="6" lg_numWord="22" lg_numSyll="51" lg_numShortSyll="19" lg_numLongSyll="32" rhyme="ababbc" lg_syllPattern="9-8-9-8-8-9">
+                <lg xml:id="lg2" lg_numLine="6" lg_numWord="22" lg_numSyll="51" lg_numShortSyll="19" lg_numLongSyll="32" rhyme="abcbbd" lg_syllPattern="9-8-9-8-8-9">
                     <l xml:id="l7" l_numWord="4" l_numSyll="9" l_numShortSyll="3" l_numLongSyll="6" real="010111011">
                         <w xml:id="w28" lemma="hiába" pos="ADV" msd="_" w_numSyll="3" phonType="mixed" phonStruct="cfBcb">Hiába</w>
                         <w xml:id="w29" lemma="minden" pos="PRON" msd="Case=Nom|Number=Sing|Person=3|PronType=Tot" w_numSyll="2" phonType="high" phonStruct="cfccfc">minden</w>
@@ -224,7 +224,24 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w8 #w18">
+                    <firstRhyme rhyme_lemma="madár" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Plur" rhyme_numSyll="3" rhyme_phonType="low" rhyme_phonStruct="cbcbcbc">madarak</firstRhyme>
+                    <secondRhyme rhyme_lemma="hal" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Plur" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbcbc">halak</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w18 #w23">
+                    <firstRhyme rhyme_lemma="hal" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Plur" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbcbc">halak</firstRhyme>
+                    <secondRhyme rhyme_lemma="tó" rhyme_pos="NOUN" rhyme_msd="Case=Acc|Number=Sing" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbcbc">tavat</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w35 #w41">
+                    <firstRhyme rhyme_lemma="elvesz" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="fccfcfcc">elveszünk</firstRhyme>
+                    <secondRhyme rhyme_lemma="eszik" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="fcfcc">eszünk</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w41 #w46">
+                    <firstRhyme rhyme_lemma="eszik" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="fcfcc">eszünk</firstRhyme>
+                    <secondRhyme rhyme_lemma="vesz" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfcfcc">veszünk</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w6 #w7" allStruct="aa" posTags="ADJ ADJ" msdTags="Case=Nom|Degree=Pos|Number=Sing Case=Nom|Degree=Pos|Number=Sing" lemmas="bátor büszke">bátor büszke</alliteration>
                 <alliteration target="#w21 #w22" allStruct="aa" posTags="NOUN ADJ" msdTags="Case=Nom|Number=Sing Case=Nom|Degree=Pos|Number=Sing" lemmas="bűz-lehü bús">bűz-lehü bús</alliteration>

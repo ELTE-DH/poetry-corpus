@@ -103,12 +103,12 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="4" div_numLine="16" div_numWord="93" div_numSyll="164" div_numShortSyll="77" div_numLongSyll="87" div_rhyme="abcb|abcb|abcb|abbb" div_syllPattern="11-10-9-6|10-11-11-11|13-11-9-11|11-11-9-10">
+            <div type="poem" div_numStanza="4" div_numLine="16" div_numWord="93" div_numSyll="164" div_numShortSyll="77" div_numLongSyll="87" div_rhyme="abcb|abcb|abcb|abcb" div_syllPattern="11-10-9-6|10-11-11-11|13-11-9-11|11-11-9-10" met_qual="False" met_quan="iambic" met_quanScore="0.41">
                 <head type="title">PAVLIK ÜRÍT</head>
                 <lg xml:id="lg1" lg_numLine="4" lg_numWord="19" lg_numSyll="36" lg_numShortSyll="19" lg_numLongSyll="17" rhyme="abcb" lg_syllPattern="11-10-9-6">
                     <l xml:id="l1" l_numWord="5" l_numSyll="11" l_numShortSyll="6" l_numLongSyll="5" real="01011000101">
@@ -233,7 +233,7 @@
                         <pc xml:id="pc24" pos="PUNCT" join="left">.</pc>
                     </l>
                 </lg>
-                <lg xml:id="lg4" lg_numLine="4" lg_numWord="24" lg_numSyll="41" lg_numShortSyll="16" lg_numLongSyll="25" rhyme="abbb" lg_syllPattern="11-11-9-10">
+                <lg xml:id="lg4" lg_numLine="4" lg_numWord="24" lg_numSyll="41" lg_numShortSyll="16" lg_numLongSyll="25" rhyme="abcb" lg_syllPattern="11-11-9-10">
                     <l xml:id="l13" l_numWord="7" l_numSyll="11" l_numShortSyll="3" l_numLongSyll="8" real="01111110110">
                         <w xml:id="w70" lemma="olyan" pos="PRON" msd="Case=Nom|Number=Sing|Person=3|PronType=Dem" w_numSyll="2" phonType="low" phonStruct="bcbc">Olyan</w>
                         <w xml:id="w71" lemma="lesz" pos="VERB" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" w_numSyll="1" phonType="high" phonStruct="cfcc">lesz</w>
@@ -278,7 +278,24 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w10 #w19">
+                    <firstRhyme rhyme_lemma="madár" rhyme_pos="NOUN" rhyme_msd="Case=Acc|Number=Sing" rhyme_numSyll="3" rhyme_phonType="low" rhyme_phonStruct="cbcbcbc">madarat</firstRhyme>
+                    <secondRhyme rhyme_lemma="megmarad" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="3" rhyme_phonType="mixed" rhyme_phonStruct="cfccbcbc">megmarad</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w30 #w43">
+                    <firstRhyme rhyme_lemma="kéz" rhyme_pos="NOUN" rhyme_msd="Case=Ins|Number=Sing|Number[psor]=Plur|Person[psor]=1" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfcfcccfc">kezünkkel</firstRhyme>
+                    <secondRhyme rhyme_lemma="el" rhyme_pos="ADV" rhyme_msd="_" rhyme_numSyll="1" rhyme_phonType="high" rhyme_phonStruct="fc">el</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w56 #w69">
+                    <firstRhyme rhyme_lemma="terem" rhyme_pos="NOUN" rhyme_msd="Case=Acc|Number=Sing" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfccfc">termet</firstRhyme>
+                    <secondRhyme rhyme_lemma="terem" rhyme_pos="NOUN" rhyme_msd="Case=Acc|Number=Sing" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfccfc">termet</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w84 #w93">
+                    <firstRhyme rhyme_lemma="itten" rhyme_pos="PRON" rhyme_msd="Case=Nom|Number=Sing|Person=3|PronType=Prs" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="fccfc">itten</firstRhyme>
+                    <secondRhyme rhyme_lemma="ürít" rhyme_pos="VERB" rhyme_msd="Definite=Def|Mood=Imp|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="fcFccfc">ürítsem</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w11 #w12 #w13 #w14 #w15" allStruct="anana" posTags="VERB ADV VERB ADV VERB" msdTags="Definite=Def|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act PronType=Int Definite=Def|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act PronType=Int Definite=Def|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act" lemmas="hall -e hall -e hall">Hallod -e hallod -e hallod</alliteration>
                 <alliteration target="#w12 #w13 #w14 #w15 #w16" allStruct="anana" posTags="ADV VERB ADV VERB ADV" msdTags="PronType=Int Definite=Def|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act PronType=Int Definite=Def|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act PronType=Int" lemmas="-e hall -e hall -e">-e hallod -e hallod -e</alliteration>

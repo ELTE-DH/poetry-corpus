@@ -106,14 +106,14 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
 	<text>
 		<body>
-			<div type="poem">
+			<div met="Qual=False|Quan=iambic|QuanScore=0.49" type="poem">
 				<head>Most már</head>
-				<lg rhyme="abba" xml:id="lg1">
+				<lg rhyme="abca" xml:id="lg1">
 					<l n="9" real="101101010" xml:id="l1">
 						<w lemma="kincs" msd="Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=1" pos="NOUN" type="kincs[/N]=kincs+em[Poss.1Sg]=em+et[Acc]=et" xml:id="w1">Kincsemet</w>
 						<w lemma="már" msd="_" pos="ADV" type="már[/Adv]=már" xml:id="w2">már</w>
@@ -142,7 +142,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2">.</pc>
 					</l>
 				</lg>
-				<lg rhyme="abba" xml:id="lg2">
+				<lg rhyme="abca" xml:id="lg2">
 					<l n="9" real="011110010" xml:id="l5">
 						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" type="a[/Det|Art.Def]=a" xml:id="w18">A</w>
 						<w lemma="szív" msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1" pos="NOUN" type="szív[/N]=szív+em[Poss.1Sg]=em+[Nom]=" xml:id="w19">szívem</w>
@@ -217,6 +217,10 @@
 				<span subtype="2" target="#w35" type="high">Fccf</span>
 				<span subtype="2" target="#w36" type="high">cFcfc</span>
 			</spanGrp>
+			<linkGrp type="rhymePairs">
+				<link target="#w5 #w17"/>
+				<link target="#w23 #w36"/>
+			</linkGrp>
 			<spanGrp type="alliterations">
 				<span target="#w5 #w6 #w7 #w8 #w9" type="anana"/>
 				<span target="#w20 #w21" type="aa"/>

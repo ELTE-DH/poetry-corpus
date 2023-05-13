@@ -112,12 +112,12 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="2" div_numLine="8" div_numWord="28" div_numSyll="64" div_numShortSyll="29" div_numLongSyll="35" div_rhyme="abcb|abcb" div_syllPattern="8-8-8-8|8-8-8-8">
+            <div type="poem" div_numStanza="2" div_numLine="8" div_numWord="28" div_numSyll="64" div_numShortSyll="29" div_numLongSyll="35" div_rhyme="abcb|abcb" div_syllPattern="8-8-8-8|8-8-8-8" met_qual="5-3" met_quan="iambic" met_quanScore="0.76">
                 <head type="title">A kézi tükör</head>
                 <lg xml:id="lg1" lg_numLine="4" lg_numWord="14" lg_numSyll="32" lg_numShortSyll="16" lg_numLongSyll="16" rhyme="abcb" lg_syllPattern="8-8-8-8">
                     <l xml:id="l1" l_numWord="5" l_numSyll="8" l_numShortSyll="3" l_numLongSyll="5" real="01011101">
@@ -175,7 +175,16 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w8 #w14">
+                    <firstRhyme rhyme_lemma="lehelet" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfcfcfc">lehelet</firstRhyme>
+                    <secondRhyme rhyme_lemma="kedv" rhyme_pos="NOUN" rhyme_msd="Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=1" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfccfcfc">kedvemet</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w21 #w28">
+                    <firstRhyme rhyme_lemma="tett" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfccfcfc">tettenek</firstRhyme>
+                    <secondRhyme rhyme_lemma="hideg" rhyme_pos="ADJ" rhyme_msd="Case=Nom|Degree=Pos|Number=Sing" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfcfc">hideg</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w7 #w8 #w9" allStruct="ana" posTags="NUM NOUN NUM" msdTags="Case=Nom|Number=Sing|NumType=Card Case=Nom|Number=Sing Case=Nom|Number=Sing|NumType=Card" lemmas="sok lehelet sok">sok lehelet Sok</alliteration>
             </alliterations>

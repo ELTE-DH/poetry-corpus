@@ -120,14 +120,14 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="4" div_numLine="16" div_numWord="74" div_numSyll="145" div_numShortSyll="62" div_numLongSyll="83" div_rhyme="abbb|abcb|abcb|abcb" div_syllPattern="9-11-10-6|9-11-10-6|10-11-10-6|9-11-10-6">
+            <div type="poem" div_numStanza="4" div_numLine="16" div_numWord="74" div_numSyll="145" div_numShortSyll="62" div_numLongSyll="83" div_rhyme="abcb|abcb|abcb|abcb" div_syllPattern="9-11-10-6|9-11-10-6|10-11-10-6|9-11-10-6" met_qual="False" met_quan="trochaic" met_quanScore="0.31">
                 <head type="title">GYÁVA BARLA DIÁK</head>
-                <lg xml:id="lg1" lg_numLine="4" lg_numWord="16" lg_numSyll="36" lg_numShortSyll="17" lg_numLongSyll="19" rhyme="abbb" lg_syllPattern="9-11-10-6">
+                <lg xml:id="lg1" lg_numLine="4" lg_numWord="16" lg_numSyll="36" lg_numShortSyll="17" lg_numLongSyll="19" rhyme="abcb" lg_syllPattern="9-11-10-6">
                     <l xml:id="l1" l_numWord="5" l_numSyll="9" l_numShortSyll="3" l_numLongSyll="6" real="101111001">
                         <w xml:id="w1" lemma="hadverő" pos="NOUN" msd="Case=Nom|Number=Sing" w_numSyll="3" phonType="mixed" phonStruct="cbccfcF">Hadverő</w>
                         <w xml:id="w2" lemma="nem" pos="ADV" msd="PronType=Neg" w_numSyll="1" phonType="high" phonStruct="cfc">nem</w>
@@ -257,7 +257,24 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w10 #w16">
+                    <firstRhyme rhyme_lemma="ős" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="Fcfc">ősöm</firstRhyme>
+                    <secondRhyme rhyme_lemma="ősz" rhyme_pos="NOUN" rhyme_msd="Case=Sup|Number=Sing" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="Fcfc">őszön</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w26 #w35">
+                    <firstRhyme rhyme_lemma="átok" rhyme_pos="NOUN" rhyme_msd="Case=Acc|Number=Sing" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="Bccbc">átkot</firstRhyme>
+                    <secondRhyme rhyme_lemma="diák" rhyme_pos="NOUN" rhyme_msd="Case=Acc|Number=Sing" rhyme_numSyll="3" rhyme_phonType="mixed" rhyme_phonStruct="cfBcbc">diákot</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w47 #w55">
+                    <firstRhyme rhyme_lemma="rom" rhyme_pos="NOUN" rhyme_msd="Case=Sub|Number=Plur" rhyme_numSyll="3" rhyme_phonType="low" rhyme_phonStruct="cbcbccb">romokra</firstRhyme>
+                    <secondRhyme rhyme_lemma="bokor" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbccb">bokra</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w65 #w74">
+                    <firstRhyme rhyme_lemma="által" rhyme_pos="ADP" rhyme_msd="_" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="Bccbc">által</firstRhyme>
+                    <secondRhyme rhyme_lemma="leány" rhyme_pos="NOUN" rhyme_msd="Case=Ins|Number=Sing" rhyme_numSyll="3" rhyme_phonType="mixed" rhyme_phonStruct="cfBccbc">leánnyal</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w31 #w32" allStruct="aa" posTags="NOUN PRON" msdTags="Case=Ine|Number=Sing Case=Nom|Number=Sing|Person=3|PronType=Tot" lemmas="sereg senki">seregben senki</alliteration>
                 <alliteration target="#w42 #w43 #w44" allStruct="ana" posTags="ADP ADJ NOUN" msdTags="_ Case=Nom|Degree=Pos|Number=Sing Case=Nom|Number=Sing" lemmas="között virágos kunyhó">között Virágos kunyhó</alliteration>

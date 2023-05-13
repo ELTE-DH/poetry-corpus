@@ -111,12 +111,12 @@
 		<revisionDesc>
 			<change when="2021-07-05">level1</change>
 			<change when="2021-08-05">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="3" div_numLine="12" div_numWord="49" div_numSyll="100" div_numShortSyll="46" div_numLongSyll="54" div_rhyme="abcb|abcb|abcb" div_syllPattern="9-8-9-6|9-8-9-8|9-8-9-8">
+            <div type="poem" div_numStanza="3" div_numLine="12" div_numWord="49" div_numSyll="100" div_numShortSyll="46" div_numLongSyll="54" div_rhyme="abcb|abcb|abcb" div_syllPattern="9-8-9-6|9-8-9-8|9-8-9-8" met_qual="False" met_quan="iambic" met_quanScore="0.55">
                 <head type="title">Magyar szivar vége</head>
                 <lg xml:id="lg1" lg_numLine="4" lg_numWord="18" lg_numSyll="32" lg_numShortSyll="16" lg_numLongSyll="16" rhyme="abcb" lg_syllPattern="9-8-9-6">
                     <l xml:id="l1" l_numWord="6" l_numSyll="9" l_numShortSyll="4" l_numLongSyll="5" real="010110011">
@@ -218,7 +218,20 @@
                 </lg>
                 <p>1920</p>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w10 #w18">
+                    <firstRhyme rhyme_lemma="van" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="1" rhyme_phonType="low" rhyme_phonStruct="cbc">van</firstRhyme>
+                    <secondRhyme rhyme_lemma="maga" rhyme_pos="PRON" rhyme_msd="Case=Nom|Number=Sing|Person=1|Reflex=Yes" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbcbc">magam</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w27 #w34">
+                    <firstRhyme rhyme_lemma="Bakony" rhyme_pos="PROPN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbcbc">Bakony</firstRhyme>
+                    <secondRhyme rhyme_lemma="akar" rhyme_pos="VERB" rhyme_msd="Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="3" rhyme_phonType="low" rhyme_phonStruct="bcbcbc">akarom</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w43 #w49">
+                    <firstRhyme rhyme_lemma="érez" rhyme_pos="VERB" rhyme_msd="Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="Fcfcfc">érezem</firstRhyme>
+                    <secondRhyme rhyme_lemma="emlékezik" rhyme_pos="VERB" rhyme_msd="Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="4" rhyme_phonType="high" rhyme_phonStruct="fccFcfcfc">emlékezem</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w1 #w2 #w3" allStruct="ana" posTags="ADJ NOUN PRON" msdTags="Case=Nom|Degree=Pos|Number=Sing Case=Nom|Number=Sing Case=Nom|Number=Sing|Person=3|PronType=Rel" lemmas="magyar szivar amely">Magyar szivar mely</alliteration>
                 <alliteration target="#w4 #w5 #w6" allStruct="ana" posTags="ADJ CONJ ADJ" msdTags="Case=Nom|Degree=Pos|Number=Sing _ Case=Nom|Degree=Pos|Number=Sing" lemmas="büdös és bús">büdös és bús</alliteration>

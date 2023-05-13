@@ -111,12 +111,12 @@
 		<revisionDesc>
 			<change when="2021-07-05">level1</change>
 			<change when="2021-08-05">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="2" div_numLine="12" div_numWord="34" div_numSyll="69" div_numShortSyll="31" div_numLongSyll="38" div_rhyme="abcdee|abcccd" div_syllPattern="6-4-6-7-7-4|6-4-7-7-7-4">
+            <div type="poem" div_numStanza="2" div_numLine="12" div_numWord="34" div_numSyll="69" div_numShortSyll="31" div_numLongSyll="38" div_rhyme="abcdee|abcdee" div_syllPattern="6-4-6-7-7-4|6-4-7-7-7-4" met_qual="False" met_quan="iambic" met_quanScore="0.6">
                 <head type="title">(Helyettem kis lapom...)</head>
                 <lg xml:id="lg1" lg_numLine="6" lg_numWord="17" lg_numSyll="34" lg_numShortSyll="16" lg_numLongSyll="18" rhyme="abcdee" lg_syllPattern="6-4-6-7-7-4">
                     <l xml:id="l1" l_numWord="3" l_numSyll="6" l_numShortSyll="3" l_numLongSyll="3" real="011100">
@@ -154,7 +154,7 @@
                         <pc xml:id="pc5" pos="PUNCT" join="left">!</pc>
                     </l>
                 </lg>
-                <lg xml:id="lg2" lg_numLine="6" lg_numWord="17" lg_numSyll="35" lg_numShortSyll="15" lg_numLongSyll="20" rhyme="abcccd" lg_syllPattern="6-4-7-7-7-4">
+                <lg xml:id="lg2" lg_numLine="6" lg_numWord="17" lg_numSyll="35" lg_numShortSyll="15" lg_numLongSyll="20" rhyme="abcdee" lg_syllPattern="6-4-7-7-7-4">
                     <l xml:id="l7" l_numWord="2" l_numSyll="6" l_numShortSyll="3" l_numLongSyll="3" real="011001">
                         <w xml:id="w18" lemma="helyett" pos="ADP" msd="_" w_numSyll="3" phonType="high" phonStruct="cfcfccfc">Helyettem</w>
                         <pc xml:id="pc6" pos="PUNCT" join="left">,</pc>
@@ -192,7 +192,16 @@
                 </lg>
                 <p>1922</p>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w15 #w17">
+                    <firstRhyme rhyme_lemma="zseb" rhyme_pos="NOUN" rhyme_msd="Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfcFc">zsebét</firstRhyme>
+                    <secondRhyme rhyme_lemma="megnyere" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=2" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfccfcFc">megnyeréd</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w33 #w34">
+                    <firstRhyme rhyme_lemma="majd" rhyme_pos="ADV" rhyme_msd="_" rhyme_numSyll="1" rhyme_phonType="low" rhyme_phonStruct="cbcc">majd</firstRhyme>
+                    <secondRhyme rhyme_lemma="jutányos" rhyme_pos="ADJ" rhyme_msd="Case=Ess|Degree=Pos|Number=Sing" rhyme_numSyll="4" rhyme_phonType="low" rhyme_phonStruct="cbcBcbcbc">Jutányosan</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w29 #w30 #w31" allStruct="ana" posTags="ADV VERB NOUN" msdTags="_ Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3" lemmas="kész van közlés">kész van Közlését</alliteration>
                 <alliteration target="#w30 #w31 #w32" allStruct="ana" posTags="VERB NOUN VERB" msdTags="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3 Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" lemmas="van közlés vállal">van Közlését vállalom</alliteration>

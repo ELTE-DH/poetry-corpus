@@ -108,14 +108,14 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="3" div_numLine="12" div_numWord="65" div_numSyll="126" div_numShortSyll="46" div_numLongSyll="80" div_rhyme="abab|abcb|abcb" div_syllPattern="11-10-11-10|11-10-11-10|11-10-11-10">
+            <div type="poem" div_numStanza="3" div_numLine="12" div_numWord="65" div_numSyll="126" div_numShortSyll="46" div_numLongSyll="80" div_rhyme="abcb|abcb|abcb" div_syllPattern="11-10-11-10|11-10-11-10|11-10-11-10" met_qual="5-6_5-5" met_quan="iambic" met_quanScore="0.49">
                 <head type="title">LÍRA [1]</head>
-                <lg xml:id="lg1" lg_numLine="4" lg_numWord="20" lg_numSyll="42" lg_numShortSyll="15" lg_numLongSyll="27" rhyme="abab" lg_syllPattern="11-10-11-10">
+                <lg xml:id="lg1" lg_numLine="4" lg_numWord="20" lg_numSyll="42" lg_numShortSyll="15" lg_numLongSyll="27" rhyme="abcb" lg_syllPattern="11-10-11-10">
                     <l xml:id="l1" l_numWord="5" l_numSyll="11" l_numShortSyll="4" l_numLongSyll="7" real="11011011010">
                         <w xml:id="w1" lemma="egy" pos="NUM" msd="Case=Nom|Number=Sing|NumType=Card" w_numSyll="1" phonType="high" phonStruct="fc">Egy</w>
                         <w xml:id="w2" lemma="pillanat" pos="NOUN" msd="Case=Nom|Number=Sing" w_numSyll="3" phonType="mixed" phonStruct="cfccbcbc">pillanat</w>
@@ -229,7 +229,20 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w10 #w20">
+                    <firstRhyme rhyme_lemma="pillanat" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="3" rhyme_phonType="mixed" rhyme_phonStruct="cfccbcbc">pillanat</firstRhyme>
+                    <secondRhyme rhyme_lemma="nyár" rhyme_pos="NOUN" rhyme_msd="Case=Acc|Number=Sing" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbcbc">nyarat</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w29 #w41">
+                    <firstRhyme rhyme_lemma="gyász-szine" rhyme_pos="NOUN" rhyme_msd="Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3" rhyme_numSyll="3" rhyme_phonType="mixed" rhyme_phonStruct="cBccfcFc">gyász-szinét</firstRhyme>
+                    <secondRhyme rhyme_lemma="ige" rhyme_pos="NOUN" rhyme_msd="Case=Acc|Number=Sing" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="fcFc">igét</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w53 #w65">
+                    <firstRhyme rhyme_lemma="át" rhyme_pos="ADV" rhyme_msd="_" rhyme_numSyll="1" rhyme_phonType="low" rhyme_phonStruct="Bc">át</firstRhyme>
+                    <secondRhyme rhyme_lemma="haj" rhyme_pos="NOUN" rhyme_msd="Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbcBc">haját</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w27 #w28" allStruct="aa" posTags="NOUN ADJ" msdTags="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1 Case=Nom|Degree=Pos|Number=Sing" lemmas="lélek lomha">lelkem lomha</alliteration>
                 <alliteration target="#w35 #w36" allStruct="aa" posTags="VERB NOUN" msdTags="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1" lemmas="akar ajak">akart ajkam</alliteration>

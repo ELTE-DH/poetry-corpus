@@ -111,12 +111,12 @@
 		<revisionDesc>
 			<change when="2021-07-05">level1</change>
 			<change when="2021-08-05">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="1" div_numLine="8" div_numWord="35" div_numSyll="80" div_numShortSyll="34" div_numLongSyll="46" div_rhyme="abcbadbd" div_syllPattern="10-10-10-10-10-10-10-10">
+            <div type="poem" div_numStanza="1" div_numLine="8" div_numWord="35" div_numSyll="80" div_numShortSyll="34" div_numLongSyll="46" div_rhyme="abcbadbd" div_syllPattern="10-10-10-10-10-10-10-10" met_qual="4-3-3" met_quan="trochaic" met_quanScore="0.68">
                 <head type="title">Móra Ferencnek, a jubileumára</head>
                 <lg xml:id="lg1" lg_numLine="8" lg_numWord="35" lg_numSyll="80" lg_numShortSyll="34" lg_numLongSyll="46" rhyme="abcbadbd" lg_syllPattern="10-10-10-10-10-10-10-10">
                     <l xml:id="l1" l_numWord="5" l_numSyll="10" l_numShortSyll="6" l_numLongSyll="4" real="1011000010">
@@ -181,7 +181,24 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w5 #w20">
+                    <firstRhyme rhyme_lemma="fátum" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cBcbc">fátum</firstRhyme>
+                    <secondRhyme rhyme_lemma="ők" rhyme_pos="PRON" rhyme_msd="Case=Sub|Number=Plur|Person=3|PronType=Prs" rhyme_numSyll="3" rhyme_phonType="mixed" rhyme_phonStruct="cfBcbc">reájuk</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w9 #w16">
+                    <firstRhyme rhyme_lemma="maga" rhyme_pos="PRON" rhyme_msd="Case=Dat|Number=Sing|Person=3|Reflex=Yes" rhyme_numSyll="3" rhyme_phonType="low" rhyme_phonStruct="cbcBcbc">magának</firstRhyme>
+                    <secondRhyme rhyme_lemma="árny" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Plur" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="Bccbc">árnyak</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w16 #w31">
+                    <firstRhyme rhyme_lemma="árny" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Plur" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="Bccbc">árnyak</firstRhyme>
+                    <secondRhyme rhyme_lemma="mozdony" rhyme_pos="NOUN" rhyme_msd="Case=Dat|Number=Sing" rhyme_numSyll="3" rhyme_phonType="low" rhyme_phonStruct="cbccbccbc">mozdonynak</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w26 #w35">
+                    <firstRhyme rhyme_lemma="hiába" rhyme_pos="ADV" rhyme_msd="_" rhyme_numSyll="3" rhyme_phonType="mixed" rhyme_phonStruct="cfBcb">hiába</firstRhyme>
+                    <secondRhyme rhyme_lemma="éjszaka" rhyme_pos="NOUN" rhyme_msd="Case=Ill|Number=Sing" rhyme_numSyll="4" rhyme_phonType="mixed" rhyme_phonStruct="FccbcBcb">éjszakába</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w9 #w10" allStruct="aa" posTags="PRON NOUN" msdTags="Case=Dat|Number=Sing|Person=3|Reflex=Yes Case=Ine|Number=Sing|Number[psor]=Plur|Person[psor]=3" lemmas="maga mosoly">magának Mosolyukban</alliteration>
                 <alliteration target="#w24 #w25 #w26" allStruct="ana" posTags="SCONJ PRON ADV" msdTags="_ Case=Nom|Number=Sing|Person=3|PronType=Tot _" lemmas="hogy minden hiába">hogy minden hiába</alliteration>

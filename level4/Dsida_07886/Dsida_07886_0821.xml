@@ -103,12 +103,12 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="5" div_numLine="15" div_numWord="82" div_numSyll="152" div_numShortSyll="71" div_numLongSyll="81" div_rhyme="aba|aba|abc|aba|aba" div_syllPattern="10-8-10|10-11-10|10-11-10|10-11-10|10-11-10">
+            <div type="poem" div_numStanza="5" div_numLine="15" div_numWord="82" div_numSyll="152" div_numShortSyll="71" div_numLongSyll="81" div_rhyme="aba|aba|aba|aba|aba" div_syllPattern="10-8-10|10-11-10|10-11-10|10-11-10|10-11-10" met_qual="5-5_5-4-2" met_quan="iambic" met_quanScore="0.54">
                 <head type="title">Kérdés is, kérés is</head>
                 <lg xml:id="lg1" lg_numLine="3" lg_numWord="16" lg_numSyll="28" lg_numShortSyll="16" lg_numLongSyll="12" rhyme="aba" lg_syllPattern="10-8-10">
                     <l xml:id="l1" l_numWord="5" l_numSyll="10" l_numShortSyll="6" l_numLongSyll="4" real="0010101100">
@@ -163,7 +163,7 @@
                         <pc xml:id="pc5" pos="PUNCT" join="left">.</pc>
                     </l>
                 </lg>
-                <lg xml:id="lg3" lg_numLine="3" lg_numWord="16" lg_numSyll="31" lg_numShortSyll="14" lg_numLongSyll="17" rhyme="abc" lg_syllPattern="10-11-10">
+                <lg xml:id="lg3" lg_numLine="3" lg_numWord="16" lg_numSyll="31" lg_numShortSyll="14" lg_numLongSyll="17" rhyme="aba" lg_syllPattern="10-11-10">
                     <l xml:id="l7" l_numWord="6" l_numSyll="10" l_numShortSyll="3" l_numLongSyll="7" real="0001111111">
                         <w xml:id="w33" lemma="mikor" pos="PRON" msd="Case=Nom|Number=Sing|Person=3|PronType=Int" w_numSyll="2" phonType="mixed" phonStruct="cfcbc">Mikor</w>
                         <w xml:id="w34" lemma="a" pos="DET" msd="Definite=Def|PronType=Art" w_numSyll="1" phonType="low" phonStruct="b">a</w>
@@ -250,7 +250,28 @@
                 </lg>
                 <p>1925. március 24.</p>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w5 #w16">
+                    <firstRhyme rhyme_lemma="dolog" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbcbc">dolog</firstRhyme>
+                    <secondRhyme rhyme_lemma="dobog" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbcbc">dobog</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w21 #w32">
+                    <firstRhyme rhyme_lemma="felett" rhyme_pos="ADP" rhyme_msd="_" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfcfcc">felett</firstRhyme>
+                    <secondRhyme rhyme_lemma="születik" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfcfcfcc">született</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w38 #w48">
+                    <firstRhyme rhyme_lemma="rossz" rhyme_pos="ADJ" rhyme_msd="Case=Nom|Degree=Pos|Number=Sing" rhyme_numSyll="1" rhyme_phonType="low" rhyme_phonStruct="cbcc">rossz</firstRhyme>
+                    <secondRhyme rhyme_lemma="Ikarosz" rhyme_pos="PROPN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="3" rhyme_phonType="mixed" rhyme_phonStruct="fcbcbc">Ikarosz</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w53 #w64">
+                    <firstRhyme rhyme_lemma="hit" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing|Number[psor]=Plur|Person[psor]=1" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfcfcc">hitünk</firstRhyme>
+                    <secondRhyme rhyme_lemma="könnyitünk" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Pot|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfccfcfcc">könnyitünk</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w69 #w82">
+                    <firstRhyme rhyme_lemma="dohog" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbcbc">dohog</firstRhyme>
+                    <secondRhyme rhyme_lemma="dolog" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbcbc">dolog</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w3 #w4" allStruct="aa" posTags="ADV ADJ" msdTags="_ Case=Nom|Degree=Pos|Number=Sing" lemmas="nagyon nagy">nagyon nagy</alliteration>
                 <alliteration target="#w23 #w24" allStruct="aa" posTags="ADJ NOUN" msdTags="Case=Nom|Degree=Pos|Number=Sing Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3" lemmas="rövid röpte">rövid röptében</alliteration>

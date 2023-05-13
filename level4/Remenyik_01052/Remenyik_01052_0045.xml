@@ -112,12 +112,12 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="4" div_numLine="11" div_numWord="65" div_numSyll="109" div_numShortSyll="45" div_numLongSyll="64" div_rhyme="ab|aba|abc|aba" div_syllPattern="10-10|10-9-10|10-10-10|10-10-10">
+            <div type="poem" div_numStanza="4" div_numLine="11" div_numWord="65" div_numSyll="109" div_numShortSyll="45" div_numLongSyll="64" div_rhyme="ab|aba|abc|aba" div_syllPattern="10-10|10-9-10|10-10-10|10-10-10" met_qual="5-5" met_quan="iambic" met_quanScore="0.49">
                 <head type="title">Egyszer talán majd mégis vége lesz</head>
                 <lg xml:id="lg1" lg_numLine="2" lg_numWord="10" lg_numSyll="20" lg_numShortSyll="10" lg_numLongSyll="10" rhyme="ab" lg_syllPattern="10-10">
                     <l xml:id="l1" l_numWord="5" l_numSyll="10" l_numShortSyll="5" l_numLongSyll="5" real="1100010101">
@@ -232,7 +232,16 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w16 #w27">
+                    <firstRhyme rhyme_lemma="ház" rhyme_pos="NOUN" rhyme_msd="Case=All|Number=Sing" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cBccbc">házhoz</firstRhyme>
+                    <secondRhyme rhyme_lemma="átkoz" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="Bccbc">átkoz</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w53 #w65">
+                    <firstRhyme rhyme_lemma="kér" rhyme_pos="VERB" rhyme_msd="Definite=Def|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="1" rhyme_phonType="high" rhyme_phonStruct="cFcc">kérd</firstRhyme>
+                    <secondRhyme rhyme_lemma="vér" rhyme_pos="NOUN" rhyme_msd="Case=Acc|Number=Sing" rhyme_numSyll="1" rhyme_phonType="high" rhyme_phonStruct="cFcc">vért</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w2 #w3" allStruct="aa" posTags="PRON PRON" msdTags="Case=Nom|Number=Sing|Person=3|PronType=Prs Case=Nom|Number=Sing|Person=3|PronType=Rel" lemmas="akkor aki">akkor aki</alliteration>
                 <alliteration target="#w24 #w25" allStruct="aa" posTags="VERB PRON" msdTags="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act Case=Acc|Number=Sing|Person=3|PronType=Int" lemmas="kér ki">kér kit</alliteration>

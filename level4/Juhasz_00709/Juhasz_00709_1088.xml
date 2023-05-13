@@ -111,12 +111,12 @@
 		<revisionDesc>
 			<change when="2021-07-05">level1</change>
 			<change when="2021-08-05">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="4" div_numLine="14" div_numWord="85" div_numSyll="148" div_numShortSyll="66" div_numLongSyll="82" div_rhyme="abcb|abcb|abb|abb" div_syllPattern="11-10-11-10|11-10-11-10|11-10-10|11-11-11">
+            <div type="poem" div_numStanza="4" div_numLine="14" div_numWord="85" div_numSyll="148" div_numShortSyll="66" div_numLongSyll="82" div_rhyme="abcb|abcb|abb|abb" div_syllPattern="11-10-11-10|11-10-11-10|11-10-10|11-11-11" met_qual="False" met_quan="iambic" met_quanScore="0.74">
                 <head type="title">Vérmező</head>
                 <lg xml:id="lg1" lg_numLine="4" lg_numWord="21" lg_numSyll="42" lg_numShortSyll="15" lg_numLongSyll="27" rhyme="abcb" lg_syllPattern="11-10-11-10">
                     <l xml:id="l1" l_numWord="4" l_numSyll="11" l_numShortSyll="3" l_numLongSyll="8" real="11111110010">
@@ -269,7 +269,24 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w11 #w21">
+                    <firstRhyme rhyme_lemma="fa" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Plur" rhyme_numSyll="1" rhyme_phonType="low" rhyme_phonStruct="cBc">fák</firstRhyme>
+                    <secondRhyme rhyme_lemma="baba" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Plur" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbcBc">babák</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w32 #w47">
+                    <firstRhyme rhyme_lemma="itt" rhyme_pos="PRON" rhyme_msd="Case=Nom|Number=Sing|Person=3|PronType=Prs" rhyme_numSyll="1" rhyme_phonType="high" rhyme_phonStruct="fcc">itt</firstRhyme>
+                    <secondRhyme rhyme_lemma="hevi" rhyme_pos="ADJ" rhyme_msd="Case=Acc|Degree=Pos|Number=Sing" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfcfc">hevit</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w63 #w69">
+                    <firstRhyme rhyme_lemma="szegény" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfcFc">szegény</firstRhyme>
+                    <secondRhyme rhyme_lemma="költemény" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfccfcFc">költemény</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w80 #w85">
+                    <firstRhyme rhyme_lemma="tavasz" rhyme_pos="NOUN" rhyme_msd="Case=Ine|Number=Sing" rhyme_numSyll="3" rhyme_phonType="low" rhyme_phonStruct="cbcbccbc">tavaszban</firstRhyme>
+                    <secondRhyme rhyme_lemma="halhatatlan" rhyme_pos="ADJ" rhyme_msd="Case=Nom|Degree=Pos|Number=Sing" rhyme_numSyll="4" rhyme_phonType="low" rhyme_phonStruct="cbccbcbccbc">halhatatlan</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w13 #w14" allStruct="aa" posTags="ADJ NOUN" msdTags="Case=Nom|Degree=Pos|Number=Sing Case=Dat|Number=Plur" lemmas="kis kocsma">kis kocsmáknak</alliteration>
                 <alliteration target="#w23 #w24" allStruct="aa" posTags="NOUN PRON" msdTags="Case=Nom|Number=Plur Case=Nom|Number=Plur|Person=3|PronType=Rel" lemmas="katona aki">katonák kik</alliteration>

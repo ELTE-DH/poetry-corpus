@@ -44,6 +44,10 @@ The source of the corpus was the collection of the [_Hungarian Electronic Librar
 
 ## Level3 -- annotation of sound devices
 
+- `@rhyme `: meter
+	- `Qual` : qualitative meter based on stressed and unstressed syllables
+	- `Quan` : quantitative meter based on long and short syllables (possible values: iambic, trochaic, dactylic, anapestic)
+	- `QuanScore` : score of quantitative meter (before 0.5, the poem does not really have any intended quantitative meter)
 - `@rhyme `: rhyme pattern
 - `@real `: rhythm (0: short syllable; 1: long syllable)
 - `<spanGrp type="phonStructures">` : standoff annotation of the phonological features of words
@@ -74,6 +78,9 @@ The source of the corpus was the collection of the [_Hungarian Electronic Librar
 
 By changing the name and the position of certain elements and attributes in level3 and by adding further annotations to the corpus, it is easier to process but cannot be expressed in valid TEI XML format.
 
+- `@met_qual` : qualitative meter based on stressed and unstressed syllables (conversion of level3's `@met` in `<div>`)
+- `@met_quan` : quantitative meter based on long and short syllables, possible values: iambic, trochaic, dactylic, anapestic (conversion of level3's `@met` in `<div>`)
+- `@met_quanScore` : score of quantitative meter, before 0.5, the poem does not really have any intended quantitative meter (conversion of level3's `@met` in `<div>`)
 - `@div_numStanza` : number of stanzas in the poem
 - `@div_numLine `: number of lines in the poem
 - `@div_numWord `: number of words in the poem

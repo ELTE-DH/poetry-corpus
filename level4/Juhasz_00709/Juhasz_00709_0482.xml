@@ -111,12 +111,12 @@
 		<revisionDesc>
 			<change when="2021-07-05">level1</change>
 			<change when="2021-08-05">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="4" div_numLine="12" div_numWord="66" div_numSyll="120" div_numShortSyll="58" div_numLongSyll="62" div_rhyme="abb|abb|abb|abb" div_syllPattern="10-10-10|10-10-10|10-10-10|10-10-10">
+            <div type="poem" div_numStanza="4" div_numLine="12" div_numWord="66" div_numSyll="120" div_numShortSyll="58" div_numLongSyll="62" div_rhyme="abb|abb|abb|abb" div_syllPattern="10-10-10|10-10-10|10-10-10|10-10-10" met_qual="5-2-3" met_quan="iambic" met_quanScore="0.7">
                 <head type="title">Csöndes panaszok</head>
                 <lg xml:id="lg1" lg_numLine="3" lg_numWord="16" lg_numSyll="30" lg_numShortSyll="17" lg_numLongSyll="13" rhyme="abb" lg_syllPattern="10-10-10">
                     <l xml:id="l1" l_numWord="6" l_numSyll="10" l_numShortSyll="4" l_numLongSyll="6" real="1101110100">
@@ -232,7 +232,24 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w10 #w16">
+                    <firstRhyme rhyme_lemma="sóhaj" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Plur" rhyme_numSyll="3" rhyme_phonType="low" rhyme_phonStruct="cBcbcbc">sóhajok</firstRhyme>
+                    <secondRhyme rhyme_lemma="ragyog" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbcbc">ragyog</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w26 #w32">
+                    <firstRhyme rhyme_lemma="csapat" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Plur" rhyme_numSyll="3" rhyme_phonType="low" rhyme_phonStruct="cbcbcbc">csapatok</firstRhyme>
+                    <secondRhyme rhyme_lemma="ragyog" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbcbc">ragyog</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w41 #w48">
+                    <firstRhyme rhyme_lemma="elhervadó" rhyme_pos="ADJ" rhyme_msd="Case=Nom|Degree=Pos|Number=Plur" rhyme_numSyll="4" rhyme_phonType="mixed" rhyme_phonStruct="fccfccbcBc">elhervadók</firstRhyme>
+                    <secondRhyme rhyme_lemma="van" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbcbc">vagyok</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w59 #w66">
+                    <firstRhyme rhyme_lemma="halott" rhyme_pos="ADJ" rhyme_msd="Case=Nom|Degree=Pos|Number=Sing" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbcbcc">halott</firstRhyme>
+                    <secondRhyme rhyme_lemma="van" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act" rhyme_numSyll="1" rhyme_phonType="low" rhyme_phonStruct="cbcc">volt</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w5 #w6" allStruct="aa" posTags="VERB PRON" msdTags="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act Case=Ins|Number=Sing|Person=1|PronType=Prs" lemmas="van én">van velem</alliteration>
                 <alliteration target="#w12 #w13 #w14" allStruct="ana" posTags="NOUN CONJ NOUN" msdTags="Case=Nom|Number=Sing _ Case=Nom|Number=Sing" lemmas="tenger azért tenger">tenger azért tenger</alliteration>

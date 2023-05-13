@@ -111,12 +111,12 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="1" div_numLine="5" div_numWord="20" div_numSyll="34" div_numShortSyll="13" div_numLongSyll="21" div_rhyme="abbab" div_syllPattern="10-8-4-4-8">
+            <div type="poem" div_numStanza="1" div_numLine="5" div_numWord="20" div_numSyll="34" div_numShortSyll="13" div_numLongSyll="21" div_rhyme="abbab" div_syllPattern="10-8-4-4-8" met_qual="False" met_quan="iambic" met_quanScore="0.78">
                 <head type="title">HA A SÍRBAN MEGSZÁRADT...</head>
                 <lg xml:id="lg1" lg_numLine="5" lg_numWord="20" lg_numSyll="34" lg_numShortSyll="13" lg_numLongSyll="21" rhyme="abbab" lg_syllPattern="10-8-4-4-8">
                     <l xml:id="l1" l_numWord="5" l_numSyll="10" l_numShortSyll="4" l_numLongSyll="6" real="0011111100">
@@ -155,7 +155,20 @@
                 </lg>
                 <p>Szalkszentmárton, 1846. március 10. előtt</p>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w5 #w14">
+                    <firstRhyme rhyme_lemma="szív" rhyme_pos="NOUN" rhyme_msd="Case=Acc|Number=Plur" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cFcfcfc">szíveket</firstRhyme>
+                    <secondRhyme rhyme_lemma="meg" rhyme_pos="PART" rhyme_msd="_" rhyme_numSyll="1" rhyme_phonType="high" rhyme_phonStruct="cfc">meg</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w9 #w11">
+                    <firstRhyme rhyme_lemma="hord" rhyme_pos="VERB" rhyme_msd="Definite=Def|Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="3" rhyme_phonType="low" rhyme_phonStruct="cbccbcBc">hordanák</firstRhyme>
+                    <secondRhyme rhyme_lemma="meggyújt" rhyme_pos="VERB" rhyme_msd="Definite=Def|Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="4" rhyme_phonType="mixed" rhyme_phonStruct="cfccBccbcBc">meggyújtanák</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w11 #w20">
+                    <firstRhyme rhyme_lemma="meggyújt" rhyme_pos="VERB" rhyme_msd="Definite=Def|Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="4" rhyme_phonType="mixed" rhyme_phonStruct="cfccBccbcBc">meggyújtanák</firstRhyme>
+                    <secondRhyme rhyme_lemma="láng" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="1" rhyme_phonType="low" rhyme_phonStruct="cBcc">láng</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w4 #w5 #w6" allStruct="ana" posTags="VERB NOUN CONJ" msdTags="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act Case=Acc|Number=Plur _" lemmas="megszárad szív mind">megszáradt szíveket Mind</alliteration>
                 <alliteration target="#w8 #w9" allStruct="aa" posTags="NOUN VERB" msdTags="Case=Sub|Number=Sing Definite=Def|Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" lemmas="halom hord">halomra hordanák</alliteration>

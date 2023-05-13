@@ -111,14 +111,14 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="2" div_numLine="10" div_numWord="37" div_numSyll="82" div_numShortSyll="38" div_numLongSyll="44" div_rhyme="abaab|abaab" div_syllPattern="9-7-9-9-7|9-7-9-9-7">
+            <div type="poem" div_numStanza="2" div_numLine="10" div_numWord="37" div_numSyll="82" div_numShortSyll="38" div_numLongSyll="44" div_rhyme="abccb|abccb" div_syllPattern="9-7-9-9-7|9-7-9-9-7" met_qual="False" met_quan="iambic" met_quanScore="0.8">
                 <head type="title">Reggeli kísértet</head>
-                <lg xml:id="lg1" lg_numLine="5" lg_numWord="18" lg_numSyll="41" lg_numShortSyll="20" lg_numLongSyll="21" rhyme="abaab" lg_syllPattern="9-7-9-9-7">
+                <lg xml:id="lg1" lg_numLine="5" lg_numWord="18" lg_numSyll="41" lg_numShortSyll="20" lg_numLongSyll="21" rhyme="abccb" lg_syllPattern="9-7-9-9-7">
                     <l xml:id="l1" l_numWord="3" l_numSyll="9" l_numShortSyll="5" l_numLongSyll="4" real="011100010">
                         <w xml:id="w1" lemma="mikor" pos="PRON" msd="Case=Nom|Number=Sing|Person=3|PronType=Int" w_numSyll="2" phonType="mixed" phonStruct="cfcbc">Mikor</w>
                         <w xml:id="w2" lemma="hajnal" pos="NOUN" msd="Case=Ill|Number=Sing" w_numSyll="3" phonType="low" phonStruct="cbccbccb">hajnalba</w>
@@ -153,7 +153,7 @@
                         <pc xml:id="pc5" pos="PUNCT" join="left">.</pc>
                     </l>
                 </lg>
-                <lg xml:id="lg2" lg_numLine="5" lg_numWord="19" lg_numSyll="41" lg_numShortSyll="18" lg_numLongSyll="23" rhyme="abaab" lg_syllPattern="9-7-9-9-7">
+                <lg xml:id="lg2" lg_numLine="5" lg_numWord="19" lg_numSyll="41" lg_numShortSyll="18" lg_numLongSyll="23" rhyme="abccb" lg_syllPattern="9-7-9-9-7">
                     <l xml:id="l6" l_numWord="4" l_numSyll="9" l_numShortSyll="3" l_numLongSyll="6" real="110111010">
                         <w xml:id="w19" lemma="én" pos="PRON" msd="Case=Nom|Number=Sing|Person=1|PronType=Prs" w_numSyll="1" phonType="high" phonStruct="Fc">Én</w>
                         <w xml:id="w20" lemma="ágy" pos="NOUN" msd="Case=Ill|Number=Sing" w_numSyll="2" phonType="low" phonStruct="Bccb">ágyba</w>
@@ -190,7 +190,24 @@
                 </lg>
                 <p>1908</p>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w5 #w18">
+                    <firstRhyme rhyme_lemma="maga" rhyme_pos="PRON" rhyme_msd="Case=Ins|Number=Sing|Person=1|Reflex=Yes" rhyme_numSyll="3" rhyme_phonType="low" rhyme_phonStruct="cbcbccbc">magammal</firstRhyme>
+                    <secondRhyme rhyme_lemma="hajnal" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbccbc">hajnal</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w10 #w13">
+                    <firstRhyme rhyme_lemma="köd" rhyme_pos="NOUN" rhyme_msd="Case=Ine|Number=Sing" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfccfc">ködben</firstRhyme>
+                    <secondRhyme rhyme_lemma="előtt" rhyme_pos="ADP" rhyme_msd="_" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="fcFccfc">előttem</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w26 #w37">
+                    <firstRhyme rhyme_lemma="száll" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cBccbcc">szállott</firstRhyme>
+                    <secondRhyme rhyme_lemma="cigány" rhyme_pos="ADJ" rhyme_msd="Case=Nom|Degree=Pos|Number=Plur" rhyme_numSyll="3" rhyme_phonType="mixed" rhyme_phonStruct="cfcBcbc">cigányok</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w30 #w34">
+                    <firstRhyme rhyme_lemma="száj" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cBcb">szája</firstRhyme>
+                    <secondRhyme rhyme_lemma="utána" rhyme_pos="ADV" rhyme_msd="_" rhyme_numSyll="3" rhyme_phonType="low" rhyme_phonStruct="bcBcb">utána</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w2 #w3" allStruct="aa" posTags="NOUN VERB" msdTags="Case=Ill|Number=Sing Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act" lemmas="hajnal hazamegy">hajnalba hazamentem</alliteration>
             </alliterations>

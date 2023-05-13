@@ -111,12 +111,12 @@
 		<revisionDesc>
 			<change when="2021-07-05">level1</change>
 			<change when="2021-08-05">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="3" div_numLine="12" div_numWord="75" div_numSyll="122" div_numShortSyll="57" div_numLongSyll="65" div_rhyme="aabb|aaaa|aabb" div_syllPattern="10-10-10-10|10-10-10-10|10-10-11-11">
+            <div type="poem" div_numStanza="3" div_numLine="12" div_numWord="75" div_numSyll="122" div_numShortSyll="57" div_numLongSyll="65" div_rhyme="aabb|aabb|aabb" div_syllPattern="10-10-10-10|10-10-10-10|10-10-11-11" met_qual="5-5" met_quan="iambic" met_quanScore="0.55">
                 <head type="title">Erdős Renée: Sappho</head>
                 <lg xml:id="lg1" lg_numLine="4" lg_numWord="26" lg_numSyll="40" lg_numShortSyll="18" lg_numLongSyll="22" rhyme="aabb" lg_syllPattern="10-10-10-10">
                     <l xml:id="l1" l_numWord="8" l_numSyll="10" l_numShortSyll="5" l_numLongSyll="5" real="0001101101">
@@ -161,7 +161,7 @@
                         <pc xml:id="pc7" pos="PUNCT" join="left">!</pc>
                     </l>
                 </lg>
-                <lg xml:id="lg2" lg_numLine="4" lg_numWord="22" lg_numSyll="40" lg_numShortSyll="22" lg_numLongSyll="18" rhyme="aaaa" lg_syllPattern="10-10-10-10">
+                <lg xml:id="lg2" lg_numLine="4" lg_numWord="22" lg_numSyll="40" lg_numShortSyll="22" lg_numLongSyll="18" rhyme="aabb" lg_syllPattern="10-10-10-10">
                     <l xml:id="l5" l_numWord="8" l_numSyll="10" l_numShortSyll="7" l_numLongSyll="3" real="0001100100">
                         <w xml:id="w27" lemma="te" pos="PRON" msd="Case=Nom|Number=Sing|Person=2|PronType=Prs" w_numSyll="1" phonType="high" phonStruct="cf">Te</w>
                         <w xml:id="w28" lemma="van" pos="VERB" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act" w_numSyll="1" phonType="low" phonStruct="cbc">vagy</w>
@@ -253,7 +253,32 @@
                 </lg>
                 <p>1907</p>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w8 #w14">
+                    <firstRhyme rhyme_lemma="szép" rhyme_pos="ADJ" rhyme_msd="Case=Nom|Degree=Pos|Number=Sing" rhyme_numSyll="1" rhyme_phonType="high" rhyme_phonStruct="cFc">szép</firstRhyme>
+                    <secondRhyme rhyme_lemma="beszéd" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfcFc">beszéd</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w19 #w26">
+                    <firstRhyme rhyme_lemma="ébenhaj" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=2" rhyme_numSyll="4" rhyme_phonType="mixed" rhyme_phonStruct="Fcfccbcbc">ébenhajad</firstRhyme>
+                    <secondRhyme rhyme_lemma="maga" rhyme_pos="PRON" rhyme_msd="Case=Nom|Number=Sing|Person=2|Reflex=Yes" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbcbc">magad</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w34 #w39">
+                    <firstRhyme rhyme_lemma="nagy" rhyme_pos="ADJ" rhyme_msd="Case=Nom|Degree=Pos|Number=Sing" rhyme_numSyll="1" rhyme_phonType="low" rhyme_phonStruct="cbc">nagy</firstRhyme>
+                    <secondRhyme rhyme_lemma="van" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="1" rhyme_phonType="low" rhyme_phonStruct="cbc">vagy</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w45 #w48">
+                    <firstRhyme rhyme_lemma="maga" rhyme_pos="PRON" rhyme_msd="Case=Nom|Number=Sing|Person=1|Reflex=Yes" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbcbc">magam</firstRhyme>
+                    <secondRhyme rhyme_lemma="ittas" rhyme_pos="ADJ" rhyme_msd="Case=Ess|Degree=Pos|Number=Sing" rhyme_numSyll="3" rhyme_phonType="mixed" rhyme_phonStruct="fccbcbc">ittasan</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w56 #w63">
+                    <firstRhyme rhyme_lemma="tud" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="1" rhyme_phonType="low" rhyme_phonStruct="cbcc">tudsz</firstRhyme>
+                    <secondRhyme rhyme_lemma="hazudik" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbcbcc">hazudsz</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w68 #w75">
+                    <firstRhyme rhyme_lemma="ölelés" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1" rhyme_numSyll="4" rhyme_phonType="high" rhyme_phonStruct="fcfcFcfc">ölelésem</firstRhyme>
+                    <secondRhyme rhyme_lemma="én" rhyme_pos="PRON" rhyme_msd="Case=Dat|Number=Sing|Person=1|PronType=Prs" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cFcfc">nékem</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w5 #w6 #w7" allStruct="ana" posTags="PRON ADJ PRON" msdTags="Case=Nom|Number=Sing|Person=2|PronType=Prs Case=Nom|Degree=Pos|Number=Sing Case=Nom|Number=Sing|Person=2|PronType=Prs" lemmas="te forró te">Te forró te</alliteration>
                 <alliteration target="#w31 #w32 #w33 #w34 #w35" allStruct="anana" posTags="PRON ADJ PRON ADJ PRON" msdTags="Case=Nom|Number=Sing|Person=2|PronType=Prs Case=Nom|Degree=Pos|Number=Sing Case=Nom|Number=Sing|Person=2|PronType=Prs Case=Nom|Degree=Pos|Number=Sing Case=Nom|Number=Sing|Person=2|PronType=Prs" lemmas="te hiú te nagy te">Te hiú te nagy Te</alliteration>

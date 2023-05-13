@@ -103,14 +103,14 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="3" div_numLine="9" div_numWord="24" div_numSyll="58" div_numShortSyll="25" div_numLongSyll="33" div_rhyme="aaa|aaa|aab" div_syllPattern="7-6-7|6-6-7|6-6-7">
+            <div type="poem" div_numStanza="3" div_numLine="9" div_numWord="24" div_numSyll="58" div_numShortSyll="25" div_numLongSyll="33" div_rhyme="aab|aab|aab" div_syllPattern="7-6-7|6-6-7|6-6-7" met_qual="False" met_quan="iambic" met_quanScore="0.41">
                 <head type="title">SZIGETI ZRINI MIKLÓS</head>
-                <lg xml:id="lg1" lg_numLine="3" lg_numWord="9" lg_numSyll="20" lg_numShortSyll="9" lg_numLongSyll="11" rhyme="aaa" lg_syllPattern="7-6-7">
+                <lg xml:id="lg1" lg_numLine="3" lg_numWord="9" lg_numSyll="20" lg_numShortSyll="9" lg_numLongSyll="11" rhyme="aab" lg_syllPattern="7-6-7">
                     <l xml:id="l1" l_numWord="3" l_numSyll="7" l_numShortSyll="3" l_numLongSyll="4" real="1110010">
                         <w xml:id="w1" lemma="mint" pos="PRON" msd="Case=Nom|Number=Sing|Person=3|PronType=Int" w_numSyll="1" phonType="high" phonStruct="cfcc">Mint</w>
                         <w xml:id="w2" lemma="Hector" pos="PROPN" msd="Case=Nom|Number=Sing" w_numSyll="2" phonType="mixed" phonStruct="cfccbc">Hector</w>
@@ -129,7 +129,7 @@
                         <pc xml:id="pc2" pos="PUNCT" join="left">;</pc>
                     </l>
                 </lg>
-                <lg xml:id="lg2" lg_numLine="3" lg_numWord="8" lg_numSyll="19" lg_numShortSyll="8" lg_numLongSyll="11" rhyme="aaa" lg_syllPattern="6-6-7">
+                <lg xml:id="lg2" lg_numLine="3" lg_numWord="8" lg_numSyll="19" lg_numShortSyll="8" lg_numLongSyll="11" rhyme="aab" lg_syllPattern="6-6-7">
                     <l xml:id="l4" l_numWord="2" l_numSyll="6" l_numShortSyll="3" l_numLongSyll="3" real="011010">
                         <w xml:id="w10" lemma="mutat" pos="VERB" msd="Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act" w_numSyll="3" phonType="low" phonStruct="cbcbccbc">Mutattam</w>
                         <w xml:id="w11" lemma="pogány" pos="NOUN" msd="Case=Dat|Number=Sing" w_numSyll="3" phonType="low" phonStruct="cbcBccbc">pogánynak</w>
@@ -166,7 +166,20 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w3 #w6">
+                    <firstRhyme rhyme_lemma="Troia" rhyme_pos="PROPN" rhyme_msd="Case=Dat|Number=Sing" rhyme_numSyll="4" rhyme_phonType="mixed" rhyme_phonStruct="ccbfBcbc">Troiának</firstRhyme>
+                    <secondRhyme rhyme_lemma="Szigetvár" rhyme_pos="PROPN" rhyme_msd="Case=Dat|Number=Sing" rhyme_numSyll="4" rhyme_phonType="mixed" rhyme_phonStruct="cfcfccBccbc">Szigetvárnak</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w11 #w14">
+                    <firstRhyme rhyme_lemma="pogány" rhyme_pos="NOUN" rhyme_msd="Case=Dat|Number=Sing" rhyme_numSyll="3" rhyme_phonType="low" rhyme_phonStruct="cbcBccbc">pogánynak</firstRhyme>
+                    <secondRhyme rhyme_lemma="Jehova" rhyme_pos="PROPN" rhyme_msd="Case=Dat|Number=Sing" rhyme_numSyll="4" rhyme_phonType="mixed" rhyme_phonStruct="cfcbcBcbc">Jehovának</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w20 #w22">
+                    <firstRhyme rhyme_lemma="élte" rhyme_pos="NOUN" rhyme_msd="Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=1" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="Fccfcfc">éltemet</firstRhyme>
+                    <secondRhyme rhyme_lemma="hüvség" rhyme_pos="NOUN" rhyme_msd="Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=1" rhyme_numSyll="4" rhyme_phonType="high" rhyme_phonStruct="cfccFcfcfc">hüvségemet</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w21 #w22" allStruct="aa" posTags="ADV NOUN" msdTags="_ Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=1" lemmas="hogysem hüvség">Hogysem hüvségemet</alliteration>
             </alliterations>

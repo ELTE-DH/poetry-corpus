@@ -132,12 +132,12 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="1" div_numLine="4" div_numWord="12" div_numSyll="17" div_numShortSyll="9" div_numLongSyll="8" div_rhyme="aabb" div_syllPattern="4-3-6-4">
+            <div type="poem" div_numStanza="1" div_numLine="4" div_numWord="12" div_numSyll="17" div_numShortSyll="9" div_numLongSyll="8" div_rhyme="aabb" div_syllPattern="4-3-6-4" met_qual="False" met_quan="dactylic" met_quanScore="0.38">
                 <head type="title">KARLSBADI VERSIKE</head>
                 <lg xml:id="lg1" lg_numLine="4" lg_numWord="12" lg_numSyll="17" lg_numShortSyll="9" lg_numLongSyll="8" rhyme="aabb" lg_syllPattern="4-3-6-4">
                     <l xml:id="l1" l_numWord="3" l_numSyll="4" l_numShortSyll="2" l_numLongSyll="2" real="1010">
@@ -165,7 +165,16 @@
                 </lg>
                 <p>(1869)</p>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w3 #w6">
+                    <firstRhyme rhyme_lemma="Wässer" rhyme_pos="PROPN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="1" rhyme_phonType="high" rhyme_phonStruct="c?ccfc">Wässer</firstRhyme>
+                    <secondRhyme rhyme_lemma="besser" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfccfc">besser</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w9 #w12">
+                    <firstRhyme rhyme_lemma="Doctor" rhyme_pos="PROPN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="3" rhyme_phonType="mixed" rhyme_phonStruct="cbccbcfc">Doctoren</firstRhyme>
+                    <secondRhyme rhyme_lemma="verlore" rhyme_pos="NOUN" rhyme_msd="Case=Sup|Number=Sing" rhyme_numSyll="3" rhyme_phonType="mixed" rhyme_phonStruct="cfccbcfc">verloren</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w1 #w2 #w3 #w4" allStruct="anaa" posTags="PROPN X PROPN PROPN" msdTags="Case=Nom|Number=Sing _ Case=Nom|Number=Sing Case=Nom|Number=Sing" lemmas="Wenn die Wässer Wär'n">Wenn die Wässer Wär'n</alliteration>
                 <alliteration target="#w8 #w9" allStruct="aa" posTags="X PROPN" msdTags="_ Case=Nom|Number=Sing" lemmas="die Doctor">die Doctoren</alliteration>

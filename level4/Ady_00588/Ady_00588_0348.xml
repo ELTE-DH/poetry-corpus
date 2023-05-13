@@ -120,14 +120,14 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="3" div_numLine="18" div_numWord="60" div_numSyll="117" div_numShortSyll="59" div_numLongSyll="58" div_rhyme="abbcdb|aabcda|aabcba" div_syllPattern="7-7-7-7-7-4|7-7-7-7-7-4|7-7-7-7-7-4">
+            <div type="poem" div_numStanza="3" div_numLine="18" div_numWord="60" div_numSyll="117" div_numShortSyll="59" div_numLongSyll="58" div_rhyme="abcdeb|abcdeb|abcdeb" div_syllPattern="7-7-7-7-7-4|7-7-7-7-7-4|7-7-7-7-7-4" met_qual="False" met_quan="anapestic" met_quanScore="0.3">
                 <head type="title">MAGYAR VÉTKEK BÍBORBAN</head>
-                <lg xml:id="lg1" lg_numLine="6" lg_numWord="17" lg_numSyll="39" lg_numShortSyll="19" lg_numLongSyll="20" rhyme="abbcdb" lg_syllPattern="7-7-7-7-7-4">
+                <lg xml:id="lg1" lg_numLine="6" lg_numWord="17" lg_numSyll="39" lg_numShortSyll="19" lg_numLongSyll="20" rhyme="abcdeb" lg_syllPattern="7-7-7-7-7-4">
                     <l xml:id="l1" l_numWord="2" l_numSyll="7" l_numShortSyll="4" l_numLongSyll="3" real="0011010">
                         <w xml:id="w1" lemma="magyar" pos="ADJ" msd="Case=Nom|Degree=Pos|Number=Sing" w_numSyll="2" phonType="low" phonStruct="cbcbc">Magyar</w>
                         <w xml:id="w2" lemma="elvégezés" pos="NOUN" msd="Case=Ins|Number=Sing" w_numSyll="5" phonType="high" phonStruct="fccFcfcFccfc">elvégezéssel</w>
@@ -164,7 +164,7 @@
                         <pc xml:id="pc6" pos="PUNCT" join="left">.</pc>
                     </l>
                 </lg>
-                <lg xml:id="lg2" lg_numLine="6" lg_numWord="17" lg_numSyll="39" lg_numShortSyll="20" lg_numLongSyll="19" rhyme="aabcda" lg_syllPattern="7-7-7-7-7-4">
+                <lg xml:id="lg2" lg_numLine="6" lg_numWord="17" lg_numSyll="39" lg_numShortSyll="20" lg_numLongSyll="19" rhyme="abcdeb" lg_syllPattern="7-7-7-7-7-4">
                     <l xml:id="l7" l_numWord="3" l_numSyll="7" l_numShortSyll="5" l_numLongSyll="2" real="1000010">
                         <w xml:id="w18" lemma="vállal" pos="VERB" msd="Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" w_numSyll="3" phonType="low" phonStruct="cBccbcbc">Vállalom</w>
                         <pc xml:id="pc7" pos="PUNCT" join="left">,</pc>
@@ -200,7 +200,7 @@
                         <pc xml:id="pc11" pos="PUNCT" join="left">.</pc>
                     </l>
                 </lg>
-                <lg xml:id="lg3" lg_numLine="6" lg_numWord="26" lg_numSyll="39" lg_numShortSyll="20" lg_numLongSyll="19" rhyme="aabcba" lg_syllPattern="7-7-7-7-7-4">
+                <lg xml:id="lg3" lg_numLine="6" lg_numWord="26" lg_numSyll="39" lg_numShortSyll="20" lg_numLongSyll="19" rhyme="abcdeb" lg_syllPattern="7-7-7-7-7-4">
                     <l xml:id="l13" l_numWord="5" l_numSyll="7" l_numShortSyll="3" l_numLongSyll="4" real="0100111">
                         <w xml:id="w35" lemma="ilyen" pos="PRON" msd="Case=Nom|Number=Sing|Person=3|PronType=Dem" w_numSyll="2" phonType="high" phonStruct="fcfc">Ilyen</w>
                         <w xml:id="w36" lemma="van" pos="VERB" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" w_numSyll="2" phonType="low" phonStruct="cbcbc">vagyok</w>
@@ -250,7 +250,20 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w5 #w17">
+                    <firstRhyme rhyme_lemma="hiba" rhyme_pos="NOUN" rhyme_msd="Case=Ins|Number=Plur" rhyme_numSyll="3" rhyme_phonType="mixed" rhyme_phonStruct="cfcBccbc">hibákkal</firstRhyme>
+                    <secondRhyme rhyme_lemma="világ" rhyme_pos="NOUN" rhyme_msd="Case=Ins|Number=Sing" rhyme_numSyll="3" rhyme_phonType="mixed" rhyme_phonStruct="cfcBccbc">világgal</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w23 #w34">
+                    <firstRhyme rhyme_lemma="átok" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="Bccbc">átkom</firstRhyme>
+                    <secondRhyme rhyme_lemma="világ" rhyme_pos="NOUN" rhyme_msd="Case=Sup|Number=Sing" rhyme_numSyll="3" rhyme_phonType="mixed" rhyme_phonStruct="cfcBcbc">világon</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w44 #w60">
+                    <firstRhyme rhyme_lemma="lát" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cBcbc">látok</firstRhyme>
+                    <secondRhyme rhyme_lemma="világ" rhyme_pos="NOUN" rhyme_msd="Case=Acc|Number=Sing" rhyme_numSyll="3" rhyme_phonType="mixed" rhyme_phonStruct="cfcBcbc">világot</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w7 #w8" allStruct="aa" posTags="ADJ VERB" msdTags="Case=Ess|Degree=Pos|Number=Sing Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" lemmas="kicsúfolt kezd">kicsúfoltan Kezdek</alliteration>
                 <alliteration target="#w9 #w10" allStruct="aa" posTags="ADV ADV" msdTags="_ _" lemmas="most már">most már</alliteration>

@@ -111,12 +111,12 @@
 		<revisionDesc>
 			<change when="2021-07-05">level1</change>
 			<change when="2021-08-05">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="3" div_numLine="12" div_numWord="59" div_numSyll="120" div_numShortSyll="53" div_numLongSyll="67" div_rhyme="abcb|abcb|abcb" div_syllPattern="10-10-10-10|10-10-10-10|10-10-10-10">
+            <div type="poem" div_numStanza="3" div_numLine="12" div_numWord="59" div_numSyll="120" div_numShortSyll="53" div_numLongSyll="67" div_rhyme="abcb|abcb|abcb" div_syllPattern="10-10-10-10|10-10-10-10|10-10-10-10" met_qual="4-6" met_quan="trochaic" met_quanScore="0.55">
                 <head type="title">Elégia [1]</head>
                 <p>A lóvasút miatt</p>
                 <lg xml:id="lg1" lg_numLine="4" lg_numWord="19" lg_numSyll="40" lg_numShortSyll="18" lg_numLongSyll="22" rhyme="abcb" lg_syllPattern="10-10-10-10">
@@ -223,7 +223,20 @@
                 </lg>
                 <p>1908</p>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w10 #w19">
+                    <firstRhyme rhyme_lemma="ő" rhyme_pos="PRON" rhyme_msd="Case=Sub|Number=Sing|Person=3|PronType=Prs" rhyme_numSyll="3" rhyme_phonType="mixed" rhyme_phonStruct="cfBcb">reája</firstRhyme>
+                    <secondRhyme rhyme_lemma="melankólia" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3" rhyme_numSyll="6" rhyme_phonType="mixed" rhyme_phonStruct="cfcbccBcfBcb">melankóliája</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w32 #w40">
+                    <firstRhyme rhyme_lemma="száll" rhyme_pos="VERB" rhyme_msd="VerbForm=Inf|Voice=Act" rhyme_numSyll="2" rhyme_phonType="mixed" rhyme_phonStruct="cBcccf">szállni</firstRhyme>
+                    <secondRhyme rhyme_lemma="leszáll" rhyme_pos="VERB" rhyme_msd="VerbForm=Inf|Voice=Act" rhyme_numSyll="3" rhyme_phonType="mixed" rhyme_phonStruct="cfcBcccf">leszállni</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w48 #w59">
+                    <firstRhyme rhyme_lemma="lóvonat" rhyme_pos="NOUN" rhyme_msd="Case=Sub|Number=Sing" rhyme_numSyll="4" rhyme_phonType="low" rhyme_phonStruct="cBcbcbccb">lóvonatra</firstRhyme>
+                    <secondRhyme rhyme_lemma="akar" rhyme_pos="VERB" rhyme_msd="Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="3" rhyme_phonType="low" rhyme_phonStruct="bcbccb">akarja</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w3 #w4 #w5" allStruct="aaa" posTags="ADJ NOUN VERB" msdTags="Case=Nom|Degree=Pos|Number=Sing Case=Acc|Number=Sing Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" lemmas="lassú lóvonat lát">lassú lóvonatot látok</alliteration>
                 <alliteration target="#w36 #w37 #w38" allStruct="ana" posTags="VERB DET NOUN" msdTags="Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act Definite=Def|PronType=Art Case=Nom|Number=Sing" lemmas="kiált a kalauz">kiáltja A kalauz</alliteration>

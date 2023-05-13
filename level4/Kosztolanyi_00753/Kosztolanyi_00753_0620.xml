@@ -111,12 +111,12 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="1" div_numLine="6" div_numWord="32" div_numSyll="66" div_numShortSyll="29" div_numLongSyll="37" div_rhyme="aabbcc" div_syllPattern="11-11-11-11-11-11">
+            <div type="poem" div_numStanza="1" div_numLine="6" div_numWord="32" div_numSyll="66" div_numShortSyll="29" div_numLongSyll="37" div_rhyme="aabbcc" div_syllPattern="11-11-11-11-11-11" met_qual="False" met_quan="iambic" met_quanScore="0.77">
                 <head type="title">A természet e szép hónapba mindég...</head>
                 <lg xml:id="lg1" lg_numLine="6" lg_numWord="32" lg_numSyll="66" lg_numShortSyll="29" lg_numLongSyll="37" rhyme="aabbcc" lg_syllPattern="11-11-11-11-11-11">
                     <l xml:id="l1" l_numWord="6" l_numSyll="11" l_numShortSyll="4" l_numLongSyll="7" real="01100111011">
@@ -170,7 +170,20 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w6 #w12">
+                    <firstRhyme rhyme_lemma="mindig" rhyme_pos="ADV" rhyme_msd="_" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfccFc">mindég</firstRhyme>
+                    <secondRhyme rhyme_lemma="ing" rhyme_pos="NOUN" rhyme_msd="Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="fccFc">ingét</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w16 #w23">
+                    <firstRhyme rhyme_lemma="határozott" rhyme_pos="ADJ" rhyme_msd="Case=Ess|Degree=Pos|Number=Sing" rhyme_numSyll="5" rhyme_phonType="low" rhyme_phonStruct="cbcBcbcbccbc">határozottan</firstRhyme>
+                    <secondRhyme rhyme_lemma="ottan" rhyme_pos="PRON" rhyme_msd="Case=Nom|Number=Sing|Person=3|PronType=Prs" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="bccbc">ottan</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w29 #w32">
+                    <firstRhyme rhyme_lemma="meredt" rhyme_pos="ADJ" rhyme_msd="Case=Ess|Degree=Pos|Number=Sing" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfcfccfc">meredten</firstRhyme>
+                    <secondRhyme rhyme_lemma="megijed" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act" rhyme_numSyll="4" rhyme_phonType="high" rhyme_phonStruct="cfcfcfccfc">megijedtem</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w6 #w7 #w8" allStruct="ana" posTags="ADV PRON SCONJ" msdTags="_ Case=Nom|Number=Sing|Person=3|PronType=Dem _" lemmas="mindig olyan mint">mindég olyan mint</alliteration>
             </alliterations>

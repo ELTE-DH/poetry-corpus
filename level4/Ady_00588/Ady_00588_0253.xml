@@ -120,12 +120,12 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="3" div_numLine="12" div_numWord="67" div_numSyll="120" div_numShortSyll="62" div_numLongSyll="58" div_rhyme="abcb|abcb|abcb" div_syllPattern="10-10-11-10|10-10-11-10|10-10-12-6">
+            <div type="poem" div_numStanza="3" div_numLine="12" div_numWord="67" div_numSyll="120" div_numShortSyll="62" div_numLongSyll="58" div_rhyme="abcb|abcb|abcb" div_syllPattern="10-10-11-10|10-10-11-10|10-10-12-6" met_qual="False" met_quan="iambic" met_quanScore="0.58">
                 <head type="title">DÓZSA GYÖRGY UNOKÁJA</head>
                 <lg xml:id="lg1" lg_numLine="4" lg_numWord="23" lg_numSyll="41" lg_numShortSyll="17" lg_numLongSyll="24" rhyme="abcb" lg_syllPattern="10-10-11-10">
                     <l xml:id="l1" l_numWord="5" l_numSyll="10" l_numShortSyll="6" l_numLongSyll="4" real="1010010001">
@@ -247,7 +247,20 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w10 #w23">
+                    <firstRhyme rhyme_lemma="nemes" rhyme_pos="ADJ" rhyme_msd="Case=Nom|Degree=Pos|Number=Sing" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfcfc">nemes</firstRhyme>
+                    <secondRhyme rhyme_lemma="heves" rhyme_pos="ADJ" rhyme_msd="Case=Nom|Degree=Pos|Number=Sing" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfcfc">heves</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w36 #w47">
+                    <firstRhyme rhyme_lemma="ököl" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="fcfc">ököl</firstRhyme>
+                    <secondRhyme rhyme_lemma="özönöl" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="fcfcfc">özönöl</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w59 #w67">
+                    <firstRhyme rhyme_lemma="fut" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="1" rhyme_phonType="low" rhyme_phonStruct="cbc">fut</firstRhyme>
+                    <secondRhyme rhyme_lemma="kapu" rhyme_pos="NOUN" rhyme_msd="Case=Acc|Number=Sing" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbcbc">kaput</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w8 #w9" allStruct="aa" posTags="ADJ ADJ" msdTags="Case=Nom|Degree=Pos|Number=Sing Case=Nom|Degree=Pos|Number=Sing" lemmas="bús bocskoros">bús bocskoros</alliteration>
                 <alliteration target="#w10 #w11 #w12" allStruct="ana" posTags="ADJ INTJ NOUN" msdTags="Case=Nom|Degree=Pos|Number=Sing _ Case=Nom|Number=Plur" lemmas="nemes hé nagyúr">nemes Hé nagyurak</alliteration>

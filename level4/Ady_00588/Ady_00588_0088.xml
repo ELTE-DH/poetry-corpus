@@ -120,12 +120,12 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="3" div_numLine="9" div_numWord="39" div_numSyll="78" div_numShortSyll="40" div_numLongSyll="38" div_rhyme="abb|abb|abb" div_syllPattern="5-10-11|5-10-11|5-10-11">
+            <div type="poem" div_numStanza="3" div_numLine="9" div_numWord="39" div_numSyll="78" div_numShortSyll="40" div_numLongSyll="38" div_rhyme="abb|abb|abb" div_syllPattern="5-10-11|5-10-11|5-10-11" met_qual="False" met_quan="iambic" met_quanScore="0.3">
                 <head type="title">AZ ŐSZI LÁRMA</head>
                 <lg xml:id="lg1" lg_numLine="3" lg_numWord="11" lg_numSyll="26" lg_numShortSyll="16" lg_numLongSyll="10" rhyme="abb" lg_syllPattern="5-10-11">
                     <l xml:id="l1" l_numWord="2" l_numSyll="5" l_numShortSyll="0" l_numLongSyll="5" real="11111">
@@ -202,7 +202,20 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w7 #w11">
+                    <firstRhyme rhyme_lemma="köd" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="1" rhyme_phonType="high" rhyme_phonStruct="cfc">köd</firstRhyme>
+                    <secondRhyme rhyme_lemma="nyöszörög" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfcfcfc">nyöszörög</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w17 #w22">
+                    <firstRhyme rhyme_lemma="összelop" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act" rhyme_numSyll="4" rhyme_phonType="mixed" rhyme_phonStruct="fccfcbcbcc">összelopott</firstRhyme>
+                    <secondRhyme rhyme_lemma="kopog" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbcbc">kopog</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w32 #w39">
+                    <firstRhyme rhyme_lemma="ég" rhyme_pos="NOUN" rhyme_msd="Case=Sup|Number=Sing|Number[psor]=Sing|Person[psor]=3" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="fcFc">egén</firstRhyme>
+                    <secondRhyme rhyme_lemma="szegény" rhyme_pos="ADJ" rhyme_msd="Case=Nom|Degree=Pos|Number=Sing" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfcFc">szegény</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w5 #w6 #w7" allStruct="ana" posTags="VERB DET NOUN" msdTags="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act Definite=Def|PronType=Art Case=Nom|Number=Sing" lemmas="kavarog a köd">kavarog a köd</alliteration>
                 <alliteration target="#w12 #w13 #w14" allStruct="ana" posTags="NOUN NOUN PRON" msdTags="Case=Nom|Number=Sing Case=Ine|Number=Sing Case=Nom|Number=Sing|Person=3|PronType=Ind" lemmas="valami dob valaki">Valami dobban Valaki</alliteration>

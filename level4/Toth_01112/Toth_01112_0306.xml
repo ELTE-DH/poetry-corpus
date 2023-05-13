@@ -103,12 +103,12 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="2" div_numLine="7" div_numWord="31" div_numSyll="53" div_numShortSyll="29" div_numLongSyll="24" div_rhyme="aabab|ab" div_syllPattern="8-8-8-9-7|8-5">
+            <div type="poem" div_numStanza="2" div_numLine="7" div_numWord="31" div_numSyll="53" div_numShortSyll="29" div_numLongSyll="24" div_rhyme="aabab|ab" div_syllPattern="8-8-8-9-7|8-5" met_qual="False" met_quan="anapestic" met_quanScore="0.32">
                 <head type="title">KI TUDJA...</head>
                 <lg xml:id="lg1" lg_numLine="5" lg_numWord="24" lg_numSyll="40" lg_numShortSyll="22" lg_numLongSyll="18" rhyme="aabab" lg_syllPattern="8-8-8-9-7">
                     <l xml:id="l1" l_numWord="5" l_numSyll="8" l_numShortSyll="5" l_numLongSyll="3" real="01001010">
@@ -170,7 +170,20 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w5 #w9">
+                    <firstRhyme rhyme_lemma="élet" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="Fcfc">élet</firstRhyme>
+                    <secondRhyme rhyme_lemma="élet" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="Fcfc">élet</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w9 #w19">
+                    <firstRhyme rhyme_lemma="élet" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="Fcfc">élet</firstRhyme>
+                    <secondRhyme rhyme_lemma="vér" rhyme_pos="NOUN" rhyme_msd="Case=Dat|Number=Sing" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cFccfc">vérnek</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w14 #w24">
+                    <firstRhyme rhyme_lemma="cudar" rhyme_pos="ADJ" rhyme_msd="Case=Nom|Degree=Pos|Number=Sing" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbcbc">cudar</firstRhyme>
+                    <secondRhyme rhyme_lemma="ital" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="2" rhyme_phonType="mixed" rhyme_phonStruct="fcbc">ital</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w19 #w20" allStruct="aa" posTags="NOUN ADV" msdTags="Case=Dat|Number=Sing _" lemmas="vér vagy">vérnek Vagy</alliteration>
                 <alliteration target="#w22 #w23" allStruct="aa" posTags="ADV ADJ" msdTags="_ Case=Nom|Degree=Pos|Number=Sing" lemmas="még másik">még másik</alliteration>

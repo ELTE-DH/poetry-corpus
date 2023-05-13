@@ -103,12 +103,12 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="2" div_numLine="8" div_numWord="35" div_numSyll="96" div_numShortSyll="32" div_numLongSyll="64" div_rhyme="abab|abcb" div_syllPattern="12-12-12-12|12-12-12-12">
+            <div type="poem" div_numStanza="2" div_numLine="8" div_numWord="35" div_numSyll="96" div_numShortSyll="32" div_numLongSyll="64" div_rhyme="abab|abcb" div_syllPattern="12-12-12-12|12-12-12-12" met_qual="4-2-6" met_quan="trochaic" met_quanScore="0.31">
                 <head type="title">XCIII. ZSOLTÁR</head>
                 <p>Örömének</p>
                 <lg xml:id="lg1" lg_numLine="4" lg_numWord="16" lg_numSyll="48" lg_numShortSyll="18" lg_numLongSyll="30" rhyme="abab" lg_syllPattern="12-12-12-12">
@@ -182,7 +182,20 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w5 #w12">
+                    <firstRhyme rhyme_lemma="ölt" rhyme_pos="ADV" rhyme_msd="_" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="fcccFc">öltvén</firstRhyme>
+                    <secondRhyme rhyme_lemma="erősít" rhyme_pos="ADV" rhyme_msd="_" rhyme_numSyll="4" rhyme_phonType="high" rhyme_phonStruct="fcFcFccFc">erősítvén</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w9 #w16">
+                    <firstRhyme rhyme_lemma="övez" rhyme_pos="ADV" rhyme_msd="VerbForm=Trans" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="fcfccf">övezve</firstRhyme>
+                    <secondRhyme rhyme_lemma="örökre" rhyme_pos="ADV" rhyme_msd="_" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="fcfccf">örökre</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w26 #w35">
+                    <firstRhyme rhyme_lemma="ivét" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="fcFc">ivét</firstRhyme>
+                    <secondRhyme rhyme_lemma="ige" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=2" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="fcFc">igéd</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w1 #w2 #w3" allStruct="ana" posTags="VERB INTJ NOUN" msdTags="Definite=Ind|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act _ Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1" lemmas="uralkodik óh úr">Uralkodsz óh Uram</alliteration>
                 <alliteration target="#w12 #w13" allStruct="aa" posTags="ADV PROPN" msdTags="_ Case=Nom|Number=Sing" lemmas="erősít Erősited">erősítvén Erősited</alliteration>

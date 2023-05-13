@@ -112,12 +112,12 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="1" div_numLine="4" div_numWord="16" div_numSyll="44" div_numShortSyll="19" div_numLongSyll="25" div_rhyme="aabb" div_syllPattern="11-11-11-11">
+            <div type="poem" div_numStanza="1" div_numLine="4" div_numWord="16" div_numSyll="44" div_numShortSyll="19" div_numLongSyll="25" div_rhyme="aabb" div_syllPattern="11-11-11-11" met_qual="False" met_quan="trochaic" met_quanScore="0.34">
                 <head type="title">2. Négy nap</head>
                 <lg xml:id="lg1" lg_numLine="4" lg_numWord="16" lg_numSyll="44" lg_numShortSyll="19" lg_numLongSyll="25" rhyme="aabb" lg_syllPattern="11-11-11-11">
                     <l xml:id="l1" l_numWord="5" l_numSyll="11" l_numShortSyll="6" l_numLongSyll="5" real="10010110010">
@@ -154,7 +154,16 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w5 #w9">
+                    <firstRhyme rhyme_lemma="nap" rhyme_pos="ADV" rhyme_msd="_" rhyme_numSyll="1" rhyme_phonType="low" rhyme_phonStruct="cbc">nap</firstRhyme>
+                    <secondRhyme rhyme_lemma="aranylap" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="3" rhyme_phonType="low" rhyme_phonStruct="bcbccbc">aranylap</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w12 #w16">
+                    <firstRhyme rhyme_lemma="iktatott" rhyme_pos="ADJ" rhyme_msd="Case=Nom|Degree=Pos|Number=Sing" rhyme_numSyll="3" rhyme_phonType="mixed" rhyme_phonStruct="fccbcbcc">iktatott</firstRhyme>
+                    <secondRhyme rhyme_lemma="titok" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="2" rhyme_phonType="mixed" rhyme_phonStruct="cfcbc">titok</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w5 #w6 #w7" allStruct="aaa" posTags="ADV NUM NOUN" msdTags="_ Case=Nom|Number=Sing|NumType=Card Case=Ela|Number=Sing" lemmas="nap négy naptár">nap Négy naptárból</alliteration>
             </alliterations>

@@ -111,12 +111,12 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="2" div_numLine="12" div_numWord="46" div_numSyll="88" div_numShortSyll="45" div_numLongSyll="43" div_rhyme="aabcde|aabcdc" div_syllPattern="10-10-6-6-6-6|10-10-6-6-6-6">
+            <div type="poem" div_numStanza="2" div_numLine="12" div_numWord="46" div_numSyll="88" div_numShortSyll="45" div_numLongSyll="43" div_rhyme="aabcde|aabcde" div_syllPattern="10-10-6-6-6-6|10-10-6-6-6-6" met_qual="False" met_quan="anapestic" met_quanScore="0.38">
                 <head type="title">TE SZIVEMNEK SZÉP GYÖNYÖRŰSÉGE...</head>
                 <lg xml:id="lg1" lg_numLine="6" lg_numWord="21" lg_numSyll="44" lg_numShortSyll="19" lg_numLongSyll="25" rhyme="aabcde" lg_syllPattern="10-10-6-6-6-6">
                     <l xml:id="l1" l_numWord="4" l_numSyll="10" l_numShortSyll="5" l_numLongSyll="5" real="0011100110">
@@ -158,7 +158,7 @@
                         <pc xml:id="pc5" pos="PUNCT" join="left">?</pc>
                     </l>
                 </lg>
-                <lg xml:id="lg2" lg_numLine="6" lg_numWord="25" lg_numSyll="44" lg_numShortSyll="26" lg_numLongSyll="18" rhyme="aabcdc" lg_syllPattern="10-10-6-6-6-6">
+                <lg xml:id="lg2" lg_numLine="6" lg_numWord="25" lg_numSyll="44" lg_numShortSyll="26" lg_numLongSyll="18" rhyme="aabcde" lg_syllPattern="10-10-6-6-6-6">
                     <l xml:id="l7" l_numWord="5" l_numSyll="10" l_numShortSyll="6" l_numLongSyll="4" real="0010011001">
                         <w xml:id="w22" lemma="szerető" pos="NOUN" msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=2" w_numSyll="3" phonType="high" phonStruct="cfcfcFc">Szeretőd</w>
                         <w xml:id="w23" lemma="van" pos="VERB" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" w_numSyll="2" phonType="low" phonStruct="cbcbc">vagyok</w>
@@ -206,7 +206,16 @@
                 </lg>
                 <p>Dunavecse, 1844. április-május</p>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w4 #w8">
+                    <firstRhyme rhyme_lemma="gyönyörűség" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3" rhyme_numSyll="5" rhyme_phonType="high" rhyme_phonStruct="cfcfcFcFcf">gyönyörűsége</firstRhyme>
+                    <secondRhyme rhyme_lemma="kőkeménység" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3" rhyme_numSyll="5" rhyme_phonType="high" rhyme_phonStruct="cFcfcFccFcf">kőkeménysége</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w26 #w30">
+                    <firstRhyme rhyme_lemma="szerető" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=2" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfcfcFc">szeretőd</firstRhyme>
+                    <secondRhyme rhyme_lemma="előtt" rhyme_pos="ADP" rhyme_msd="_" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="fcFcc">előtt</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w2 #w3" allStruct="aa" posTags="NOUN ADJ" msdTags="Case=Dat|Number=Sing Case=Nom|Degree=Pos|Number=Sing" lemmas="szivem szép">szivemnek szép</alliteration>
                 <alliteration target="#w10 #w11 #w12" allStruct="ana" posTags="PART VERB PART" msdTags="_ Definite=Ind|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act _" lemmas="meg akar meg">meg akarsz Meg</alliteration>

@@ -111,12 +111,12 @@
 		<revisionDesc>
 			<change when="2021-07-05">level1</change>
 			<change when="2021-08-05">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="4" div_numLine="14" div_numWord="75" div_numSyll="146" div_numShortSyll="65" div_numLongSyll="81" div_rhyme="abab|abab|abc|abc" div_syllPattern="11-10-11-10|11-10-11-10|11-10-10|10-11-10">
+            <div type="poem" div_numStanza="4" div_numLine="14" div_numWord="75" div_numSyll="146" div_numShortSyll="65" div_numLongSyll="81" div_rhyme="abab|abab|abc|abc" div_syllPattern="11-10-11-10|11-10-11-10|11-10-10|10-11-10" met_qual="False" met_quan="iambic" met_quanScore="0.72">
                 <head type="title">Lady Godiva</head>
                 <lg xml:id="lg1" lg_numLine="4" lg_numWord="23" lg_numSyll="42" lg_numShortSyll="22" lg_numLongSyll="20" rhyme="abab" lg_syllPattern="11-10-11-10">
                     <l xml:id="l1" l_numWord="6" l_numSyll="11" l_numShortSyll="4" l_numLongSyll="7" real="01011111010">
@@ -242,7 +242,24 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w6 #w18">
+                    <firstRhyme rhyme_lemma="lezár" rhyme_pos="ADV" rhyme_msd="VerbForm=Trans" rhyme_numSyll="3" rhyme_phonType="mixed" rhyme_phonStruct="cfcBccb">lezárva</firstRhyme>
+                    <secondRhyme rhyme_lemma="világ" rhyme_pos="NOUN" rhyme_msd="Case=Sub|Number=Sing" rhyme_numSyll="3" rhyme_phonType="mixed" rhyme_phonStruct="cfcBccb">világra</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w12 #w23">
+                    <firstRhyme rhyme_lemma="sötét" rhyme_pos="ADJ" rhyme_msd="Case=Nom|Degree=Pos|Number=Sing" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfcFc">sötét</firstRhyme>
+                    <secondRhyme rhyme_lemma="öv" rhyme_pos="NOUN" rhyme_msd="Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="fcFc">övét</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w28 #w37">
+                    <firstRhyme rhyme_lemma="pusztaság" rhyme_pos="NOUN" rhyme_msd="Case=Sup|Number=Sing|Number[psor]=Sing|Person[psor]=3" rhyme_numSyll="4" rhyme_phonType="low" rhyme_phonStruct="cbccbcBcBc">pusztaságán</firstRhyme>
+                    <secondRhyme rhyme_lemma="márvány" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cBccBc">márvány</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w32 #w42">
+                    <firstRhyme rhyme_lemma="ló" rhyme_pos="NOUN" rhyme_msd="Case=Sup|Number=Sing|Number[psor]=Sing|Person[psor]=3" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbcBc">lován</firstRhyme>
+                    <secondRhyme rhyme_lemma="topán" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbcBc">topán</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w20 #w21 #w22" allStruct="ana" posTags="ADV VERB PART" msdTags="_ Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act _" lemmas="mostan old meg">mostan oldja meg</alliteration>
                 <alliteration target="#w30 #w31" allStruct="aa" posTags="ADJ ADJ" msdTags="Case=Ess|Degree=Pos|Number=Sing Case=Nom|Degree=Pos|Number=Sing" lemmas="halk hófehér">halkan hófehér</alliteration>

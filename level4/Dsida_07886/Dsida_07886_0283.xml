@@ -103,12 +103,12 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="3" div_numLine="12" div_numWord="49" div_numSyll="107" div_numShortSyll="47" div_numLongSyll="60" div_rhyme="aaab|abcd|aabc" div_syllPattern="6-7-8-11|12-9-10-12|9-11-5-7">
+            <div type="poem" div_numStanza="3" div_numLine="12" div_numWord="49" div_numSyll="107" div_numShortSyll="47" div_numLongSyll="60" div_rhyme="aaab|abcd|aabc" div_syllPattern="6-7-8-11|12-9-10-12|9-11-5-7" met_qual="False" met_quan="trochaic" met_quanScore="0.37">
                 <head type="title">Békés mederben</head>
                 <lg xml:id="lg1" lg_numLine="4" lg_numWord="16" lg_numSyll="32" lg_numShortSyll="11" lg_numLongSyll="21" rhyme="aaab" lg_syllPattern="6-7-8-11">
                     <l xml:id="l1" l_numWord="4" l_numSyll="6" l_numShortSyll="2" l_numLongSyll="4" real="011110">
@@ -202,7 +202,20 @@
                 </lg>
                 <p>1931.</p>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w4 #w8">
+                    <firstRhyme rhyme_lemma="fel" rhyme_pos="ADV" rhyme_msd="_" rhyme_numSyll="1" rhyme_phonType="high" rhyme_phonStruct="cfc">fel</firstRhyme>
+                    <secondRhyme rhyme_lemma="ellen" rhyme_pos="ADP" rhyme_msd="_" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="fccfc">ellen</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w8 #w11">
+                    <firstRhyme rhyme_lemma="ellen" rhyme_pos="ADP" rhyme_msd="_" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="fccfc">ellen</firstRhyme>
+                    <secondRhyme rhyme_lemma="hömpölyög" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act" rhyme_numSyll="4" rhyme_phonType="high" rhyme_phonStruct="cfccfcfccfc">hömpölyögtem</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w39 #w43">
+                    <firstRhyme rhyme_lemma="ez" rhyme_pos="PRON" rhyme_msd="Case=Nom|Number=Sing|Person=3|PronType=Dem" rhyme_numSyll="1" rhyme_phonType="high" rhyme_phonStruct="fc">ez</firstRhyme>
+                    <secondRhyme rhyme_lemma="kérdez" rhyme_pos="VERB" rhyme_msd="Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cFccfcfc">kérdezem</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w7 #w8 #w9" allStruct="ana" posTags="NOUN ADP ADV" msdTags="Case=Nom|Number=Sing _ _" lemmas="meder ellen ma">meder ellen ma</alliteration>
                 <alliteration target="#w25 #w26 #w27" allStruct="ana" posTags="NOUN PRON PROPN" msdTags="Case=Acc|Number=Sing Case=Dat|Number=Sing|Person=3|PronType=Rel Case=Nom|Number=Sing" lemmas="koldus aki Krisztus-arc">koldust akinek Krisztus-arc</alliteration>

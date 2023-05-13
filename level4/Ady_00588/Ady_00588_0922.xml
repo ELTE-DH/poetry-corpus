@@ -120,12 +120,12 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="5" div_numLine="20" div_numWord="80" div_numSyll="150" div_numShortSyll="74" div_numLongSyll="76" div_rhyme="abcd|abcd|abac|abcd|abbc" div_syllPattern="7-7-7-9|7-7-7-9|7-7-7-9|7-7-7-9|7-7-7-9">
+            <div type="poem" div_numStanza="5" div_numLine="20" div_numWord="80" div_numSyll="150" div_numShortSyll="74" div_numLongSyll="76" div_rhyme="abcd|abcd|abac|abcd|abbc" div_syllPattern="7-7-7-9|7-7-7-9|7-7-7-9|7-7-7-9|7-7-7-9" met_qual="False" met_quan="iambic" met_quanScore="0.42">
                 <head type="title">UTÁLNI S NEM TÖRŐDNI</head>
                 <lg xml:id="lg1" lg_numLine="4" lg_numWord="16" lg_numSyll="30" lg_numShortSyll="12" lg_numLongSyll="18" rhyme="abcd" lg_syllPattern="7-7-7-9">
                     <l xml:id="l1" l_numWord="4" l_numSyll="7" l_numShortSyll="2" l_numLongSyll="5" real="1101011">
@@ -276,7 +276,16 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w36 #w43">
+                    <firstRhyme rhyme_lemma="nyelv" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfccfc">nyelvem</firstRhyme>
+                    <secondRhyme rhyme_lemma="csőcselék" rhyme_pos="NOUN" rhyme_msd="Case=Ins|Number=Sing" rhyme_numSyll="4" rhyme_phonType="high" rhyme_phonStruct="cFcfcFccfc">csőcselékkel</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w73 #w75">
+                    <firstRhyme rhyme_lemma="isten" rhyme_pos="NOUN" rhyme_msd="Case=Dat|Number=Sing" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="fccfccfc">Istennek</firstRhyme>
+                    <secondRhyme rhyme_lemma="ember" rhyme_pos="NOUN" rhyme_msd="Case=Dat|Number=Sing" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="fccfccfc">embernek</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w5 #w6 #w7 #w8" allStruct="aana" posTags="SCONJ ADV NUM VERB" msdTags="_ _ Case=Acc|Number=Sing|NumType=Card Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act" lemmas="mert már sok meglát">Mert már sokat megláttam</alliteration>
                 <alliteration target="#w15 #w16" allStruct="aa" posTags="ADV PRON" msdTags="_ Case=Acc|Number=Sing|Person=1|Reflex=Yes" lemmas="már maga">már magamat</alliteration>

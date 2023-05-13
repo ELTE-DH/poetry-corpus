@@ -103,12 +103,12 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="3" div_numLine="12" div_numWord="33" div_numSyll="72" div_numShortSyll="39" div_numLongSyll="33" div_rhyme="aaba|abcb|abca" div_syllPattern="6-6-6-6|6-6-6-6|6-6-6-6">
+            <div type="poem" div_numStanza="3" div_numLine="12" div_numWord="33" div_numSyll="72" div_numShortSyll="39" div_numLongSyll="33" div_rhyme="aaba|abcb|abca" div_syllPattern="6-6-6-6|6-6-6-6|6-6-6-6" met_qual="3-3" met_quan="iambic" met_quanScore="0.5">
                 <head type="title">Petőfi olvasásakor</head>
                 <lg xml:id="lg1" lg_numLine="4" lg_numWord="9" lg_numSyll="24" lg_numShortSyll="16" lg_numLongSyll="8" rhyme="aaba" lg_syllPattern="6-6-6-6">
                     <l xml:id="l1" l_numWord="2" l_numSyll="6" l_numShortSyll="4" l_numLongSyll="2" real="010100">
@@ -183,7 +183,24 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w2 #w5">
+                    <firstRhyme rhyme_lemma="vesz" rhyme_pos="VERB" rhyme_msd="Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfcfc">veszem</firstRhyme>
+                    <secondRhyme rhyme_lemma="vers" rhyme_pos="NOUN" rhyme_msd="Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=2" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfccfcfc">versedet</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w5 #w9">
+                    <firstRhyme rhyme_lemma="vers" rhyme_pos="NOUN" rhyme_msd="Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=2" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfccfcfc">versedet</firstRhyme>
+                    <secondRhyme rhyme_lemma="nevet" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfcfcfc">nevetek</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w15 #w21">
+                    <firstRhyme rhyme_lemma="búsul" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="3" rhyme_phonType="low" rhyme_phonStruct="cBcbcbc">búsulok</firstRhyme>
+                    <secondRhyme rhyme_lemma="hullat" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="3" rhyme_phonType="low" rhyme_phonStruct="cbccbcbc">hullatok</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w24 #w33">
+                    <firstRhyme rhyme_lemma="kedv" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=2" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfccfc">kedved</firstRhyme>
+                    <secondRhyme rhyme_lemma="pereg" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfcfccfc">peregnek</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w6 #w7 #w8" allStruct="aaa" posTags="PRON VERB PRON" msdTags="Case=Ela|Number=Sing|Person=3|PronType=Prs Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act Case=Ela|Number=Sing|Person=3|PronType=Prs" lemmas="ő búsul ő">Belőle búsulok Belőle</alliteration>
                 <alliteration target="#w14 #w15 #w16 #w17 #w18" allStruct="anana" posTags="PRON VERB PRON VERB PRON" msdTags="Case=Nom|Number=Sing|Person=3|PronType=Rel Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act Case=Nom|Number=Sing|Person=3|PronType=Prs Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act Case=Nom|Number=Sing|Person=3|PronType=Prs" lemmas="amikor búsul Akarhogy fáj azért">Amikor búsulok Akarhogy fáj azért</alliteration>

@@ -111,12 +111,12 @@
 		<revisionDesc>
 			<change when="2021-07-05">level1</change>
 			<change when="2021-08-05">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="3" div_numLine="9" div_numWord="53" div_numSyll="99" div_numShortSyll="41" div_numLongSyll="58" div_rhyme="aba|aba|aba" div_syllPattern="11-11-11|11-11-11|11-11-11">
+            <div type="poem" div_numStanza="3" div_numLine="9" div_numWord="53" div_numSyll="99" div_numShortSyll="41" div_numLongSyll="58" div_rhyme="aba|aba|aba" div_syllPattern="11-11-11|11-11-11|11-11-11" met_qual="False" met_quan="iambic" met_quanScore="0.78">
                 <head type="title">Születésnapom</head>
                 <lg xml:id="lg1" lg_numLine="3" lg_numWord="14" lg_numSyll="33" lg_numShortSyll="11" lg_numLongSyll="22" rhyme="aba" lg_syllPattern="11-11-11">
                     <l xml:id="l1" l_numWord="5" l_numSyll="11" l_numShortSyll="3" l_numLongSyll="8" real="11111101010">
@@ -205,7 +205,20 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w5 #w14">
+                    <firstRhyme rhyme_lemma="éj" rhyme_pos="NOUN" rhyme_msd="Case=Sup|Number=Sing" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="Fcfc">éjen</firstRhyme>
+                    <secondRhyme rhyme_lemma="remény" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfcFcfc">reményem</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w21 #w33">
+                    <firstRhyme rhyme_lemma="város" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cBcbc">város</firstRhyme>
+                    <secondRhyme rhyme_lemma="világos" rhyme_pos="ADJ" rhyme_msd="Case=Nom|Degree=Pos|Number=Sing" rhyme_numSyll="3" rhyme_phonType="mixed" rhyme_phonStruct="cfcBcbc">világos</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w41 #w53">
+                    <firstRhyme rhyme_lemma="ében" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="Fcfc">ében</firstRhyme>
+                    <secondRhyme rhyme_lemma="éppen" rhyme_pos="ADV" rhyme_msd="_" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="Fccfc">éppen</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w2 #w3 #w4" allStruct="ana" posTags="NOUN NOUN ADJ" msdTags="Case=Nom|Number=Plur Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3 Case=Nom|Degree=Pos|Number=Sing" lemmas="nyárfa hárfázás nyári">nyárfák hárfázása nyári</alliteration>
                 <alliteration target="#w16 #w17 #w18" allStruct="ana" posTags="ADJ VERB ADP" msdTags="Case=Ess|Degree=Pos|Number=Sing Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act _" lemmas="fájó int felé">fájón int felém</alliteration>

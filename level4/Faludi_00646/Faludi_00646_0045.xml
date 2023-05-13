@@ -104,12 +104,12 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="2" div_numLine="9" div_numWord="25" div_numSyll="59" div_numShortSyll="30" div_numLongSyll="29" div_rhyme="aabb|aabbc" div_syllPattern="7-7-7-7|8-8-4-4-7">
+            <div type="poem" div_numStanza="2" div_numLine="9" div_numWord="25" div_numSyll="59" div_numShortSyll="30" div_numLongSyll="29" div_rhyme="aabb|aabbc" div_syllPattern="7-7-7-7|8-8-4-4-7" met_qual="False" met_quan="trochaic" met_quanScore="0.62">
                 <head type="title">A MEGFORDÚLT SZERENCSÉN VALÓ EPEKEDÉS</head>
                 <lg xml:id="lg1" lg_numLine="4" lg_numWord="11" lg_numSyll="28" lg_numShortSyll="14" lg_numLongSyll="14" rhyme="aabb" lg_syllPattern="7-7-7-7">
                     <l xml:id="l1" l_numWord="3" l_numSyll="7" l_numShortSyll="5" l_numLongSyll="2" real="0010100">
@@ -169,7 +169,24 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w3 #w5">
+                    <firstRhyme rhyme_lemma="szív" rhyme_pos="NOUN" rhyme_msd="Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=1" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cFcfcfc">szívemet</firstRhyme>
+                    <secondRhyme rhyme_lemma="kedv" rhyme_pos="NOUN" rhyme_msd="Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=1" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfccfcfc">kedvemet</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w8 #w11">
+                    <firstRhyme rhyme_lemma="változik" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act" rhyme_numSyll="3" rhyme_phonType="low" rhyme_phonStruct="cBccbcbcc">változott</firstRhyme>
+                    <secondRhyme rhyme_lemma="távozik" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act" rhyme_numSyll="3" rhyme_phonType="low" rhyme_phonStruct="cBcbcbcc">távozott</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w15 #w18">
+                    <firstRhyme rhyme_lemma="megszán" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="3" rhyme_phonType="mixed" rhyme_phonStruct="cfccBccbc">megszánjon</firstRhyme>
+                    <secondRhyme rhyme_lemma="kíván" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="3" rhyme_phonType="mixed" rhyme_phonStruct="cFcBccbc">kívánjon</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w20 #w22">
+                    <firstRhyme rhyme_lemma="segít" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfcFccfc">segítnek</firstRhyme>
+                    <secondRhyme rhyme_lemma="enyhít" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="fccFccfc">enyhítnek</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w4 #w5" allStruct="aa" posTags="VERB NOUN" msdTags="Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=1" lemmas="keserít kedv">Keseríti kedvemet</alliteration>
                 <alliteration target="#w9 #w10 #w11" allStruct="ana" posTags="PRON ADV VERB" msdTags="Case=Abl|Number=Sing|Person=1|PronType=Prs _ Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act" lemmas="én messze távozik">Tőlem messze távozott</alliteration>

@@ -120,12 +120,12 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="3" div_numLine="12" div_numWord="45" div_numSyll="90" div_numShortSyll="47" div_numLongSyll="43" div_rhyme="abcb|abcb|abab" div_syllPattern="8-7-8-7|8-7-8-7|8-7-8-7">
+            <div type="poem" div_numStanza="3" div_numLine="12" div_numWord="45" div_numSyll="90" div_numShortSyll="47" div_numLongSyll="43" div_rhyme="abcb|abcb|abcb" div_syllPattern="8-7-8-7|8-7-8-7|8-7-8-7" met_qual="False" met_quan="iambic" met_quanScore="0.67">
                 <head type="title">JÖJJ, LÉDA, MEGÖLELLEK</head>
                 <lg xml:id="lg1" lg_numLine="4" lg_numWord="17" lg_numSyll="30" lg_numShortSyll="19" lg_numLongSyll="11" rhyme="abcb" lg_syllPattern="8-7-8-7">
                     <l xml:id="l1" l_numWord="4" l_numSyll="8" l_numShortSyll="6" l_numLongSyll="2" real="01000100">
@@ -187,7 +187,7 @@
                         <pc xml:id="pc8" pos="PUNCT" join="left">.</pc>
                     </l>
                 </lg>
-                <lg xml:id="lg3" lg_numLine="4" lg_numWord="13" lg_numSyll="30" lg_numShortSyll="15" lg_numLongSyll="15" rhyme="abab" lg_syllPattern="8-7-8-7">
+                <lg xml:id="lg3" lg_numLine="4" lg_numWord="13" lg_numSyll="30" lg_numShortSyll="15" lg_numLongSyll="15" rhyme="abcb" lg_syllPattern="8-7-8-7">
                     <l xml:id="l9" l_numWord="4" l_numSyll="8" l_numShortSyll="5" l_numLongSyll="3" real="01010100">
                         <w xml:id="w33" lemma="öl" pos="NOUN" msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=2" w_numSyll="2" phonType="high" phonStruct="fcfc">Öled</w>
                         <w xml:id="w34" lemma="hivó" pos="NOUN" msd="Case=Nom|Number=Sing" w_numSyll="2" phonType="mixed" phonStruct="cfcB">hivó</w>
@@ -219,7 +219,20 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w7 #w17">
+                    <firstRhyme rhyme_lemma="gyehenna-fészek" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="5" rhyme_phonType="mixed" rhyme_phonStruct="cfcfccbcFcfc">gyehenna-fészek</firstRhyme>
+                    <secondRhyme rhyme_lemma="néz" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cFcfc">nézek</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w24 #w32">
+                    <firstRhyme rhyme_lemma="lepke-raj" rhyme_pos="NOUN" rhyme_msd="Case=Ine|Number=Sing" rhyme_numSyll="4" rhyme_phonType="mixed" rhyme_phonStruct="cfccfcbccbc">lepke-rajban</firstRhyme>
+                    <secondRhyme rhyme_lemma="ajak" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="bccbc">ajkam</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w39 #w45">
+                    <firstRhyme rhyme_lemma="boszorkány-pehely" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Plur" rhyme_numSyll="5" rhyme_phonType="mixed" rhyme_phonStruct="cbcbccBccfccfc">boszorkány-pelyhek</firstRhyme>
+                    <secondRhyme rhyme_lemma="megölel" rhyme_pos="VERB" rhyme_msd="Definite=2|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="4" rhyme_phonType="high" rhyme_phonStruct="cfcfcfccfc">megölellek</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w1 #w2" allStruct="aa" posTags="NOUN NOUN" msdTags="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=2 Case=Nom|Number=Sing" lemmas="szem szomoru">Szemed szomoru</alliteration>
                 <alliteration target="#w6 #w7 #w8" allStruct="ana" posTags="ADJ NOUN VERB" msdTags="Case=Nom|Degree=Pos|Number=Sing Case=Nom|Number=Sing Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" lemmas="mély gyehenna-fészek mar">mély gyehenna-fészek Marja</alliteration>

@@ -111,12 +111,12 @@
 		<revisionDesc>
 			<change when="2021-07-05">level1</change>
 			<change when="2021-08-05">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="2" div_numLine="8" div_numWord="50" div_numSyll="96" div_numShortSyll="48" div_numLongSyll="48" div_rhyme="aabb|aabb" div_syllPattern="12-12-12-12|12-12-12-12">
+            <div type="poem" div_numStanza="2" div_numLine="8" div_numWord="50" div_numSyll="96" div_numShortSyll="48" div_numLongSyll="48" div_rhyme="aabb|aabb" div_syllPattern="12-12-12-12|12-12-12-12" met_qual="6-2-4" met_quan="trochaic" met_quanScore="0.6">
                 <head type="title">Áldás a fenyőkre</head>
                 <lg xml:id="lg1" lg_numLine="4" lg_numWord="22" lg_numSyll="48" lg_numShortSyll="24" lg_numLongSyll="24" rhyme="aabb" lg_syllPattern="12-12-12-12">
                     <l xml:id="l1" l_numWord="5" l_numSyll="12" l_numShortSyll="9" l_numLongSyll="3" real="000010001010">
@@ -205,7 +205,24 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w5 #w10">
+                    <firstRhyme rhyme_lemma="fakad" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act" rhyme_numSyll="3" rhyme_phonType="low" rhyme_phonStruct="cbcbccbc">fakadtak</firstRhyme>
+                    <secondRhyme rhyme_lemma="hallgatag" rhyme_pos="ADJ" rhyme_msd="Case=Dat|Degree=Pos|Number=Sing" rhyme_numSyll="4" rhyme_phonType="low" rhyme_phonStruct="cbcccbcbccbc">hallgatagnak</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w16 #w22">
+                    <firstRhyme rhyme_lemma="ág" rhyme_pos="NOUN" rhyme_msd="Case=Sup|Number=Sing" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="Bcbc">ágon</firstRhyme>
+                    <secondRhyme rhyme_lemma="világ" rhyme_pos="NOUN" rhyme_msd="Case=Sup|Number=Sing" rhyme_numSyll="3" rhyme_phonType="mixed" rhyme_phonStruct="cfcBcbc">világon</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w32 #w37">
+                    <firstRhyme rhyme_lemma="van" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="1" rhyme_phonType="low" rhyme_phonStruct="cbc">van</firstRhyme>
+                    <secondRhyme rhyme_lemma="viruló" rhyme_pos="ADJ" rhyme_msd="Case=Ess|Degree=Pos|Number=Sing" rhyme_numSyll="4" rhyme_phonType="mixed" rhyme_phonStruct="cfcbcBbc">virulóan</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w46 #w50">
+                    <firstRhyme rhyme_lemma="lélek" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Plur" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfccfc">lelkek</firstRhyme>
+                    <secondRhyme rhyme_lemma="szerelem" rhyme_pos="NOUN" rhyme_msd="Case=Dat|Number=Sing" rhyme_numSyll="4" rhyme_phonType="high" rhyme_phonStruct="cfcfcfccfc">Szerelemnek</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w16 #w17 #w18 #w19 #w20" allStruct="anana" posTags="NOUN PRON VERB ADV ADJ" msdTags="Case=Sup|Number=Sing Case=Nom|Number=Plur|Person=2|PronType=Prs Definite=Ind|Mood=Ind|Number=Plur|Person=2|Tense=Past|VerbForm=Fin|Voice=Act _ Case=Ess|Degree=Pos|Number=Sing" lemmas="ág ti áll csak árva">ágon Ti állottatok csak árván</alliteration>
                 <alliteration target="#w30 #w31 #w32" allStruct="ana" posTags="NOUN PRON VERB" msdTags="Case=Nom|Number=Sing Case=Nom|Number=Sing|Person=3|PronType=Int Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" lemmas="virág hol van">virág hol van</alliteration>

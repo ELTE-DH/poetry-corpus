@@ -111,12 +111,12 @@
 		<revisionDesc>
 			<change when="2021-07-05">level1</change>
 			<change when="2021-08-05">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="4" div_numLine="16" div_numWord="63" div_numSyll="118" div_numShortSyll="53" div_numLongSyll="65" div_rhyme="abcb|abab|abcb|abcb" div_syllPattern="9-8-9-4|9-8-9-3|9-8-9-4|9-8-9-3">
+            <div type="poem" div_numStanza="4" div_numLine="16" div_numWord="63" div_numSyll="118" div_numShortSyll="53" div_numLongSyll="65" div_rhyme="abcb|abcb|abcb|abcb" div_syllPattern="9-8-9-4|9-8-9-3|9-8-9-4|9-8-9-3" met_qual="False" met_quan="iambic" met_quanScore="0.59">
                 <head type="title">Várom őket</head>
                 <lg xml:id="lg1" lg_numLine="4" lg_numWord="15" lg_numSyll="30" lg_numShortSyll="15" lg_numLongSyll="15" rhyme="abcb" lg_syllPattern="9-8-9-4">
                     <l xml:id="l1" l_numWord="4" l_numSyll="9" l_numShortSyll="3" l_numLongSyll="6" real="001111110">
@@ -146,7 +146,7 @@
                         <pc xml:id="pc3" pos="PUNCT" join="left">.</pc>
                     </l>
                 </lg>
-                <lg xml:id="lg2" lg_numLine="4" lg_numWord="14" lg_numSyll="29" lg_numShortSyll="12" lg_numLongSyll="17" rhyme="abab" lg_syllPattern="9-8-9-3">
+                <lg xml:id="lg2" lg_numLine="4" lg_numWord="14" lg_numSyll="29" lg_numShortSyll="12" lg_numLongSyll="17" rhyme="abcb" lg_syllPattern="9-8-9-3">
                     <l xml:id="l5" l_numWord="4" l_numSyll="9" l_numShortSyll="4" l_numLongSyll="5" real="010111010">
                         <w xml:id="w16" lemma="oly" pos="ADJ" msd="Case=Nom|Degree=Pos|Number=Sing" w_numSyll="1" phonType="low" phonStruct="bc">Oly</w>
                         <w xml:id="w17" lemma="érthetetlen" pos="ADJ" msd="Case=Nom|Degree=Pos|Number=Sing" w_numSyll="4" phonType="high" phonStruct="Fcccfcfccfc">érthetetlen</w>
@@ -240,7 +240,24 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w8 #w15">
+                    <firstRhyme rhyme_lemma="fekszik" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfccfcfc">fekszenek</firstRhyme>
+                    <secondRhyme rhyme_lemma="kedves" rhyme_pos="ADJ" rhyme_msd="Case=Nom|Degree=Pos|Number=Plur" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfccfcfc">kedvesek</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w24 #w29">
+                    <firstRhyme rhyme_lemma="soha" rhyme_pos="ADV" rhyme_msd="_" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbcb">soha</firstRhyme>
+                    <secondRhyme rhyme_lemma="mosoly" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3" rhyme_numSyll="3" rhyme_phonType="low" rhyme_phonStruct="cbcbcb">Mosolya</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w38 #w46">
+                    <firstRhyme rhyme_lemma="én" rhyme_pos="PRON" rhyme_msd="Case=Ins|Number=Sing|Person=1|PronType=Prs" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfcfc">velem</firstRhyme>
+                    <secondRhyme rhyme_lemma="végtelen" rhyme_pos="ADJ" rhyme_msd="Case=Nom|Degree=Pos|Number=Sing" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cFccfcfc">végtelen</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w55 #w63">
+                    <firstRhyme rhyme_lemma="terasz" rhyme_pos="NOUN" rhyme_msd="Case=Sup|Number=Sing|Number[psor]=Sing|Person[psor]=3" rhyme_numSyll="3" rhyme_phonType="mixed" rhyme_phonStruct="cfcbcBc">teraszán</firstRhyme>
+                    <secondRhyme rhyme_lemma="Halavány" rhyme_pos="PROPN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="3" rhyme_phonType="low" rhyme_phonStruct="cbcbcBc">Halavány</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w54 #w55" allStruct="aa" posTags="ADJ NOUN" msdTags="Case=Nom|Degree=Pos|Number=Sing Case=Sup|Number=Sing|Number[psor]=Sing|Person[psor]=3" lemmas="tavaszi terasz">tavaszi teraszán</alliteration>
                 <alliteration target="#w60 #w61" allStruct="aa" posTags="PRON SCONJ" msdTags="Case=Nom|Number=Sing|Person=3|PronType=Rel _" lemmas="amely mint">mely mint</alliteration>

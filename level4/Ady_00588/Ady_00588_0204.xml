@@ -120,12 +120,12 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="2" div_numLine="8" div_numWord="41" div_numSyll="74" div_numShortSyll="46" div_numLongSyll="28" div_rhyme="abca|abaa" div_syllPattern="10-10-9-9|9-9-9-9">
+            <div type="poem" div_numStanza="2" div_numLine="8" div_numWord="41" div_numSyll="74" div_numShortSyll="46" div_numLongSyll="28" div_rhyme="abca|abca" div_syllPattern="10-10-9-9|9-9-9-9" met_qual="False" met_quan="iambic" met_quanScore="0.42">
                 <head type="title">A VIDÁM ISTEN</head>
                 <lg xml:id="lg1" lg_numLine="4" lg_numWord="18" lg_numSyll="38" lg_numShortSyll="25" lg_numLongSyll="13" rhyme="abca" lg_syllPattern="10-10-9-9">
                     <l xml:id="l1" l_numWord="3" l_numSyll="10" l_numShortSyll="6" l_numLongSyll="4" real="1011000010">
@@ -158,7 +158,7 @@
                         <pc xml:id="pc3" pos="PUNCT" join="left">.</pc>
                     </l>
                 </lg>
-                <lg xml:id="lg2" lg_numLine="4" lg_numWord="23" lg_numSyll="36" lg_numShortSyll="21" lg_numLongSyll="15" rhyme="abaa" lg_syllPattern="9-9-9-9">
+                <lg xml:id="lg2" lg_numLine="4" lg_numWord="23" lg_numSyll="36" lg_numShortSyll="21" lg_numLongSyll="15" rhyme="abca" lg_syllPattern="9-9-9-9">
                     <l xml:id="l5" l_numWord="6" l_numSyll="9" l_numShortSyll="5" l_numLongSyll="4" real="011010010">
                         <w xml:id="w19" lemma="ha" pos="SCONJ" msd="_" w_numSyll="1" phonType="low" phonStruct="cb">Ha</w>
                         <w xml:id="w20" lemma="így" pos="PRON" msd="Case=Nom|Number=Sing|Person=3|PronType=Prs" w_numSyll="1" phonType="high" phonStruct="Fc">így</w>
@@ -197,7 +197,16 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w3 #w18">
+                    <firstRhyme rhyme_lemma="halál" rhyme_pos="NOUN" rhyme_msd="Case=Ins|Number=Sing" rhyme_numSyll="3" rhyme_phonType="low" rhyme_phonStruct="cbcBccbc">Halállal</firstRhyme>
+                    <secondRhyme rhyme_lemma="halál" rhyme_pos="NOUN" rhyme_msd="Case=Ins|Number=Sing" rhyme_numSyll="3" rhyme_phonType="low" rhyme_phonStruct="cbcBccbc">Halállal</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w24 #w41">
+                    <firstRhyme rhyme_lemma="élet" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="Fcfc">Élet</firstRhyme>
+                    <secondRhyme rhyme_lemma="élet" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="Fcfc">Élet</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w3 #w4" allStruct="aa" posTags="NOUN CONJ" msdTags="Case=Ins|Number=Sing _" lemmas="halál holott">Halállal Holott</alliteration>
                 <alliteration target="#w14 #w15 #w16" allStruct="ana" posTags="NOUN SCONJ VERB" msdTags="Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3 _ Definite=Ind|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act" lemmas="közel ha kötekszik">közelében Ha kötekedtek</alliteration>

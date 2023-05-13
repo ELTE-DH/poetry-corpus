@@ -103,12 +103,12 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="1" div_numLine="8" div_numWord="44" div_numSyll="84" div_numShortSyll="33" div_numLongSyll="51" div_rhyme="ababbcdc" div_syllPattern="10-11-10-11-11-10-11-10">
+            <div type="poem" div_numStanza="1" div_numLine="8" div_numWord="44" div_numSyll="84" div_numShortSyll="33" div_numLongSyll="51" div_rhyme="ababbcdc" div_syllPattern="10-11-10-11-11-10-11-10" met_qual="False" met_quan="iambic" met_quanScore="0.49">
                 <head type="title">ELFÁRADT MÁR</head>
                 <lg xml:id="lg1" lg_numLine="8" lg_numWord="44" lg_numSyll="84" lg_numShortSyll="33" lg_numLongSyll="51" rhyme="ababbcdc" lg_syllPattern="10-11-10-11-11-10-11-10">
                     <l xml:id="l1" l_numWord="6" l_numSyll="10" l_numShortSyll="2" l_numLongSyll="8" real="1111111001">
@@ -182,7 +182,24 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w6 #w17">
+                    <firstRhyme rhyme_lemma="halál" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbcBc">halál</firstRhyme>
+                    <secondRhyme rhyme_lemma="már" rhyme_pos="ADV" rhyme_msd="_" rhyme_numSyll="1" rhyme_phonType="low" rhyme_phonStruct="cBc">már</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w12 #w22">
+                    <firstRhyme rhyme_lemma="vásik" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cBccbc">vásnak</firstRhyme>
+                    <secondRhyme rhyme_lemma="gyilkolás" rhyme_pos="NOUN" rhyme_msd="Case=Dat|Number=Sing" rhyme_numSyll="4" rhyme_phonType="mixed" rhyme_phonStruct="cfccbcBccbc">gyilkolásnak</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w22 #w29">
+                    <firstRhyme rhyme_lemma="gyilkolás" rhyme_pos="NOUN" rhyme_msd="Case=Dat|Number=Sing" rhyme_numSyll="4" rhyme_phonType="mixed" rhyme_phonStruct="cfccbcBccbc">gyilkolásnak</firstRhyme>
+                    <secondRhyme rhyme_lemma="ás" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="Bccbc">ásnak</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w35 #w44">
+                    <firstRhyme rhyme_lemma="rege" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfcf">rege</firstRhyme>
+                    <secondRhyme rhyme_lemma="kerék" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfcfcf">kereke</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w8 #w9 #w10" allStruct="ana" posTags="ADJ CONJ NOUN" msdTags="Case=Nom|Degree=Pos|Number=Sing _ Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3" lemmas="csorba s csont">csorba s csontjai</alliteration>
                 <alliteration target="#w11 #w12 #w13 #w14" allStruct="anaa" posTags="ADV VERB ADV VERB" msdTags="_ Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act _ Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" lemmas="már vásik már megpihen">már vásnak Már megpihenne</alliteration>

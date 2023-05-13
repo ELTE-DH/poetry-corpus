@@ -106,14 +106,14 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
 	<text>
 		<body>
-			<div type="poem">
+			<div met="Qual=False|Quan=iambic|QuanScore=0.3" type="poem">
 				<head>A malom</head>
-				<lg rhyme="aabccb" xml:id="lg1">
+				<lg rhyme="aabccd" xml:id="lg1">
 					<l n="5" real="00000" xml:id="l1">
 						<w lemma="forog" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" type="forog[/V]=forog+[Prs.NDef.3Sg]=" xml:id="w1">Forog</w>
 						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" type="a[/Det|Art.Def]=a" xml:id="w2">a</w>
@@ -146,7 +146,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc4">.</pc>
 					</l>
 				</lg>
-				<lg rhyme="aabccb" xml:id="lg2">
+				<lg rhyme="aabccd" xml:id="lg2">
 					<l n="5" real="10110" xml:id="l7">
 						<w lemma="hónap" msd="Case=Nom|Number=Plur" pos="NOUN" type="hó[/N]=hó+nap[/N]=nap+ok[Pl]=ok+[Nom]=" xml:id="w16">Hónapok</w>
 						<w lemma="múlik" msd="Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" type="múl[/V]=múl+nak[Prs.NDef.3Pl]=nak" xml:id="w17">múlnak</w>
@@ -217,6 +217,12 @@
 				<span subtype="3" target="#w31" type="high">cfcfcf</span>
 				<span subtype="1" target="#w32" type="low">Bcc</span>
 			</spanGrp>
+			<linkGrp type="rhymePairs">
+				<link target="#w3 #w6"/>
+				<link target="#w10 #w12"/>
+				<link target="#w17 #w19"/>
+				<link target="#w26 #w30"/>
+			</linkGrp>
 			<spanGrp type="alliterations">
 				<span target="#w9 #w10 #w11" type="ana"/>
 			</spanGrp>

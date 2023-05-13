@@ -103,12 +103,12 @@
 		<revisionDesc>
 			<change when="2021-06-10">level1</change>
 			<change when="2021-06-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="1" div_numLine="4" div_numWord="27" div_numSyll="48" div_numShortSyll="19" div_numLongSyll="29" div_rhyme="aabb" div_syllPattern="12-12-12-12">
+            <div type="poem" div_numStanza="1" div_numLine="4" div_numWord="27" div_numSyll="48" div_numShortSyll="19" div_numLongSyll="29" div_rhyme="aabb" div_syllPattern="12-12-12-12" met_qual="6-1-2-3" met_quan="iambic" met_quanScore="0.67">
                 <head type="title">16. Ki a hibás?</head>
                 <lg xml:id="lg1" lg_numLine="4" lg_numWord="27" lg_numSyll="48" lg_numShortSyll="19" lg_numLongSyll="29" rhyme="aabb" lg_syllPattern="12-12-12-12">
                     <l xml:id="l1" l_numWord="6" l_numSyll="12" l_numShortSyll="8" l_numLongSyll="4" real="110100010000">
@@ -153,7 +153,16 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w6 #w13">
+                    <firstRhyme rhyme_lemma="sziv" rhyme_pos="NOUN" rhyme_msd="Case=Acc|Number=Plur" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfcfcfc">sziveket</firstRhyme>
+                    <secondRhyme rhyme_lemma="van" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Pot|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfcfc">lehet</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w20 #w27">
+                    <firstRhyme rhyme_lemma="más" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="1" rhyme_phonType="low" rhyme_phonStruct="cBc">más</firstRhyme>
+                    <secondRhyme rhyme_lemma="hibás" rhyme_pos="ADJ" rhyme_msd="Case=Nom|Degree=Pos|Number=Sing" rhyme_numSyll="2" rhyme_phonType="mixed" rhyme_phonStruct="cfcBc">hibás</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w18 #w19 #w20 #w21 #w22 #w23" allStruct="anaana" posTags="PRON VERB NOUN ADV VERB PART" msdTags="Case=Nom|Number=Sing|Person=3|PronType=Prs Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act Case=Nom|Number=Sing _ Definite=Def|Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act _" lemmas="mi lesz más most itél meg">mi lenne más Most itéljétek meg</alliteration>
                 <alliteration target="#w24 #w25" allStruct="aa" posTags="ADV ADP" msdTags="_ _" lemmas="ki közt">ki köztünk</alliteration>

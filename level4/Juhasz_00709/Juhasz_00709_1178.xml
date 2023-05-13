@@ -111,12 +111,12 @@
 		<revisionDesc>
 			<change when="2021-07-05">level1</change>
 			<change when="2021-08-05">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="2" div_numLine="24" div_numWord="122" div_numSyll="250" div_numShortSyll="105" div_numLongSyll="145" div_rhyme="abcdefegf|abcdefghidjfkhl" div_syllPattern="10-10-10-11-10-11-10-10-11|10-11-10-11-11-11-10-10-10-11-10-11-10-10-11">
+            <div type="poem" div_numStanza="2" div_numLine="24" div_numWord="122" div_numSyll="250" div_numShortSyll="105" div_numLongSyll="145" div_rhyme="abcdefegf|abcdefghidjfkhl" div_syllPattern="10-10-10-11-10-11-10-10-11|10-11-10-11-11-11-10-10-10-11-10-11-10-10-11" met_qual="False" met_quan="iambic" met_quanScore="0.71">
                 <head type="title">Josephus szobránál</head>
                 <p>Bécsi emlék</p>
                 <lg xml:id="lg1" lg_numLine="9" lg_numWord="51" lg_numSyll="93" lg_numShortSyll="45" lg_numLongSyll="48" rhyme="abcdefegf" lg_syllPattern="10-10-10-11-10-11-10-10-11">
@@ -320,7 +320,16 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w27 #w38">
+                    <firstRhyme rhyme_lemma="lemegy" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfcfcc">lement</firstRhyme>
+                    <secondRhyme rhyme_lemma="ember" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Plur" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="fccfcfc">emberek</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w32 #w51">
+                    <firstRhyme rhyme_lemma="tér" rhyme_pos="NOUN" rhyme_msd="Case=Sup|Number=Sing" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cFcfc">téren</firstRhyme>
+                    <secondRhyme rhyme_lemma="élet" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="Fcfc">élet</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w9 #w10" allStruct="aa" posTags="ADP SCONJ" msdTags="_ _" lemmas="mögött mint">mögött Mint</alliteration>
                 <alliteration target="#w13 #w14 #w15" allStruct="ana" posTags="SCONJ ADJ PROPN" msdTags="_ Case=Nom|Degree=Pos|Number=Sing Case=Nom|Number=Sing" lemmas="mint bölcs Mark">mint bölcs Mark</alliteration>

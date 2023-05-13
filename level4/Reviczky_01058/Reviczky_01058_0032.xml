@@ -108,12 +108,12 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="2" div_numLine="8" div_numWord="40" div_numSyll="73" div_numShortSyll="32" div_numLongSyll="41" div_rhyme="abcb|abcb" div_syllPattern="9-9-9-9|9-9-9-10">
+            <div type="poem" div_numStanza="2" div_numLine="8" div_numWord="40" div_numSyll="73" div_numShortSyll="32" div_numLongSyll="41" div_rhyme="abcb|abcb" div_syllPattern="9-9-9-9|9-9-9-10" met_qual="5-4" met_quan="iambic" met_quanScore="0.67">
                 <head type="title">XXIII. Isten veled hát! A mi elmult</head>
                 <lg xml:id="lg1" lg_numLine="4" lg_numWord="21" lg_numSyll="36" lg_numShortSyll="14" lg_numLongSyll="22" rhyme="abcb" lg_syllPattern="9-9-9-9">
                     <l xml:id="l1" l_numWord="6" l_numSyll="9" l_numShortSyll="3" l_numLongSyll="6" real="110110011">
@@ -188,7 +188,16 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w10 #w21">
+                    <firstRhyme rhyme_lemma="sirat" rhyme_pos="VERB" rhyme_msd="VerbForm=Inf|Voice=Act" rhyme_numSyll="3" rhyme_phonType="mixed" rhyme_phonStruct="cfcbccf">siratni</firstRhyme>
+                    <secondRhyme rhyme_lemma="ad" rhyme_pos="VERB" rhyme_msd="VerbForm=Inf|Voice=Act" rhyme_numSyll="2" rhyme_phonType="mixed" rhyme_phonStruct="bccf">adni</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w30 #w40">
+                    <firstRhyme rhyme_lemma="világ" rhyme_pos="NOUN" rhyme_msd="Case=Acc|Number=Sing" rhyme_numSyll="3" rhyme_phonType="mixed" rhyme_phonStruct="cfcBcbc">világot</firstRhyme>
+                    <secondRhyme rhyme_lemma="megbocsát" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="4" rhyme_phonType="mixed" rhyme_phonStruct="cfccbcBcbc">megbocsátok</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w6 #w7 #w8" allStruct="ana" posTags="VERB ADV VERB" msdTags="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act _ Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act" lemmas="elmul örökre elmul">elmult Örökre elmult</alliteration>
                 <alliteration target="#w15 #w16 #w17" allStruct="ana" posTags="VERB SCONJ VERB" msdTags="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act _ Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" lemmas="vigasztal hogy vígaszt">vigasztal Hogy vígaszt</alliteration>

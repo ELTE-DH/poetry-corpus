@@ -111,12 +111,12 @@
 		<revisionDesc>
 			<change when="2021-07-05">level1</change>
 			<change when="2021-08-05">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="3" div_numLine="12" div_numWord="76" div_numSyll="126" div_numShortSyll="54" div_numLongSyll="72" div_rhyme="abba|abba|abba" div_syllPattern="10-11-11-10|10-11-11-10|10-11-11-10">
+            <div type="poem" div_numStanza="3" div_numLine="12" div_numWord="76" div_numSyll="126" div_numShortSyll="54" div_numLongSyll="72" div_rhyme="abba|abba|abba" div_syllPattern="10-11-11-10|10-11-11-10|10-11-11-10" met_qual="False" met_quan="iambic" met_quanScore="0.81">
                 <head type="title">A Tiszánál</head>
                 <lg xml:id="lg1" lg_numLine="4" lg_numWord="28" lg_numSyll="42" lg_numShortSyll="15" lg_numLongSyll="27" rhyme="abba" lg_syllPattern="10-11-11-10">
                     <l xml:id="l1" l_numWord="7" l_numSyll="10" l_numShortSyll="5" l_numLongSyll="5" real="0101010101">
@@ -240,7 +240,32 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w7 #w28">
+                    <firstRhyme rhyme_lemma="marad" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbcbcc">maradsz</firstRhyme>
+                    <secondRhyme rhyme_lemma="panasz" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbcbc">panasz</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w13 #w21">
+                    <firstRhyme rhyme_lemma="még" rhyme_pos="ADV" rhyme_msd="_" rhyme_numSyll="1" rhyme_phonType="high" rhyme_phonStruct="cFc">még</firstRhyme>
+                    <secondRhyme rhyme_lemma="emlék" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="fccFc">emlék</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w35 #w51">
+                    <firstRhyme rhyme_lemma="halad" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbcbcc">haladsz</firstRhyme>
+                    <secondRhyme rhyme_lemma="marad" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbcbcc">maradsz</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w40 #w45">
+                    <firstRhyme rhyme_lemma="társ" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cBccbc">társam</firstRhyme>
+                    <secondRhyme rhyme_lemma="bujdosás" rhyme_pos="NOUN" rhyme_msd="Case=Ine|Number=Sing" rhyme_numSyll="4" rhyme_phonType="low" rhyme_phonStruct="cbccbcBccbc">bujdosásban</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w58 #w76">
+                    <firstRhyme rhyme_lemma="én" rhyme_pos="PRON" rhyme_msd="Case=Ins|Number=Sing|Person=1|PronType=Prs" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfcfc">velem</firstRhyme>
+                    <secondRhyme rhyme_lemma="csendes" rhyme_pos="ADJ" rhyme_msd="Case=Ess|Degree=Pos|Number=Sing" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfccfcfc">csendesen</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w64 #w70">
+                    <firstRhyme rhyme_lemma="esik" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="fccfc">estek</firstRhyme>
+                    <secondRhyme rhyme_lemma="keres" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfcfccfc">keresnek</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w12 #w13 #w14" allStruct="ana" posTags="NOUN ADV NOUN" msdTags="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1 _ Case=Nom|Number=Sing" lemmas="víz még vér">vizem még Vér</alliteration>
                 <alliteration target="#w32 #w33 #w34" allStruct="ana" posTags="CONJ CONJ PRON" msdTags="_ _ Case=Ins|Number=Sing|Person=1|PronType=Prs" lemmas="vagy és én">vagy és velem</alliteration>

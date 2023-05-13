@@ -107,12 +107,12 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="1" div_numLine="6" div_numWord="19" div_numSyll="44" div_numShortSyll="18" div_numLongSyll="26" div_rhyme="aabcdc" div_syllPattern="7-7-8-7-8-7">
+            <div type="poem" div_numStanza="1" div_numLine="6" div_numWord="19" div_numSyll="44" div_numShortSyll="18" div_numLongSyll="26" div_rhyme="aabcdc" div_syllPattern="7-7-8-7-8-7" met_qual="False" met_quan="trochaic" met_quanScore="0.73">
                 <head type="title">EGY LEÁNYKÁNAK.</head>
                 <lg xml:id="lg1" lg_numLine="6" lg_numWord="19" lg_numSyll="44" lg_numShortSyll="18" lg_numLongSyll="26" rhyme="aabcdc" lg_syllPattern="7-7-8-7-8-7">
                     <l xml:id="l1" l_numWord="2" l_numSyll="7" l_numShortSyll="3" l_numLongSyll="4" real="1011100">
@@ -154,7 +154,16 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w2 #w5">
+                    <firstRhyme rhyme_lemma="hódít" rhyme_pos="VERB" rhyme_msd="VerbForm=Inf|Voice=Act" rhyme_numSyll="4" rhyme_phonType="mixed" rhyme_phonStruct="cBcFcbcf">hódítani</firstRhyme>
+                    <secondRhyme rhyme_lemma="megtart" rhyme_pos="VERB" rhyme_msd="VerbForm=Inf|Voice=Act" rhyme_numSyll="4" rhyme_phonType="mixed" rhyme_phonStruct="cfccbccbcf">megtartani</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w13 #w19">
+                    <firstRhyme rhyme_lemma="szív" rhyme_pos="NOUN" rhyme_msd="Case=Acc|Number=Plur" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cFcfcfc">szíveket</firstRhyme>
+                    <secondRhyme rhyme_lemma="érdem" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=2" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="Fccfcfc">érdemed</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w4 #w5" allStruct="aa" posTags="SCONJ VERB" msdTags="_ VerbForm=Inf|Voice=Act" lemmas="mint megtart">mint megtartani</alliteration>
                 <alliteration target="#w18 #w19" allStruct="aa" posTags="VERB NOUN" msdTags="Definite=Def|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=2" lemmas="épít érdem">építsd érdemed</alliteration>

@@ -103,12 +103,12 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="3" div_numLine="10" div_numWord="32" div_numSyll="63" div_numShortSyll="29" div_numLongSyll="34" div_rhyme="aba|aba|abcd" div_syllPattern="5-8-9|5-2-3|5-4-11-11">
+            <div type="poem" div_numStanza="3" div_numLine="10" div_numWord="32" div_numSyll="63" div_numShortSyll="29" div_numLongSyll="34" div_rhyme="aba|aba|abcd" div_syllPattern="5-8-9|5-2-3|5-4-11-11" met_qual="False" met_quan="iambic" met_quanScore="0.38">
                 <head type="title">Confiteor</head>
                 <lg xml:id="lg1" lg_numLine="3" lg_numWord="12" lg_numSyll="22" lg_numShortSyll="7" lg_numLongSyll="15" rhyme="aba" lg_syllPattern="5-8-9">
                     <l xml:id="l1" l_numWord="4" l_numSyll="5" l_numShortSyll="1" l_numLongSyll="4" real="11011">
@@ -177,7 +177,16 @@
                 </lg>
                 <p>1925. május 22.</p>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w4 #w12">
+                    <firstRhyme rhyme_lemma="emlék" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="fccFc">emlék</firstRhyme>
+                    <secondRhyme rhyme_lemma="visszamegy" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="4" rhyme_phonType="mixed" rhyme_phonStruct="cfccbcfccFc">visszamennék</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w16 #w19">
+                    <firstRhyme rhyme_lemma="kába" rhyme_pos="ADJ" rhyme_msd="Case=Nom|Degree=Pos|Number=Sing" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cBcb">kába</firstRhyme>
+                    <secondRhyme rhyme_lemma="hiába" rhyme_pos="ADV" rhyme_msd="_" rhyme_numSyll="3" rhyme_phonType="mixed" rhyme_phonStruct="cfBcb">hiába</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w4 #w5 #w6" allStruct="ana" posTags="NOUN ADV DET" msdTags="Case=Nom|Number=Sing _ Definite=Ind|PronType=Art" lemmas="emlék mindig egy">emlék Mindig egy</alliteration>
                 <alliteration target="#w15 #w16" allStruct="aa" posTags="ADJ ADJ" msdTags="Case=Nom|Degree=Pos|Number=Sing Case=Nom|Degree=Pos|Number=Sing" lemmas="kis kába">kis kába</alliteration>

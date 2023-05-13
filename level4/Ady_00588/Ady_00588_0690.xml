@@ -120,12 +120,12 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="2" div_numLine="8" div_numWord="35" div_numSyll="74" div_numShortSyll="31" div_numLongSyll="43" div_rhyme="abcb|abab" div_syllPattern="9-8-11-8|11-8-11-8">
+            <div type="poem" div_numStanza="2" div_numLine="8" div_numWord="35" div_numSyll="74" div_numShortSyll="31" div_numLongSyll="43" div_rhyme="abcb|abcb" div_syllPattern="9-8-11-8|11-8-11-8" met_qual="False" met_quan="iambic" met_quanScore="0.36">
                 <head type="title">NŐ VAN MELLETTEM</head>
                 <lg xml:id="lg1" lg_numLine="4" lg_numWord="15" lg_numSyll="36" lg_numShortSyll="16" lg_numLongSyll="20" rhyme="abcb" lg_syllPattern="9-8-11-8">
                     <l xml:id="l1" l_numWord="3" l_numSyll="9" l_numShortSyll="3" l_numLongSyll="6" real="010111110">
@@ -158,7 +158,7 @@
                         <pc xml:id="pc6" pos="PUNCT" join="left">.</pc>
                     </l>
                 </lg>
-                <lg xml:id="lg2" lg_numLine="4" lg_numWord="20" lg_numSyll="38" lg_numShortSyll="15" lg_numLongSyll="23" rhyme="abab" lg_syllPattern="11-8-11-8">
+                <lg xml:id="lg2" lg_numLine="4" lg_numWord="20" lg_numSyll="38" lg_numShortSyll="15" lg_numLongSyll="23" rhyme="abcb" lg_syllPattern="11-8-11-8">
                     <l xml:id="l5" l_numWord="5" l_numSyll="11" l_numShortSyll="7" l_numLongSyll="4" real="10100100010">
                         <w xml:id="w16" lemma="drága" pos="ADJ" msd="Case=Nom|Degree=Pos|Number=Sing" w_numSyll="2" phonType="low" phonStruct="ccBcb">Drága</w>
                         <w xml:id="w17" lemma="szép" pos="ADJ" msd="Case=Nom|Degree=Pos|Number=Sing" w_numSyll="1" phonType="high" phonStruct="cFc">szép</w>
@@ -197,7 +197,16 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w7 #w15">
+                    <firstRhyme rhyme_lemma="ti" rhyme_pos="PRON" rhyme_msd="Case=Ins|Number=Plur|Person=2|PronType=Prs" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfcfcfc">veletek</firstRhyme>
+                    <secondRhyme rhyme_lemma="szeret" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfcfcfc">szeretek</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w23 #w35">
+                    <firstRhyme rhyme_lemma="buzdul" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="3" rhyme_phonType="low" rhyme_phonStruct="cbccbcbc">buzdulok</firstRhyme>
+                    <secondRhyme rhyme_lemma="megful" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="3" rhyme_phonType="mixed" rhyme_phonStruct="cfccbcbc">megfulok</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w4 #w5 #w6" allStruct="ana" posTags="ADJ ADJ NOUN" msdTags="Case=Nom|Degree=Pos|Number=Sing Case=Nom|Degree=Pos|Number=Sing Case=Ins|Number=Sing" lemmas="kedves jó kedv">Kedves jó kedvvel</alliteration>
                 <alliteration target="#w7 #w8 #w9" allStruct="ana" posTags="PRON SCONJ PRON" msdTags="Case=Ins|Number=Plur|Person=2|PronType=Prs _ Case=Acc|Number=Sing|Person=3|PronType=Ind" lemmas="ti mert valaki">veletek Mert valakit</alliteration>

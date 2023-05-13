@@ -111,12 +111,12 @@
 		<revisionDesc>
 			<change when="2021-07-05">level1</change>
 			<change when="2021-08-05">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="5" div_numLine="10" div_numWord="42" div_numSyll="80" div_numShortSyll="45" div_numLongSyll="35" div_rhyme="aa|aa|aa|aa|aa" div_syllPattern="8-8|8-8|8-8|8-8|8-8">
+            <div type="poem" div_numStanza="5" div_numLine="10" div_numWord="42" div_numSyll="80" div_numShortSyll="45" div_numLongSyll="35" div_rhyme="aa|aa|aa|aa|aa" div_syllPattern="8-8|8-8|8-8|8-8|8-8" met_qual="3-2-3" met_quan="iambic" met_quanScore="0.71">
                 <head type="title">Egy képre</head>
                 <lg xml:id="lg1" lg_numLine="2" lg_numWord="7" lg_numSyll="16" lg_numShortSyll="8" lg_numLongSyll="8" rhyme="aa" lg_syllPattern="8-8">
                     <l xml:id="l1" l_numWord="3" l_numSyll="8" l_numShortSyll="4" l_numLongSyll="4" real="01101001">
@@ -208,7 +208,28 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w3 #w7">
+                    <firstRhyme rhyme_lemma="aranykoszorú" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="5" rhyme_phonType="low" rhyme_phonStruct="bcbccbcbcB">aranykoszorú</firstRhyme>
+                    <secondRhyme rhyme_lemma="szomorú" rhyme_pos="ADJ" rhyme_msd="Case=Nom|Degree=Pos|Number=Sing" rhyme_numSyll="3" rhyme_phonType="low" rhyme_phonStruct="cbcbcB">szomorú</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w12 #w16">
+                    <firstRhyme rhyme_lemma="néz" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="1" rhyme_phonType="high" rhyme_phonStruct="cFc">néz</firstRhyme>
+                    <secondRhyme rhyme_lemma="szenvedés" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfccfcFc">szenvedés</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w21 #w25">
+                    <firstRhyme rhyme_lemma="ragyog" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbcbc">ragyog</firstRhyme>
+                    <secondRhyme rhyme_lemma="csillag" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Plur" rhyme_numSyll="3" rhyme_phonType="mixed" rhyme_phonStruct="cfccbcbc">csillagok</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w29 #w32">
+                    <firstRhyme rhyme_lemma="dal" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="1" rhyme_phonType="low" rhyme_phonStruct="cbc">dal</firstRhyme>
+                    <secondRhyme rhyme_lemma="ravatal" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="3" rhyme_phonType="low" rhyme_phonStruct="cbcbcbc">ravatal</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w37 #w42">
+                    <firstRhyme rhyme_lemma="elkérdez" rhyme_pos="VERB" rhyme_msd="Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="4" rhyme_phonType="high" rhyme_phonStruct="fccFccfcfc">Elkérdezem</firstRhyme>
+                    <secondRhyme rhyme_lemma="idegen" rhyme_pos="ADJ" rhyme_msd="Case=Nom|Degree=Pos|Number=Sing" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="fcfcfc">Idegen</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w3 #w4 #w5" allStruct="aaa" posTags="NOUN DET NOUN" msdTags="Case=Nom|Number=Sing Definite=Def|PronType=Art Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3" lemmas="aranykoszorú az arc">aranykoszorú Az arca</alliteration>
                 <alliteration target="#w10 #w11" allStruct="aa" posTags="ADV ADV" msdTags="_ _" lemmas="messze messze">messze messze</alliteration>

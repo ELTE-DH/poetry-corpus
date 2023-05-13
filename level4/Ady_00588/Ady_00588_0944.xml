@@ -120,12 +120,12 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="3" div_numLine="12" div_numWord="42" div_numSyll="84" div_numShortSyll="33" div_numLongSyll="51" div_rhyme="aaba|aaba|aaba" div_syllPattern="7-7-7-7|7-7-7-7|7-7-7-7">
+            <div type="poem" div_numStanza="3" div_numLine="12" div_numWord="42" div_numSyll="84" div_numShortSyll="33" div_numLongSyll="51" div_rhyme="aaba|aaba|aaba" div_syllPattern="7-7-7-7|7-7-7-7|7-7-7-7" met_qual="False" met_quan="iambic" met_quanScore="0.24">
                 <head type="title">ÓH, BÚJNI BARLANGOKBA</head>
                 <lg xml:id="lg1" lg_numLine="4" lg_numWord="14" lg_numSyll="28" lg_numShortSyll="13" lg_numLongSyll="15" rhyme="aaba" lg_syllPattern="7-7-7-7">
                     <l xml:id="l1" l_numWord="3" l_numSyll="7" l_numShortSyll="2" l_numLongSyll="5" real="1101110">
@@ -211,7 +211,32 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w3 #w7">
+                    <firstRhyme rhyme_lemma="barlang" rhyme_pos="NOUN" rhyme_msd="Case=Ill|Number=Plur" rhyme_numSyll="4" rhyme_phonType="low" rhyme_phonStruct="cbccbccbccb">barlangokba</firstRhyme>
+                    <secondRhyme rhyme_lemma="sok" rhyme_pos="NUM" rhyme_msd="Case=Ill|Number=Sing|NumType=Card" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbccb">sokba</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w7 #w14">
+                    <firstRhyme rhyme_lemma="sok" rhyme_pos="NUM" rhyme_msd="Case=Ill|Number=Sing|NumType=Card" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbccb">sokba</firstRhyme>
+                    <secondRhyme rhyme_lemma="fogy" rhyme_pos="VERB" rhyme_msd="Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbccb">fogyta</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w18 #w21">
+                    <firstRhyme rhyme_lemma="gyermek" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfccfc">gyermek</firstRhyme>
+                    <secondRhyme rhyme_lemma="szerelem" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Plur" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfcfccfc">szerelmek</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w21 #w27">
+                    <firstRhyme rhyme_lemma="szerelem" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Plur" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfcfccfc">szerelmek</firstRhyme>
+                    <secondRhyme rhyme_lemma="ver" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfccfc">vernek</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w31 #w35">
+                    <firstRhyme rhyme_lemma="sors" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbccbc">sorsom</firstRhyme>
+                    <secondRhyme rhyme_lemma="hord" rhyme_pos="VERB" rhyme_msd="Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbccbc">hordom</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w35 #w42">
+                    <firstRhyme rhyme_lemma="hord" rhyme_pos="VERB" rhyme_msd="Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbccbc">hordom</firstRhyme>
+                    <secondRhyme rhyme_lemma="akkord" rhyme_pos="NOUN" rhyme_msd="Case=Sup|Number=Sing" rhyme_numSyll="3" rhyme_phonType="low" rhyme_phonStruct="bccbccbc">akkordon</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w2 #w3" allStruct="aa" posTags="VERB NOUN" msdTags="VerbForm=Inf|Voice=Act Case=Ill|Number=Plur" lemmas="bújik barlang">bújni barlangokba</alliteration>
             </alliterations>

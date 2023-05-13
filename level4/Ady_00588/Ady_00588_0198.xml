@@ -120,12 +120,12 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="3" div_numLine="12" div_numWord="41" div_numSyll="90" div_numShortSyll="45" div_numLongSyll="45" div_rhyme="abcb|abcb|abcb" div_syllPattern="5-11-8-6|5-11-8-6|5-11-8-6">
+            <div type="poem" div_numStanza="3" div_numLine="12" div_numWord="41" div_numSyll="90" div_numShortSyll="45" div_numLongSyll="45" div_rhyme="abcb|abcb|abcb" div_syllPattern="5-11-8-6|5-11-8-6|5-11-8-6" met_qual="False" met_quan="iambic" met_quanScore="0.46">
                 <head type="title">AZ ÚR ÉRKEZÉSE</head>
                 <lg xml:id="lg1" lg_numLine="4" lg_numWord="13" lg_numSyll="30" lg_numShortSyll="16" lg_numLongSyll="14" rhyme="abcb" lg_syllPattern="5-11-8-6">
                     <l xml:id="l1" l_numWord="2" l_numSyll="5" l_numShortSyll="3" l_numLongSyll="2" real="00110">
@@ -213,7 +213,20 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w7 #w13">
+                    <firstRhyme rhyme_lemma="visz" rhyme_pos="VERB" rhyme_msd="Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfccfc">vittem</firstRhyme>
+                    <secondRhyme rhyme_lemma="isten" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="fccfc">Isten</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w20 #w28">
+                    <firstRhyme rhyme_lemma="ölelés" rhyme_pos="NOUN" rhyme_msd="Case=Ins|Number=Sing" rhyme_numSyll="4" rhyme_phonType="high" rhyme_phonStruct="fcfcFccfc">öleléssel</firstRhyme>
+                    <secondRhyme rhyme_lemma="éjjel" rhyme_pos="ADV" rhyme_msd="_" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="Fccfc">éjjel</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w34 #w41">
+                    <firstRhyme rhyme_lemma="ifjuság" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1" rhyme_numSyll="4" rhyme_phonType="mixed" rhyme_phonStruct="fccbcBcbc">ifjuságom</firstRhyme>
+                    <secondRhyme rhyme_lemma="lát" rhyme_pos="VERB" rhyme_msd="Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cBcbc">látom</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w1 #w2 #w3" allStruct="ana" posTags="PRON VERB PRON" msdTags="Case=Nom|Number=Sing|Person=3|PronType=Int Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act Case=Nom|Number=Sing|Person=3|PronType=Int" lemmas="mikor elhagy mikor">Mikor elhagytak Mikor</alliteration>
                 <alliteration target="#w15 #w16" allStruct="aa" posTags="NOUN CONJ" msdTags="Case=Ins|Number=Sing _" lemmas="harsona hanem">harsonával Hanem</alliteration>

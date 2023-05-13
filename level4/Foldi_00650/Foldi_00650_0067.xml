@@ -100,12 +100,12 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="1" div_numLine="8" div_numWord="33" div_numSyll="60" div_numShortSyll="21" div_numLongSyll="39" div_rhyme="abacbbde" div_syllPattern="8-7-8-7-8-8-7-7">
+            <div type="poem" div_numStanza="1" div_numLine="8" div_numWord="33" div_numSyll="60" div_numShortSyll="21" div_numLongSyll="39" div_rhyme="abacbbde" div_syllPattern="8-7-8-7-8-8-7-7" met_qual="False" met_quan="trochaic" met_quanScore="0.49">
                 <head type="title">Januarius, az Égi jegy szerént Vizöntő Hava.</head>
                 <lg xml:id="lg1" lg_numLine="8" lg_numWord="33" lg_numSyll="60" lg_numShortSyll="21" lg_numLongSyll="39" rhyme="abacbbde" lg_syllPattern="8-7-8-7-8-8-7-7">
                     <l xml:id="l1" l_numWord="3" l_numSyll="8" l_numShortSyll="3" l_numLongSyll="5" real="01101110">
@@ -174,7 +174,20 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w3 #w12">
+                    <firstRhyme rhyme_lemma="nyár" rhyme_pos="NOUN" rhyme_msd="Case=Sub|Number=Sing" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cBccb">Nyárra</firstRhyme>
+                    <secondRhyme rhyme_lemma="tsatorna" rhyme_pos="NOUN" rhyme_msd="Case=Sub|Number=Sing" rhyme_numSyll="4" rhyme_phonType="low" rhyme_phonStruct="ccbcbccBcb">tsatornára</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w9 #w21">
+                    <firstRhyme rhyme_lemma="nagy" rhyme_pos="ADJ" rhyme_msd="Case=Nom|Degree=Pos|Number=Sing" rhyme_numSyll="1" rhyme_phonType="low" rhyme_phonStruct="cbc">nagy</firstRhyme>
+                    <secondRhyme rhyme_lemma="forgat" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbccbcc">forgass</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w21 #w26">
+                    <firstRhyme rhyme_lemma="forgat" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbccbcc">forgass</firstRhyme>
+                    <secondRhyme rhyme_lemma="le-tsorgass" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="3" rhyme_phonType="mixed" rhyme_phonStruct="cfccbccbcc">le-tsorgass</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w2 #w3 #w4 #w5 #w6" allStruct="anana" posTags="NOUN NOUN VERB NOUN SCONJ" msdTags="Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3 Case=Sub|Number=Sing Definite=Ind|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act Case=Acc|Number=Sing _" lemmas="hó nyár hord jég ha">havában Nyárra Hordj jeget ha</alliteration>
                 <alliteration target="#w11 #w12 #w13" allStruct="ana" posTags="ADJ NOUN VERB" msdTags="Case=Nom|Degree=Pos|Number=Sing Case=Sub|Number=Sing Definite=Ind|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act" lemmas="Vízvévő tsatorna vigyáz">Vízvévő tsatornára Vigyázz</alliteration>

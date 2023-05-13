@@ -120,12 +120,12 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="2" div_numLine="8" div_numWord="39" div_numSyll="79" div_numShortSyll="37" div_numLongSyll="42" div_rhyme="abcb|abcb" div_syllPattern="11-9-11-9|11-9-10-9">
+            <div type="poem" div_numStanza="2" div_numLine="8" div_numWord="39" div_numSyll="79" div_numShortSyll="37" div_numLongSyll="42" div_rhyme="abcb|abcb" div_syllPattern="11-9-11-9|11-9-10-9" met_qual="5-6_5-2-2" met_quan="trochaic" met_quanScore="0.31">
                 <head type="title">NE LÁSSATOK MEG</head>
                 <lg xml:id="lg1" lg_numLine="4" lg_numWord="22" lg_numSyll="40" lg_numShortSyll="20" lg_numLongSyll="20" rhyme="abcb" lg_syllPattern="11-9-11-9">
                     <l xml:id="l1" l_numWord="5" l_numSyll="11" l_numShortSyll="6" l_numLongSyll="5" real="01011001010">
@@ -197,7 +197,16 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w10 #w22">
+                    <firstRhyme rhyme_lemma="korona" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="3" rhyme_phonType="low" rhyme_phonStruct="cbcbcb">korona</firstRhyme>
+                    <secondRhyme rhyme_lemma="soha" rhyme_pos="ADV" rhyme_msd="_" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbcb">soha</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w30 #w39">
+                    <firstRhyme rhyme_lemma="ragyog" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbcbc">ragyog</firstRhyme>
+                    <secondRhyme rhyme_lemma="van" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbcbc">vagyok</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w2 #w3 #w4" allStruct="ana" posTags="VERB PRON ADJ" msdTags="Definite=Ind|Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act Case=Sub|Number=Sing|Person=1|PronType=Prs Case=Nom|Degree=Pos|Number=Sing" lemmas="ad én aranyos">adjatok rám aranyos</alliteration>
                 <alliteration target="#w12 #w13 #w14" allStruct="ana" posTags="VERB DET ADJ" msdTags="Definite=Def|Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act Definite=Def|PronType=Art Case=Nom|Degree=Pos|Number=Sing" lemmas="visz a víg">vigyétek a víg</alliteration>

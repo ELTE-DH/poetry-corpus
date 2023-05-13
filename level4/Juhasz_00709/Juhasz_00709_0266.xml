@@ -111,12 +111,12 @@
 		<revisionDesc>
 			<change when="2021-07-05">level1</change>
 			<change when="2021-08-05">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="4" div_numLine="14" div_numWord="72" div_numSyll="150" div_numShortSyll="62" div_numLongSyll="88" div_rhyme="abca|abba|aab|aab" div_syllPattern="10-11-11-10|10-11-11-10|11-11-11|11-11-11">
+            <div type="poem" div_numStanza="4" div_numLine="14" div_numWord="72" div_numSyll="150" div_numShortSyll="62" div_numLongSyll="88" div_rhyme="abca|abba|aab|aab" div_syllPattern="10-11-11-10|10-11-11-10|11-11-11|11-11-11" met_qual="False" met_quan="iambic" met_quanScore="0.64">
                 <head type="title">Egy régi novicius</head>
                 <lg xml:id="lg1" lg_numLine="4" lg_numWord="21" lg_numSyll="42" lg_numShortSyll="16" lg_numLongSyll="26" rhyme="abca" lg_syllPattern="10-11-11-10">
                     <l xml:id="l1" l_numWord="5" l_numSyll="10" l_numShortSyll="2" l_numLongSyll="8" real="0111111101">
@@ -240,7 +240,28 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w5 #w21">
+                    <firstRhyme rhyme_lemma="én" rhyme_pos="PRON" rhyme_msd="Case=Nom|Number=Sing|Person=1|PronType=Prs" rhyme_numSyll="1" rhyme_phonType="high" rhyme_phonStruct="Fc">én</firstRhyme>
+                    <secondRhyme rhyme_lemma="idő" rhyme_pos="NOUN" rhyme_msd="Case=Sup|Number=Sing|Number[psor]=Sing|Person[psor]=3" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="fcfcFc">idején</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w26 #w39">
+                    <firstRhyme rhyme_lemma="ki" rhyme_pos="ADV" rhyme_msd="_" rhyme_numSyll="1" rhyme_phonType="high" rhyme_phonStruct="cf">ki</firstRhyme>
+                    <secondRhyme rhyme_lemma="neki" rhyme_pos="ADV" rhyme_msd="_" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfcf">neki</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w30 #w35">
+                    <firstRhyme rhyme_lemma="csodavirág" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3" rhyme_numSyll="5" rhyme_phonType="mixed" rhyme_phonStruct="cbcbcfcBcb">csodavirága</firstRhyme>
+                    <secondRhyme rhyme_lemma="ifjuság" rhyme_pos="NOUN" rhyme_msd="Case=Sub|Number=Sing" rhyme_numSyll="4" rhyme_phonType="mixed" rhyme_phonStruct="fccbcBccb">ifjuságra</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w43 #w50">
+                    <firstRhyme rhyme_lemma="ima" rhyme_pos="NOUN" rhyme_msd="Case=Sup|Number=Plur" rhyme_numSyll="3" rhyme_phonType="mixed" rhyme_phonStruct="fcBcbc">imákon</firstRhyme>
+                    <secondRhyme rhyme_lemma="világ" rhyme_pos="NOUN" rhyme_msd="Case=Sup|Number=Sing" rhyme_numSyll="3" rhyme_phonType="mixed" rhyme_phonStruct="cfcBcbc">világon</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w60 #w66">
+                    <firstRhyme rhyme_lemma="madonnakép" rhyme_pos="NOUN" rhyme_msd="Case=Sub|Number=Sing" rhyme_numSyll="5" rhyme_phonType="mixed" rhyme_phonStruct="cbcbccbcFccf">Madonnaképre</firstRhyme>
+                    <secondRhyme rhyme_lemma="mélye" rhyme_pos="NOUN" rhyme_msd="Case=Sub|Number=Sing|Number[psor]=Sing|Person[psor]=3" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cFcFcf">mélyére</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w31 #w32" allStruct="aa" posTags="VERB ADV" msdTags="Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act PronType=Art" lemmas="emlékezik e">Emlékezem e</alliteration>
                 <alliteration target="#w35 #w36 #w37" allStruct="ana" posTags="NOUN NOUN NOUN" msdTags="Case=Sub|Number=Sing Case=Nom|Number=Sing Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3" lemmas="ifjuság tömjénes illat">ifjuságra Tömjénes illatát</alliteration>

@@ -120,12 +120,12 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="2" div_numLine="8" div_numWord="34" div_numSyll="62" div_numShortSyll="28" div_numLongSyll="34" div_rhyme="abca|abca" div_syllPattern="9-9-4-9|9-9-4-9">
+            <div type="poem" div_numStanza="2" div_numLine="8" div_numWord="34" div_numSyll="62" div_numShortSyll="28" div_numLongSyll="34" div_rhyme="abca|abca" div_syllPattern="9-9-4-9|9-9-4-9" met_qual="False" met_quan="iambic" met_quanScore="0.62">
                 <head type="title">A MAGYAR VIGASSÁG</head>
                 <lg xml:id="lg1" lg_numLine="4" lg_numWord="15" lg_numSyll="31" lg_numShortSyll="15" lg_numLongSyll="16" rhyme="abca" lg_syllPattern="9-9-4-9">
                     <l xml:id="l1" l_numWord="4" l_numSyll="9" l_numShortSyll="1" l_numLongSyll="8" real="111111011">
@@ -193,7 +193,16 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w4 #w15">
+                    <firstRhyme rhyme_lemma="gazság" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbccBc">gazság</firstRhyme>
+                    <secondRhyme rhyme_lemma="vigasság" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="3" rhyme_phonType="mixed" rhyme_phonStruct="cfcbccBc">vigasság</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w21 #w34">
+                    <firstRhyme rhyme_lemma="vár" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cBcbcc">várunk</firstRhyme>
+                    <secondRhyme rhyme_lemma="halál" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing|Number[psor]=Plur|Person[psor]=1" rhyme_numSyll="3" rhyme_phonType="low" rhyme_phonStruct="cbcBcbcc">halálunk</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w19 #w20" allStruct="aa" posTags="PRON ADV" msdTags="Case=Acc|Number=Sing|Person=3|PronType=Tot PronType=Neg" lemmas="semmi se">semmit se</alliteration>
             </alliterations>

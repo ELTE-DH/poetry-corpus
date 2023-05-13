@@ -111,12 +111,12 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="2" div_numLine="8" div_numWord="42" div_numSyll="64" div_numShortSyll="29" div_numLongSyll="35" div_rhyme="abcb|abcb" div_syllPattern="9-8-9-8|9-8-9-4">
+            <div type="poem" div_numStanza="2" div_numLine="8" div_numWord="42" div_numSyll="64" div_numShortSyll="29" div_numLongSyll="35" div_rhyme="abcb|abcb" div_syllPattern="9-8-9-8|9-8-9-4" met_qual="2-3-2-2_4-4" met_quan="iambic" met_quanScore="0.79">
                 <head type="title">Ki tudja...</head>
                 <lg xml:id="lg1" lg_numLine="4" lg_numWord="20" lg_numSyll="34" lg_numShortSyll="13" lg_numLongSyll="21" rhyme="abcb" lg_syllPattern="9-8-9-8">
                     <l xml:id="l1" l_numWord="5" l_numSyll="9" l_numShortSyll="5" l_numLongSyll="4" real="010101010">
@@ -192,7 +192,16 @@
                 </lg>
                 <p>1906</p>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w11 #w20">
+                    <firstRhyme rhyme_lemma="költemény" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfccfcFc">költemény</firstRhyme>
+                    <secondRhyme rhyme_lemma="álom-rege" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1" rhyme_numSyll="4" rhyme_phonType="mixed" rhyme_phonStruct="BcbccfcFc">álom-regém</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w31 #w42">
+                    <firstRhyme rhyme_lemma="le" rhyme_pos="ADV" rhyme_msd="_" rhyme_numSyll="1" rhyme_phonType="high" rhyme_phonStruct="cf">le</firstRhyme>
+                    <secondRhyme rhyme_lemma="-e" rhyme_pos="ADV" rhyme_msd="PronType=Int" rhyme_numSyll="1" rhyme_phonType="high" rhyme_phonStruct="f">-e</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w16 #w17 #w18" allStruct="ana" posTags="NOUN DET PRON" msdTags="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1 Definite=Def|PronType=Art Case=Nom|Number=Sing|Person=1|PronType=Prs" lemmas="éj az én">éjem az én</alliteration>
                 <alliteration target="#w23 #w24" allStruct="aa" posTags="DET ADJ" msdTags="Definite=Ind|PronType=Art Case=Nom|Degree=Pos|Number=Sing" lemmas="egy ezüstös">egy ezüstös</alliteration>

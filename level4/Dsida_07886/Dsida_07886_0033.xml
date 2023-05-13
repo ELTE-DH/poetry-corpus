@@ -103,12 +103,12 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="3" div_numLine="12" div_numWord="43" div_numSyll="104" div_numShortSyll="47" div_numLongSyll="57" div_rhyme="abcd|aabc|abcd" div_syllPattern="9-9-10-7|10-8-10-8|9-8-11-5">
+            <div type="poem" div_numStanza="3" div_numLine="12" div_numWord="43" div_numSyll="104" div_numShortSyll="47" div_numLongSyll="57" div_rhyme="abcd|aabc|abcd" div_syllPattern="9-9-10-7|10-8-10-8|9-8-11-5" met_qual="False" met_quan="iambic" met_quanScore="0.28">
                 <head type="title">Hazafelé az éjszakában</head>
                 <lg xml:id="lg1" lg_numLine="4" lg_numWord="15" lg_numSyll="35" lg_numShortSyll="16" lg_numLongSyll="19" rhyme="abcd" lg_syllPattern="9-9-10-7">
                     <l xml:id="l1" l_numWord="3" l_numSyll="9" l_numShortSyll="4" l_numLongSyll="5" real="010111100">
@@ -190,7 +190,12 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w19 #w22">
+                    <firstRhyme rhyme_lemma="ablak" rhyme_pos="NOUN" rhyme_msd="Case=Sup|Number=Sing|Number[psor]=Sing|Person[psor]=3" rhyme_numSyll="3" rhyme_phonType="low" rhyme_phonStruct="bccbcBc">ablakán</firstRhyme>
+                    <secondRhyme rhyme_lemma="horkolás" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="3" rhyme_phonType="low" rhyme_phonStruct="cbccbcBc">horkolás</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w9 #w10" allStruct="aa" posTags="NOUN NOUN" msdTags="Case=Nom|Number=Plur Case=Sup|Number=Sing|Number[psor]=Sing|Person[psor]=3" lemmas="titok tó">titkok taván</alliteration>
                 <alliteration target="#w26 #w27 #w28" allStruct="ana" posTags="NOUN ADJ VERB" msdTags="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3 Case=Ess|Degree=Pos|Number=Sing Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" lemmas="füst keserű facsarodik">füstje keserűen facsarodik</alliteration>

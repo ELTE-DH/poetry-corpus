@@ -103,12 +103,12 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="5" div_numLine="20" div_numWord="50" div_numSyll="121" div_numShortSyll="55" div_numLongSyll="66" div_rhyme="abca|abcd|abcd|abaa|aabc" div_syllPattern="4-5-2-12|5-6-2-12|7-5-3-11|5-6-2-10|5-5-4-10">
+            <div type="poem" div_numStanza="5" div_numLine="20" div_numWord="50" div_numSyll="121" div_numShortSyll="55" div_numLongSyll="66" div_rhyme="abca|abcd|abcd|abaa|aabc" div_syllPattern="4-5-2-12|5-6-2-12|7-5-3-11|5-6-2-10|5-5-4-10" met_qual="False" met_quan="trochaic" met_quanScore="0.38">
                 <head type="title">Tündéri éjben érkezel!</head>
                 <lg xml:id="lg1" lg_numLine="4" lg_numWord="10" lg_numSyll="23" lg_numShortSyll="10" lg_numLongSyll="13" rhyme="abca" lg_syllPattern="4-5-2-12">
                     <l xml:id="l1" l_numWord="2" l_numSyll="4" l_numShortSyll="1" l_numLongSyll="3" real="1110">
@@ -222,7 +222,24 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w2 #w10">
+                    <firstRhyme rhyme_lemma="reggel" rhyme_pos="ADV" rhyme_msd="_" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfccfc">reggel</firstRhyme>
+                    <secondRhyme rhyme_lemma="ősfenyő" rhyme_pos="NOUN" rhyme_msd="Case=Acc|Number=Plur" rhyme_numSyll="4" rhyme_phonType="high" rhyme_phonStruct="FccfcFcfc">ősfenyőket</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w32 #w35">
+                    <firstRhyme rhyme_lemma="vattázik" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="3" rhyme_phonType="low" rhyme_phonStruct="cbccBccbc">vattáznak</firstRhyme>
+                    <secondRhyme rhyme_lemma="száj" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=2" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cBcbc">szájad</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w35 #w39">
+                    <firstRhyme rhyme_lemma="száj" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=2" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cBcbc">szájad</firstRhyme>
+                    <secondRhyme rhyme_lemma="halódik" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="3" rhyme_phonType="low" rhyme_phonStruct="cbcBccbc">halódnak</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w41 #w43">
+                    <firstRhyme rhyme_lemma="csillag" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="2" rhyme_phonType="mixed" rhyme_phonStruct="cfccbc">csillag</firstRhyme>
+                    <secondRhyme rhyme_lemma="haj" rhyme_pos="NOUN" rhyme_msd="Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=2" rhyme_numSyll="3" rhyme_phonType="low" rhyme_phonStruct="cbcbccbc">hajadban</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w1 #w2 #w3" allStruct="ana" posTags="VERB ADV VERB" msdTags="Definite=2|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act _ Definite=2|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" lemmas="vár reggel vár">Várlak reggel Várlak</alliteration>
                 <alliteration target="#w17 #w18 #w19 #w20" allStruct="anaa" posTags="ADV VERB ADJ NOUN" msdTags="VerbForm=Trans Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Cau Case=Nom|Degree=Pos|Number=Sing Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3" lemmas="hörög leng hosszú hósörény">hörögve lengeti hosszú hósörényét</alliteration>

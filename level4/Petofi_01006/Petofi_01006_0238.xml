@@ -111,12 +111,12 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="2" div_numLine="8" div_numWord="31" div_numSyll="64" div_numShortSyll="28" div_numLongSyll="36" div_rhyme="abbc|abcb" div_syllPattern="8-8-8-8|8-8-8-8">
+            <div type="poem" div_numStanza="2" div_numLine="8" div_numWord="31" div_numSyll="64" div_numShortSyll="28" div_numLongSyll="36" div_rhyme="abbc|abcb" div_syllPattern="8-8-8-8|8-8-8-8" met_qual="False" met_quan="iambic" met_quanScore="0.66">
                 <head type="title">APÁM MESTERSÉGE S AZ ENYÉM</head>
                 <lg xml:id="lg1" lg_numLine="4" lg_numWord="14" lg_numSyll="32" lg_numShortSyll="10" lg_numLongSyll="22" rhyme="abbc" lg_syllPattern="8-8-8-8">
                     <l xml:id="l1" l_numWord="4" l_numSyll="8" l_numShortSyll="1" l_numLongSyll="7" real="11111101">
@@ -182,7 +182,16 @@
                 </lg>
                 <p>Pest, 1845. január</p>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w6 #w10">
+                    <firstRhyme rhyme_lemma="mesterség" rhyme_pos="NOUN" rhyme_msd="Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=2" rhyme_numSyll="5" rhyme_phonType="high" rhyme_phonStruct="cfccfccFcfcfc">mesterségedet</firstRhyme>
+                    <secondRhyme rhyme_lemma="lesz" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Imp|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfcfc">legyek</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w23 #w31">
+                    <firstRhyme rhyme_lemma="üt" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="fcfc">ütök</firstRhyme>
+                    <secondRhyme rhyme_lemma="nen" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfcfc">nevök</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w6 #w7 #w8 #w9" allStruct="aana" posTags="NOUN VERB SCONJ NOUN" msdTags="Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=2 Definite=Def|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act _ Case=Nom|Number=Sing" lemmas="mesterség mond hogy mészáros">mesterségedet Mondtad hogy mészáros</alliteration>
                 <alliteration target="#w15 #w16 #w17" allStruct="ana" posTags="PRON DET NOUN" msdTags="Case=Nom|Number=Sing|Person=2|PronType=Prs Definite=Def|PronType=Art Case=Ins|Number=Sing" lemmas="te a tagló">Te a taglóval</alliteration>

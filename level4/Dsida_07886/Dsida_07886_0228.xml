@@ -103,12 +103,12 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="3" div_numLine="12" div_numWord="41" div_numSyll="99" div_numShortSyll="48" div_numLongSyll="51" div_rhyme="abac|abcd|abcd" div_syllPattern="2-9-11-8|2-11-12-10|2-11-11-10">
+            <div type="poem" div_numStanza="3" div_numLine="12" div_numWord="41" div_numSyll="99" div_numShortSyll="48" div_numLongSyll="51" div_rhyme="abac|abcd|abcd" div_syllPattern="2-9-11-8|2-11-12-10|2-11-11-10" met_qual="False" met_quan="trochaic" met_quanScore="0.45">
                 <head type="title">Látod? Érzed? Hallod?</head>
                 <lg xml:id="lg1" lg_numLine="4" lg_numWord="13" lg_numSyll="30" lg_numShortSyll="12" lg_numLongSyll="18" rhyme="abac" lg_syllPattern="2-9-11-8">
                     <l xml:id="l1" l_numWord="1" l_numSyll="2" l_numShortSyll="1" l_numLongSyll="1" real="10">
@@ -193,7 +193,12 @@
                 </lg>
                 <p>1927.</p>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w1 #w10">
+                    <firstRhyme rhyme_lemma="lát" rhyme_pos="VERB" rhyme_msd="Definite=Def|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cBcbc">Látod</firstRhyme>
+                    <secondRhyme rhyme_lemma="hurok" rhyme_pos="NOUN" rhyme_msd="Case=Acc|Number=Sing" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbccbc">hurkot</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w10 #w11 #w12" allStruct="ana" posTags="NOUN CONJ ADV" msdTags="Case=Acc|Number=Sing _ _" lemmas="hurok és hiába">hurkot és hiába</alliteration>
                 <alliteration target="#w17 #w18" allStruct="aa" posTags="NOUN NOUN" msdTags="Case=Nom|Number=Plur Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3" lemmas="ibolya illat">ibolyák illata</alliteration>

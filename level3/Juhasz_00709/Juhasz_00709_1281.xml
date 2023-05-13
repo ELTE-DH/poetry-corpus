@@ -114,14 +114,14 @@
 		<revisionDesc>
 			<change when="2021-07-05">level1</change>
 			<change when="2021-08-05">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
 	<text>
 		<body>
-			<div>
+			<div met="Qual=False|Quan=iambic|QuanScore=0.38">
 				<head>Zsolozsma [2]</head>
-				<lg rhyme="aaba" xml:id="lg1">
+				<lg rhyme="abcb" xml:id="lg1">
 					<l n="9" real="101010010" xml:id="l1">
 						<w lemma="Mária" msd="Case=Acc|Number=Sing" pos="PROPN" type="Mária[/N]=Máriá+t[Acc]=t" xml:id="w1">Máriát</w>
 						<w lemma="dicsér" msd="Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" type="dicsér[/V]=dicsér+ik[Prs.Def.3Pl]=ik" xml:id="w2">dicsérik</w>
@@ -155,7 +155,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc5">.</pc>
 					</l>
 				</lg>
-				<lg rhyme="abbb" xml:id="lg2">
+				<lg rhyme="abcb" xml:id="lg2">
 					<l n="9" real="011110110" xml:id="l5">
 						<w lemma="keresztény" msd="Case=Dat|Number=Plur" pos="NOUN" type="keresztény[/N]=keresztény+ek[Pl]=ek+nek[Dat]=nek" xml:id="w20">Keresztényeknek</w>
 						<w lemma="segítség" msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3" pos="NOUN" type="segítség[/N]=segítség+e[Poss.3Sg]=e+[Nom]=" xml:id="w21">segítsége</w>
@@ -216,6 +216,10 @@
 				<span subtype="2" target="#w31" type="high">cfcfc</span>
 				<span subtype="4" target="#w32" type="mixed">cfcbcbccb</span>
 			</spanGrp>
+			<linkGrp type="rhymePairs">
+				<link target="#w10 #w19"/>
+				<link target="#w23 #w32"/>
+			</linkGrp>
 			<spanGrp type="alliterations">
 				<span target="#w11 #w12 #w13 #w14" type="anaa"/>
 				<span target="#w31 #w32" type="aa"/>

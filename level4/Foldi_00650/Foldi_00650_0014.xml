@@ -100,12 +100,12 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="1" div_numLine="4" div_numWord="21" div_numSyll="48" div_numShortSyll="33" div_numLongSyll="15" div_rhyme="aaaa" div_syllPattern="12-12-12-12">
+            <div type="poem" div_numStanza="1" div_numLine="4" div_numWord="21" div_numSyll="48" div_numShortSyll="33" div_numLongSyll="15" div_rhyme="aaaa" div_syllPattern="12-12-12-12" met_qual="6-2-4" met_quan="iambic" met_quanScore="0.47">
                 <head type="title">Vége koronázza...</head>
                 <lg xml:id="lg1" lg_numLine="4" lg_numWord="21" lg_numSyll="48" lg_numShortSyll="33" lg_numLongSyll="15" rhyme="aaaa" lg_syllPattern="12-12-12-12">
                     <l xml:id="l1" l_numWord="4" l_numSyll="12" l_numShortSyll="10" l_numLongSyll="2" real="100010000000">
@@ -145,7 +145,20 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w4 #w10">
+                    <firstRhyme rhyme_lemma="tselekedet" rhyme_pos="NOUN" rhyme_msd="Case=Acc|Number=Sing" rhyme_numSyll="5" rhyme_phonType="high" rhyme_phonStruct="ccfcfcfcfcfc">tselekedetet</firstRhyme>
+                    <secondRhyme rhyme_lemma="végezet" rhyme_pos="NOUN" rhyme_msd="Case=Acc|Number=Sing" rhyme_numSyll="4" rhyme_phonType="high" rhyme_phonStruct="cFcfcfcfc">végezetet</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w10 #w15">
+                    <firstRhyme rhyme_lemma="végezet" rhyme_pos="NOUN" rhyme_msd="Case=Acc|Number=Sing" rhyme_numSyll="4" rhyme_phonType="high" rhyme_phonStruct="cFcfcfcfc">végezetet</firstRhyme>
+                    <secondRhyme rhyme_lemma="itélet" rhyme_pos="NOUN" rhyme_msd="Case=Acc|Number=Sing" rhyme_numSyll="4" rhyme_phonType="high" rhyme_phonStruct="fcFcfcfc">itéletet</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w15 #w21">
+                    <firstRhyme rhyme_lemma="itélet" rhyme_pos="NOUN" rhyme_msd="Case=Acc|Number=Sing" rhyme_numSyll="4" rhyme_phonType="high" rhyme_phonStruct="fcFcfcfc">itéletet</firstRhyme>
+                    <secondRhyme rhyme_lemma="élet" rhyme_pos="NOUN" rhyme_msd="Case=Acc|Number=Sing" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="Fcfcfc">életet</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w5 #w6 #w7" allStruct="ana" posTags="PROPN NOUN NOUN" msdTags="Case=Nom|Number=Sing Case=Nom|Number=Sing Case=Nom|Number=Sing" lemmas="Mig valamelly munka">Mig valamelly munka</alliteration>
                 <alliteration target="#w14 #w15" allStruct="aa" posTags="ADJ NOUN" msdTags="Case=Nom|Degree=Pos|Number=Sing Case=Acc|Number=Sing" lemmas="igaz itélet">igaz itéletet</alliteration>

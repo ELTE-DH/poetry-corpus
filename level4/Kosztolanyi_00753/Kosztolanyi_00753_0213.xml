@@ -111,12 +111,12 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="4" div_numLine="14" div_numWord="85" div_numSyll="154" div_numShortSyll="69" div_numLongSyll="85" div_rhyme="abba|abba|aab|aab" div_syllPattern="11-11-11-11|11-11-11-11|11-11-11|11-11-11">
+            <div type="poem" div_numStanza="4" div_numLine="14" div_numWord="85" div_numSyll="154" div_numShortSyll="69" div_numLongSyll="85" div_rhyme="abba|abba|aab|aab" div_syllPattern="11-11-11-11|11-11-11-11|11-11-11|11-11-11" met_qual="False" met_quan="iambic" met_quanScore="0.63">
                 <head type="title">A lány a sötét szobába megy</head>
                 <lg xml:id="lg1" lg_numLine="4" lg_numWord="23" lg_numSyll="44" lg_numShortSyll="18" lg_numLongSyll="26" rhyme="abba" lg_syllPattern="11-11-11-11">
                     <l xml:id="l1" l_numWord="8" l_numSyll="11" l_numShortSyll="4" l_numLongSyll="7" real="11000111011">
@@ -262,7 +262,32 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w8 #w23">
+                    <firstRhyme rhyme_lemma="mert" rhyme_pos="SCONJ" rhyme_msd="_" rhyme_numSyll="1" rhyme_phonType="high" rhyme_phonStruct="cfcc">mert</firstRhyme>
+                    <secondRhyme rhyme_lemma="ismeretlen" rhyme_pos="NOUN" rhyme_msd="Case=Acc|Number=Sing" rhyme_numSyll="4" rhyme_phonType="high" rhyme_phonStruct="fccfcfccfcc">ismeretlent</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w13 #w18">
+                    <firstRhyme rhyme_lemma="világít" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="3" rhyme_phonType="mixed" rhyme_phonStruct="cfcBcFc">világít</firstRhyme>
+                    <secondRhyme rhyme_lemma="csoda" rhyme_pos="NOUN" rhyme_msd="Case=Acc|Number=Plur|Number[psor]=Sing|Person[psor]=3" rhyme_numSyll="3" rhyme_phonType="mixed" rhyme_phonStruct="cbcBfc">csodáit</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w32 #w48">
+                    <firstRhyme rhyme_lemma="senki" rhyme_pos="PRON" rhyme_msd="Case=Nom|Number=Sing|Person=3|PronType=Tot" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfccf">senki</firstRhyme>
+                    <secondRhyme rhyme_lemma="sejt" rhyme_pos="VERB" rhyme_msd="Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfccf">sejti</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w36 #w41">
+                    <firstRhyme rhyme_lemma="messze" rhyme_pos="ADV" rhyme_msd="_" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfccf">messze</firstRhyme>
+                    <secondRhyme rhyme_lemma="betemet" rhyme_pos="VERB" rhyme_msd="Definite=Def|Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="4" rhyme_phonType="high" rhyme_phonStruct="cfcfcfccf">betemesse</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w54 #w62">
+                    <firstRhyme rhyme_lemma="mosoly" rhyme_pos="NOUN" rhyme_msd="Case=Abl|Number=Sing|Number[psor]=Sing|Person[psor]=3" rhyme_numSyll="4" rhyme_phonType="low" rhyme_phonStruct="cbcbcBcBc">mosolyától</firstRhyme>
+                    <secondRhyme rhyme_lemma="távol" rhyme_pos="ADV" rhyme_msd="_" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cBcbc">távol</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w73 #w79">
+                    <firstRhyme rhyme_lemma="áldó" rhyme_pos="ADJ" rhyme_msd="Case=Ess|Degree=Pos|Number=Sing" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="BccBc">áldón</firstRhyme>
+                    <secondRhyme rhyme_lemma="homály" rhyme_pos="NOUN" rhyme_msd="Case=Sup|Number=Sing" rhyme_numSyll="3" rhyme_phonType="low" rhyme_phonStruct="cbcBcbc">homályon</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w1 #w2 #w3 #w4 #w5" allStruct="anana" posTags="ADV VERB PRON DET ADJ" msdTags="_ Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act Case=Acc|Number=Sing|Person=3|PronType=Rel Definite=Def|PronType=Art Case=Nom|Degree=Pos|Number=Sing" lemmas="már tud ami a másik">Már tudta mit a másik</alliteration>
                 <alliteration target="#w20 #w21 #w22" allStruct="aaa" posTags="ADV ADJ ADJ" msdTags="VerbForm=Trans Case=Nom|Degree=Pos|Number=Sing Case=Nom|Degree=Pos|Number=Sing" lemmas="ég égő élő">égve égő élő</alliteration>

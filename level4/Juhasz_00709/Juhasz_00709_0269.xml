@@ -111,12 +111,12 @@
 		<revisionDesc>
 			<change when="2021-07-05">level1</change>
 			<change when="2021-08-05">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="4" div_numLine="14" div_numWord="83" div_numSyll="148" div_numShortSyll="66" div_numLongSyll="82" div_rhyme="abab|abab|aab|aab" div_syllPattern="11-10-11-10|11-10-11-10|11-11-10|11-11-10">
+            <div type="poem" div_numStanza="4" div_numLine="14" div_numWord="83" div_numSyll="148" div_numShortSyll="66" div_numLongSyll="82" div_rhyme="abab|abab|aab|aab" div_syllPattern="11-10-11-10|11-10-11-10|11-11-10|11-11-10" met_qual="False" met_quan="iambic" met_quanScore="0.61">
                 <head type="title">Shakespeare estéje</head>
                 <lg xml:id="lg1" lg_numLine="4" lg_numWord="24" lg_numSyll="42" lg_numShortSyll="20" lg_numLongSyll="22" rhyme="abab" lg_syllPattern="11-10-11-10">
                     <l xml:id="l1" l_numWord="6" l_numSyll="11" l_numShortSyll="6" l_numLongSyll="5" real="01010101010">
@@ -260,7 +260,32 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w6 #w15">
+                    <firstRhyme rhyme_lemma="köd" rhyme_pos="NOUN" rhyme_msd="Case=Ine|Number=Sing" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfccfc">ködben</firstRhyme>
+                    <secondRhyme rhyme_lemma="kelő" rhyme_pos="ADJ" rhyme_msd="Case=Ine|Degree=Pos|Number=Sing" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfcFcfc">kelőben</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w10 #w24">
+                    <firstRhyme rhyme_lemma="homály" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbcBc">homály</firstRhyme>
+                    <secondRhyme rhyme_lemma="már" rhyme_pos="ADV" rhyme_msd="_" rhyme_numSyll="1" rhyme_phonType="low" rhyme_phonStruct="cBc">már</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w29 #w42">
+                    <firstRhyme rhyme_lemma="jár" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cBccbc">járnak</firstRhyme>
+                    <secondRhyme rhyme_lemma="nyár" rhyme_pos="NOUN" rhyme_msd="Case=Dat|Number=Sing" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cBccbc">nyárnak</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w35 #w51">
+                    <firstRhyme rhyme_lemma="határ" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbcBc">határ</firstRhyme>
+                    <secondRhyme rhyme_lemma="már" rhyme_pos="ADV" rhyme_msd="_" rhyme_numSyll="1" rhyme_phonType="low" rhyme_phonStruct="cBc">már</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w57 #w63">
+                    <firstRhyme rhyme_lemma="gally" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Plur" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbccbc">gallyak</firstRhyme>
+                    <secondRhyme rhyme_lemma="varjú" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Plur" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbccbc">varjak</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w71 #w77">
+                    <firstRhyme rhyme_lemma="szín" rhyme_pos="NOUN" rhyme_msd="Case=Ins|Number=Plur" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cFcfccfc">színekkel</firstRhyme>
+                    <secondRhyme rhyme_lemma="ember" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="fccfc">Ember</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w33 #w34 #w35" allStruct="ana" posTags="VERB DET NOUN" msdTags="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act Definite=Def|PronType=Art Case=Nom|Number=Sing" lemmas="halódik a határ">halódik a határ</alliteration>
                 <alliteration target="#w39 #w40" allStruct="aa" posTags="NOUN VERB" msdTags="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3 Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" lemmas="vég van">vége van</alliteration>

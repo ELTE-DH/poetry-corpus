@@ -103,12 +103,12 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="3" div_numLine="9" div_numWord="49" div_numSyll="100" div_numShortSyll="45" div_numLongSyll="55" div_rhyme="aaba|abca|a" div_syllPattern="12-12-12-8|12-12-12-8|12">
+            <div type="poem" div_numStanza="3" div_numLine="9" div_numWord="49" div_numSyll="100" div_numShortSyll="45" div_numLongSyll="55" div_rhyme="aaba|abca|a" div_syllPattern="12-12-12-8|12-12-12-8|12" met_qual="False" met_quan="iambic" met_quanScore="0.6">
                 <head type="title">ALKONY, BARNA HAJÓS...</head>
                 <lg xml:id="lg1" lg_numLine="4" lg_numWord="24" lg_numSyll="44" lg_numShortSyll="19" lg_numLongSyll="25" rhyme="aaba" lg_syllPattern="12-12-12-8">
                     <l xml:id="l1" l_numWord="6" l_numSyll="12" l_numShortSyll="5" l_numLongSyll="7" real="111001100101">
@@ -200,7 +200,20 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w6 #w11">
+                    <firstRhyme rhyme_lemma="víz" rhyme_pos="NOUN" rhyme_msd="Case=Sup|Number=Sing|Number[psor]=Sing|Person[psor]=3" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfcFc">vizén</firstRhyme>
+                    <secondRhyme rhyme_lemma="vitorla" rhyme_pos="NOUN" rhyme_msd="Case=Ess|Number=Sing" rhyme_numSyll="4" rhyme_phonType="mixed" rhyme_phonStruct="cfcbccbcFcc">vitorlaként</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w11 #w24">
+                    <firstRhyme rhyme_lemma="vitorla" rhyme_pos="NOUN" rhyme_msd="Case=Ess|Number=Sing" rhyme_numSyll="4" rhyme_phonType="mixed" rhyme_phonStruct="cfcbccbcFcc">vitorlaként</firstRhyme>
+                    <secondRhyme rhyme_lemma="tér" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="1" rhyme_phonType="high" rhyme_phonStruct="cFc">tér</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w30 #w44">
+                    <firstRhyme rhyme_lemma="regés" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfcFc">Regés</firstRhyme>
+                    <secondRhyme rhyme_lemma="szőnyeg" rhyme_pos="NOUN" rhyme_msd="Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cFcfcFc">szőnyegét</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w7 #w8 #w9" allStruct="ana" posTags="NOUN PRON VERB" msdTags="Case=Acc|Number=Sing Case=Nom|Number=Sing|Person=3|PronType=Rel Definite=Ind|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act" lemmas="felhő aki feszít">Felhőt aki feszítsz</alliteration>
                 <alliteration target="#w17 #w18 #w19" allStruct="ana" posTags="ADJ NOUN ADP" msdTags="Case=Nom|Degree=Pos|Number=Sing Case=Nom|Number=Plur _" lemmas="kigyúlt lámpasor között">kigyúlt lámpasorok között</alliteration>

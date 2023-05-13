@@ -108,12 +108,12 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="2" div_numLine="8" div_numWord="35" div_numSyll="64" div_numShortSyll="35" div_numLongSyll="29" div_rhyme="aabb|aabb" div_syllPattern="8-8-8-8|8-8-8-8">
+            <div type="poem" div_numStanza="2" div_numLine="8" div_numWord="35" div_numSyll="64" div_numShortSyll="35" div_numLongSyll="29" div_rhyme="aabb|aabb" div_syllPattern="8-8-8-8|8-8-8-8" met_qual="4-4" met_quan="trochaic" met_quanScore="0.66">
                 <head type="title">XI. Rajta, rajta! Éld világod!</head>
                 <lg xml:id="lg1" lg_numLine="4" lg_numWord="16" lg_numSyll="32" lg_numShortSyll="16" lg_numLongSyll="16" rhyme="aabb" lg_syllPattern="8-8-8-8">
                     <l xml:id="l1" l_numWord="4" l_numSyll="8" l_numShortSyll="4" l_numLongSyll="4" real="10101010">
@@ -184,7 +184,24 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w4 #w8">
+                    <firstRhyme rhyme_lemma="világ" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=2" rhyme_numSyll="3" rhyme_phonType="mixed" rhyme_phonStruct="cfcBcbc">világod</firstRhyme>
+                    <secondRhyme rhyme_lemma="igazság" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=2" rhyme_numSyll="4" rhyme_phonType="mixed" rhyme_phonStruct="fcbccBcbc">igazságod</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w13 #w16">
+                    <firstRhyme rhyme_lemma="ér" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="Fccfc">érjen</firstRhyme>
+                    <secondRhyme rhyme_lemma="szégyen" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cFcfc">szégyen</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w20 #w26">
+                    <firstRhyme rhyme_lemma="rend" rhyme_pos="NOUN" rhyme_msd="Case=Acc|Number=Sing" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfccfc">rendet</firstRhyme>
+                    <secondRhyme rhyme_lemma="szenved" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfccfc">szenved</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w32 #w35">
+                    <firstRhyme rhyme_lemma="hagy" rhyme_pos="VERB" rhyme_msd="Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbccb">hagyja</firstRhyme>
+                    <secondRhyme rhyme_lemma="istenadta" rhyme_pos="ADJ" rhyme_msd="Case=Nom|Degree=Pos|Number=Sing" rhyme_numSyll="4" rhyme_phonType="mixed" rhyme_phonStruct="fccfcbccb">istenadta</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w1 #w2" allStruct="aa" posTags="INTJ INTJ" msdTags="_ _" lemmas="rajta rajta">Rajta rajta</alliteration>
                 <alliteration target="#w6 #w7 #w8" allStruct="ana" posTags="PRON VERB NOUN" msdTags="Case=Nom|Number=Sing|Person=3|PronType=Prs Definite=Ind|Mood=Pot|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=2" lemmas="így van igazság">így lehet igazságod</alliteration>

@@ -111,12 +111,12 @@
 		<revisionDesc>
 			<change when="2021-07-05">level1</change>
 			<change when="2021-08-05">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="1" div_numLine="4" div_numWord="21" div_numSyll="32" div_numShortSyll="16" div_numLongSyll="16" div_rhyme="aaaa" div_syllPattern="8-8-8-8">
+            <div type="poem" div_numStanza="1" div_numLine="4" div_numWord="21" div_numSyll="32" div_numShortSyll="16" div_numLongSyll="16" div_rhyme="aaaa" div_syllPattern="8-8-8-8" met_qual="2-1-3-2" met_quan="iambic" met_quanScore="0.8">
                 <head type="title">(Dedikáció)</head>
                 <lg xml:id="lg1" lg_numLine="4" lg_numWord="21" lg_numSyll="32" lg_numShortSyll="16" lg_numLongSyll="16" rhyme="aaaa" lg_syllPattern="8-8-8-8">
                     <l xml:id="l1" l_numWord="6" l_numSyll="8" l_numShortSyll="5" l_numLongSyll="3" real="00110100">
@@ -156,7 +156,20 @@
                 </lg>
                 <p>1919</p>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w6 #w11">
+                    <firstRhyme rhyme_lemma="bor" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbcbc">borom</firstRhyme>
+                    <secondRhyme rhyme_lemma="mámor" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1" rhyme_numSyll="3" rhyme_phonType="low" rhyme_phonStruct="cBcbcbc">mámorom</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w11 #w16">
+                    <firstRhyme rhyme_lemma="mámor" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1" rhyme_numSyll="3" rhyme_phonType="low" rhyme_phonStruct="cBcbcbc">mámorom</firstRhyme>
+                    <secondRhyme rhyme_lemma="bizony" rhyme_pos="ADV" rhyme_msd="_" rhyme_numSyll="2" rhyme_phonType="mixed" rhyme_phonStruct="cfcbc">bizony</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w16 #w21">
+                    <firstRhyme rhyme_lemma="bizony" rhyme_pos="ADV" rhyme_msd="_" rhyme_numSyll="2" rhyme_phonType="mixed" rhyme_phonStruct="cfcbc">bizony</firstRhyme>
+                    <secondRhyme rhyme_lemma="iszik" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="mixed" rhyme_phonStruct="fcbc">iszom</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w14 #w15 #w16" allStruct="ana" posTags="ADJ NOUN ADV" msdTags="Case=Nom|Degree=Pos|Number=Sing Case=Nom|Number=Sing _" lemmas="bús mámor bizony">bús mámor bizony</alliteration>
             </alliterations>

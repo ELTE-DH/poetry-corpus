@@ -112,12 +112,12 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="3" div_numLine="9" div_numWord="38" div_numSyll="74" div_numShortSyll="37" div_numLongSyll="37" div_rhyme="abba|aaa|aa" div_syllPattern="6-6-6-10|10-4-10|11-11">
+            <div type="poem" div_numStanza="3" div_numLine="9" div_numWord="38" div_numSyll="74" div_numShortSyll="37" div_numLongSyll="37" div_rhyme="abba|aaa|aa" div_syllPattern="6-6-6-10|10-4-10|11-11" met_qual="False" met_quan="iambic" met_quanScore="0.72">
                 <head type="title">Jelek</head>
                 <lg xml:id="lg1" lg_numLine="4" lg_numWord="15" lg_numSyll="28" lg_numShortSyll="11" lg_numLongSyll="17" rhyme="abba" lg_syllPattern="6-6-6-10">
                     <l xml:id="l1" l_numWord="4" l_numSyll="6" l_numShortSyll="4" l_numLongSyll="2" real="010100">
@@ -193,7 +193,28 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w4 #w15">
+                    <firstRhyme rhyme_lemma="én" rhyme_pos="PRON" rhyme_msd="Case=Dat|Number=Sing|Person=1|PronType=Prs" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfcfc">nekem</firstRhyme>
+                    <secondRhyme rhyme_lemma="közel" rhyme_pos="ADV" rhyme_msd="Degree=Cmp" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfcfcfcc">közelebb</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w7 #w11">
+                    <firstRhyme rhyme_lemma="tud" rhyme_pos="VERB" rhyme_msd="Definite=Def|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbcbc">tudod</firstRhyme>
+                    <secondRhyme rhyme_lemma="jut" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbcbcc">jutott</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w21 #w23">
+                    <firstRhyme rhyme_lemma="jel" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Plur" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfcfc">jelek</firstRhyme>
+                    <secondRhyme rhyme_lemma="jel" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Plur" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfcfc">jelek</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w23 #w27">
+                    <firstRhyme rhyme_lemma="jel" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Plur" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfcfc">jelek</firstRhyme>
+                    <secondRhyme rhyme_lemma="egyéb" rhyme_pos="NOUN" rhyme_msd="Case=Acc|Number=Sing" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="fcfcfc">egyebet</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w35 #w38">
+                    <firstRhyme rhyme_lemma="van" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="1" rhyme_phonType="low" rhyme_phonStruct="cbc">van</firstRhyme>
+                    <secondRhyme rhyme_lemma="önmaga" rhyme_pos="PRON" rhyme_msd="Case=Ine|Number=Sing|Person=3|Reflex=Yes" rhyme_numSyll="4" rhyme_phonType="mixed" rhyme_phonStruct="fccbcBcbc">önmagában</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w5 #w6 #w7" allStruct="ana" posTags="NOUN ADV VERB" msdTags="Case=Nom|Number=Sing _ Definite=Def|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act" lemmas="testvér dehogy tud">Testvér Dehogy tudod</alliteration>
                 <alliteration target="#w9 #w10" allStruct="aa" posTags="PRON ADV" msdTags="Case=Nom|Number=Sing|Person=3|PronType=Tot PronType=Neg" lemmas="senki sem">senki sem</alliteration>

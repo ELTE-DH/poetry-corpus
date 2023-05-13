@@ -103,12 +103,12 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="3" div_numLine="14" div_numWord="60" div_numSyll="128" div_numShortSyll="59" div_numLongSyll="69" div_rhyme="abba|aaba|aabcdc" div_syllPattern="9-11-11-7|9-9-9-9|7-11-7-7-11-11">
+            <div type="poem" div_numStanza="3" div_numLine="14" div_numWord="60" div_numSyll="128" div_numShortSyll="59" div_numLongSyll="69" div_rhyme="abba|aaba|aabcdc" div_syllPattern="9-11-11-7|9-9-9-9|7-11-7-7-11-11" met_qual="False" met_quan="iambic" met_quanScore="0.49">
                 <head type="title">Amundsen</head>
                 <lg xml:id="lg1" lg_numLine="4" lg_numWord="19" lg_numSyll="38" lg_numShortSyll="20" lg_numLongSyll="18" rhyme="abba" lg_syllPattern="9-11-11-7">
                     <l xml:id="l1" l_numWord="4" l_numSyll="9" l_numShortSyll="5" l_numLongSyll="4" real="110001010">
@@ -221,7 +221,32 @@
                 </lg>
                 <p>1925. május 16.</p>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w4 #w19">
+                    <firstRhyme rhyme_lemma="szem" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="1" rhyme_phonType="high" rhyme_phonStruct="cfc">szem</firstRhyme>
+                    <secondRhyme rhyme_lemma="Amundsen" rhyme_pos="PROPN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="3" rhyme_phonType="mixed" rhyme_phonStruct="bcbcccfc">Amundsen</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w10 #w15">
+                    <firstRhyme rhyme_lemma="előre" rhyme_pos="ADV" rhyme_msd="_" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="fcFcf">előre</firstRhyme>
+                    <secondRhyme rhyme_lemma="jégmező" rhyme_pos="NOUN" rhyme_msd="Case=Sub|Number=Sing" rhyme_numSyll="4" rhyme_phonType="high" rhyme_phonStruct="cFccfcFcf">jégmezőre</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w24 #w28">
+                    <firstRhyme rhyme_lemma="sok" rhyme_pos="NUM" rhyme_msd="Case=Sub|Number=Sing|NumType=Card" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbccb">sokra</firstRhyme>
+                    <secondRhyme rhyme_lemma="India" rhyme_pos="PROPN" rhyme_msd="Case=Sub|Number=Sing" rhyme_numSyll="4" rhyme_phonType="mixed" rhyme_phonStruct="fccfBcb">Indiára</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w28 #w35">
+                    <firstRhyme rhyme_lemma="India" rhyme_pos="PROPN" rhyme_msd="Case=Sub|Number=Sing" rhyme_numSyll="4" rhyme_phonType="mixed" rhyme_phonStruct="fccfBcb">Indiára</firstRhyme>
+                    <secondRhyme rhyme_lemma="pólus" rhyme_pos="NOUN" rhyme_msd="Case=Sub|Number=Plur" rhyme_numSyll="4" rhyme_phonType="low" rhyme_phonStruct="cBcbcbccb">pólusokra</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w38 #w42">
+                    <firstRhyme rhyme_lemma="mászik" rhyme_pos="VERB" rhyme_msd="Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cBccbc">másztam</firstRhyme>
+                    <secondRhyme rhyme_lemma="bányászik" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act" rhyme_numSyll="3" rhyme_phonType="low" rhyme_phonStruct="cBcBccbc">bányásztam</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w51 #w60">
+                    <firstRhyme rhyme_lemma="végre" rhyme_pos="ADV" rhyme_msd="_" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cFccf">végre</firstRhyme>
+                    <secondRhyme rhyme_lemma="jég" rhyme_pos="NOUN" rhyme_msd="Case=Ill|Number=Sing" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cFccf">jégbe</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w22 #w23 #w24" allStruct="ana" posTags="ADV VERB NUM" msdTags="_ Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act Case=Sub|Number=Sing|NumType=Card" lemmas="sohse vágyik sok">sohse vágytam sokra</alliteration>
                 <alliteration target="#w37 #w38" allStruct="aa" posTags="NOUN VERB" msdTags="Case=Sub|Number=Sing|Number[psor]=Sing|Person[psor]=3 Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act" lemmas="mélye mászik">mélyére másztam</alliteration>

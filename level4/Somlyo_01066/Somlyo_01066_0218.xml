@@ -108,12 +108,12 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="4" div_numLine="12" div_numWord="46" div_numSyll="80" div_numShortSyll="42" div_numLongSyll="38" div_rhyme="aab|aab|aab|aaa" div_syllPattern="10-4-6|10-4-6|11-4-6|9-4-6">
+            <div type="poem" div_numStanza="4" div_numLine="12" div_numWord="46" div_numSyll="80" div_numShortSyll="42" div_numLongSyll="38" div_rhyme="aab|aab|aab|aab" div_syllPattern="10-4-6|10-4-6|11-4-6|9-4-6" met_qual="False" met_quan="trochaic" met_quanScore="0.42">
                 <head type="title">SZERELEM</head>
                 <lg xml:id="lg1" lg_numLine="3" lg_numWord="13" lg_numSyll="20" lg_numShortSyll="8" lg_numLongSyll="12" rhyme="aab" lg_syllPattern="10-4-6">
                     <l xml:id="l1" l_numWord="4" l_numSyll="10" l_numShortSyll="5" l_numLongSyll="5" real="1100110010">
@@ -186,7 +186,7 @@
                         <pc xml:id="pc12" pos="PUNCT" join="left">.</pc>
                     </l>
                 </lg>
-                <lg xml:id="lg4" lg_numLine="3" lg_numWord="11" lg_numSyll="19" lg_numShortSyll="9" lg_numLongSyll="10" rhyme="aaa" lg_syllPattern="9-4-6">
+                <lg xml:id="lg4" lg_numLine="3" lg_numWord="11" lg_numSyll="19" lg_numShortSyll="9" lg_numLongSyll="10" rhyme="aab" lg_syllPattern="9-4-6">
                     <l xml:id="l10" l_numWord="5" l_numSyll="9" l_numShortSyll="5" l_numLongSyll="4" real="010101010">
                         <w xml:id="w36" lemma="s" pos="CONJ" msd="_" w_numSyll="0" phonType="noVowels" phonStruct="c">S</w>
                         <w xml:id="w37" lemma="az" pos="DET" msd="Definite=Def|PronType=Art" w_numSyll="1" phonType="low" phonStruct="bc">az</w>
@@ -211,7 +211,24 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w4 #w8">
+                    <firstRhyme rhyme_lemma="valahonnan" rhyme_pos="PRON" rhyme_msd="Case=Nom|Number=Sing|Person=3|PronType=Prs" rhyme_numSyll="4" rhyme_phonType="low" rhyme_phonStruct="cbcbcbccbc">valahonnan</firstRhyme>
+                    <secondRhyme rhyme_lemma="?.." rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="" rhyme_phonType="" rhyme_phonStruct="">?..</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w16 #w20">
+                    <firstRhyme rhyme_lemma="valamerre" rhyme_pos="PRON" rhyme_msd="Case=Nom|Number=Sing|Person=3|PronType=Prs" rhyme_numSyll="4" rhyme_phonType="mixed" rhyme_phonStruct="cbcbcfccf">valamerre</firstRhyme>
+                    <secondRhyme rhyme_lemma="?.." rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="" rhyme_phonType="" rhyme_phonStruct="">?..</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w27 #w31">
+                    <firstRhyme rhyme_lemma="valameddig" rhyme_pos="PRON" rhyme_msd="Case=Nom|Number=Sing|Person=3|PronType=Prs" rhyme_numSyll="4" rhyme_phonType="mixed" rhyme_phonStruct="cbcbcfccfc">valameddig</firstRhyme>
+                    <secondRhyme rhyme_lemma="?.." rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="" rhyme_phonType="" rhyme_phonStruct="">?..</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w40 #w42">
+                    <firstRhyme rhyme_lemma="megcsudál" rhyme_pos="VERB" rhyme_msd="Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="4" rhyme_phonType="mixed" rhyme_phonStruct="cfccbcBcbc">megcsudálom</firstRhyme>
+                    <secondRhyme rhyme_lemma="álom" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="Bcbc">Álom</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w1 #w2" allStruct="aa" posTags="VERB DET" msdTags="Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act Definite=Ind|PronType=Art" lemmas="ellop egy">Elloptam egy</alliteration>
                 <alliteration target="#w5 #w7" allStruct="aa" posTags="PRON PRON" msdTags="Case=Nom|Number=Sing|Person=3|PronType=Int Case=Nom|Number=Sing|Person=3|PronType=Int" lemmas="honnan honnan">Honnan Honnan</alliteration>

@@ -132,15 +132,15 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="3" div_numLine="12" div_numWord="47" div_numSyll="78" div_numShortSyll="39" div_numLongSyll="39" div_rhyme="abab|abcb|abcb" div_syllPattern="7-6-7-6|7-6-7-6|7-6-7-6">
+            <div type="poem" div_numStanza="3" div_numLine="12" div_numWord="47" div_numSyll="78" div_numShortSyll="39" div_numLongSyll="39" div_rhyme="abcb|abcb|abcb" div_syllPattern="7-6-7-6|7-6-7-6|7-6-7-6" met_qual="False" met_quan="iambic" met_quanScore="0.69">
                 <head type="title">VÉGPONT</head>
                 <p>Punctum finale</p>
-                <lg xml:id="lg1" lg_numLine="4" lg_numWord="15" lg_numSyll="26" lg_numShortSyll="10" lg_numLongSyll="16" rhyme="abab" lg_syllPattern="7-6-7-6">
+                <lg xml:id="lg1" lg_numLine="4" lg_numWord="15" lg_numSyll="26" lg_numShortSyll="10" lg_numLongSyll="16" rhyme="abcb" lg_syllPattern="7-6-7-6">
                     <l xml:id="l1" l_numWord="3" l_numSyll="7" l_numShortSyll="3" l_numLongSyll="4" real="1101010">
                         <w xml:id="w1" lemma="sebtében" pos="ADV" msd="_" w_numSyll="3" phonType="high" phonStruct="cfccFcfc">Sebtében</w>
                         <w xml:id="w2" lemma="eddig" pos="PRON" msd="Case=Nom|Number=Sing|Person=3|PronType=Prs" w_numSyll="2" phonType="high" phonStruct="fccfc">eddig</w>
@@ -233,7 +233,20 @@
                 </lg>
                 <p>(1877 szept. 11)</p>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w7 #w15">
+                    <firstRhyme rhyme_lemma="kevés" rhyme_pos="NUM" rhyme_msd="Case=Nom|Number=Sing|NumType=Card" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfcFc">kevés</firstRhyme>
+                    <secondRhyme rhyme_lemma="csüggedés" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfccfcFc">csüggedés</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w24 #w32">
+                    <firstRhyme rhyme_lemma="is" rhyme_pos="ADV" rhyme_msd="_" rhyme_numSyll="1" rhyme_phonType="high" rhyme_phonStruct="fc">is</firstRhyme>
+                    <secondRhyme rhyme_lemma="is" rhyme_pos="ADV" rhyme_msd="_" rhyme_numSyll="1" rhyme_phonType="high" rhyme_phonStruct="fc">is</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w39 #w47">
+                    <firstRhyme rhyme_lemma="fakova" rhyme_pos="NOUN" rhyme_msd="Case=Acc|Number=Sing" rhyme_numSyll="3" rhyme_phonType="low" rhyme_phonStruct="cbcbcBc">fakovát</firstRhyme>
+                    <secondRhyme rhyme_lemma="ló" rhyme_pos="NOUN" rhyme_msd="Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbcBc">lovát</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w12 #w13 #w14" allStruct="ana" posTags="PRON DET ADJ" msdTags="Case=Sup|Number=Sing|Person=1|PronType=Prs Definite=Def|PronType=Art Case=Nom|Degree=Pos|Number=Sing" lemmas="én a régi">rajtam A régi</alliteration>
                 <alliteration target="#w23 #w24" allStruct="aa" posTags="ADJ ADV" msdTags="Case=Nom|Degree=Pos|Number=Sing _" lemmas="igaz is">igaz is</alliteration>

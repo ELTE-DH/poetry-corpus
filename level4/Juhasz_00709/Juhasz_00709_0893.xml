@@ -111,14 +111,14 @@
 		<revisionDesc>
 			<change when="2021-07-05">level1</change>
 			<change when="2021-08-05">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="4" div_numLine="16" div_numWord="49" div_numSyll="104" div_numShortSyll="54" div_numLongSyll="50" div_rhyme="abab|abcb|abcb|abcb" div_syllPattern="7-6-7-6|7-6-7-6|7-6-7-6|7-6-7-6">
+            <div type="poem" div_numStanza="4" div_numLine="16" div_numWord="49" div_numSyll="104" div_numShortSyll="54" div_numLongSyll="50" div_rhyme="abcb|abcb|abcb|abcb" div_syllPattern="7-6-7-6|7-6-7-6|7-6-7-6|7-6-7-6" met_qual="3-4_3-3" met_quan="iambic" met_quanScore="0.72">
                 <head type="title">Rorate</head>
-                <lg xml:id="lg1" lg_numLine="4" lg_numWord="11" lg_numSyll="26" lg_numShortSyll="14" lg_numLongSyll="12" rhyme="abab" lg_syllPattern="7-6-7-6">
+                <lg xml:id="lg1" lg_numLine="4" lg_numWord="11" lg_numSyll="26" lg_numShortSyll="14" lg_numLongSyll="12" rhyme="abcb" lg_syllPattern="7-6-7-6">
                     <l xml:id="l1" l_numWord="3" l_numSyll="7" l_numShortSyll="3" l_numLongSyll="4" real="0111010">
                         <w xml:id="w1" lemma="a" pos="DET" msd="Definite=Def|PronType=Art" w_numSyll="1" phonType="low" phonStruct="b">A</w>
                         <w xml:id="w2" lemma="kéklő" pos="ADJ" msd="Case=Nom|Degree=Pos|Number=Sing" w_numSyll="2" phonType="high" phonStruct="cFccF">kéklő</w>
@@ -219,7 +219,24 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w6 #w11">
+                    <firstRhyme rhyme_lemma="ragyog" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbcbc">ragyog</firstRhyme>
+                    <secondRhyme rhyme_lemma="angyal" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Plur" rhyme_numSyll="3" rhyme_phonType="low" rhyme_phonStruct="bccbcbc">angyalok</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w18 #w26">
+                    <firstRhyme rhyme_lemma="gyerek" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfcfc">gyerek</firstRhyme>
+                    <secondRhyme rhyme_lemma="dereng" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfcfcc">dereng</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w32 #w37">
+                    <firstRhyme rhyme_lemma="pap" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="1" rhyme_phonType="low" rhyme_phonStruct="cbc">pap</firstRhyme>
+                    <secondRhyme rhyme_lemma="úr" rhyme_pos="NOUN" rhyme_msd="Case=Acc|Number=Sing" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="bcbc">Urat</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w43 #w49">
+                    <firstRhyme rhyme_lemma="keres" rhyme_pos="VERB" rhyme_msd="Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfcfcfc">keresem</firstRhyme>
+                    <secondRhyme rhyme_lemma="betlehem" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfccfcfc">Betlehem</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w13 #w14 #w15" allStruct="ana" posTags="NOUN ADV VERB" msdTags="Case=Nom|Number=Plur _ Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" lemmas="gyertya rendre gyúl">gyertyák rendre gyúlnak</alliteration>
                 <alliteration target="#w17 #w18 #w19" allStruct="ana" posTags="ADJ NOUN SCONJ" msdTags="Case=Nom|Degree=Pos|Number=Sing Case=Nom|Number=Sing _" lemmas="minisztráns gyerek mint">minisztráns gyerek Mint</alliteration>

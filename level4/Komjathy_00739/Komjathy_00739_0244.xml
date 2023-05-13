@@ -107,12 +107,12 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="2" div_numLine="8" div_numWord="21" div_numSyll="48" div_numShortSyll="17" div_numLongSyll="31" div_rhyme="abcb|abcb" div_syllPattern="6-6-6-6|6-6-6-6">
+            <div type="poem" div_numStanza="2" div_numLine="8" div_numWord="21" div_numSyll="48" div_numShortSyll="17" div_numLongSyll="31" div_rhyme="abcb|abcb" div_syllPattern="6-6-6-6|6-6-6-6" met_qual="6" met_quan="trochaic" met_quanScore="0.48">
                 <head type="title">[TESTEMBŐL TEMPLOMOT...]</head>
                 <lg xml:id="lg1" lg_numLine="4" lg_numWord="9" lg_numSyll="24" lg_numShortSyll="11" lg_numLongSyll="13" rhyme="abcb" lg_syllPattern="6-6-6-6">
                     <l xml:id="l1" l_numWord="2" l_numSyll="6" l_numShortSyll="2" l_numLongSyll="4" real="111100">
@@ -162,7 +162,16 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w4 #w9">
+                    <firstRhyme rhyme_lemma="te" rhyme_pos="PRON" rhyme_msd="Case=Dat|Number=Sing|Person=2|PronType=Prs" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfcFcfc">tenéked</firstRhyme>
+                    <secondRhyme rhyme_lemma="istenség" rhyme_pos="NOUN" rhyme_msd="Case=Acc|Number=Sing" rhyme_numSyll="4" rhyme_phonType="high" rhyme_phonStruct="fccfccFcfc">istenséget</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w17 #w21">
+                    <firstRhyme rhyme_lemma="én" rhyme_pos="PRON" rhyme_msd="Case=All|Number=Sing|Person=1|PronType=Prs" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbccBc">hozzám</firstRhyme>
+                    <secondRhyme rhyme_lemma="vitatkozik" rhyme_pos="VERB" rhyme_msd="Definite=Def|Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="4" rhyme_phonType="mixed" rhyme_phonStruct="cfcbccbccBc">vitatkoznám</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w1 #w2 #w3 #w4" allStruct="aana" posTags="NOUN NOUN VERB PRON" msdTags="Case=Ela|Number=Sing|Number[psor]=Sing|Person[psor]=1 Case=Acc|Number=Sing Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act Case=Dat|Number=Sing|Person=2|PronType=Prs" lemmas="test templom emel te">Testemből templomot Emeltem tenéked</alliteration>
                 <alliteration target="#w8 #w9" allStruct="aa" posTags="ADJ NOUN" msdTags="Case=Nom|Degree=Pos|Number=Sing Case=Acc|Number=Sing" lemmas="igaz istenség">Igaz istenséget</alliteration>

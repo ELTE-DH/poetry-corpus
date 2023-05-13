@@ -103,12 +103,12 @@
 		<revisionDesc>
 			<change when="2019-07-29">level1</change>
 			<change when="2021-05-14">level2</change>
-			<change when="2023-04-12">level3</change>
+			<change when="2023-05-10">level3</change>
 		</revisionDesc>
 	</teiHeader>
     <text>
         <body>
-            <div type="poem" div_numStanza="4" div_numLine="14" div_numWord="84" div_numSyll="159" div_numShortSyll="62" div_numLongSyll="97" div_rhyme="abba|abba|aab|aba" div_syllPattern="10-11-11-10|10-11-11-10|11-11-13|13-14-13">
+            <div type="poem" div_numStanza="4" div_numLine="14" div_numWord="84" div_numSyll="159" div_numShortSyll="62" div_numLongSyll="97" div_rhyme="abba|abba|aab|aba" div_syllPattern="10-11-11-10|10-11-11-10|11-11-13|13-14-13" met_qual="False" met_quan="iambic" met_quanScore="0.38">
                 <head type="title">CSILLAG, Ó, MESSZI SZERELEM!</head>
                 <lg xml:id="lg1" lg_numLine="4" lg_numWord="20" lg_numSyll="42" lg_numShortSyll="15" lg_numLongSyll="27" rhyme="abba" lg_syllPattern="10-11-11-10">
                     <l xml:id="l1" l_numWord="5" l_numSyll="10" l_numShortSyll="4" l_numLongSyll="6" real="1110010101">
@@ -254,7 +254,32 @@
                     </l>
                 </lg>
             </div>
-            <rhymePairs/>
+            <rhymePairs>
+                <rhymePair target="#w5 #w20">
+                    <firstRhyme rhyme_lemma="monostor" rhyme_pos="NOUN" rhyme_msd="Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3" rhyme_numSyll="4" rhyme_phonType="low" rhyme_phonStruct="cbcbccbcBc">monostorát</firstRhyme>
+                    <secondRhyme rhyme_lemma="ostor" rhyme_pos="NOUN" rhyme_msd="Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3" rhyme_numSyll="3" rhyme_phonType="low" rhyme_phonStruct="bccbcBc">ostorát</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w11 #w16">
+                    <firstRhyme rhyme_lemma="szürke" rhyme_pos="ADJ" rhyme_msd="Case=Nom|Degree=Pos|Number=Sing" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfccf">szürke</firstRhyme>
+                    <secondRhyme rhyme_lemma="tűr" rhyme_pos="VERB" rhyme_msd="Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cFccf">tűrte</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w25 #w44">
+                    <firstRhyme rhyme_lemma="mostoha" rhyme_pos="ADJ" rhyme_msd="Case=Nom|Degree=Cmp|Number=Sing" rhyme_numSyll="3" rhyme_phonType="low" rhyme_phonStruct="cbccbcBcc">mostohább</firstRhyme>
+                    <secondRhyme rhyme_lemma="tovább" rhyme_pos="ADV" rhyme_msd="_" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cbcBcc">tovább</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w31 #w37">
+                    <firstRhyme rhyme_lemma="ürge" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="fccf">ürge</firstRhyme>
+                    <secondRhyme rhyme_lemma="fürge" rhyme_pos="ADJ" rhyme_msd="Case=Nom|Degree=Pos|Number=Sing" rhyme_numSyll="2" rhyme_phonType="high" rhyme_phonStruct="cfccf">fürge</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w51 #w57">
+                    <firstRhyme rhyme_lemma="gyászol" rhyme_pos="VERB" rhyme_msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cBcbc">gyászol</firstRhyme>
+                    <secondRhyme rhyme_lemma="pásztor" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="2" rhyme_phonType="low" rhyme_phonStruct="cBccbc">pásztor</secondRhyme>
+                </rhymePair>
+                <rhymePair target="#w69 #w84">
+                    <firstRhyme rhyme_lemma="tér" rhyme_pos="NOUN" rhyme_msd="Case=Sup|Number=Plur" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfcfcfc">tereken</firstRhyme>
+                    <secondRhyme rhyme_lemma="szerelem" rhyme_pos="NOUN" rhyme_msd="Case=Nom|Number=Sing" rhyme_numSyll="3" rhyme_phonType="high" rhyme_phonStruct="cfcfcfc">Szerelem</secondRhyme>
+                </rhymePair>
+            </rhymePairs>
             <alliterations>
                 <alliteration target="#w2 #w3 #w4 #w5 #w6 #w7" allStruct="anaana" posTags="ADV DET NOUN NOUN VERB ADV" msdTags="_ Definite=Def|PronType=Art Case=Nom|Number=Sing Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3 Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act _" lemmas="már a magány monostor visel már">már a magány monostorát Viseltem már</alliteration>
                 <alliteration target="#w25 #w26 #w27 #w28" allStruct="anaa" posTags="ADJ NOUN NOUN SCONJ" msdTags="Case=Nom|Degree=Cmp|Number=Sing Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1 Case=Sup|Number=Sing|Number[psor]=Sing|Person[psor]=3 _" lemmas="mostoha szív mélye mint">mostohább Szívem mélyén mint</alliteration>
