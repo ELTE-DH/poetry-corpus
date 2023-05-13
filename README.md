@@ -44,7 +44,7 @@ The source of the corpus was the collection of the [_Hungarian Electronic Librar
 
 ## Level3 -- annotation of sound devices
 
-- `@rhyme `: meter
+- `@met `: meter
 	- `Qual` : qualitative meter based on stressed and unstressed syllables
 	- `Quan` : quantitative meter based on long and short syllables (possible values: iambic, trochaic, dactylic, anapestic)
 	- `QuanScore` : score of quantitative meter (before 0.5, the poem does not really have any intended quantitative meter)
