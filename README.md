@@ -23,6 +23,10 @@ The source of the corpus was the collection of the [_Hungarian Electronic Librar
 4. After the grammatical annotation, we also annotated the rhyme patterns, the rhyme pairs, the rhythm of lines, the alliterations and the phonological features of words (level3).
 5. Finally, we added further annotations of poetic features to the corpus and changed the name and the position of some elements and attributes, using a non-TEI XML format defined for the project (level4).
 
+## poem_texts
+
+The poem_texts folder contains the poems in TXT format, without the XML annotations. This version of the corpus was generated from the level1 files. The TXT files contain the editorial notes related to date and place, which are in <p> elements in the TEI versions.
+
 # Elements and attributes
 
 ## Level1 -- annotation of structural units
