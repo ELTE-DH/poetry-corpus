@@ -17,9 +17,9 @@ For more information of the size of subcorpora and the authors' year of birth an
 
 The source of the corpus was the collection of the [_Hungarian Electronic Library_](http://mek.oszk.hu), which contains numerous poetic oeuvres in digitized form.
 
-1. The texts from the Hungarian Electronic Library were converted into TEI XML format based on the [Text Encoding Initiative](https://tei-c.org/).
+1. The texts from the Hungarian Electronic Library were converted into TEI XML format based on the [_Text Encoding Initiative_](https://tei-c.org/).
 2. The automatically converted poems containing the annotations of structural units were checked manually (level1).
-3. Then, we tokenized the poems and annotated the grammatical features of words by using [e-magyar](https://github.com/nytud/emtsv), an NLP tool chain for Hungarian texts. The level2 folder contains the TEI XML files in which the morphosyntactic features (values of the msd attributes) are annotated in the format of universal dependencies, while the level2\_emMorph folder contains the same files in which the morphosyntactic features are annotated in its own, [_emMorph_](https://e-magyar.hu/en/textmodules/emmorph_codelist) format of e-magyar.
+3. Then, we tokenized the poems and annotated the grammatical features of words by using [_e-magyar_](https://github.com/nytud/emtsv), an NLP tool chain for Hungarian texts. The level2 folder contains the TEI XML files in which the morphosyntactic features (values of the msd attributes) are annotated in the format of universal dependencies, while the level2\_emMorph folder contains the same files in which the morphosyntactic features are annotated in its own, [_emMorph_](https://e-magyar.hu/en/textmodules/emmorph_codelist) format of e-magyar.
 4. After the grammatical annotation, we also annotated the rhyme patterns, the rhyme pairs, the rhythm of lines, the alliterations and the phonological features of words (level3).
 5. Finally, we added further annotations of poetic features to the corpus and changed the name and the position of some elements and attributes, using a non-TEI XML format defined for the project (level4).
 
