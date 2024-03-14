@@ -146,6 +146,6 @@ Horváth Péter – Kundráth Péter – Indig Balázs – Fellegi Zsófia – S
 
 Horváth, Péter – Kundráth, Péter – Indig, Balázs – Fellegi, Zsófia – Szlávich, Eszter – Bajzát, Tímea Borbála – Sárközi-Lindner, Zsófia – Vida, Bence – Karabulut, Aslihan – Timári, Mária – Palkó, Gábor 2022. ELTE Poetry Corpus: A Machine Annotated Database of Canonical Hungarian Poetry. In: Calzolari, Nicoletta – Béchet, Frédéric – Blache, Philippe – Choukri, Khalid – Cieri, Christopher – Declerck, Thierry – Goggi, Sara – Isahara, Hitoshi – Maegaard, Bente – Mariani, Joseph – Mazo, Hélène – Odijk, Jan – Piperidis, Stelios (eds.): Proceedings of the 13th Conference on Language Resources and Evaluation (LREC 2022). Paris: European Language Resources Association (ELRA). 3471–3478.
 
-The content of the repository is licensed under the [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.
+The content of the repository is licensed under the [CC BY-NC-ND](https://creativecommons.org/licenses/by-nc-nd/4.0/) license.
 
 All texts of the corpus are in the public domain.
