@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Toth_01112_0083" xml:lang="hu">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main">KATONASÍR</title>
+				<author>
+					<persName>
+						<surname>Tóth</surname>
+						<forename>Árpád</forename>
+					</persName>
+					<date from="1886" to="1928">1886-1928</date>
+					<idno type="VIAF">34450700</idno>
+				</author>
+				<respStmt>
+					<resp>ELTE Verskorpusz conversion</resp>
+					<persName>
+						<surname>Palkó</surname>
+						<forename>Gábor</forename>
+						<ref target="https://viaf.org/viaf/65989506"/>
+					</persName>
+					<persName>
+						<surname>Horváth</surname>
+						<forename>Péter</forename>
+					</persName>
+					<persName>
+						<surname>Karabulut</surname>
+						<forename>Aslihan</forename>
+					</persName>
+					<persName>
+						<surname>Indig</surname>
+						<forename>Balázs</forename>
+					</persName>
+					<persName>
+						<surname>Fellegi</surname>
+						<forename>Zsófia</forename>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<extent>
+				<measure unit="words">88</measure>
+			</extent>
+			<publicationStmt>
+				<p>Published as part of ELTE Verskorpusz</p>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl>
+					<title>KATONASÍR</title>
+					<author>
+						<persName>
+							<surname>Tóth</surname>
+							<forename>Árpád</forename>
+						</persName>
+						<idno type="VIAF">34450700</idno>
+					</author>
+					<relatedItem type="copyText">
+						<bibl>
+							<title>Tóth Árpád összes verse</title>
+							<date when="1997-11-21"/>
+							<publisher>Magyar Elektronikus Könyvtárért Egyesület</publisher>
+							<ref target="http://mek.oszk.hu/01100/01112"/>
+							<respStmt>
+								<resp>Original Electronic Edition</resp>
+								<persName>
+									<surname>Drótos</surname>
+									<forename>László</forename>
+								</persName>
+								<persName>
+									<surname>Kiss</surname>
+									<forename>András</forename>
+								</persName>
+							</respStmt>
+						</bibl>
+					</relatedItem>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>ELTE Verskorpusz - automatic annotation</p>
+			</projectDesc>
+			<classDecl>
+				<taxonomy xml:id="g">
+					<category xml:id="g.p">
+						<catDesc>poetry</catDesc>
+						<category xml:id="g.pl">
+							<catDesc>lyric poetry</catDesc>
+						</category>
+						<category xml:id="g.pn">
+							<catDesc>narrative poetry</catDesc>
+						</category>
+					</category>
+				</taxonomy>
+			</classDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="hu">Hungarian</language>
+			</langUsage>
+			<textClass>
+				<catRef target="#g.p"/>
+			</textClass>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2019-07-29">level1</change>
+			<change when="2021-05-14">level2</change>
+			<change when="2025-05-09">level3_without_meter</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="poem">
+				<head>KATONASÍR</head>
+				<p>(A kárpáti harcok idejéből)</p>
+				<lg xml:id="lg1" rhyme="abba">
+					<l xml:id="l1" real="0111010101" n="10">
+						<w lemma="magányos" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" type="magány[/N]=magány+os[_Adjz:s/Adj]=os+[Nom]=" xml:id="w1">Magányos</w>
+						<w lemma="sír" msd="Case=Nom|Number=Sing" pos="NOUN" type="sír[/N]=sír+[Nom]=" xml:id="w2">sír</w>
+						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" type="a[/Det|Art.Def]=a" xml:id="w3">a</w>
+						<w lemma="keskeny" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" type="keskeny[/Adj]=keskeny+[Nom]=" xml:id="w4">keskeny</w>
+						<pc join="left" pos="PUNCT" xml:id="pc1">,</pc>
+						<w lemma="elhagyott" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" type="el[/Prev]=el+hagy[/V]=hagy+ott[_PerfPtcp/Adj]=ott+[Nom]=" xml:id="w5">elhagyott</w>
+					</l>
+					<l xml:id="l2" real="11010101011" n="11">
+						<w lemma="völgy" msd="Case=Ine|Number=Sing" pos="NOUN" type="völgy[/N]=völgy+ben[Ine]=ben" xml:id="w6">Völgyben</w>
+						<pc join="left" pos="PUNCT" xml:id="pc2">,</pc>
+						<w lemma="kereszt" msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3" pos="NOUN" type="kereszt[/N]=kereszt+je[Poss.3Sg]=je+[Nom]=" xml:id="w7">keresztje</w>
+						<w lemma="ferde" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" type="ferde[/Adj]=ferde+[Nom]=" xml:id="w8">ferde</w>
+						<w lemma="már" msd="_" pos="ADV" type="már[/Adv]=már" xml:id="w9">már</w>
+						<pc join="left" pos="PUNCT" xml:id="pc3">,</pc>
+						<w lemma="veszendő" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" type="veszik[/V]=vesz+endő[_FutPtcp/Adj]=endő+[Nom]=" xml:id="w10">veszendő</w>
+						<pc join="left" pos="PUNCT" xml:id="pc4">,</pc>
+					</l>
+					<l xml:id="l3" real="01110111011" n="11">
+						<w lemma="de" msd="_" pos="CONJ" type="de[/Cnj]=de" xml:id="w11">De</w>
+						<w lemma="gyapjas" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" type="gyapjú[/N]=gyapj+as[_Adjz:s/Adj]=as+[Nom]=" xml:id="w12">gyapjas</w>
+						<w lemma="hó" msd="Case=Nom|Number=Sing" pos="NOUN" type="hó[/N]=hó+[Nom]=" xml:id="w13">hó</w>
+						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" type="a[/Det|Art.Def]=a" xml:id="w14">a</w>
+						<w lemma="váll" msd="Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3" pos="NOUN" type="váll[/N]=váll+a[Poss.3Sg]=á+t[Acc]=t" xml:id="w15">vállát</w>
+						<pc pos="PUNCT" xml:id="pc5">-</pc>
+						<w lemma="enyhe" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" type="enyhe[/Adj]=enyhe+[Nom]=" xml:id="w16">enyhe</w>
+						<w lemma="kendő" msd="Case=Nom|Number=Sing" pos="NOUN" type="kendő[/N]=kendő+[Nom]=" xml:id="w17">kendő</w>
+						<pc pos="PUNCT" xml:id="pc6">-</pc>
+					</l>
+					<l xml:id="l4" real="0111111101" n="10">
+						<w lemma="szelíd" msd="Case=Ess|Degree=Pos|Number=Sing" pos="ADJ" type="szelíd[/Adj]=szelíd+en[_Manner/Adv]=en" xml:id="w18">Szelíden</w>
+						<w lemma="véd" msd="Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" type="véd[/V]=véd+i[Prs.Def.3Sg]=i" xml:id="w19">védi</w>
+						<pc join="left" pos="PUNCT" xml:id="pc7">,</pc>
+						<w lemma="s" msd="_" pos="CONJ" type="s[/Cnj]=s" xml:id="w20">s</w>
+						<w lemma="rojt" msd="Case=Ess|Number=Sing" pos="NOUN" type="rojt[/N]=rojt+ul[Ess]=ul" xml:id="w21">rojtul</w>
+						<w lemma="ráfagyott" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" type="rá[/Prev]=rá+fagy[/V]=fagy+ott[_PerfPtcp/Adj]=ott+[Nom]=" xml:id="w22">ráfagyott</w>
+					</l>
+				</lg>
+				<lg xml:id="lg2" rhyme="abba">
+					<l xml:id="l5" real="1101111000" n="10">
+						<w lemma="kis" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" type="kis[/Adj|Attr]=kis+[Nom]=" xml:id="w23">Kis</w>
+						<w lemma="jégcsap" msd="Case=Nom|Number=Plur" pos="NOUN" type="jég[/N]=jég+csap[/N]=csap+ok[Pl]=ok+[Nom]=" xml:id="w24">jégcsapok</w>
+						<w lemma="gyémánt" msd="Case=Nom|Number=Sing" pos="NOUN" type="gyémánt[/N]=gyémánt+[Nom]=" xml:id="w25">gyémánt</w>
+						<w lemma="dísz" msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3" pos="NOUN" type="dísz[/N]=dísz+e[Poss.3Sg]=e+[Nom]=" xml:id="w26">dísze</w>
+						<w lemma="ragyog" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" type="ragyog[/V]=ragyog+[Prs.NDef.3Sg]=" xml:id="w27">ragyog</w>
+						<pc join="left" pos="PUNCT" xml:id="pc8">:</pc>
+					</l>
+					<l xml:id="l6" real="11010111011" n="11">
+						<w lemma="míg" msd="Case=Nom|Number=Sing|Person=3|PronType=Rel" pos="PRON" type="amíg[/Adv|Pro|Rel]=míg" xml:id="w28">Míg</w>
+						<w lemma="lent" msd="_" pos="ADV" type="lent[/Adv]=lent" xml:id="w29">lent</w>
+						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" type="a[/Det|Art.Def]=a" xml:id="w30">a</w>
+						<w lemma="néma" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" type="néma[/Adj]=néma+[Nom]=" xml:id="w31">néma</w>
+						<w lemma="bíbor" msd="Case=Ine|Number=Sing" pos="NOUN" type="bíbor[/N]=bíbor+ban[Ine]=ban" xml:id="w32">bíborban</w>
+						<w lemma="derengő" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" type="dereng[/V]=dereng+ő[_ImpfPtcp/Adj]=ő+[Nom]=" xml:id="w33">derengő</w>
+					</l>
+					<l xml:id="l7" real="11110101011" n="11">
+						<w lemma="mélység" msd="Case=Ine|Number=Sing" pos="NOUN" type="mély[/Adj]=mély+ség[_Nz_Abstr/N]=ség+ben[Ine]=ben" xml:id="w34">Mélységben</w>
+						<w lemma="zárt" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" type="zár[/V]=zár+t[_PerfPtcp/Adj]=t+[Nom]=" xml:id="w35">zárt</w>
+						<w lemma="szem" msd="Case=Ins|Number=Plur" pos="NOUN" type="szem[/N]=szem+ek[Pl]=ek+kel[Ins]=kel" xml:id="w36">szemekkel</w>
+						<w lemma="és" msd="_" pos="CONJ" type="és[/Cnj]=és" xml:id="w37">és</w>
+						<w lemma="merengő" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" type="mereng[/V]=mereng+ő[_ImpfPtcp/Adj]=ő+[Nom]=" xml:id="w38">merengő</w>
+					</l>
+					<l xml:id="l8" real="1111001101" n="10">
+						<w lemma="arc" msd="Case=Ins|Number=Sing" pos="NOUN" type="arc[/N]=arc+cal[Ins]=cal" xml:id="w39">Arccal</w>
+						<w lemma="nyujtózik" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" type="no" xml:id="w40">nyujtózik</w>
+						<w lemma="egy" msd="Definite=Ind|PronType=Art" pos="DET" type="egy[/Det|Art.NDef]=egy" xml:id="w41">egy</w>
+						<w lemma="ifjú" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" type="ifjú[/N]=ifj+ú[_Adjz:Ú/Adj]=ú+[Nom]=" xml:id="w42">ifjú</w>
+						<w lemma="halott" msd="Case=Nom|Number=Sing" pos="NOUN" type="halott[/N]=halott+[Nom]=" xml:id="w43">halott</w>
+						<pc join="left" pos="PUNCT" xml:id="pc9">.</pc>
+					</l>
+				</lg>
+				<lg xml:id="lg3" rhyme="aab">
+					<l xml:id="l9" real="01111011010" n="11">
+						<w lemma="ha" msd="_" pos="SCONJ" type="ha[/Cnj]=ha" xml:id="w44">Ha</w>
+						<w lemma="véres" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" type="Vér[/N]=vér+es[_Adjz:s/Adj]=es+[Nom]=" xml:id="w45">véres</w>
+						<w lemma="szem" msd="Case=Ins|Number=Sing" pos="NOUN" type="szem[/N]=szem+mel[Ins]=mel" xml:id="w46">szemmel</w>
+						<w lemma="s" msd="_" pos="CONJ" type="s[/Cnj]=s" xml:id="w47">s</w>
+						<w lemma="arany" msd="Case=Nom|Number=Sing" pos="NOUN" type="arany[/N|mat]=arany+[Nom]=" xml:id="w48">arany</w>
+						<w lemma="nap-sisak" msd="Case=Ine|Number=Sing" pos="NOUN" type="nap[/N]=nap+[Nom]=+-[Hyph:Hyph]=-+sisak[/N]=sisak+ban[Ine]=ban" xml:id="w49">nap-sisakban</w>
+					</l>
+					<l xml:id="l10" real="01010001010" n="11">
+						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" type="a[/Det|Art.Def]=a" xml:id="w50">A</w>
+						<w lemma="hajnal" msd="Case=Nom|Number=Sing" pos="NOUN" type="hajnal[/N]=hajnal+[Nom]=" xml:id="w51">hajnal</w>
+						<w lemma="újra" msd="_" pos="ADV" type="újra[/Adv]=újra" xml:id="w52">újra</w>
+						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" type="a[/Det|Art.Def]=a" xml:id="w53">a</w>
+						<w lemma="hegy" msd="Case=Sub|Number=Plur" pos="NOUN" type="hegy[/N]=hegy+ek[Pl]=ek+re[Subl]=re" xml:id="w54">hegyekre</w>
+						<w lemma="csattan" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" type="csattan[/V]=csattan+[Prs.NDef.3Sg]=" xml:id="w55">csattan</w>
+						<pc join="left" pos="PUNCT" xml:id="pc10">,</pc>
+					</l>
+					<l xml:id="l11" real="01111111010" n="11">
+						<w lemma="pihenj" msd="Case=Nom|Number=Sing" pos="NOUN" type="pihenj[/N]=pihenj+[Nom]=" xml:id="w56">Pihenj</w>
+						<pc join="left" pos="PUNCT" xml:id="pc11">,</pc>
+						<w lemma="kedves" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" type="kedv[/N]=kedv+es[_Adjz:s/Adj]=es+[Nom]=" xml:id="w57">kedves</w>
+						<pc join="left" pos="PUNCT" xml:id="pc12">,</pc>
+						<w lemma="nem" msd="PronType=Neg" pos="ADV" type="nem[/Adv]=nem" xml:id="w58">nem</w>
+						<w lemma="kell" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" type="kell[/V]=kell+[Prs.NDef.3Sg]=" xml:id="w59">kell</w>
+						<w lemma="már" msd="_" pos="ADV" type="már[/Adv]=már" xml:id="w60">már</w>
+						<w lemma="harc" msd="Case=Sub|Number=Sing" pos="NOUN" type="harc[/N]=harc+ra[Subl]=ra" xml:id="w61">harcra</w>
+						<w lemma="száll" msd="Number=Sing|Person=2|Tense=Pres|VerbForm=Inf|Voice=Act" pos="VERB" type="száll[/V]=száll+nod[Inf.2Sg]=nod" xml:id="w62">szállnod</w>
+						<pc join="left" pos="PUNCT" xml:id="pc13">,</pc>
+					</l>
+				</lg>
+				<lg xml:id="lg4" rhyme="aba">
+					<l xml:id="l12" real="1101110100" n="10">
+						<w lemma="sír" msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=2" pos="NOUN" type="sír[/N]=sír+od[Poss.2Sg]=od+[Nom]=" xml:id="w63">Sírod</w>
+						<w lemma="felett" msd="_" pos="ADP" type="felett[/Post]=felett" xml:id="w64">felett</w>
+						<w lemma="még" msd="_" pos="ADV" type="még[/Adv]=még" xml:id="w65">még</w>
+						<w lemma="bús" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" type="bú[/N]=bú+s[_Adjz:s/Adj]=s+[Nom]=" xml:id="w66">bús</w>
+						<w lemma="moraj" msd="Case=Nom|Number=Sing" pos="NOUN" type="moraj[/N]=moraj+[Nom]=" xml:id="w67">moraj</w>
+						<w lemma="lebeg" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" type="lebeg[/V]=lebeg+[Prs.NDef.3Sg]=" xml:id="w68">lebeg</w>
+						<pc join="left" pos="PUNCT" xml:id="pc14">,</pc>
+					</l>
+					<l xml:id="l13" real="00010111011" n="11">
+						<w lemma="de" msd="_" pos="CONJ" type="de[/Cnj]=de" xml:id="w69">De</w>
+						<w lemma="te" msd="Case=Nom|Number=Sing|Person=2|PronType=Prs" pos="PRON" type="te[/N|Pro]=te+[2Sg]=+[Nom]=" xml:id="w70">te</w>
+						<w lemma="feled" msd="Definite=Def|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" type="fel[/Prev]=fel+eszik[/V]=e+dd[Sbjv.Def.2Sg]=dd" xml:id="w71">feledd</w>
+						<w lemma="az" msd="Definite=Def|PronType=Art" pos="DET" type="az[/Det|Art.Def]=az" xml:id="w72">az</w>
+						<w lemma="ágyú" msd="Case=Acc|Number=Sing" pos="NOUN" type="ágyú[/N]=ágyú+t[Acc]=t" xml:id="w73">ágyút</w>
+						<w lemma="már" msd="_" pos="ADV" type="már[/Adv]=már" xml:id="w74">már</w>
+						<pc join="left" pos="PUNCT" xml:id="pc15">,</pc>
+						<pc pos="PUNCT" xml:id="pc16">-</pc>
+						<w lemma="te" msd="Case=Nom|Number=Sing|Person=2|PronType=Prs" pos="PRON" type="te[/N|Pro]=te+[2Sg]=+[Nom]=" xml:id="w75">te</w>
+						<w lemma="álmodik" msd="Definite=Def|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" type="álmodik[/V]=álmod+d[Sbjv.Def.2Sg]=d" xml:id="w76">álmodd</w>
+						<pc join="left" pos="PUNCT" xml:id="pc17">:</pc>
+					</l>
+					<l xml:id="l14" real="0011011100" n="10">
+						<w lemma="hazaértél" msd="Case=Nom|Number=Sing" pos="NOUN" type="haza[/N]=haza+ér[/N]=ér+tél[/N]=tél+[Nom]=" xml:id="w77">Hazaértél</w>
+						<pc join="left" pos="PUNCT" xml:id="pc18">,</pc>
+						<w lemma="s" msd="_" pos="CONJ" type="s[/Cnj]=s" xml:id="w78">s</w>
+						<w lemma="ugat" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" type="ugat[/V]=ugat+[Prs.NDef.3Sg]=" xml:id="w79">ugat</w>
+						<w lemma="vén" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" type="vén[/Adj]=vén+[Nom]=" xml:id="w80">vén</w>
+						<pc join="left" pos="PUNCT" xml:id="pc19">,</pc>
+						<w lemma="hű" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" type="hű[/Adj]=hű+[Nom]=" xml:id="w81">hű</w>
+						<w lemma="eb" msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=2" pos="NOUN" type="eb[/N]=eb+ed[Poss.2Sg]=ed+[Nom]=" xml:id="w82">ebed</w>
+						<pc join="left" pos="PUNCT" xml:id="pc20">...</pc>
+					</l>
+				</lg>
+			</div>
+			<spanGrp type="phonStructures">
+				<span target="#w1" type="low" subtype="3">cbcBcbc</span>
+				<span target="#w2" type="high" subtype="1">cFc</span>
+				<span target="#w3" type="low" subtype="1">b</span>
+				<span target="#w4" type="high" subtype="2">cfccfc</span>
+				<span target="#w5" type="mixed" subtype="3">fccbcbcc</span>
+				<span target="#w6" type="high" subtype="2">cfcccfc</span>
+				<span target="#w7" type="high" subtype="3">cfcfcccf</span>
+				<span target="#w8" type="high" subtype="2">cfccf</span>
+				<span target="#w9" type="low" subtype="1">cBc</span>
+				<span target="#w10" type="high" subtype="3">cfcfccF</span>
+				<span target="#w11" type="high" subtype="1">cf</span>
+				<span target="#w12" type="low" subtype="2">cbccbc</span>
+				<span target="#w13" type="low" subtype="1">cB</span>
+				<span target="#w14" type="low" subtype="1">b</span>
+				<span target="#w15" type="low" subtype="2">cBccBc</span>
+				<span target="#w16" type="high" subtype="2">fccf</span>
+				<span target="#w17" type="high" subtype="2">cfccF</span>
+				<span target="#w18" type="high" subtype="3">cfcFcfc</span>
+				<span target="#w19" type="high" subtype="2">cFcf</span>
+				<span target="#w20" type="noVowels" subtype="0">c</span>
+				<span target="#w21" type="low" subtype="2">cbccbc</span>
+				<span target="#w22" type="low" subtype="3">cBcbcbcc</span>
+				<span target="#w23" type="high" subtype="1">cfc</span>
+				<span target="#w24" type="mixed" subtype="3">cFccbcbc</span>
+				<span target="#w25" type="mixed" subtype="2">cFcBcc</span>
+				<span target="#w26" type="high" subtype="2">cFcf</span>
+				<span target="#w27" type="low" subtype="2">cbcbc</span>
+				<span target="#w28" type="high" subtype="1">cFc</span>
+				<span target="#w29" type="high" subtype="1">cfcc</span>
+				<span target="#w30" type="low" subtype="1">b</span>
+				<span target="#w31" type="mixed" subtype="2">cFcb</span>
+				<span target="#w32" type="mixed" subtype="3">cFcbccbc</span>
+				<span target="#w33" type="high" subtype="3">cfcfccF</span>
+				<span target="#w34" type="high" subtype="3">cFccFccfc</span>
+				<span target="#w35" type="low" subtype="1">cBcc</span>
+				<span target="#w36" type="high" subtype="3">cfcfccfc</span>
+				<span target="#w37" type="high" subtype="1">Fc</span>
+				<span target="#w38" type="high" subtype="3">cfcfccF</span>
+				<span target="#w39" type="low" subtype="2">bcccbc</span>
+				<span target="#w40" type="mixed" subtype="3">cbccBcfc</span>
+				<span target="#w41" type="high" subtype="1">fc</span>
+				<span target="#w42" type="mixed" subtype="2">fccB</span>
+				<span target="#w43" type="low" subtype="2">cbcbcc</span>
+				<span target="#w44" type="low" subtype="1">cb</span>
+				<span target="#w45" type="high" subtype="2">cFcfc</span>
+				<span target="#w46" type="high" subtype="2">cfccfc</span>
+				<span target="#w47" type="noVowels" subtype="0">c</span>
+				<span target="#w48" type="low" subtype="2">bcbc</span>
+				<span target="#w49" type="mixed" subtype="4">cbccfcbccbc</span>
+				<span target="#w50" type="low" subtype="1">b</span>
+				<span target="#w51" type="low" subtype="2">cbccbc</span>
+				<span target="#w52" type="low" subtype="2">Bccb</span>
+				<span target="#w53" type="low" subtype="1">b</span>
+				<span target="#w54" type="high" subtype="3">cfcfccf</span>
+				<span target="#w55" type="low" subtype="2">cbccbc</span>
+				<span target="#w56" type="high" subtype="2">cfcfcc</span>
+				<span target="#w57" type="high" subtype="2">cfccfc</span>
+				<span target="#w58" type="high" subtype="1">cfc</span>
+				<span target="#w59" type="high" subtype="1">cfcc</span>
+				<span target="#w60" type="low" subtype="1">cBc</span>
+				<span target="#w61" type="low" subtype="2">cbcccb</span>
+				<span target="#w62" type="low" subtype="2">cBcccbc</span>
+				<span target="#w63" type="mixed" subtype="2">cFcbc</span>
+				<span target="#w64" type="high" subtype="2">cfcfcc</span>
+				<span target="#w65" type="high" subtype="1">cFc</span>
+				<span target="#w66" type="low" subtype="1">cBc</span>
+				<span target="#w67" type="low" subtype="2">cbcbc</span>
+				<span target="#w68" type="high" subtype="2">cfcfc</span>
+				<span target="#w69" type="high" subtype="1">cf</span>
+				<span target="#w70" type="high" subtype="1">cf</span>
+				<span target="#w71" type="high" subtype="2">cfcfcc</span>
+				<span target="#w72" type="low" subtype="1">bc</span>
+				<span target="#w73" type="low" subtype="2">BcBc</span>
+				<span target="#w74" type="low" subtype="1">cBc</span>
+				<span target="#w75" type="high" subtype="1">cf</span>
+				<span target="#w76" type="low" subtype="2">Bccbcc</span>
+				<span target="#w77" type="mixed" subtype="4">cbcbFccFc</span>
+				<span target="#w78" type="noVowels" subtype="0">c</span>
+				<span target="#w79" type="low" subtype="2">bcbc</span>
+				<span target="#w80" type="high" subtype="1">cFc</span>
+				<span target="#w81" type="high" subtype="1">cF</span>
+				<span target="#w82" type="high" subtype="2">fcfc</span>
+			</spanGrp>
+			<linkGrp type="rhymePairs">
+				<link target="#w5 #w22"/>
+				<link target="#w10 #w17"/>
+				<link target="#w27 #w43"/>
+				<link target="#w33 #w38"/>
+				<link target="#w49 #w55"/>
+				<link target="#w68 #w82"/>
+			</linkGrp>
+			<spanGrp type="alliterations">
+				<span target="#w21 #w22" type="aa"/>
+				<span target="#w57 #w58 #w59" type="ana"/>
+				<span target="#w65 #w66 #w67" type="ana"/>
+			</spanGrp>
+		</body>
+	</text>
+</TEI>

@@ -20,12 +20,17 @@ The source of the corpus was the collection of the [_Hungarian Electronic Librar
 1. The texts from the Hungarian Electronic Library were converted into TEI XML format based on the [_Text Encoding Initiative_](https://tei-c.org/).
 2. The automatically converted poems containing the annotations of structural units were checked manually (level1).
 3. Then, we tokenized the poems and annotated the grammatical features of words by using [_e-magyar_](https://github.com/nytud/emtsv), an NLP tool chain for Hungarian texts. The level2 folder contains the TEI XML files in which the morphosyntactic features (values of the msd attributes) are annotated in the format of universal dependencies, while the level2\_emMorph folder contains the same files in which the morphosyntactic features are annotated in its own, [_emMorph_](https://e-magyar.hu/en/textmodules/emmorph_codelist) format of e-magyar.
-4. After the grammatical annotation, we also annotated the rhyme patterns, the rhyme pairs, the rhythm of lines, the alliterations and the phonological features of words (level3).
+4. After the grammatical annotation, we also annotated the rhyme patterns, the rhyme pairs, the rhythm of lines, the alliterations, the phonological features of words, and the meter of the poems (level3).
 5. Finally, we added further annotations of poetic features to the corpus and changed the name and the position of some elements and attributes, using a non-TEI XML format defined for the project (level4).
 
 ## poem_texts
 
 The poem_texts folder contains the poems in TXT format, without the XML annotations. This version of the corpus was generated from the level1 files. The TXT files contain the editorial notes related to date and place, which are in <p> elements in the TEI versions.
+
+## hunpoem_meter_analyzer
+
+The folder hunpoem\_meter\_analyzer contains the program annotating the TEI XML files in the level3\_without\_meter folder with features
+of both quantitative and qualitative meters. It categorizes poems as dactylic, anapestic, trochaic, or iambic, and provides a regularity score between 0 and 1, indicating how consistently the rhythm of the poem follows the recognized abstract quantitative meter. In addition, the program identifies qualitative meters that have an "aaaa..." or "abab..." structure. The file evaluation\_based\_on\_Szepes\_Szerdahelyi.xlsx contains evaluation data based on the example poems from the book Verstan by Erika Szepes and István Szerdahelyi, published in 1981.
 
 # Elements and attributes
 
