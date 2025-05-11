@@ -25,7 +25,7 @@ The source of the corpus was the collection of the [_Hungarian Electronic Librar
 
 ## poem_texts
 
-The poem_texts folder contains the poems in TXT format, without the XML annotations. This version of the corpus was generated from the level1 files. The TXT files contain the editorial notes related to date and place, which are in <p> elements in the TEI versions.
+The poem_texts folder contains the poems in TXT format, without the XML annotations. This version of the corpus was generated from the level1 files. The TXT files contain the editorial notes related to date and place, which are in `<p>` elements in the TEI versions.
 
 ## hunpoem_meter_analyzer
 
