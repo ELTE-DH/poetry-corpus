@@ -27,10 +27,6 @@ The source of the corpus was the collection of the [_Hungarian Electronic Librar
 
 The poem_texts folder contains the poems in TXT format, without the XML annotations. This version of the corpus was generated from the level1 files. The TXT files contain the editorial notes related to date and place, which are in `<p>` elements in the TEI versions.
 
-## hunpoem_meter_analyzer
-
-The folder hunpoem\_meter\_analyzer contains the program annotating the TEI XML files in the level3\_without\_meter folder with features
-of both quantitative and qualitative meters. It categorizes poems as dactylic, anapestic, trochaic, or iambic, and provides a regularity score between 0 and 1, indicating how consistently the rhythm of the poem follows the recognized abstract quantitative meter. In addition, the program identifies qualitative meters that have an "aaaa..." or "abab..." structure. The file evaluation\_based\_on\_Szepes\_Szerdahelyi.xlsx contains evaluation data based on the example poems from the book Verstan by Erika Szepes and István Szerdahelyi, published in 1981.
 
 # Elements and attributes
 
@@ -49,6 +45,11 @@ of both quantitative and qualitative meters. It categorizes poems as dactylic, a
 - `@lemma` : lemma
 - `@pos `: part of speech
 - `@msd` : morphosyntactic features ([Universal Dependencies](https://universaldependencies.org/))
+
+
+## Level3_without_meter -- annotation of sound devices without meter
+
+The same as level3 without the `@met` attribute containing the meter of the poem. This is the input format of the program Hunpoem\_meter\_analyzer detecting quantitative and qualitative meter in Hungarian poetry.
 
 
 ## Level3 -- annotation of sound devices
